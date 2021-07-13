@@ -30,9 +30,14 @@ Write-Output "removed quick replies"
 
 $input_path_5 = $output_path_4 #$output_path_3
 $output_path_5 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\temp\plh-international-flavour_ABtesting_localised_no_QR_safeguarding.json"
-$safeguarding_path = "C:\Users\fagio\Documents\safeguarding-rapidpro\output\safeguarding_malaysia.json"
+$safeguarding_path = "C:\Users\fagio\Documents\safeguarding-rapidpro\input\safeguarding_malaysia.json"
 node ..\safeguarding-rapidpro\add_safeguarding_to_flows.js $input_path_5 $safeguarding_path $output_path_5 "eng"
 Write-Output "added safeguarding"
+
+# step final: split in 2 json files because it's too heavy to load (need to replace wrong flow names)
+$input_path_6 = $output_path_5
+node .\idems-chatbot-repo\scripts\split_in_multiple_json_files.js $input_path_6
+
 
 
 
