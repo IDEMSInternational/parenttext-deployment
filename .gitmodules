@@ -1,0 +1,9 @@
+[submodule "RapidPro-Flows"]
+	path = RapidPro-Flows
+	url = https://github.com/IDEMSInternational/RapidPro-Flows.git
+[submodule "translate-RapidPro"]
+	path = translate-RapidPro
+	url = https://github.com/fagiothree/translate-RapidPro.git
+[submodule "safeguarding-rapidpro"]
+	path = safeguarding-rapidpro
+	url = https://github.com/fagiothree/safeguarding-rapidpro.git
