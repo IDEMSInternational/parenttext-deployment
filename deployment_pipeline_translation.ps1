@@ -1,5 +1,5 @@
 # step 1: update flow properties
-$source_file_name = "plh-international-flavour"
+$source_file_name = "GG-plh-international-flavour"
 $input_path_1 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-international-repo\flows\" + $source_file_name + ".json"
 $source_file_name = $source_file_name + "_expire"
 $output_path_1 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-international-repo\temp\" + $source_file_name + ".json"
@@ -10,9 +10,11 @@ Write-Output "updated expiration"
 $SPREADSHEET_ID = '1KPakZyyuyHoRO5GCdyde-vOvKq2155pTl-VZKKIKcXI'
 $JSON_FILENAME = $output_path_1
 $source_file_name = $source_file_name + "_ABtesting"
+$CONFIG_ab = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\edits\ab_config.json"
 $output_path_2 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-international-repo\temp\" + $source_file_name + ".json"
 Set-Location "C:\Users\fagio\Documents\rapidpro_abtesting"
-python .\main_from_bash.py $SPREADSHEET_ID $JSON_FILENAME $output_path_2
+#python .\main_from_bash.py $SPREADSHEET_ID $JSON_FILENAME $output_path_2
+python .\main.py $JSON_FILENAME $output_path_2 $SPREADSHEET_ID --format google_sheets --logfile main_AB.log --config=$CONFIG_ab
 Write-Output "added A/B tests"
 
 ## step 3: localisation
@@ -20,20 +22,29 @@ $SPREADSHEET_ID = '1rdEI_HWP7B_Q-J5ib9UYzDbbE4IWPbzA3-DfnGdZ0AM'
 $JSON_FILENAME = $output_path_2
 $source_file_name = $source_file_name + "_localised"
 $output_path_3 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\temp\" + $source_file_name + ".json"
-python .\main_from_bash.py $SPREADSHEET_ID $JSON_FILENAME $output_path_3
+python main.py $JSON_FILENAME $output_path_3 $SPREADSHEET_ID --format google_sheets --logfile main_loc.log
+#python .\main_from_bash.py $SPREADSHEET_ID $JSON_FILENAME $output_path_3
 Write-Output "localised flows"
+
+
+# replace set language flow
+$lang_chooser = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\edits\language_chooser_malaysia.csv"
+python main_language_chooser.py $output_path_3 "PLH - Welcome - Entry - Set language" $output_path_3 $lang_chooser --format csv
+Write-Output "replaced set language flow"
+
 Set-Location "C:\Users\fagio\Documents\parenttext-deployment"
 
 #step 4T: add translation and add quick replies to message text
 $lang = "msa"
 
 $input_path_T = $output_path_3
-$translation_file_path = "C:\Users\fagio\Documents\translate-RapidPro\flavour\Malaysia\inventory\msa_translation_OFFICIAL.json"
-$source_file_name = $source_file_name + $lang
+$translation_file_path = "C:\Users\fagio\Documents\translate-RapidPro\flavour\Malaysia\input\engOFFICIAL_Malaysia_msa_translation.json"
+$source_file_name = $source_file_name + "_" + $lang
 $output_path_T = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\temp\" + $source_file_name +".json"
 $transl_inventory_path = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\temp\missing_bits_to_translate.json"
 node C:\Users\fagio\Documents\translate-RapidPro\scripts\insert\create_localisation_from_translated_json_files.js $input_path_T $translation_file_path $lang $output_path_T $transl_inventory_path
 Write-Output "created localization"
+
 
 $input_path_4 = $output_path_T
 $source_file_name = $source_file_name + "_no_QR"
