@@ -26,26 +26,26 @@ python main.py $JSON_FILENAME $output_path_3 $SPREADSHEET_ID --format google_she
 #python .\main_from_bash.py $SPREADSHEET_ID $JSON_FILENAME $output_path_3
 Write-Output "localised flows"
 
-
+<#
 # replace set language flow
 $lang_chooser = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\edits\language_chooser_malaysia.csv"
 python main_language_chooser.py $output_path_3 "PLH - Welcome - Entry - Set language" $output_path_3 $lang_chooser --format csv
 Write-Output "replaced set language flow"
-
+#>
 Set-Location "C:\Users\fagio\Documents\parenttext-deployment"
 
 #step 4T: add translation and add quick replies to message text
 $lang = "msa"
 
 $input_path_T = $output_path_3
-$translation_file_path = "C:\Users\fagio\Documents\translate-RapidPro\flavour\Malaysia\input\engOFFICIAL_Malaysia_msa_translation.json"
+$translation_file_path = "C:\Users\fagio\Documents\parentText-Malaysia-translation\OFFICIAL_Malaysia_msa_translation.json"
 $source_file_name = $source_file_name + "_" + $lang
-$output_path_T = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\temp\" + $source_file_name +".json"
-$transl_inventory_path = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\temp\missing_bits_to_translate.json"
-node C:\Users\fagio\Documents\translate-RapidPro\scripts\insert\create_localisation_from_translated_json_files.js $input_path_T $translation_file_path $lang $output_path_T $transl_inventory_path
+$output_name_T = $source_file_name +".json"
+$transl_output_folder = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\temp"
+node C:\Users\fagio\Documents\idems_translation\chatbot\index.js localize $input_path_T $translation_file_path $lang $output_name_T $transl_output_folder
 Write-Output "created localization"
 
-
+<#
 $input_path_4 = $output_path_T
 $source_file_name = $source_file_name + "_no_QR"
 $output_path_4 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\temp\" + $source_file_name + ".json"
@@ -67,4 +67,4 @@ $input_path_6 = $output_path_5
 node .\idems-chatbot-repo\scripts\split_in_multiple_json_files.js $input_path_6
 
 
-
+#>
