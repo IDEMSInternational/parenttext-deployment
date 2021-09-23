@@ -32,9 +32,7 @@ Set-Location "C:\Users\fagio\Documents\parenttext-deployment"
 
 #step 4T: add translation and add quick replies to message text
 
-#$languages = @("afr","sot","tsn","xho","zul")
-
-$languages = @("afr")
+$languages = @("afr") #,"sot","tsn","xho","zul")
 
 $input_path_T = $output_path_3
 for ($i=0; $i -lt $languages.length; $i++) {
@@ -64,6 +62,19 @@ $input_path_4 = $transl_output_folder + "\" + $output_name_T +".json"
 $source_file_name = $source_file_name + "_no_QR"
 $select_phrases_file = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-" + $deployment + "-repo\edits\select_phrases.json"
 $output_path_4 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-" + $deployment + "-repo\temp\"
-$output_name_4 = $source_file_name +".json"
+$output_name_4 = $source_file_name 
 node C:\Users\fagio\Documents\idems_translation\chatbot\index.js move_quick_replies $input_path_4 $select_phrases_file $output_name_4 $output_path_4
 Write-Output "removed quick replies"
+
+
+$input_path_5 = $output_path_4 + $output_name_4 +".json"
+$source_file_name = $source_file_name + "_safeguarding"
+$output_path_5 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-" + $deployment + "-repo\temp\"+ $source_file_name +".json"
+$safeguarding_path = "C:\Users\fagio\Documents\safeguarding-rapidpro\input\safeguarding_malaysia.json"
+node ..\safeguarding-rapidpro\add_safeguarding_to_flows.js $input_path_5 $safeguarding_path $output_path_5 "eng"
+Write-Output "added safeguarding"
+
+# step final: split in 2 json files because it's too heavy to load (need to replace wrong flow names)
+$input_path_6 = $output_path_5
+node .\idems-chatbot-repo\scripts\split_in_multiple_json_files.js $input_path_6
+

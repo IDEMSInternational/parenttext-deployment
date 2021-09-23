@@ -48,22 +48,23 @@ node C:\Users\fagio\Documents\idems_translation\chatbot\index.js localize $input
 Write-Output "created localization"
 
 
-
+<#
 $input_path_4 = $transl_output_folder + "\" + $output_name_T +".json"
 $source_file_name = $source_file_name + "_no_QR"
 $output_path_4 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\temp\"
 $output_name_4 = $source_file_name
 node C:\Users\fagio\Documents\idems_translation\chatbot\index.js move_quick_replies $input_path_4 $output_name_4 $output_path_4
 Write-Output "removed quick replies"
-<#
+#>
+
 $input_path_4 = $transl_output_folder + "\" + $output_name_T +".json"
 $source_file_name = $source_file_name + "_no_QR"
 $select_phrases_file = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\edits\select_phrases.json"
 $output_path_4 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\temp\"
-$output_name_4 = $source_file_name +".json"
+$output_name_4 = $source_file_name
 node C:\Users\fagio\Documents\idems_translation\chatbot\index.js move_quick_replies $input_path_4 $select_phrases_file $output_name_4 $output_path_4
 Write-Output "removed quick replies"
-#>
+
 
 <#
 $input_path_4 = $transl_output_folder + "\" + $output_name_T +".json"
