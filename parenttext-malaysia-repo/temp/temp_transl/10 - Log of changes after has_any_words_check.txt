@@ -1,0 +1,37 @@
+JSON Processed: C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\temp\\GG-plh-international-flavour_expire_ABtesting_localised_msa.json
+
+This file povides a log of changes made using the check_has_any_word_args.js script
+
+Languages considered: ENG, msa
+Total flows in JSON file: 295
+Total nodes with "has_any_word" arguments: 610
+
+Total Problem Flows: 2
+Total nodes with duplication in arguments which have been sucessfully modified (translations treated as individual nodes): 2
+Total serious errors where fix not applied as would have resulted in null arguments (translations treated as individual nodes): 1
+
+Details of the problem flows/ nodes are summarised below:
+
+    Problem Flow: 1
+    Flow ID: 8071d32a-67b5-4130-bc21-ce449ff1cbf1
+    Flow name: PLH - Safeguarding - Redirect to topic
+
+###### SERIOUS ISSUE, ARGUMENTS COULD NOT BE FULLY FIXED AS THIS WOULD RESULT IN NULL ARGUMENTS ######
+        Language: msa
+        Node ID: b169efd7-32b0-4908-81f1-dd7e1c5b9b0d
+        English arguments: emergency,depression,health,violence,natural,help,sos
+        Argument types: has_any_word,has_any_word,has_any_word,has_any_word,has_any_word,has_any_word,has_any_word
+        Arguments before modification: kecemasan,kemurungan,kesihatan,keganasan,semula jadi,tolong,sos kecemasan kcmsn cemas kecmsan
+        Arguments after modification:  kecemasan,kemurungan,kesihatan,keganasan,semula jadi,tolong,sos kcmsn cemas kecmsan
+
+    Problem Flow: 2
+    Flow ID: 5de6bb38-4f4a-4772-bbd8-18d8af8dc06c
+    Flow name: GG - PLH - Help - Settings - Language
+
+        Language: msa
+        Node ID: d02141b5-9d75-4575-b264-5778d7f6f5b5
+        English arguments: english,eng ing,malay,msy
+        Argument types: has_any_word,has_any_word,has_any_word,has_any_word
+        Arguments before modification: bahasa inggeris,eng ing,bahasa melayu,msy
+        Arguments after modification:  inggeris,eng ing,melayu,msy
+

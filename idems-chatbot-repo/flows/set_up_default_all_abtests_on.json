@@ -1,0 +1,3158 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.idems.international",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "f8695243-5b4c-4aec-9baa-ac40452675c8": {
+            "position": {
+              "left": 200,
+              "top": 20
+            },
+            "type": "execute_actions"
+          },
+          "ab37b340-d562-4998-b1d3-1ee015eb354f": {
+            "position": {
+              "left": 200,
+              "top": 240
+            },
+            "type": "execute_actions"
+          },
+          "33b641f6-d031-43e9-b753-e9703c5543b6": {
+            "position": {
+              "left": 720,
+              "top": 380
+            },
+            "type": "execute_actions"
+          },
+          "83f23302-84d4-457e-9574-3190435a454e": {
+            "position": {
+              "left": 200,
+              "top": 460
+            },
+            "type": "execute_actions"
+          },
+          "5fcb6036-1b42-4417-836c-7f78c8889595": {
+            "position": {
+              "left": 720,
+              "top": 500
+            },
+            "type": "execute_actions"
+          },
+          "748cd699-d095-43b9-90dc-eae15d13962b": {
+            "position": {
+              "left": 720,
+              "top": 600
+            },
+            "type": "execute_actions"
+          },
+          "72e8eb11-f386-4518-982f-e8c95f712ef9": {
+            "position": {
+              "left": 1300,
+              "top": 780
+            },
+            "type": "execute_actions"
+          },
+          "d1966163-4cd3-49ac-8802-b0e697754947": {
+            "position": {
+              "left": 1060,
+              "top": 1080
+            },
+            "type": "execute_actions"
+          },
+          "545c4b8b-18b5-4570-a48a-5ec371a60262": {
+            "position": {
+              "left": 2020,
+              "top": 1080
+            },
+            "type": "execute_actions"
+          },
+          "891db7bd-479e-4fb6-aaf2-46c3c3ffbcab": {
+            "position": {
+              "left": 180,
+              "top": 1120
+            },
+            "type": "execute_actions"
+          },
+          "c205f4c5-a37f-461b-85b7-7970e93c5e56": {
+            "position": {
+              "left": 180,
+              "top": 1220
+            },
+            "type": "execute_actions"
+          },
+          "3da8809f-91e9-49ed-a4e4-931cbabe3542": {
+            "config": {},
+            "position": {
+              "left": 1300,
+              "top": 1420
+            },
+            "type": "split_by_subflow"
+          },
+          "4466d2c3-debe-4285-bad8-478ad9a04860": {
+            "position": {
+              "left": 2020,
+              "top": 1460
+            },
+            "type": "execute_actions"
+          },
+          "3067dab9-fe2c-4540-9b72-052f278252dd": {
+            "position": {
+              "left": 340,
+              "top": 1520
+            },
+            "type": "execute_actions"
+          },
+          "70ec7837-2fcb-494d-8af8-62ed9557ac6e": {
+            "position": {
+              "left": 0,
+              "top": 1660
+            },
+            "type": "execute_actions"
+          },
+          "63f8d8d6-5973-488b-b98b-9a142685ddf9": {
+            "position": {
+              "left": 60,
+              "top": 1760
+            },
+            "type": "execute_actions"
+          },
+          "9a7c9206-3518-4466-ab4d-79c670797570": {
+            "position": {
+              "left": 2260,
+              "top": 1760
+            },
+            "type": "execute_actions"
+          },
+          "d9244121-3475-4287-8289-65cbb774320d": {
+            "position": {
+              "left": 1380,
+              "top": 1980
+            },
+            "type": "execute_actions"
+          },
+          "108e311c-a9ee-436b-b46d-04d271c97663": {
+            "position": {
+              "left": 20,
+              "top": 2200
+            },
+            "type": "execute_actions"
+          },
+          "e4df726d-a603-4f38-a28f-d341a8e55775": {
+            "position": {
+              "left": 380,
+              "top": 2260
+            },
+            "type": "execute_actions"
+          },
+          "448aa279-9972-4d34-af49-24bc01059359": {
+            "position": {
+              "left": 60,
+              "top": 2440
+            },
+            "type": "execute_actions"
+          },
+          "451da8d2-a98e-4e4f-ae0e-607daafc386c": {
+            "position": {
+              "left": 40,
+              "top": 2560
+            },
+            "type": "execute_actions"
+          },
+          "80d96a3d-60d2-4c5e-b6df-492a40377761": {
+            "position": {
+              "left": 700,
+              "top": 2560
+            },
+            "type": "execute_actions"
+          },
+          "db7cdb52-f88f-4963-b134-d98916e870d7": {
+            "position": {
+              "left": 2000,
+              "top": 2580
+            },
+            "type": "execute_actions"
+          },
+          "e9c88687-dc83-439c-a75c-106cb9efb26e": {
+            "position": {
+              "left": 2260,
+              "top": 2620
+            },
+            "type": "execute_actions"
+          },
+          "ade47df7-0201-4c6e-a89b-1e19dcfbb409": {
+            "position": {
+              "left": 40,
+              "top": 2900
+            },
+            "type": "execute_actions"
+          },
+          "564653de-f76b-428a-be04-4b44c1cd6a9b": {
+            "position": {
+              "left": 1040,
+              "top": 3200
+            },
+            "type": "execute_actions"
+          },
+          "1f79fd0b-64a5-4df3-bd77-b5f0b5cc9a6f": {
+            "position": {
+              "left": 320,
+              "top": 3340
+            },
+            "type": "execute_actions"
+          },
+          "0f7e9684-e561-46e3-88a9-dcc9b3f43853": {
+            "position": {
+              "left": 60,
+              "top": 3400
+            },
+            "type": "execute_actions"
+          },
+          "d39cb9c5-53fa-4322-8cd7-a3474e57c657": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 690,
+              "top": 3490
+            },
+            "type": "split_by_groups"
+          },
+          "f1d2ce0f-7e42-4c59-9268-72ed444281d0": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 1010,
+              "top": 3700
+            },
+            "type": "split_by_groups"
+          },
+          "aa05ca28-7e0f-402e-8977-8699d957d548": {
+            "position": {
+              "left": 680,
+              "top": 3740
+            },
+            "type": "execute_actions"
+          },
+          "d4394f9e-bf62-4cf0-82ff-b7db7799a37a": {
+            "config": null,
+            "position": {
+              "left": 1080,
+              "top": 3820
+            },
+            "type": "split_by_random"
+          },
+          "95301079-c49f-4b8b-954b-9ab7283d7c84": {
+            "position": {
+              "left": 660,
+              "top": 3840
+            },
+            "type": "execute_actions"
+          },
+          "0426859a-b583-4189-b31c-7c3ab1d34d3c": {
+            "position": {
+              "left": 1630,
+              "top": 3920
+            },
+            "type": "execute_actions"
+          },
+          "645bf287-4200-472a-8357-d61c75012839": {
+            "position": {
+              "left": 680,
+              "top": 3940
+            },
+            "type": "execute_actions"
+          },
+          "5d983954-5463-4df0-9132-e29dd5bf5282": {
+            "position": {
+              "left": 1320,
+              "top": 3960
+            },
+            "type": "execute_actions"
+          },
+          "3c933fc3-868d-4dc2-955f-0affe4710717": {
+            "config": null,
+            "position": {
+              "left": 760,
+              "top": 4040
+            },
+            "type": "split_by_random"
+          },
+          "37e4c3a5-1df4-44f7-b14e-8186668a1d00": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 1340,
+              "top": 4080
+            },
+            "type": "split_by_groups"
+          },
+          "0134dd1f-5f70-4b46-a4a3-100d5023f8f1": {
+            "position": {
+              "left": 1950,
+              "top": 4130
+            },
+            "type": "execute_actions"
+          },
+          "f44f5345-8c56-4cef-838d-c26925833f0e": {
+            "config": {},
+            "position": {
+              "left": 680,
+              "top": 4200
+            },
+            "type": "split_by_subflow"
+          },
+          "64538eab-fbe4-4a49-b59d-54ac1cef815e": {
+            "position": {
+              "left": 980,
+              "top": 4200
+            },
+            "type": "execute_actions"
+          },
+          "98f5fcf9-7297-49f7-86d6-3f19d340ada7": {
+            "position": {
+              "left": 1300,
+              "top": 4220
+            },
+            "type": "execute_actions"
+          },
+          "b757f1fd-25db-4ce0-98dc-7155ed49df00": {
+            "config": null,
+            "position": {
+              "left": 1710,
+              "top": 4220
+            },
+            "type": "split_by_random"
+          },
+          "233fe525-24dc-4f72-b265-69925d3b4b1a": {
+            "config": null,
+            "position": {
+              "left": 1400,
+              "top": 4320
+            },
+            "type": "split_by_random"
+          },
+          "26195058-431d-44fc-8cdc-019355ef7ade": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 1970,
+              "top": 4330
+            },
+            "type": "split_by_groups"
+          },
+          "ccf5191f-0bd8-412b-9d18-a220914290cf": {
+            "position": {
+              "left": 2060,
+              "top": 4440
+            },
+            "type": "execute_actions"
+          },
+          "b1dd9ac2-e544-4cbd-a5bb-ca0f36420153": {
+            "position": {
+              "left": 1620,
+              "top": 4460
+            },
+            "type": "execute_actions"
+          },
+          "7be206ff-a4c5-4633-ae63-86ec4161adc4": {
+            "config": null,
+            "position": {
+              "left": 2040,
+              "top": 4540
+            },
+            "type": "split_by_random"
+          },
+          "55c833b8-eef8-4d5c-bfb5-281108830c59": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 1660,
+              "top": 4580
+            },
+            "type": "split_by_groups"
+          },
+          "625cd54f-b709-4dc3-81ba-14de373318f0": {
+            "position": {
+              "left": 1940,
+              "top": 4660
+            },
+            "type": "execute_actions"
+          },
+          "e41ee2a3-5a4d-4a6e-9c9d-07c389674792": {
+            "position": {
+              "left": 2160,
+              "top": 4660
+            },
+            "type": "execute_actions"
+          },
+          "1aa51614-83b9-4330-91a6-4521360e1508": {
+            "position": {
+              "left": 2040,
+              "top": 4750
+            },
+            "type": "execute_actions"
+          }
+        },
+        "stickies": {
+          "0250f495-7a57-428a-804d-40850e2c9ff4": {
+            "body": "variables to handle timed content delivery",
+            "color": "yellow",
+            "position": {
+              "left": 80,
+              "top": 1520,
+              "right": 0,
+              "bottom": 320
+            },
+            "title": "New Note"
+          },
+          "26cebdd6-d7d4-4698-b179-c27d116813be": {
+            "body": "to store all feedback on tips and activities",
+            "color": "yellow",
+            "position": {
+              "bottom": 860,
+              "left": 380,
+              "right": 0,
+              "top": 3200
+            },
+            "title": "New Note"
+          },
+          "350b740e-370a-4a5c-a0d6-8670f156eb9a": {
+            "body": "variables with urls for attachments",
+            "color": "yellow",
+            "position": {
+              "left": 800,
+              "top": 3600,
+              "right": 0,
+              "bottom": 520
+            },
+            "title": "New Note"
+          },
+          "3ccc4ef3-cfb3-47b9-af74-64ac19bb3c70": {
+            "body": "to store answers from survey parenting",
+            "color": "yellow",
+            "position": {
+              "bottom": null,
+              "left": 1020,
+              "right": null,
+              "top": 1840
+            },
+            "title": "New Note"
+          },
+          "90271b4a-1265-4dc9-8587-c88edfde486e": {
+            "body": "group for campaign",
+            "color": "yellow",
+            "position": {
+              "left": 520,
+              "top": 0
+            },
+            "title": "New Note"
+          },
+          "b7451e89-a1ef-499c-bc83-ef995a94885d": {
+            "body": "children age groups",
+            "color": "yellow",
+            "position": {
+              "left": 40,
+              "top": 340,
+              "right": 0,
+              "bottom": 60
+            },
+            "title": "New Note"
+          },
+          "c3de3a8c-8df5-4e90-afb0-96812622f5be": {
+            "body": "to handle the timing of surveys",
+            "color": "yellow",
+            "position": {
+              "bottom": 300,
+              "left": 340,
+              "right": 0,
+              "top": 2120
+            },
+            "title": "New Note"
+          },
+          "ca9f8f24-7b51-469c-839d-f8934510b94a": {
+            "body": "progress in content",
+            "color": "yellow",
+            "position": {
+              "bottom": null,
+              "left": 500,
+              "right": null,
+              "top": 860
+            },
+            "title": "New Note"
+          },
+          "f33f88a5-69ff-44f0-bd2b-0c0063672616": {
+            "body": "...",
+            "color": "yellow",
+            "position": {
+              "bottom": null,
+              "left": 260,
+              "right": null,
+              "top": 3660
+            },
+            "title": "New Note"
+          },
+          "fa4db55e-1131-443f-8f2c-3ec34bdcb841": {
+            "body": "house of support",
+            "color": "yellow",
+            "position": {
+              "bottom": null,
+              "left": 0,
+              "right": null,
+              "top": 3280
+            },
+            "title": "New Note"
+          }
+        }
+      },
+      "expire_after_minutes": 60,
+      "ignore_triggers": true,
+      "language": "eng",
+      "localization": {},
+      "metadata": {
+        "revision": 8
+      },
+      "name": "PLH - Internal - Set up default contact fields",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "deployment",
+                "name": "deployment"
+              },
+              "type": "set_contact_field",
+              "uuid": "14f0372e-188d-4c00-b3af-7bfbfe640154",
+              "value": "Global"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "ab37b340-d562-4998-b1d3-1ee015eb354f",
+              "uuid": "3071f336-dd2e-42b1-b69e-4ad49307d8b1"
+            }
+          ],
+          "uuid": "f8695243-5b4c-4aec-9baa-ac40452675c8"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "type_of_media",
+                "name": "type of media"
+              },
+              "type": "set_contact_field",
+              "uuid": "ee45ded2-1b32-4f11-b8a6-62e9caf5c7a3",
+              "value": "high"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "83f23302-84d4-457e-9574-3190435a454e",
+              "uuid": "e385a02f-f667-41e2-bad8-fd22b4897352"
+            }
+          ],
+          "uuid": "ab37b340-d562-4998-b1d3-1ee015eb354f"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "chatbot_name_male",
+                "name": "chatbot name male"
+              },
+              "type": "set_contact_field",
+              "uuid": "7d9b5eca-f1b6-4974-a436-4ac8e0d8144e",
+              "value": "blobbyM"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "5fcb6036-1b42-4417-836c-7f78c8889595",
+              "uuid": "c2c07205-0df4-488d-a2b3-bebc2dddbf11"
+            }
+          ],
+          "uuid": "33b641f6-d031-43e9-b753-e9703c5543b6"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "parent_baby",
+                "name": "parent baby"
+              },
+              "type": "set_contact_field",
+              "uuid": "1e078e0f-aea2-4e9c-8362-6a6bf94593af",
+              "value": "true"
+            },
+            {
+              "field": {
+                "key": "parent_young_child",
+                "name": "parent young child"
+              },
+              "type": "set_contact_field",
+              "uuid": "bddda3cb-aa06-4830-9ad4-ad33c278a864",
+              "value": "true"
+            },
+            {
+              "field": {
+                "key": "parent_teenager",
+                "name": "parent teenager"
+              },
+              "type": "set_contact_field",
+              "uuid": "eae03a70-1cd8-4092-9c95-1755897c0964",
+              "value": "true"
+            },
+            {
+              "field": {
+                "key": "know_children_age_groups",
+                "name": "know children age groups"
+              },
+              "type": "set_contact_field",
+              "uuid": "fa122683-8e71-4eee-ba4f-f93b17aeb879",
+              "value": "false"
+            },
+            {
+              "field": {
+                "key": "marital_status",
+                "name": "marital status"
+              },
+              "type": "set_contact_field",
+              "uuid": "956cd219-d03b-4a15-a5d8-071347c1f7c1",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "child_nickname",
+                "name": "child nickname"
+              },
+              "type": "set_contact_field",
+              "uuid": "ab56c46d-8fe7-4f99-a49a-ab44802337b1",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "age_group_for_tips",
+                "name": "age group for tips"
+              },
+              "type": "set_contact_field",
+              "uuid": "c82f3c84-b85b-4fea-aba9-1793227edf6b",
+              "value": "child"
+            },
+            {
+              "field": {
+                "key": "enrollment",
+                "name": "enrollment"
+              },
+              "type": "set_contact_field",
+              "uuid": "f21c4695-98c1-44da-af22-94e4c4ee0ac9",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "know_age_group_for_tips",
+                "name": "know age group for tips"
+              },
+              "type": "set_contact_field",
+              "uuid": "e78d7e16-a94f-4704-8af9-c201b4fd90fb",
+              "value": "no"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "891db7bd-479e-4fb6-aaf2-46c3c3ffbcab",
+              "uuid": "910af1cd-53ea-42d9-9305-8b29dc693f15"
+            }
+          ],
+          "uuid": "83f23302-84d4-457e-9574-3190435a454e"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "chatbot_name_female",
+                "name": "chatbot name female"
+              },
+              "type": "set_contact_field",
+              "uuid": "39030ac8-a5df-4110-85a9-fe1a36e816b7",
+              "value": "blobbyF"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "748cd699-d095-43b9-90dc-eae15d13962b",
+              "uuid": "4042341f-c608-448e-9dc2-f2898a91a8ac"
+            }
+          ],
+          "uuid": "5fcb6036-1b42-4417-836c-7f78c8889595"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "chatbot_name",
+                "name": "chatbot name"
+              },
+              "type": "set_contact_field",
+              "uuid": "825a9d3b-07e7-45bf-8a51-3e84a02abb8e",
+              "value": "@fields.chatbot_name_female"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "72e8eb11-f386-4518-982f-e8c95f712ef9",
+              "uuid": "26f67133-564f-4693-9bbe-9e1a30c05820"
+            }
+          ],
+          "uuid": "748cd699-d095-43b9-90dc-eae15d13962b"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "starting_date",
+                "name": "starting date"
+              },
+              "type": "set_contact_field",
+              "uuid": "6260f45f-78de-4c29-95a7-2c1081123adb",
+              "value": "@(now())"
+            },
+            {
+              "field": {
+                "key": "current_week_in_program",
+                "name": "current week in program"
+              },
+              "type": "set_contact_field",
+              "uuid": "20f02014-5196-4647-97ea-c6c1e2343fa5",
+              "value": "0"
+            },
+            {
+              "field": {
+                "key": "current_day_in_program",
+                "name": "current day in program"
+              },
+              "type": "set_contact_field",
+              "uuid": "ef492bd1-3835-4b48-ba61-f6003059f3cb",
+              "value": "1"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "c205f4c5-a37f-461b-85b7-7970e93c5e56",
+              "uuid": "6e444fc6-00ff-4ab0-8b7e-a5571248cf89"
+            }
+          ],
+          "uuid": "72e8eb11-f386-4518-982f-e8c95f712ef9"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "morning_excluded_days",
+                "name": "morning excluded days"
+              },
+              "type": "set_contact_field",
+              "uuid": "df90ba56-bfba-41c7-9094-8329f292550a",
+              "value": "na"
+            },
+            {
+              "field": {
+                "key": "main_excluded_days",
+                "name": "main excluded days"
+              },
+              "type": "set_contact_field",
+              "uuid": "65125f85-f524-4de8-a100-cd7999a88618",
+              "value": "na"
+            },
+            {
+              "field": {
+                "key": "evening_excluded_days",
+                "name": "evening excluded days"
+              },
+              "type": "set_contact_field",
+              "uuid": "fc88b6a6-fd03-4b0a-a7f5-571df92161f4",
+              "value": "na"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "545c4b8b-18b5-4570-a48a-5ec371a60262",
+              "uuid": "f3c23146-b009-44d4-8cd2-683ade073a50"
+            }
+          ],
+          "uuid": "d1966163-4cd3-49ac-8802-b0e697754947"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "morning_days_to_add",
+                "name": "morning days to add"
+              },
+              "type": "set_contact_field",
+              "uuid": "93974225-6107-4400-853e-7b7235465711",
+              "value": "1"
+            },
+            {
+              "field": {
+                "key": "main_days_to_add",
+                "name": "main days to add"
+              },
+              "type": "set_contact_field",
+              "uuid": "31781e7c-d84e-4f15-a6bd-041eafc0503e",
+              "value": "1"
+            },
+            {
+              "field": {
+                "key": "evening_days_to_add",
+                "name": "evening days to add"
+              },
+              "type": "set_contact_field",
+              "uuid": "0a9ab67a-f6e0-45c8-a10f-4db07cb24036",
+              "value": "1"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "4466d2c3-debe-4285-bad8-478ad9a04860",
+              "uuid": "898c7d7e-9d33-4d33-9ea1-8e54f7e47dcd"
+            }
+          ],
+          "uuid": "545c4b8b-18b5-4570-a48a-5ec371a60262"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "know_difficult_child",
+                "name": "know difficult child"
+              },
+              "type": "set_contact_field",
+              "uuid": "ef9aa3ab-d638-4244-8de1-34bbfacc0137",
+              "value": "no"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "33b641f6-d031-43e9-b753-e9703c5543b6",
+              "uuid": "a3fa19ba-0000-47e2-a9f2-c006df1b1a74"
+            }
+          ],
+          "uuid": "891db7bd-479e-4fb6-aaf2-46c3c3ffbcab"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "next_tip_morning",
+                "name": "next tip morning"
+              },
+              "type": "set_contact_field",
+              "uuid": "3933b06e-07e1-45e3-ba41-67d9eb4e12b9",
+              "value": "1"
+            },
+            {
+              "field": {
+                "key": "next_tip_main",
+                "name": "next tip main"
+              },
+              "type": "set_contact_field",
+              "uuid": "c426c8d6-d83d-492d-b7c0-1448944364e8",
+              "value": "1"
+            },
+            {
+              "field": {
+                "key": "next_tip_evening",
+                "name": "next tip evening"
+              },
+              "type": "set_contact_field",
+              "uuid": "198e1807-1930-4239-b5af-61e28a073b69",
+              "value": "1"
+            },
+            {
+              "field": {
+                "key": "total_tip_days",
+                "name": "total tip days"
+              },
+              "type": "set_contact_field",
+              "uuid": "e8f30dfa-4b92-4355-aba4-5e5c843a9aec",
+              "value": "23"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "70ec7837-2fcb-494d-8af8-62ed9557ac6e",
+              "uuid": "f9d505a6-e442-4960-841d-45e350d85313"
+            }
+          ],
+          "uuid": "c205f4c5-a37f-461b-85b7-7970e93c5e56"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "PLH - Internal - Define next campaign event",
+                "uuid": "f4b17e91-a829-4918-bd18-739cfa5daba8"
+              },
+              "type": "enter_flow",
+              "uuid": "1f4004ad-db9f-40ff-9151-ae198fc4ccc8"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e4df726d-a603-4f38-a28f-d341a8e55775",
+              "uuid": "1f57a39e-b2e4-4c9e-a9da-8817800ecb66"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "756bda5d-2cc2-4fcb-91ad-dd7992f00891"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "fea63e90-6974-42db-8664-5eb3729788c6",
+                "type": "has_only_text",
+                "uuid": "a58d28fb-41c4-46d7-a8a6-fd72b58d320a"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "282d1d79-bc23-40e9-b8d9-745d8fb1e071",
+                "type": "has_only_text",
+                "uuid": "7aeb1ed7-d709-4c46-ae8a-7691f0d7b468"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "1f57a39e-b2e4-4c9e-a9da-8817800ecb66",
+                "name": "Complete",
+                "uuid": "fea63e90-6974-42db-8664-5eb3729788c6"
+              },
+              {
+                "exit_uuid": "756bda5d-2cc2-4fcb-91ad-dd7992f00891",
+                "name": "Expired",
+                "uuid": "282d1d79-bc23-40e9-b8d9-745d8fb1e071"
+              }
+            ],
+            "default_category_uuid": "282d1d79-bc23-40e9-b8d9-745d8fb1e071",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "3da8809f-91e9-49ed-a4e4-931cbabe3542"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "morning_counter",
+                "name": "morning counter"
+              },
+              "type": "set_contact_field",
+              "uuid": "1fa79fc6-44f2-4ea9-b2a0-40156fe01b6b",
+              "value": "1"
+            },
+            {
+              "field": {
+                "key": "main_counter",
+                "name": "main counter"
+              },
+              "type": "set_contact_field",
+              "uuid": "c74c6e8a-8a7d-4f2b-acfe-b40326f07099",
+              "value": "1"
+            },
+            {
+              "field": {
+                "key": "evening_counter",
+                "name": "evening counter"
+              },
+              "type": "set_contact_field",
+              "uuid": "901a8331-4c7e-4f66-bfea-60c2ec008535",
+              "value": "1"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "3da8809f-91e9-49ed-a4e4-931cbabe3542",
+              "uuid": "c7b98880-7099-4304-aee0-28db87cf16c5"
+            }
+          ],
+          "uuid": "4466d2c3-debe-4285-bad8-478ad9a04860"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "morning_time_of_day",
+                "name": "morning time of day"
+              },
+              "type": "set_contact_field",
+              "uuid": "0ee3cb3d-7fcf-48c1-8a8e-a0e5da6abe76",
+              "value": "9"
+            },
+            {
+              "field": {
+                "key": "main_time_of_day",
+                "name": "main time of day"
+              },
+              "type": "set_contact_field",
+              "uuid": "bb4e92a6-3780-40d4-8f04-aba0cfc20d46",
+              "value": "14"
+            },
+            {
+              "field": {
+                "key": "evening_time_of_day",
+                "name": "evening time of day"
+              },
+              "type": "set_contact_field",
+              "uuid": "f76cfd8c-6434-4c7c-8231-783564567df9",
+              "value": "20"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "d1966163-4cd3-49ac-8802-b0e697754947",
+              "uuid": "441c2ad9-f5d0-45c9-a5c9-1202295695bf"
+            }
+          ],
+          "uuid": "3067dab9-fe2c-4540-9b72-052f278252dd"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "program_version",
+                "name": "program version"
+              },
+              "type": "set_contact_field",
+              "uuid": "b70f6a02-91fe-46bb-8ad3-01429835c520",
+              "value": "2"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "3067dab9-fe2c-4540-9b72-052f278252dd",
+              "uuid": "3955006a-e088-4fed-9637-25cd6974ec06"
+            }
+          ],
+          "uuid": "70ec7837-2fcb-494d-8af8-62ed9557ac6e"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "morning_supportive_counter",
+                "name": "morning supportive counter"
+              },
+              "type": "set_contact_field",
+              "uuid": "001a6749-645f-4dbb-a3dc-4dc36cfd9f3b",
+              "value": "0"
+            },
+            {
+              "field": {
+                "key": "main_supportive_counter",
+                "name": "main supportive counter"
+              },
+              "type": "set_contact_field",
+              "uuid": "191e3df1-0b0d-4522-92d1-9568ac8d0c6b",
+              "value": "-5"
+            },
+            {
+              "field": {
+                "key": "evening_supportive_counter",
+                "name": "evening supportive counter"
+              },
+              "type": "set_contact_field",
+              "uuid": "d8d1998a-e94d-4e14-b028-40ea6853b8e5",
+              "value": "0"
+            },
+            {
+              "field": {
+                "key": "main_checkin_counter",
+                "name": "main checkin counter"
+              },
+              "type": "set_contact_field",
+              "uuid": "d18fef8e-6e15-46be-8bf4-69c0c26df707",
+              "value": "0"
+            },
+            {
+              "field": {
+                "key": "calm_praise_supportive_counter",
+                "name": "calm praise supportive counter"
+              },
+              "type": "set_contact_field",
+              "uuid": "91cbc894-d5ef-405c-b321-f8550c601017",
+              "value": "0"
+            },
+            {
+              "field": {
+                "key": "ipv_checkin_counter",
+                "name": "ipv checkin counter"
+              },
+              "type": "set_contact_field",
+              "uuid": "1219a78d-bb84-431d-a8d8-643024c22996",
+              "value": "-1"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "108e311c-a9ee-436b-b46d-04d271c97663",
+              "uuid": "8758ac23-7e2d-4e1b-aa69-225552e59036"
+            }
+          ],
+          "uuid": "63f8d8d6-5973-488b-b98b-9a142685ddf9"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "surveytime",
+                "name": "surveytime"
+              },
+              "type": "set_contact_field",
+              "uuid": "a6c30077-31c0-40d4-867c-0b80bfe946a2",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "surveypraise",
+                "name": "surveypraise"
+              },
+              "type": "set_contact_field",
+              "uuid": "ce728d15-6358-48e5-8a91-4838cbd1d47d",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "surveydiscipline",
+                "name": "surveydiscipline"
+              },
+              "type": "set_contact_field",
+              "uuid": "5864540c-f560-47bb-9346-abba2f756afc",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "surveyshout",
+                "name": "surveyshout"
+              },
+              "type": "set_contact_field",
+              "uuid": "934fc6c0-6a33-4657-aa72-1ed6b326c989",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "surveystress",
+                "name": "surveystress"
+              },
+              "type": "set_contact_field",
+              "uuid": "7e948e5b-5276-45cd-82e9-f99b2f8bda35",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "surveytips",
+                "name": "surveytips"
+              },
+              "type": "set_contact_field",
+              "uuid": "23a57e87-fa06-4162-ad6f-cf2441630e60",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "surveycovid",
+                "name": "surveyCOVID"
+              },
+              "type": "set_contact_field",
+              "uuid": "8f5c517d-d266-4d6c-bc0e-d4662fd4c803",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "surveysexualabuse",
+                "name": "surveysexualabuse"
+              },
+              "type": "set_contact_field",
+              "uuid": "aa3f84e7-c4aa-49b3-b48f-16b3e3757b1b",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "surveypositive",
+                "name": "surveypositive"
+              },
+              "type": "set_contact_field",
+              "uuid": "cfb37a25-ab1a-440c-999e-e4f6e44c8644",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "surveymoneyweek",
+                "name": "surveymoneyweek"
+              },
+              "type": "set_contact_field",
+              "uuid": "f8034e85-ffcd-4825-beed-bd70c6de0832",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "surveymoneymonth",
+                "name": "surveymoneymonth"
+              },
+              "type": "set_contact_field",
+              "uuid": "13c6f107-2e42-4ed1-b302-16f31d6d4493",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "surveysexualabusetalk",
+                "name": "surveysexualabusetalk"
+              },
+              "type": "set_contact_field",
+              "uuid": "b95c27e2-08e3-467f-8964-5fbfc9302652",
+              "value": ""
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e9c88687-dc83-439c-a75c-106cb9efb26e",
+              "uuid": "f77001d3-e273-4217-8710-98d78a081509"
+            }
+          ],
+          "uuid": "9a7c9206-3518-4466-ab4d-79c670797570"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "surveybehave_difficult_behaviuour",
+                "name": "surveybehave difficult behaviuour"
+              },
+              "type": "set_contact_field",
+              "uuid": "1483a038-9b8f-41cb-8629-97ca4fd4b9db",
+              "value": "["
+            },
+            {
+              "field": {
+                "key": "surveybehave_rate",
+                "name": "surveybehave rate"
+              },
+              "type": "set_contact_field",
+              "uuid": "c9522371-13a1-4f03-a03d-a1ed4c915ccd",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "surveybehave_challenge",
+                "name": "surveybehave challenge"
+              },
+              "type": "set_contact_field",
+              "uuid": "bdb1738c-435d-4c41-b46b-717f64e53840",
+              "value": "["
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "9a7c9206-3518-4466-ab4d-79c670797570",
+              "uuid": "dd9350ca-7169-4e94-a0bb-e3767e94df92"
+            }
+          ],
+          "uuid": "d9244121-3475-4287-8289-65cbb774320d"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "periodic_congrats_days_to_add",
+                "name": "periodic congrats days to add"
+              },
+              "type": "set_contact_field",
+              "uuid": "3b75e6db-3ac9-47f5-b2f3-3160853241e4",
+              "value": "7"
+            },
+            {
+              "field": {
+                "key": "periodic_survey_days_to_add",
+                "name": "periodic survey days to add"
+              },
+              "type": "set_contact_field",
+              "uuid": "07c77d25-bdfe-4588-bbb0-2ce639035bc4",
+              "value": "7"
+            },
+            {
+              "field": {
+                "key": "next_congrats_day",
+                "name": "next congrats day"
+              },
+              "type": "set_contact_field",
+              "uuid": "86682af8-b484-4798-9ea1-4aa93f0822d5",
+              "value": "@(fields.periodic_congrats_days_to_add +2)"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "80d96a3d-60d2-4c5e-b6df-492a40377761",
+              "uuid": "40c1cf0d-6f18-4e39-ad63-81d63bad036f"
+            }
+          ],
+          "uuid": "108e311c-a9ee-436b-b46d-04d271c97663"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "frequency",
+                "name": "frequency"
+              },
+              "type": "set_contact_field",
+              "uuid": "efb248ad-9a90-4f1e-9c85-452e56a3c0c3",
+              "value": "1"
+            },
+            {
+              "field": {
+                "key": "morning_frequency_counter",
+                "name": "morning frequency counter"
+              },
+              "type": "set_contact_field",
+              "uuid": "c390bbf0-1c07-413f-8967-476164b6e942",
+              "value": "0"
+            },
+            {
+              "field": {
+                "key": "main_frequency_counter",
+                "name": "main frequency counter"
+              },
+              "type": "set_contact_field",
+              "uuid": "fd51d604-42a7-4425-83e0-ddfa2a0e9bc6",
+              "value": "0"
+            },
+            {
+              "field": {
+                "key": "evening_frequency_counter",
+                "name": "evening frequency counter"
+              },
+              "type": "set_contact_field",
+              "uuid": "83d0fd74-e7f3-40ec-8783-4fd66d044458",
+              "value": "0"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "63f8d8d6-5973-488b-b98b-9a142685ddf9",
+              "uuid": "1933bc9d-ead2-412c-9132-9367c6048bfb"
+            }
+          ],
+          "uuid": "e4df726d-a603-4f38-a28f-d341a8e55775"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "feedback_storage",
+                "name": "feedback storage"
+              },
+              "type": "set_contact_field",
+              "uuid": "644371e8-4b2c-4d51-9ecc-d62c22f9e2fd",
+              "value": ""
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "451da8d2-a98e-4e4f-ae0e-607daafc386c",
+              "uuid": "d801a1dc-a8b2-48b4-acaa-838b650b5f5c"
+            }
+          ],
+          "uuid": "448aa279-9972-4d34-af49-24bc01059359"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "week_toolkit",
+                "name": "week toolkit"
+              },
+              "type": "set_contact_field",
+              "uuid": "503ca7db-fc58-4cb0-a8e1-92a535f66145",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "toolkit_history",
+                "name": "toolkit history"
+              },
+              "type": "set_contact_field",
+              "uuid": "37c5846e-6e02-400a-9837-a57557edacfa",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "toolkit",
+                "name": "toolkit"
+              },
+              "type": "set_contact_field",
+              "uuid": "f554e01a-a67d-42c7-961d-25c2eff3a35b",
+              "value": ""
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "1f79fd0b-64a5-4df3-bd77-b5f0b5cc9a6f",
+              "uuid": "53ee3100-6e9c-4687-b048-ce8a2290ad74"
+            }
+          ],
+          "uuid": "451da8d2-a98e-4e4f-ae0e-607daafc386c"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "max_skip_survey",
+                "name": "max skip survey"
+              },
+              "type": "set_contact_field",
+              "uuid": "20eddcd7-1893-48d1-b636-0bc9e8643d31",
+              "value": "3"
+            },
+            {
+              "field": {
+                "key": "survey_parenting_count",
+                "name": "survey parenting count"
+              },
+              "type": "set_contact_field",
+              "uuid": "bd220580-d146-414f-9936-fbb090119f9f",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "survey_behave_count",
+                "name": "survey behave count"
+              },
+              "type": "set_contact_field",
+              "uuid": "72e8ab98-313a-488e-aca1-2661024cc7e3",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "survey_parentingbehave_count",
+                "name": "survey parentingbehave count"
+              },
+              "type": "set_contact_field",
+              "uuid": "baf44cc1-e11e-4d90-a384-0b4659cb15ea",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "survey_covid_count",
+                "name": "survey covid count"
+              },
+              "type": "set_contact_field",
+              "uuid": "b94ee295-d228-4cef-b1a2-76ea764a6581",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "survey_ipv_count",
+                "name": "survey ipv count"
+              },
+              "type": "set_contact_field",
+              "uuid": "028b5203-5fa5-4ed1-a7d9-aab719e8ccdf",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "surveymoney_counter",
+                "name": "surveymoney counter"
+              },
+              "type": "set_contact_field",
+              "uuid": "285ac5ed-c482-4d21-9f5f-882cf3386d9f",
+              "value": "0"
+            },
+            {
+              "field": {
+                "key": "surveysexualabusecounter",
+                "name": "surveysexualabusecounter"
+              },
+              "type": "set_contact_field",
+              "uuid": "e51a5ccc-1077-466c-b021-4fd7ad90a921",
+              "value": "0"
+            },
+            {
+              "field": {
+                "key": "last_entered_survey",
+                "name": "last entered survey"
+              },
+              "type": "set_contact_field",
+              "uuid": "cfd7b690-9847-42df-81f0-71cffd758867",
+              "value": "@(now())"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "d9244121-3475-4287-8289-65cbb774320d",
+              "uuid": "015b23d8-3c4a-46d3-b3cc-7c1aeb7dc991"
+            }
+          ],
+          "uuid": "80d96a3d-60d2-4c5e-b6df-492a40377761"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "surveytime_fb_worse",
+                "name": "surveytime fb worse"
+              },
+              "type": "set_contact_field",
+              "uuid": "21a47f92-1a9b-4e0e-9be4-124703a55af0",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "surveypraise_fb_worse",
+                "name": "surveypraise fb worse"
+              },
+              "type": "set_contact_field",
+              "uuid": "4ed4e0c3-5ae7-4b35-b5a8-2b42512ef67b",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "surveystress_fb_worse",
+                "name": "surveystress fb worse"
+              },
+              "type": "set_contact_field",
+              "uuid": "dc9a6136-1a4a-4d63-8d92-92c989110bf8",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "surveyshout_fb_worse",
+                "name": "surveyshout fb worse"
+              },
+              "type": "set_contact_field",
+              "uuid": "ab51f79e-a451-471c-814a-0235920be67e",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "surveydiscipline_fb_worse",
+                "name": "surveydiscipline fb worse"
+              },
+              "type": "set_contact_field",
+              "uuid": "1bace9e7-08fa-4fd1-ba46-8963b760d56c",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "surveypositive_fb_worse",
+                "name": "surveypositive fb worse"
+              },
+              "type": "set_contact_field",
+              "uuid": "ca498c46-696d-4c1c-b6b3-e949ee52548c",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "surveysexual_fb_worse",
+                "name": "surveysexual fb worse"
+              },
+              "type": "set_contact_field",
+              "uuid": "648ffa05-6a3e-458d-8c81-4123a14308ad",
+              "value": "-1"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "564653de-f76b-428a-be04-4b44c1cd6a9b",
+              "uuid": "0233f164-99bc-44f8-9049-a6a91184ea72"
+            }
+          ],
+          "uuid": "db7cdb52-f88f-4963-b134-d98916e870d7"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "surveytime_fb_better",
+                "name": "surveytime fb better"
+              },
+              "type": "set_contact_field",
+              "uuid": "dd6d2c65-fead-479c-8b50-4130a7df2887",
+              "value": "0"
+            },
+            {
+              "field": {
+                "key": "surveypraise_fb_better",
+                "name": "surveypraise fb better"
+              },
+              "type": "set_contact_field",
+              "uuid": "ba9d0808-5252-41c0-b76d-5f10b5b2af3f",
+              "value": "0"
+            },
+            {
+              "field": {
+                "key": "surveystress_fb_better",
+                "name": "surveystress fb better"
+              },
+              "type": "set_contact_field",
+              "uuid": "aa140657-e288-43e6-a7aa-fa37318de894",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "surveyshout_fb_better",
+                "name": "surveyshout fb better"
+              },
+              "type": "set_contact_field",
+              "uuid": "56bb3b3e-51fb-4064-a504-18825d69843e",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "surveydiscipline_fb_better",
+                "name": "surveydiscipline fb better"
+              },
+              "type": "set_contact_field",
+              "uuid": "c2cb9746-b3d7-4100-9667-b9fd3560ad10",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "surveypositive_fb_better",
+                "name": "surveypositive fb better"
+              },
+              "type": "set_contact_field",
+              "uuid": "c7785390-083a-405f-a1b5-382c0a2c20d5",
+              "value": "-1"
+            },
+            {
+              "field": {
+                "key": "surveysexual_fb_better",
+                "name": "surveysexual fb better"
+              },
+              "type": "set_contact_field",
+              "uuid": "66b0e09c-0f89-4813-b493-dde0e1861a43",
+              "value": "-1"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "db7cdb52-f88f-4963-b134-d98916e870d7",
+              "uuid": "96407c39-f379-430a-97cd-190d3c8fe01d"
+            }
+          ],
+          "uuid": "e9c88687-dc83-439c-a75c-106cb9efb26e"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "has_expired",
+                "name": "has expired"
+              },
+              "type": "set_contact_field",
+              "uuid": "7b838578-168c-4912-9103-3cf08a478bfe",
+              "value": ""
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "0f7e9684-e561-46e3-88a9-dcc9b3f43853",
+              "uuid": "cb8e7625-dd99-49cf-9d34-6167f4525ab8"
+            }
+          ],
+          "uuid": "ade47df7-0201-4c6e-a89b-1e19dcfbb409"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "survey_ipv_talk_worries",
+                "name": "survey ipv talk worries"
+              },
+              "type": "set_contact_field",
+              "uuid": "29c21536-455b-409a-9791-fe2088d90196",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "survey_ipv_decision",
+                "name": "survey ipv decision"
+              },
+              "type": "set_contact_field",
+              "uuid": "b0565982-9623-4d93-9ff9-aed614338fa6",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "survey_ipv_housework",
+                "name": "survey ipv housework"
+              },
+              "type": "set_contact_field",
+              "uuid": "d21088e6-1360-4cee-a34d-d44a3b772302",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "survey_ipv_respect_disag",
+                "name": "survey ipv respect disag"
+              },
+              "type": "set_contact_field",
+              "uuid": "9f4fe437-67ad-4ca6-9659-e4840bd344e1",
+              "value": ""
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "448aa279-9972-4d34-af49-24bc01059359",
+              "uuid": "cb800724-7108-4cea-85c4-5cd44d8bc9da"
+            }
+          ],
+          "uuid": "564653de-f76b-428a-be04-4b44c1cd6a9b"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "week_toolkit_incompletes",
+                "name": "week toolkit incompletes"
+              },
+              "type": "set_contact_field",
+              "uuid": "ec420afa-51fe-4359-a8a0-9346eaca2f15",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "incomplete_toolkit_history",
+                "name": "incomplete toolkit history"
+              },
+              "type": "set_contact_field",
+              "uuid": "15dd7cd3-b577-4b5f-ac0d-36a7e592c27d",
+              "value": ""
+            },
+            {
+              "field": {
+                "key": "incomplete_toolkit",
+                "name": "incomplete toolkit"
+              },
+              "type": "set_contact_field",
+              "uuid": "c2f7471c-1878-47d1-82c0-88ec123e2338",
+              "value": ""
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "ade47df7-0201-4c6e-a89b-1e19dcfbb409",
+              "uuid": "5b6b6e00-970d-4611-af6a-87efabd400ec"
+            }
+          ],
+          "uuid": "1f79fd0b-64a5-4df3-bd77-b5f0b5cc9a6f"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "n_skills",
+                "name": "n skills"
+              },
+              "type": "set_contact_field",
+              "uuid": "fe8deed2-ea23-418f-84ac-56a7666019ca",
+              "value": "0"
+            },
+            {
+              "field": {
+                "key": "family_type",
+                "name": "family type"
+              },
+              "type": "set_contact_field",
+              "uuid": "7962e30a-fe85-4b38-99c3-b2f3f038419c",
+              "value": "normal"
+            },
+            {
+              "field": {
+                "key": "house_type",
+                "name": "house type"
+              },
+              "type": "set_contact_field",
+              "uuid": "3cbf07f2-617b-4cac-8195-b480183ce139",
+              "value": "european"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "f44f5345-8c56-4cef-838d-c26925833f0e",
+              "uuid": "25909b1b-7c27-4ab5-be88-dfeef0f9f260"
+            }
+          ],
+          "uuid": "0f7e9684-e561-46e3-88a9-dcc9b3f43853"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "f1d2ce0f-7e42-4c59-9268-72ed444281d0",
+              "uuid": "86933c7f-b487-4e70-b7d0-ca27752050a6"
+            },
+            {
+              "destination_uuid": "f1d2ce0f-7e42-4c59-9268-72ed444281d0",
+              "uuid": "2154e31d-029a-4182-a395-512f8f54d186"
+            },
+            {
+              "destination_uuid": "3c933fc3-868d-4dc2-955f-0affe4710717",
+              "uuid": "bb4d73c0-0eb8-4e1d-964b-41bcc9278f1d"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "feae070a-3e70-46f1-9313-6aa33a95b5a8",
+                  "ABTest_test-gamification_Default"
+                ],
+                "category_uuid": "5da99a75-2188-4491-afdf-bc66b6942311",
+                "type": "has_group",
+                "uuid": "292290e9-38b1-4d5c-bcd2-314cdc8cfec2"
+              },
+              {
+                "arguments": [
+                  "6242b930-ccfc-4b19-b7f7-f14cb2e23375",
+                  "ABTest_test-gamification_alternative"
+                ],
+                "category_uuid": "88cf2902-caec-4cdf-b835-61e7a40aab79",
+                "type": "has_group",
+                "uuid": "7c6b96a0-51c2-41da-9070-17423ba85af6"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "86933c7f-b487-4e70-b7d0-ca27752050a6",
+                "name": "ABTest_test-gamification_Default",
+                "uuid": "5da99a75-2188-4491-afdf-bc66b6942311"
+              },
+              {
+                "exit_uuid": "2154e31d-029a-4182-a395-512f8f54d186",
+                "name": "ABTest_test-gamification_alternative",
+                "uuid": "88cf2902-caec-4cdf-b835-61e7a40aab79"
+              },
+              {
+                "exit_uuid": "bb4d73c0-0eb8-4e1d-964b-41bcc9278f1d",
+                "name": "Other",
+                "uuid": "f9500946-b6a6-4468-8f72-9a6470ccdd48"
+              }
+            ],
+            "default_category_uuid": "f9500946-b6a6-4468-8f72-9a6470ccdd48",
+            "operand": "@contact.groups",
+            "result_name": "",
+            "type": "switch"
+          },
+          "uuid": "d39cb9c5-53fa-4322-8cd7-a3474e57c657"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "37e4c3a5-1df4-44f7-b14e-8186668a1d00",
+              "uuid": "3efaf8eb-e707-4090-83c8-e73a0a4987b4"
+            },
+            {
+              "destination_uuid": "37e4c3a5-1df4-44f7-b14e-8186668a1d00",
+              "uuid": "8a45feaf-9d03-4324-9cc8-071f02fef74c"
+            },
+            {
+              "destination_uuid": "d4394f9e-bf62-4cf0-82ff-b7db7799a37a",
+              "uuid": "1e786673-4239-4ec1-993b-b0c30991c792"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "8297ec4c-a9f4-493b-90c3-5efd36a63dbf",
+                  "ABTest_test-first-person_Default"
+                ],
+                "category_uuid": "7dfcb16c-63d5-4e2d-8cb3-0e5e12de0a60",
+                "type": "has_group",
+                "uuid": "43abd3fc-32df-48dd-8a43-cabe83c109ce"
+              },
+              {
+                "arguments": [
+                  "84992b23-f060-4671-9e01-9e41cd56ea39",
+                  "ABTest_test-first-person_alternative"
+                ],
+                "category_uuid": "6f561cce-10cc-46f7-a5f3-32696fa89678",
+                "type": "has_group",
+                "uuid": "ab3cd99b-ae24-4602-813f-7181020260d7"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "3efaf8eb-e707-4090-83c8-e73a0a4987b4",
+                "name": "ABTest_test-first-person_Default",
+                "uuid": "7dfcb16c-63d5-4e2d-8cb3-0e5e12de0a60"
+              },
+              {
+                "exit_uuid": "8a45feaf-9d03-4324-9cc8-071f02fef74c",
+                "name": "ABTest_test-first-person_alternative",
+                "uuid": "6f561cce-10cc-46f7-a5f3-32696fa89678"
+              },
+              {
+                "exit_uuid": "1e786673-4239-4ec1-993b-b0c30991c792",
+                "name": "Other",
+                "uuid": "7bee0e29-6aa8-4b55-94bd-aa69ddf1f9a5"
+              }
+            ],
+            "default_category_uuid": "7bee0e29-6aa8-4b55-94bd-aa69ddf1f9a5",
+            "operand": "@contact.groups",
+            "result_name": "",
+            "type": "switch"
+          },
+          "uuid": "f1d2ce0f-7e42-4c59-9268-72ed444281d0"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "get_ipv_content",
+                "name": "get ipv content"
+              },
+              "type": "set_contact_field",
+              "uuid": "4fa203e8-3084-4b66-91cf-a6f8f5d66ba4",
+              "value": ""
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "645bf287-4200-472a-8357-d61c75012839",
+              "uuid": "c247827f-58be-46b1-9f5f-55b32f6d75fe"
+            }
+          ],
+          "uuid": "aa05ca28-7e0f-402e-8977-8699d957d548"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "64538eab-fbe4-4a49-b59d-54ac1cef815e",
+              "uuid": "7b0ad973-e5e6-4d07-97c8-8ed9718d48ba"
+            },
+            {
+              "destination_uuid": "0426859a-b583-4189-b31c-7c3ab1d34d3c",
+              "uuid": "f96d23c3-948a-4f2c-936e-475fe2a07393"
+            }
+          ],
+          "router": {
+            "categories": [
+              {
+                "exit_uuid": "7b0ad973-e5e6-4d07-97c8-8ed9718d48ba",
+                "name": "ABTest_test-first-person_Default",
+                "uuid": "c51efb89-4572-45bd-9256-1073d20ab5dd"
+              },
+              {
+                "exit_uuid": "f96d23c3-948a-4f2c-936e-475fe2a07393",
+                "name": "ABTest_test-first-person_alternative",
+                "uuid": "b5e0e256-29c1-4e85-8096-ceccdecf7736"
+              }
+            ],
+            "type": "random"
+          },
+          "uuid": "d4394f9e-bf62-4cf0-82ff-b7db7799a37a"
+        },
+        {
+          "actions": [
+            {
+              "type": "add_contact_groups",
+              "groups": [
+                {
+                  "uuid": "6242b930-ccfc-4b19-b7f7-f14cb2e23375",
+                  "name": "ABTest_test-gamification_alternative"
+                }
+              ],
+              "uuid": "910f7227-6417-488c-a4f4-22dba9d8d139"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "f1d2ce0f-7e42-4c59-9268-72ed444281d0",
+              "uuid": "fad40f56-508d-4cbf-92ab-1b2e8c98ec32"
+            }
+          ],
+          "uuid": "95301079-c49f-4b8b-954b-9ab7283d7c84"
+        },
+        {
+          "actions": [
+            {
+              "groups": [
+                {
+                  "name": "ABTest_test-first-person_alternative",
+                  "uuid": "84992b23-f060-4671-9e01-9e41cd56ea39"
+                }
+              ],
+              "type": "add_contact_groups",
+              "uuid": "63cb2990-a026-4535-aa49-bdc549c65f41"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "37e4c3a5-1df4-44f7-b14e-8186668a1d00",
+              "uuid": "0226c326-19ad-4392-89a5-f29f80b245b1"
+            }
+          ],
+          "uuid": "0426859a-b583-4189-b31c-7c3ab1d34d3c"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "uncaught_message",
+                "name": "UNCAUGHT MESSAGE"
+              },
+              "type": "set_contact_field",
+              "uuid": "08685869-adf2-4f56-be78-6c048f13b2b5",
+              "value": "0"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "d39cb9c5-53fa-4322-8cd7-a3474e57c657",
+              "uuid": "1087143b-20c7-4636-8424-e818cb9f2116"
+            }
+          ],
+          "uuid": "645bf287-4200-472a-8357-d61c75012839"
+        },
+        {
+          "actions": [
+            {
+              "groups": [
+                {
+                  "name": "ABTest_test-gamification_alternative",
+                  "uuid": "6242b930-ccfc-4b19-b7f7-f14cb2e23375"
+                }
+              ],
+              "type": "add_contact_groups",
+              "uuid": "59d35a50-1932-4c6b-8489-b996ea482f87"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "f1d2ce0f-7e42-4c59-9268-72ed444281d0",
+              "uuid": "b0e7a443-3ac0-479f-8b60-b45ac5ccdb54"
+            }
+          ],
+          "uuid": "5d983954-5463-4df0-9132-e29dd5bf5282"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "95301079-c49f-4b8b-954b-9ab7283d7c84",
+              "uuid": "57caf281-986b-41a7-9470-a65ed0aa18fb"
+            },
+            {
+              "destination_uuid": "5d983954-5463-4df0-9132-e29dd5bf5282",
+              "uuid": "f78d4e90-55e0-467d-928e-5418f6976a01"
+            }
+          ],
+          "router": {
+            "categories": [
+              {
+                "exit_uuid": "57caf281-986b-41a7-9470-a65ed0aa18fb",
+                "name": "ABTest_test-gamification_Default",
+                "uuid": "9553e8e3-a4e7-4692-bd70-715f370a696e"
+              },
+              {
+                "exit_uuid": "f78d4e90-55e0-467d-928e-5418f6976a01",
+                "name": "ABTest_test-gamification_alternative",
+                "uuid": "b3f43cac-ce2b-453a-b6f8-99567e473245"
+              }
+            ],
+            "type": "random"
+          },
+          "uuid": "3c933fc3-868d-4dc2-955f-0affe4710717"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "55c833b8-eef8-4d5c-bfb5-281108830c59",
+              "uuid": "8c21bc93-f59c-4f63-ac4b-8cfe1d9c7ed4"
+            },
+            {
+              "destination_uuid": "55c833b8-eef8-4d5c-bfb5-281108830c59",
+              "uuid": "5f17b66c-500c-4ff5-b7ab-3faa5df1c658"
+            },
+            {
+              "destination_uuid": "233fe525-24dc-4f72-b265-69925d3b4b1a",
+              "uuid": "b9b3bf41-7bfd-4bc6-8e07-43c2c57da26a"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "de732bba-688c-45ca-9551-30e56a197701",
+                  "ABTest_test-personalisation_Default"
+                ],
+                "category_uuid": "6f05f1c8-0612-4cbc-ba47-dcccb9d48fb1",
+                "type": "has_group",
+                "uuid": "6ae59fb5-868e-4c2a-b29e-5219825cee22"
+              },
+              {
+                "arguments": [
+                  "5222ea54-93ab-4862-a528-10ad8592327a",
+                  "ABTest_test-personalisation_alternative"
+                ],
+                "category_uuid": "3839c54e-7b01-4869-bbfd-cb6dfd43c382",
+                "type": "has_group",
+                "uuid": "273eaf4f-a750-4ef1-9456-b5de95366023"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "8c21bc93-f59c-4f63-ac4b-8cfe1d9c7ed4",
+                "name": "ABTest_test-personalisation_Default",
+                "uuid": "6f05f1c8-0612-4cbc-ba47-dcccb9d48fb1"
+              },
+              {
+                "exit_uuid": "5f17b66c-500c-4ff5-b7ab-3faa5df1c658",
+                "name": "ABTest_test-personalisation_alternative",
+                "uuid": "3839c54e-7b01-4869-bbfd-cb6dfd43c382"
+              },
+              {
+                "exit_uuid": "b9b3bf41-7bfd-4bc6-8e07-43c2c57da26a",
+                "name": "Other",
+                "uuid": "c48c559b-532b-4984-af46-892af5a00da2"
+              }
+            ],
+            "default_category_uuid": "c48c559b-532b-4984-af46-892af5a00da2",
+            "operand": "@contact.groups",
+            "result_name": "",
+            "type": "switch"
+          },
+          "uuid": "37e4c3a5-1df4-44f7-b14e-8186668a1d00"
+        },
+        {
+          "actions": [
+            {
+              "type": "add_contact_groups",
+              "groups": [
+                {
+                  "uuid": "de732bba-688c-45ca-9551-30e56a197701",
+                  "name": "ABTest_test-personalisation_Default"
+                }
+              ],
+              "uuid": "24023377-e5d5-4fb4-88db-88e45d3c12ef"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "55c833b8-eef8-4d5c-bfb5-281108830c59",
+              "uuid": "bbfe55fa-0170-44aa-bf7d-3b2bf06179f7"
+            }
+          ],
+          "uuid": "0134dd1f-5f70-4b46-a4a3-100d5023f8f1"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "PLH - Internal - Define attachments paths",
+                "uuid": "948b4ce9-598c-4479-aa07-efe787c22399"
+              },
+              "type": "enter_flow",
+              "uuid": "14b164a1-985a-47d0-881c-a39e63f50947"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "aa05ca28-7e0f-402e-8977-8699d957d548",
+              "uuid": "3f98e45e-3206-4d2d-8a82-9b8036287c4b"
+            },
+            {
+              "destination_uuid": "aa05ca28-7e0f-402e-8977-8699d957d548",
+              "uuid": "8c0a2379-c4b3-4ec3-83a4-bc5adf367049"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "786b0feb-54c4-4b6b-9bff-41a111e2e9f0",
+                "type": "has_only_text",
+                "uuid": "d5492837-bd15-4714-9b75-a5a236620065"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "125d7f99-0a2d-4586-9d2b-0db6b315ccb0",
+                "type": "has_only_text",
+                "uuid": "48840bbd-7c89-400a-a160-1d896d1532d9"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "3f98e45e-3206-4d2d-8a82-9b8036287c4b",
+                "name": "Complete",
+                "uuid": "786b0feb-54c4-4b6b-9bff-41a111e2e9f0"
+              },
+              {
+                "exit_uuid": "8c0a2379-c4b3-4ec3-83a4-bc5adf367049",
+                "name": "Expired",
+                "uuid": "125d7f99-0a2d-4586-9d2b-0db6b315ccb0"
+              }
+            ],
+            "default_category_uuid": "125d7f99-0a2d-4586-9d2b-0db6b315ccb0",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "f44f5345-8c56-4cef-838d-c26925833f0e"
+        },
+        {
+          "actions": [
+            {
+              "type": "add_contact_groups",
+              "groups": [
+                {
+                  "uuid": "ef73aca7-95dd-433b-8b39-6e34573e0efb",
+                  "name": "ABTest_test-exit_alternative"
+                }
+              ],
+              "uuid": "544ce790-a3a9-4ffe-ade8-488192b8e9f7"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "37e4c3a5-1df4-44f7-b14e-8186668a1d00",
+              "uuid": "f44fdc5c-e532-4396-9e77-e05b0fa15672"
+            }
+          ],
+          "uuid": "64538eab-fbe4-4a49-b59d-54ac1cef815e"
+        },
+        {
+          "actions": [
+            {
+              "type": "add_contact_groups",
+              "groups": [
+                {
+                  "uuid": "de732bba-688c-45ca-9551-30e56a197701",
+                  "name": "ABTest_test-personalisation_Default"
+                }
+              ],
+              "uuid": "c1243d2e-bac1-4af2-9a5b-fae00bc86795"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "55c833b8-eef8-4d5c-bfb5-281108830c59",
+              "uuid": "0302e9ba-bd67-4922-8dc5-a61f4b57e8ab"
+            }
+          ],
+          "uuid": "98f5fcf9-7297-49f7-86d6-3f19d340ada7"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "b1dd9ac2-e544-4cbd-a5bb-ca0f36420153",
+              "uuid": "c245e01d-72e0-4799-8094-b96079616b70"
+            },
+            {
+              "destination_uuid": "ccf5191f-0bd8-412b-9d18-a220914290cf",
+              "uuid": "b6be3936-ce46-4d22-93da-7df7048e85b3"
+            }
+          ],
+          "router": {
+            "categories": [
+              {
+                "exit_uuid": "c245e01d-72e0-4799-8094-b96079616b70",
+                "name": "ABTest_test-exit_Default",
+                "uuid": "5b58ebb9-e039-46a4-bd55-422ad5876608"
+              },
+              {
+                "exit_uuid": "b6be3936-ce46-4d22-93da-7df7048e85b3",
+                "name": "ABTest_test-exit_alternative",
+                "uuid": "0347b2cc-e0b5-4c7a-9028-c0a0d1cd3c54"
+              }
+            ],
+            "type": "random"
+          },
+          "uuid": "b757f1fd-25db-4ce0-98dc-7155ed49df00"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "98f5fcf9-7297-49f7-86d6-3f19d340ada7",
+              "uuid": "195b58fa-df2f-4e89-89e4-624feb842a17"
+            },
+            {
+              "destination_uuid": "0134dd1f-5f70-4b46-a4a3-100d5023f8f1",
+              "uuid": "315b5d0b-a6b2-4eff-911c-137b3d4889c3"
+            }
+          ],
+          "router": {
+            "categories": [
+              {
+                "exit_uuid": "195b58fa-df2f-4e89-89e4-624feb842a17",
+                "name": "ABTest_test-personalisation_Default",
+                "uuid": "c14347ca-7ad2-4ada-b7da-730bc5b9d07b"
+              },
+              {
+                "exit_uuid": "315b5d0b-a6b2-4eff-911c-137b3d4889c3",
+                "name": "ABTest_test-personalisation_alternative",
+                "uuid": "12816a82-c4ad-4ce6-8bf3-2fd0661d185e"
+              }
+            ],
+            "type": "random"
+          },
+          "uuid": "233fe525-24dc-4f72-b265-69925d3b4b1a"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "1aa51614-83b9-4330-91a6-4521360e1508",
+              "uuid": "180c6ac4-d4f6-45e9-8905-95881e72d0eb"
+            },
+            {
+              "destination_uuid": "1aa51614-83b9-4330-91a6-4521360e1508",
+              "uuid": "f4afcaee-a1d7-467c-9386-069ea6a3a7aa"
+            },
+            {
+              "destination_uuid": "7be206ff-a4c5-4633-ae63-86ec4161adc4",
+              "uuid": "aed3717e-e9ab-4309-a93b-3c6a08113785"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "00fd0ddf-114b-4a38-a9fa-64b8e68a2b84",
+                  "ABTest_test-hook_Default"
+                ],
+                "category_uuid": "70f5e09b-a63d-4771-a29f-1798d1238efd",
+                "type": "has_group",
+                "uuid": "262f4ab2-3f32-4dcf-a551-88b8acd311ba"
+              },
+              {
+                "arguments": [
+                  "d313cc71-29df-4beb-935c-cd4d785b328d",
+                  "ABTest_test-hook_alternative"
+                ],
+                "category_uuid": "a66ec380-81ef-408c-801c-f75ea700c864",
+                "type": "has_group",
+                "uuid": "86abf23e-bc2b-4478-93ae-7016d02bf967"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "180c6ac4-d4f6-45e9-8905-95881e72d0eb",
+                "name": "ABTest_test-hook_Default",
+                "uuid": "70f5e09b-a63d-4771-a29f-1798d1238efd"
+              },
+              {
+                "exit_uuid": "f4afcaee-a1d7-467c-9386-069ea6a3a7aa",
+                "name": "ABTest_test-hook_alternative",
+                "uuid": "a66ec380-81ef-408c-801c-f75ea700c864"
+              },
+              {
+                "exit_uuid": "aed3717e-e9ab-4309-a93b-3c6a08113785",
+                "name": "Other",
+                "uuid": "233ffe3e-40bd-4a0d-a668-83c63666429d"
+              }
+            ],
+            "default_category_uuid": "233ffe3e-40bd-4a0d-a668-83c63666429d",
+            "operand": "@contact.groups",
+            "result_name": "",
+            "type": "switch"
+          },
+          "uuid": "26195058-431d-44fc-8cdc-019355ef7ade"
+        },
+        {
+          "actions": [
+            {
+              "groups": [
+                {
+                  "name": "ABTest_test-exit_alternative",
+                  "uuid": "ef73aca7-95dd-433b-8b39-6e34573e0efb"
+                }
+              ],
+              "type": "add_contact_groups",
+              "uuid": "1b163231-2a82-4e83-a286-11d246f35f4d"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "26195058-431d-44fc-8cdc-019355ef7ade",
+              "uuid": "7e7ce6fc-6fea-4fad-8dff-b66594842958"
+            }
+          ],
+          "uuid": "ccf5191f-0bd8-412b-9d18-a220914290cf"
+        },
+        {
+          "actions": [
+            {
+              "groups": [
+                {
+                  "name": "ABTest_test-exit_Default",
+                  "uuid": "9f84981e-6a5f-4d6d-baaa-2bef0b98279f"
+                }
+              ],
+              "type": "add_contact_groups",
+              "uuid": "dfb7bd93-0c2d-4209-bd8b-4fdfeaccd038"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "26195058-431d-44fc-8cdc-019355ef7ade",
+              "uuid": "5eaf165e-6264-478c-8713-768d05d364aa"
+            }
+          ],
+          "uuid": "b1dd9ac2-e544-4cbd-a5bb-ca0f36420153"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "625cd54f-b709-4dc3-81ba-14de373318f0",
+              "uuid": "f86034b5-00aa-4cf1-a544-76086637f034"
+            },
+            {
+              "destination_uuid": "e41ee2a3-5a4d-4a6e-9c9d-07c389674792",
+              "uuid": "a93ddce4-3f40-4b49-892e-e2856b951d3e"
+            }
+          ],
+          "router": {
+            "categories": [
+              {
+                "exit_uuid": "f86034b5-00aa-4cf1-a544-76086637f034",
+                "name": "ABTest_test-hook_Default",
+                "uuid": "c90edfab-1d25-48ca-8d5c-55420005b6ca"
+              },
+              {
+                "exit_uuid": "a93ddce4-3f40-4b49-892e-e2856b951d3e",
+                "name": "ABTest_test-hook_alternative",
+                "uuid": "c3b6d226-1d62-4472-bbf1-b236d0479d11"
+              }
+            ],
+            "type": "random"
+          },
+          "uuid": "7be206ff-a4c5-4633-ae63-86ec4161adc4"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "26195058-431d-44fc-8cdc-019355ef7ade",
+              "uuid": "679d558e-76d5-4068-9e01-abbc123a606d"
+            },
+            {
+              "destination_uuid": "26195058-431d-44fc-8cdc-019355ef7ade",
+              "uuid": "85591d04-9e54-43c5-a531-a5b28713c6e9"
+            },
+            {
+              "destination_uuid": "b757f1fd-25db-4ce0-98dc-7155ed49df00",
+              "uuid": "bedd60e6-e3f7-410c-bd4e-f00e1df5b79f"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "9f84981e-6a5f-4d6d-baaa-2bef0b98279f",
+                  "ABTest_test-exit_Default"
+                ],
+                "category_uuid": "8c2a6159-b4b1-4150-b08d-70e97809378c",
+                "type": "has_group",
+                "uuid": "b47af801-c90b-4e9e-82d2-fc8c8670a4e6"
+              },
+              {
+                "arguments": [
+                  "ef73aca7-95dd-433b-8b39-6e34573e0efb",
+                  "ABTest_test-exit_alternative"
+                ],
+                "category_uuid": "8c66ac10-0af8-473a-a76f-a60e4ebe3633",
+                "type": "has_group",
+                "uuid": "213cdf48-61a7-43c2-bb78-1ed963dfec06"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "679d558e-76d5-4068-9e01-abbc123a606d",
+                "name": "ABTest_test-exit_Default",
+                "uuid": "8c2a6159-b4b1-4150-b08d-70e97809378c"
+              },
+              {
+                "exit_uuid": "85591d04-9e54-43c5-a531-a5b28713c6e9",
+                "name": "ABTest_test-exit_alternative",
+                "uuid": "8c66ac10-0af8-473a-a76f-a60e4ebe3633"
+              },
+              {
+                "exit_uuid": "bedd60e6-e3f7-410c-bd4e-f00e1df5b79f",
+                "name": "Other",
+                "uuid": "ef3cea48-3213-44a3-b876-e78251fb44fc"
+              }
+            ],
+            "default_category_uuid": "ef3cea48-3213-44a3-b876-e78251fb44fc",
+            "operand": "@contact.groups",
+            "result_name": "",
+            "type": "switch"
+          },
+          "uuid": "55c833b8-eef8-4d5c-bfb5-281108830c59"
+        },
+        {
+          "actions": [
+            {
+              "groups": [
+                {
+                  "name": "ABTest_test-hook_Default",
+                  "uuid": "00fd0ddf-114b-4a38-a9fa-64b8e68a2b84"
+                }
+              ],
+              "type": "add_contact_groups",
+              "uuid": "c93d570e-1fe6-4251-ba43-5aa543b4c307"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "1aa51614-83b9-4330-91a6-4521360e1508",
+              "uuid": "9c39954d-da03-4658-b3b9-59abb4b70c41"
+            }
+          ],
+          "uuid": "625cd54f-b709-4dc3-81ba-14de373318f0"
+        },
+        {
+          "actions": [
+            {
+              "groups": [
+                {
+                  "name": "ABTest_test-hook_alternative",
+                  "uuid": "d313cc71-29df-4beb-935c-cd4d785b328d"
+                }
+              ],
+              "type": "add_contact_groups",
+              "uuid": "10d9cf46-0e94-49aa-831e-a4e5ec40ffad"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "1aa51614-83b9-4330-91a6-4521360e1508",
+              "uuid": "ac194b49-4a53-42dd-a084-563936657223"
+            }
+          ],
+          "uuid": "e41ee2a3-5a4d-4a6e-9c9d-07c389674792"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "node_for_ab_tests",
+                "name": "node for ab tests"
+              },
+              "type": "set_contact_field",
+              "uuid": "0b14a9a5-ff56-4c30-a64d-7532ec03e584",
+              "value": "test"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "c205cec0-362b-47a3-a520-3a31061f00a4"
+            }
+          ],
+          "uuid": "1aa51614-83b9-4330-91a6-4521360e1508"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "fd119425-b83e-4711-a9bb-be610170a2dc",
+      "revision": 10
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [
+    {
+      "key": "age_group_for_tips",
+      "name": "age group for tips",
+      "type": "text"
+    },
+    {
+      "key": "calm_praise_supportive_counter",
+      "name": "calm praise supportive counter",
+      "type": "text"
+    },
+    {
+      "key": "chatbot_name",
+      "name": "chatbot name",
+      "type": "text"
+    },
+    {
+      "key": "chatbot_name_female",
+      "name": "chatbot name female",
+      "type": "text"
+    },
+    {
+      "key": "chatbot_name_male",
+      "name": "chatbot name male",
+      "type": "text"
+    },
+    {
+      "key": "child_nickname",
+      "name": "child nickname",
+      "type": "text"
+    },
+    {
+      "key": "current_day_in_program",
+      "name": "current day in program",
+      "type": "text"
+    },
+    {
+      "key": "current_week_in_program",
+      "name": "current week in program",
+      "type": "text"
+    },
+    {
+      "key": "deployment",
+      "name": "deployment",
+      "type": "text"
+    },
+    {
+      "key": "enrollment",
+      "name": "enrollment",
+      "type": "text"
+    },
+    {
+      "key": "evening_counter",
+      "name": "evening counter",
+      "type": "text"
+    },
+    {
+      "key": "evening_days_to_add",
+      "name": "evening days to add",
+      "type": "text"
+    },
+    {
+      "key": "evening_excluded_days",
+      "name": "evening excluded days",
+      "type": "text"
+    },
+    {
+      "key": "evening_frequency_counter",
+      "name": "evening frequency counter",
+      "type": "text"
+    },
+    {
+      "key": "evening_supportive_counter",
+      "name": "evening supportive counter",
+      "type": "text"
+    },
+    {
+      "key": "evening_time_of_day",
+      "name": "evening time of day",
+      "type": "text"
+    },
+    {
+      "key": "family_type",
+      "name": "family type",
+      "type": "text"
+    },
+    {
+      "key": "feedback_storage",
+      "name": "feedback storage",
+      "type": "text"
+    },
+    {
+      "key": "frequency",
+      "name": "frequency",
+      "type": "text"
+    },
+    {
+      "key": "get_ipv_content",
+      "name": "get ipv content",
+      "type": "text"
+    },
+    {
+      "key": "has_expired",
+      "name": "has expired",
+      "type": "text"
+    },
+    {
+      "key": "house_type",
+      "name": "house type",
+      "type": "text"
+    },
+    {
+      "key": "incomplete_toolkit",
+      "name": "incomplete toolkit",
+      "type": "text"
+    },
+    {
+      "key": "incomplete_toolkit_history",
+      "name": "incomplete toolkit history",
+      "type": "text"
+    },
+    {
+      "key": "ipv_checkin_counter",
+      "name": "ipv checkin counter",
+      "type": "text"
+    },
+    {
+      "key": "know_age_group_for_tips",
+      "name": "know age group for tips",
+      "type": "text"
+    },
+    {
+      "key": "know_children_age_groups",
+      "name": "know children age groups",
+      "type": "text"
+    },
+    {
+      "key": "know_difficult_child",
+      "name": "know difficult child",
+      "type": "text"
+    },
+    {
+      "key": "last_entered_survey",
+      "name": "last entered survey",
+      "type": "text"
+    },
+    {
+      "key": "main_checkin_counter",
+      "name": "main checkin counter",
+      "type": "text"
+    },
+    {
+      "key": "main_counter",
+      "name": "main counter",
+      "type": "text"
+    },
+    {
+      "key": "main_days_to_add",
+      "name": "main days to add",
+      "type": "text"
+    },
+    {
+      "key": "main_excluded_days",
+      "name": "main excluded days",
+      "type": "text"
+    },
+    {
+      "key": "main_frequency_counter",
+      "name": "main frequency counter",
+      "type": "text"
+    },
+    {
+      "key": "main_supportive_counter",
+      "name": "main supportive counter",
+      "type": "text"
+    },
+    {
+      "key": "main_time_of_day",
+      "name": "main time of day",
+      "type": "text"
+    },
+    {
+      "key": "marital_status",
+      "name": "marital status",
+      "type": "text"
+    },
+    {
+      "key": "max_skip_survey",
+      "name": "max skip survey",
+      "type": "text"
+    },
+    {
+      "key": "morning_counter",
+      "name": "morning counter",
+      "type": "text"
+    },
+    {
+      "key": "morning_days_to_add",
+      "name": "morning days to add",
+      "type": "text"
+    },
+    {
+      "key": "morning_excluded_days",
+      "name": "morning excluded days",
+      "type": "text"
+    },
+    {
+      "key": "morning_frequency_counter",
+      "name": "morning frequency counter",
+      "type": "text"
+    },
+    {
+      "key": "morning_supportive_counter",
+      "name": "morning supportive counter",
+      "type": "text"
+    },
+    {
+      "key": "morning_time_of_day",
+      "name": "morning time of day",
+      "type": "text"
+    },
+    {
+      "key": "n_skills",
+      "name": "n skills",
+      "type": "text"
+    },
+    {
+      "key": "next_congrats_day",
+      "name": "next congrats day",
+      "type": "text"
+    },
+    {
+      "key": "next_tip_evening",
+      "name": "next tip evening",
+      "type": "text"
+    },
+    {
+      "key": "next_tip_main",
+      "name": "next tip main",
+      "type": "text"
+    },
+    {
+      "key": "next_tip_morning",
+      "name": "next tip morning",
+      "type": "text"
+    },
+    {
+      "key": "node_for_ab_tests",
+      "name": "node for ab tests",
+      "type": "text"
+    },
+    {
+      "key": "parent_baby",
+      "name": "parent baby",
+      "type": "text"
+    },
+    {
+      "key": "parent_teenager",
+      "name": "parent teenager",
+      "type": "text"
+    },
+    {
+      "key": "parent_young_child",
+      "name": "parent young child",
+      "type": "text"
+    },
+    {
+      "key": "periodic_congrats_days_to_add",
+      "name": "periodic congrats days to add",
+      "type": "text"
+    },
+    {
+      "key": "periodic_survey_days_to_add",
+      "name": "periodic survey days to add",
+      "type": "text"
+    },
+    {
+      "key": "program_version",
+      "name": "program version",
+      "type": "text"
+    },
+    {
+      "key": "starting_date",
+      "name": "starting date",
+      "type": "text"
+    },
+    {
+      "key": "survey_behave_count",
+      "name": "survey behave count",
+      "type": "text"
+    },
+    {
+      "key": "survey_covid_count",
+      "name": "survey covid count",
+      "type": "text"
+    },
+    {
+      "key": "survey_ipv_count",
+      "name": "survey ipv count",
+      "type": "text"
+    },
+    {
+      "key": "survey_ipv_decision",
+      "name": "survey ipv decision",
+      "type": "text"
+    },
+    {
+      "key": "survey_ipv_housework",
+      "name": "survey ipv housework",
+      "type": "text"
+    },
+    {
+      "key": "survey_ipv_respect_disag",
+      "name": "survey ipv respect disag",
+      "type": "text"
+    },
+    {
+      "key": "survey_ipv_talk_worries",
+      "name": "survey ipv talk worries",
+      "type": "text"
+    },
+    {
+      "key": "survey_parenting_count",
+      "name": "survey parenting count",
+      "type": "text"
+    },
+    {
+      "key": "survey_parentingbehave_count",
+      "name": "survey parentingbehave count",
+      "type": "text"
+    },
+    {
+      "key": "surveybehave_challenge",
+      "name": "surveybehave challenge",
+      "type": "text"
+    },
+    {
+      "key": "surveybehave_difficult_behaviuour",
+      "name": "surveybehave difficult behaviuour",
+      "type": "text"
+    },
+    {
+      "key": "surveybehave_rate",
+      "name": "surveybehave rate",
+      "type": "text"
+    },
+    {
+      "key": "surveycovid",
+      "name": "surveyCOVID",
+      "type": "text"
+    },
+    {
+      "key": "surveydiscipline",
+      "name": "surveydiscipline",
+      "type": "text"
+    },
+    {
+      "key": "surveydiscipline_fb_better",
+      "name": "surveydiscipline fb better",
+      "type": "text"
+    },
+    {
+      "key": "surveydiscipline_fb_worse",
+      "name": "surveydiscipline fb worse",
+      "type": "text"
+    },
+    {
+      "key": "surveymoney_counter",
+      "name": "surveymoney counter",
+      "type": "text"
+    },
+    {
+      "key": "surveymoneymonth",
+      "name": "surveymoneymonth",
+      "type": "text"
+    },
+    {
+      "key": "surveymoneyweek",
+      "name": "surveymoneyweek",
+      "type": "text"
+    },
+    {
+      "key": "surveypositive",
+      "name": "surveypositive",
+      "type": "text"
+    },
+    {
+      "key": "surveypositive_fb_better",
+      "name": "surveypositive fb better",
+      "type": "text"
+    },
+    {
+      "key": "surveypositive_fb_worse",
+      "name": "surveypositive fb worse",
+      "type": "text"
+    },
+    {
+      "key": "surveypraise",
+      "name": "surveypraise",
+      "type": "text"
+    },
+    {
+      "key": "surveypraise_fb_better",
+      "name": "surveypraise fb better",
+      "type": "text"
+    },
+    {
+      "key": "surveypraise_fb_worse",
+      "name": "surveypraise fb worse",
+      "type": "text"
+    },
+    {
+      "key": "surveysexual_fb_better",
+      "name": "surveysexual fb better",
+      "type": "text"
+    },
+    {
+      "key": "surveysexual_fb_worse",
+      "name": "surveysexual fb worse",
+      "type": "text"
+    },
+    {
+      "key": "surveysexualabuse",
+      "name": "surveysexualabuse",
+      "type": "text"
+    },
+    {
+      "key": "surveysexualabusecounter",
+      "name": "surveysexualabusecounter",
+      "type": "text"
+    },
+    {
+      "key": "surveysexualabusetalk",
+      "name": "surveysexualabusetalk",
+      "type": "text"
+    },
+    {
+      "key": "surveyshout",
+      "name": "surveyshout",
+      "type": "text"
+    },
+    {
+      "key": "surveyshout_fb_better",
+      "name": "surveyshout fb better",
+      "type": "text"
+    },
+    {
+      "key": "surveyshout_fb_worse",
+      "name": "surveyshout fb worse",
+      "type": "text"
+    },
+    {
+      "key": "surveystress",
+      "name": "surveystress",
+      "type": "text"
+    },
+    {
+      "key": "surveystress_fb_better",
+      "name": "surveystress fb better",
+      "type": "text"
+    },
+    {
+      "key": "surveystress_fb_worse",
+      "name": "surveystress fb worse",
+      "type": "text"
+    },
+    {
+      "key": "surveytime",
+      "name": "surveytime",
+      "type": "text"
+    },
+    {
+      "key": "surveytime_fb_better",
+      "name": "surveytime fb better",
+      "type": "text"
+    },
+    {
+      "key": "surveytime_fb_worse",
+      "name": "surveytime fb worse",
+      "type": "text"
+    },
+    {
+      "key": "surveytips",
+      "name": "surveytips",
+      "type": "text"
+    },
+    {
+      "key": "toolkit",
+      "name": "toolkit",
+      "type": "text"
+    },
+    {
+      "key": "toolkit_history",
+      "name": "toolkit history",
+      "type": "text"
+    },
+    {
+      "key": "total_tip_days",
+      "name": "total tip days",
+      "type": "text"
+    },
+    {
+      "key": "type_of_media",
+      "name": "type of media",
+      "type": "text"
+    },
+    {
+      "key": "uncaught_message",
+      "name": "UNCAUGHT MESSAGE",
+      "type": "text"
+    },
+    {
+      "key": "week_toolkit",
+      "name": "week toolkit",
+      "type": "text"
+    },
+    {
+      "key": "week_toolkit_incompletes",
+      "name": "week toolkit incompletes",
+      "type": "text"
+    }
+  ],
+  "groups": [
+    {
+      "uuid": "9f84981e-6a5f-4d6d-baaa-2bef0b98279f",
+      "name": "ABTest_test-exit_Default",
+      "query": null
+    },
+    {
+      "uuid": "ef73aca7-95dd-433b-8b39-6e34573e0efb",
+      "name": "ABTest_test-exit_alternative",
+      "query": null
+    },
+    {
+      "uuid": "8297ec4c-a9f4-493b-90c3-5efd36a63dbf",
+      "name": "ABTest_test-first-person_Default",
+      "query": null
+    },
+    {
+      "uuid": "84992b23-f060-4671-9e01-9e41cd56ea39",
+      "name": "ABTest_test-first-person_alternative",
+      "query": null
+    },
+    {
+      "uuid": "feae070a-3e70-46f1-9313-6aa33a95b5a8",
+      "name": "ABTest_test-gamification_Default",
+      "query": null
+    },
+    {
+      "uuid": "6242b930-ccfc-4b19-b7f7-f14cb2e23375",
+      "name": "ABTest_test-gamification_alternative",
+      "query": null
+    },
+    {
+      "uuid": "00fd0ddf-114b-4a38-a9fa-64b8e68a2b84",
+      "name": "ABTest_test-hook_Default",
+      "query": null
+    },
+    {
+      "uuid": "d313cc71-29df-4beb-935c-cd4d785b328d",
+      "name": "ABTest_test-hook_alternative",
+      "query": null
+    },
+    {
+      "uuid": "de732bba-688c-45ca-9551-30e56a197701",
+      "name": "ABTest_test-personalisation_Default",
+      "query": null
+    },
+    {
+      "uuid": "5222ea54-93ab-4862-a528-10ad8592327a",
+      "name": "ABTest_test-personalisation_alternative",
+      "query": null
+    }
+  ]
+}

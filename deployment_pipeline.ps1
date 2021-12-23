@@ -1,6 +1,6 @@
 # step 1: update flow properties
 $source_file_name = "plh-international-flavour"
-$input_path_1 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-international-repo\" + $source_file_name + ".json"
+$input_path_1 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-international-repo\flows\" + $source_file_name + ".json"
 $source_file_name = $source_file_name + "_expire"
 $output_path_1 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-international-repo\temp\" + $source_file_name + ".json"
 node .\idems-chatbot-repo\scripts\update_expiration_time.js $input_path_1 60 $output_path_1
@@ -30,7 +30,7 @@ $output_path_4 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-mala
 $debug_qr_path = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\temp\debug_QR.txt"
 node .\idems-chatbot-repo\scripts\add_quick_replies_to_msg_text.js $input_path_4 $output_path_4 $debug_qr_path
 Write-Output "removed quick replies"
-#>
+
 
 $input_path_4 = $output_path_2
 $source_file_name = $source_file_name + "_no_QR"
@@ -54,7 +54,7 @@ $input_path_6 = $output_path_5
 node .\idems-chatbot-repo\scripts\split_in_multiple_json_files.js $input_path_6
 
 
-
+#>
 
 
 

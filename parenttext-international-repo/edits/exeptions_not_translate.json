@@ -1,0 +1,82 @@
+[{
+    "SourceText": "[URL]",
+    "text": "[URL]",
+    "type": "text"
+  },
+  {
+    "SourceText": "##police referrals##",
+    "text": "##police referrals##",
+    "type": "text"
+  },
+  {
+    "SourceText": "##medical services referrals##",
+    "text": "##medical services referrals##",
+    "type": "text"
+  },
+  {
+    "SourceText": "##fire department referrals##",
+    "text": "##fire department referrals##",
+    "type": "text"
+  },
+  {
+    "SourceText": "##violence referrals##",
+    "text": "##violence referrals##",
+    "type": "text"
+  },
+  {
+    "SourceText": "##mental health referrals##",
+    "text": "##mental health referrals##",
+    "type": "text"
+  },
+  {
+    "SourceText": "##suicide referrals##",
+    "text": "##suicide referrals##",
+    "type": "text"
+  },
+  {
+    "SourceText": "##family referrals##",
+    "text": "##family referrals##",
+    "type": "text"
+  },
+  {
+    "SourceText": "##education referrals##",
+    "text": "##education referrals##",
+    "type": "text"
+  },
+  {
+    "SourceText": "1. English",
+    "text": "1. English",
+    "type": "text"
+  },
+  {
+    "SourceText": "[INSERT LOCAL LINK]",
+    "text": "[INSERT LOCAL LINK]",
+    "type": "text"
+  },
+  {
+    "SourceText": "[INSERT LOCAL UNICEF LINK]",
+    "text": "[INSERT LOCAL UNICEF LINK]",
+    "type": "text"
+  },
+  
+  {
+    "SourceText": "##covid referrals##",
+    "text": "##covid referrals##",
+    "type": "text"
+  },
+  {
+    "SourceText": "*budget support referrals*",
+    "text": "*budget support referrals*",
+    "type": "text"
+  },
+  {
+    "SourceText": "##REFERRALS##",
+    "text": "##REFERRALS##",
+    "type": "text"
+  },
+  {
+    "SourceText": "##Local Covid-19 Hotline##",
+    "text": "##Local Covid-19 Hotline##",
+    "type": "text"
+  }
+]

@@ -1,0 +1,3543 @@
+JSON Processed: C:\Users\fagio\Documents\parenttext-deployment\parenttext-philippines-repo\temp\temp_transl\9_has_any_words_check.json
+
+This file provides a log of where there are possible errors between the translated quick replies and the arguments and where an automated fix has been applied using the "fix_arg_qr_translations" script
+
+Language: fil
+Total flows in JSON file: 294
+Total nodes with "quick replies": 523
+
+Total quick reply nodes missing some translation: 20
+Total arguments nodes missing some translation: 32
+
+Total modified flows: 44
+Total modified nodes: 57
+Total nodes not successfully fixed: 0
+ID of failed nodes: undefined
+
+    Problem flow: 1
+    Flow ID: a345014a-5e36-403f-be0d-15045dc460e4
+    Flow name: PLH - Supportive - Weekly congratulations
+
+        QR Node ID: a40512ce-e340-46ae-9c8c-d1429da4f425
+        Arg Node ID: 564efe4b-9c4a-4301-881e-d069fea95357
+        Action text: How helpful have these messages been in improving your relationship with your child?
+        Eng Quick replies:
+                not helpful
+                a little helpful
+                helpful
+                very helpful
+                extremely helpful
+                prefer not to answer
+        Eng Arguments:
+                not helpful  -  has_only_phrase
+                a little helpful  -  has_only_phrase
+                helpful  -  has_only_phrase
+                very helpful  -  has_only_phrase
+                extremely helpful  -  has_only_phrase
+                prefer not to answer  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+        -----
+        fil Quick replies:
+                hindi nakakatulong
+                nakakatulong nang kaunti
+                nakakatulong
+                lubos na nakakatulong
+                lubus-lubos na nakakatulong
+                pinipiling hindi sagutin
+        fil Old Arguments:
+                hindi nakakatulong  -  has_only_phrase
+                nakakatulong nang kaunti  -  has_only_phrase
+                matulungin  -  has_only_phrase
+                lubos na nakakatulong  -  has_only_phrase
+                lubus-lubos na nakakatulong  -  has_only_phrase
+                pinipiling hindi sagutin  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,1
+                2,
+                3,3
+                4,4
+                5,5
+                 ,2
+
+        fil New Arguments:
+                hindi nakakatulong  -  has_only_phrase
+                nakakatulong nang kaunti  -  has_only_phrase
+                nakakatulong  -  has_only_phrase
+                lubos na nakakatulong  -  has_only_phrase
+                lubus-lubos na nakakatulong  -  has_only_phrase
+                pinipiling hindi sagutin  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+
+##### Arguments not fully translated
+        QR Node ID: 49061117-0ce0-4dc6-9561-e9a0acbc17c2
+        Arg Node ID: c1565a28-d22f-461b-a55f-1a7530074557
+        Action text: Which parenting tip has been the most useful to you?
+        Eng Quick replies:
+                activities
+                stress reduction
+                child behaviour
+                other
+                none of the parenting tips have been helpful
+        Eng Arguments:
+                activities  -  has_any_word
+                stress  -  has_any_word
+                behaviour  -  has_any_word
+                none  -  has_any_word
+                other  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,4
+                4,3
+        -----
+        fil Quick replies:
+                mga gawain
+                pagkabawas ng stress
+                mga pag-uugali ng bata
+                iba pa
+                wala sa anumang tips ang nakatulong
+        fil Old Arguments:
+                mga gawain  -  has_any_word
+                stress  -  has_any_word
+                pag-uugali  -  has_any_word
+                wala  -  has_any_word
+                iba pa  -  has_any_word
+        fil Old Links:
+                0,0
+                1,1
+                2,0,2
+                3,4
+                4,3
+
+        fil New Arguments:
+                gawain gawain   -  has_any_word
+                stress pagkabawas stress  -  has_any_word
+                pag uugali pag uugali bata  -  has_any_word
+                wala wala sa anumang tips ang nakatulong  -  has_any_word
+                iba pa iba pa  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,4
+                4,3
+
+    Problem flow: 2
+    Flow ID: 6791c709-7314-4baa-ae3b-dfeccfe71fb4
+    Flow name: PLH - Content - Positive - CheckIn - Online adults
+
+        QR Node ID: c3dc7517-7d57-495a-bfbb-aae677cfe883
+        Arg Node ID: 75422694-ad33-4c54-b67d-69c4cde7d62f
+        Action text: That is okay @fields.user_name! What did you find difficult about online safety?
+        Eng Quick replies:
+                i forgot what the risks and dangers are
+                i forgot how to set up set up technical fixes
+                i forgot how to seek help
+                i don't know how to create healthy and safe online habits
+                i did not have the time for this activity
+        Eng Arguments:
+                i forgot what the risks and dangers are  -  has_only_phrase
+                i forgot how to set up set up technical fixes  -  has_only_phrase
+                i forgot how to seek help  -  has_only_phrase
+                i don't know how to create healthy and safe online habits  -  has_only_phrase
+                i did not have the time for this activity  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+        -----
+        fil Quick replies:
+                nakalimutan ko kung ano ang mga peligro at panganib nito
+                nakalimutan ko kung paano i-set-up ang pag-aayos sa mga isyung teknikal
+                nakalimutan ko kung paano humingi ng tulong
+                hindi ko alam kung paano lumikha ng mga mabuti at ligtas na gawi online
+                nagkulang ako ng oras para kumpletuhin ang gawaing ito
+        fil Old Arguments:
+                nakalimutan ko kung ano ang mga peligro at panganib nito  -  has_only_phrase
+                nakalimutan ko kung paano i-set-up ang pag-aayos sa mga isyung teknikal  -  has_only_phrase
+                nakalimutan ko kung paano humingi ng tulong  -  has_only_phrase
+                hindi ko alam paano lumikha ng mga mabuti at ligtas na gawi online  -  has_only_phrase
+                nagkulang ako ng oras para kumpletuhin ang gawain na ito  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,1
+                2,2
+                3,
+                4,
+                 ,3
+                 ,4
+
+        fil New Arguments:
+                nakalimutan ko kung ano ang mga peligro at panganib nito  -  has_only_phrase
+                nakalimutan ko kung paano i-set-up ang pag-aayos sa mga isyung teknikal  -  has_only_phrase
+                nakalimutan ko kung paano humingi ng tulong  -  has_only_phrase
+                hindi ko alam kung paano lumikha ng mga mabuti at ligtas na gawi online  -  has_only_phrase
+                nagkulang ako ng oras para kumpletuhin ang gawaing ito  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+
+    Problem flow: 3
+    Flow ID: c20a1a93-a885-4459-b1ae-8d5cc96c0efd
+    Flow name: PLH - Content - Positive - CheckIn - Budget adults
+
+        QR Node ID: 4931c2a9-2a1f-4d92-b22f-8c81bcaee8ff
+        Arg Node ID: d5faaa85-1b14-473a-b6d8-f3a3f4e00702
+        Action text: That is okay! What did you find challenging about discussing budgeting with your family?
+        Eng Quick replies:
+                i did not want to tell my family how much i earn
+                when budgeting we could not agree on what should fall under needs and what should fall under wants
+                i did not understand what to do
+                my family did not want to do the budgeting with me
+                i did not have the time to talk about budgeting with my family
+        Eng Arguments:
+                i did not want to tell my family how much i earn  -  has_only_phrase
+                when budgeting we could not agree on what should fall under needs and what should fall under wants  -  has_only_phrase
+                i did not understand what to do  -  has_only_phrase
+                my family did not want to do the budgeting with me  -  has_only_phrase
+                i did not have the time to talk about budgeting with my family  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+        -----
+        fil Quick replies:
+                ayaw kong sabihin sa aking pamilya kung gaano kalaki ang kinikita ko
+                kapag gumagawa ng budget hindi kami magkasundo sa kung ano ang pangangailangan at ano ang kagustuhan lang
+                hindi ko naintindihan kung anong gagawin
+                ayaw ng pamilya kong sumama sa akin sa paggawa ng budget
+                nawalan ako ng oras para kausapin ang pamilya ko tungkol sa pagba-budget
+        fil Old Arguments:
+                ayaw kong sabihin sa aking pamilya kung gaano kalaki ang aking kinikita  -  has_only_phrase
+                kapag nagba-budget hindi kami magkasundo sa kung ano ang pangangailangan at ano ang kagustuhan lang  -  has_only_phrase
+                hindi ko naintindihan kung ano ang gagawin  -  has_only_phrase
+                ayaw ng pamilya kong makisama sa paggawa ng budget  -  has_only_phrase
+                nawalan ako ng oras para kausapin ang pamilya ko tungkol sa pagbu-budget  -  has_only_phrase
+        fil Old Links:
+                0,
+                1,
+                2,
+                3,
+                4,
+                 ,0
+                 ,1
+                 ,2
+                 ,3
+                 ,4
+
+        fil New Arguments:
+                ayaw kong sabihin sa aking pamilya kung gaano kalaki ang kinikita ko  -  has_only_phrase
+                kapag gumagawa ng budget hindi kami magkasundo sa kung ano ang pangangailangan at ano ang kagustuhan lang  -  has_only_phrase
+                hindi ko naintindihan kung anong gagawin  -  has_only_phrase
+                ayaw ng pamilya kong sumama sa akin sa paggawa ng budget  -  has_only_phrase
+                nawalan ako ng oras para kausapin ang pamilya ko tungkol sa pagba-budget  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+
+    Problem flow: 4
+    Flow ID: 410b5d59-67f8-4569-9257-f5f0de5f3bb8
+    Flow name: PLH - Content - Positive - CheckIn - Family
+
+        QR Node ID: e56d43c8-0c30-49de-b048-6daadcb3e0c3
+        Arg Node ID: 750dbe3c-8dc6-4d3d-968e-28890614e61a
+        Action text: That is okay! What did you find challenging about supporting positive family relationships?
+        Eng Quick replies:
+                i am finding it difficult to use positive language whilst communicating to my family
+                i don't know how to get others in my family to contribute to a supportive family environment
+                i don't know how to show others that i am listening
+                i feel tired and overwhelmed
+                i don't know how to contribute to a supportive family environment
+        Eng Arguments:
+                i am finding it difficult to use positive language whilst communicating to my family  -  has_only_phrase
+                i don't know how to get others in my family to contribute to a supportive family environment  -  has_only_phrase
+                i don't know how to show others that i am listening  -  has_only_phrase
+                i feel tired and overwhelmed  -  has_only_phrase
+                i don't know how to contribute to a supportive family environment  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+        -----
+        fil Quick replies:
+                nahihirapan akong gumamit ng positibong pananalita sa pakikipag-usap sa aking pamilya
+                hindi ko alam kung paano hikayatin ang ibang miyembro ng aking pamilya na tumulong sa pagbuo ng maayos na sistema ng suporta sa aming tahanan
+                hindi ko alam kung paano ipakita sa iba na ako ay nakikinig sa kanila
+                ako ay pagod na at nalulula sa dami at laki ng aking kinakaharap
+                hindi ko alam kung ano ang maaari kong iambag para sa maayos na sistema ng suporta sa aming tahanan
+        fil Old Arguments:
+                nahihirapan akong gumamit ng positibong pananalita habang kinakausap ang aking pamilya  -  has_only_phrase
+                hindi ko alam kung paano hikayatin ang ibang miyembro ng aking pamilya para bumuo ng maayos na sistema ng suporta sa aming tahanan  -  has_only_phrase
+                hindi ko alam kung paano ipakita sa iba na ako ay nakikinig sa kanila  -  has_only_phrase
+                ako ay pagod na at nalulula sa dami o bigat ng aking kinakaharap  -  has_only_phrase
+                hindi ko alam kung ano ang maaari kong iambag para sa maayos na sistema ng suporta sa aming tahanan  -  has_only_phrase
+        fil Old Links:
+                0,
+                1,
+                2,2
+                3,
+                4,4
+                 ,0
+                 ,1
+                 ,3
+
+        fil New Arguments:
+                nahihirapan akong gumamit ng positibong pananalita sa pakikipag-usap sa aking pamilya  -  has_only_phrase
+                hindi ko alam kung paano hikayatin ang ibang miyembro ng aking pamilya na tumulong sa pagbuo ng maayos na sistema ng suporta sa aming tahanan  -  has_only_phrase
+                hindi ko alam kung paano ipakita sa iba na ako ay nakikinig sa kanila  -  has_only_phrase
+                ako ay pagod na at nalulula sa dami at laki ng aking kinakaharap  -  has_only_phrase
+                hindi ko alam kung ano ang maaari kong iambag para sa maayos na sistema ng suporta sa aming tahanan  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+
+    Problem flow: 5
+    Flow ID: 2f0ac8d2-8509-4c5a-86ac-05642c0f371f
+    Flow name: PLH - Content - Positive - CheckIn - Instructions
+
+        QR Node ID: e81e0165-2dbd-4db4-9d2a-1b97315a72af
+        Arg Node ID: c051490b-9166-4660-8022-9d04401d93ac
+        Action text: What was your main challenge?
+        Eng Quick replies:
+                my child or teen did not want to follow the instruction
+                i gave a negative instead of a positive instruction
+                i gave too many instructions at once
+                my child or teen could not do what i asked them
+                i forgot to praise my child or teen for following my instruction
+        Eng Arguments:
+                my child or teen did not want to follow the instruction  -  has_only_phrase
+                i gave a negative instead of a positive instruction  -  has_only_phrase
+                i gave too many instructions at once  -  has_only_phrase
+                my child or teen could not do what i asked them  -  has_only_phrase
+                i forgot to praise my child or teen for following my instruction  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+        -----
+        fil Quick replies:
+                ayaw sumunod sa mga tagubulin ng aking anak
+                nagbigay ako ng negatibong tagubilin kaysa positibo
+                nagbigay ako ng masyadong maraming tagubilin nang sabay-sabay
+                hindi nagawa ng aking anak ang mga pinagawa ko sa kaniya
+                nakalimutan kong bigyan ng papuri ang aking anak sa pagsunod sa aking tagubilin
+        fil Old Arguments:
+                ayaw sumunod sa mga tagubilin ang aking anak  -  has_only_phrase
+                nagbigay ako ng negatibong tagubilin imbes na positibo  -  has_only_phrase
+                nagbigay ako ng napakaraming tagubilin nang sabay-sabay  -  has_only_phrase
+                hindi kinayang gawin ng aking anak ang pinapagawa ko  -  has_only_phrase
+                nakalimutan kong purihin ang aking anak sa pagsunod sa aking tagubilin  -  has_only_phrase
+        fil Old Links:
+                0,
+                1,
+                2,
+                3,
+                4,
+                 ,0
+                 ,1
+                 ,2
+                 ,3
+                 ,4
+
+        fil New Arguments:
+                ayaw sumunod sa mga tagubulin ng aking anak  -  has_only_phrase
+                nagbigay ako ng negatibong tagubilin kaysa positibo  -  has_only_phrase
+                nagbigay ako ng masyadong maraming tagubilin nang sabay-sabay  -  has_only_phrase
+                hindi nagawa ng aking anak ang mga pinagawa ko sa kaniya  -  has_only_phrase
+                nakalimutan kong bigyan ng papuri ang aking anak sa pagsunod sa aking tagubilin  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+
+    Problem flow: 6
+    Flow ID: 579303ad-beed-4562-83af-bba3850c350f
+    Flow name: PLH - Content - Positive - CheckIn - IPV 1
+
+        QR Node ID: 7c87ce15-9ca8-4e28-b6f9-cac571050514
+        Arg Node ID: 47d0ec2b-4bd8-4015-9ff9-0f35fe3fe371
+        Action text: How was your experience?
+        Eng Quick replies:
+                great
+                neutral
+                bad
+        Eng Arguments:
+                great  -  has_any_word
+                neutral bad  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,1
+        -----
+        fil Quick replies:
+                magaling
+                walang kinikilingan
+                hindi mabuti
+        fil Old Arguments:
+                magaling  -  has_any_word
+                saktong sama  -  has_any_word
+        fil Old Links:
+                0,0
+                1,
+                2,
+                 ,1
+
+        fil New Arguments:
+                magaling magaling  -  has_any_word
+                saktong sama walang kinikilingan hindi mabuti  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,1
+
+        QR Node ID: 55c8aa05-3489-4919-b2b6-d1a74f6d1b05
+        Arg Node ID: c8cb4dbd-41be-4984-a953-ea426feca35f
+        Action text: We are sorry to hear this. What did you find difficult when trying to involve your partner in making a decision?
+        Eng Quick replies:
+                i didn’t have time to involve my partner
+                i didn’t know how to involve my partner
+                i felt uncomfortable asking for my partner's opinion
+                i forgot to involve my partner
+                my partner reacted negatively to me when i tried
+        Eng Arguments:
+                i didn’t have time to involve my partner  -  has_only_phrase
+                i didn’t know how to involve my partner  -  has_only_phrase
+                i felt uncomfortable asking for my partner's opinion  -  has_only_phrase
+                i forgot to involve my partner  -  has_only_phrase
+                my partner reacted negatively to me when i tried  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+        -----
+        fil Quick replies:
+                nawalan ako ng oras na isama ang aking partner
+                hindi ko alam kung paano ko isasama ang aking partner
+                hindi ako naging kumportable tanungin ang aking partner tungkol sa kanyang opinyon
+                nakalimutan kong isama ang aking partner
+                negatibo ang reaksyon ng aking partner nung sinubukan ko
+        fil Old Arguments:
+                nawalan ako ng oras para isama ang aking partner  -  has_only_phrase
+                hindi ko alam kung paano ko isama ang aking partner  -  has_only_phrase
+                hindi ako naging kumportable tanungin ang aking partner tungkol sa kanyang opinyon  -  has_only_phrase
+                nakalimutan kong isama ang aking partner  -  has_only_phrase
+                negatibo ang reaksyon ng aking partner nung sinubukan ko  -  has_only_phrase
+        fil Old Links:
+                0,
+                1,
+                2,2
+                3,3
+                4,4
+                 ,0
+                 ,1
+
+        fil New Arguments:
+                nawalan ako ng oras na isama ang aking partner  -  has_only_phrase
+                hindi ko alam kung paano ko isasama ang aking partner  -  has_only_phrase
+                hindi ako naging kumportable tanungin ang aking partner tungkol sa kanyang opinyon  -  has_only_phrase
+                nakalimutan kong isama ang aking partner  -  has_only_phrase
+                negatibo ang reaksyon ng aking partner nung sinubukan ko  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+
+    Problem flow: 7
+    Flow ID: 2e30ccdf-8251-4943-a1c9-476a2e6dbb61
+    Flow name: PLH - Content - Positive - CheckIn - IPV 2
+
+        QR Node ID: 75dc50ea-4849-4b26-ac70-18712dd15499
+        Arg Node ID: 15a7d63d-569b-4f18-863d-cd84ff392136
+        Action text: We are sorry to hear this. What did you find difficult when trying to help out with caregiving or housework?
+        Eng Quick replies:
+                i didn’t know what activities to do with my children
+                i didn’t know how to support my partner
+                i forgot to ask my partner if they needed help
+                i forgot to ask for help
+                i didn’t have the time
+                i felt uncomfortable doing tasks i don’t normally do
+        Eng Arguments:
+                i didn’t know what activities to do with my children  -  has_only_phrase
+                i didn’t know how to support my partner  -  has_only_phrase
+                i forgot to ask my partner if they needed help  -  has_only_phrase
+                i forgot to ask for help  -  has_only_phrase
+                i didn’t have the time  -  has_only_phrase
+                i felt uncomfortable doing tasks i don’t normally do  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+        -----
+        fil Quick replies:
+                hindi ko alam kung anong klaseng aktibidad ang pwede kong gawin kasama ang aking anak
+                hindi ko alam kung paano suportahan ang aking partner
+                nakalimutan kong tanungin ang aking partner kung kailangan niya ng tulong
+                nakalimutan kong humingi ng tulong
+                nagkulang ako ng oras
+                hindi ako naging kumportable gawin ang mga bagay na hindi ko kadalasang ginagawa
+        fil Old Arguments:
+                hindi ko alam kung anong klaseng gawain ang ang pwede kong gawin kasama ang aking mga anak  -  has_only_phrase
+                hindi ko alam kung paano suportahan ang aking partner  -  has_only_phrase
+                nakalimutan kong tanungin ang aking partner kung kailangan niya ng tulong  -  has_only_phrase
+                nakalimutan kong humingi ng tulong  -  has_only_phrase
+                nawalan ako ng oras  -  has_only_phrase
+                hindi ako naging kumportable dahil hindi ko ito karaniwang ginagawa  -  has_only_phrase
+        fil Old Links:
+                0,
+                1,1
+                2,2
+                3,3
+                4,
+                5,
+                 ,0
+                 ,4
+                 ,5
+
+        fil New Arguments:
+                hindi ko alam kung anong klaseng aktibidad ang pwede kong gawin kasama ang aking anak  -  has_only_phrase
+                hindi ko alam kung paano suportahan ang aking partner  -  has_only_phrase
+                nakalimutan kong tanungin ang aking partner kung kailangan niya ng tulong  -  has_only_phrase
+                nakalimutan kong humingi ng tulong  -  has_only_phrase
+                nagkulang ako ng oras  -  has_only_phrase
+                hindi ako naging kumportable gawin ang mga bagay na hindi ko kadalasang ginagawa  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+
+##### Arguments not fully translated
+    Problem flow: 8
+    Flow ID: 4594b367-bf49-4544-8e32-6362e64e7214
+    Flow name: PLH - Safeguarding - SOS
+
+        QR Node ID: 258e1c62-8455-46f7-a050-4b8afb140aa7
+        Arg Node ID: 2ee96677-fda1-4d6a-ba19-4ddfb8477189
+        Action text: It looks like you are facing an emergency. Can you please tell us what kind of assistance you require?
+        Eng Quick replies:
+                police
+                medical services
+                fire department
+                mental health services
+                violence prevention hotline
+                suicide prevention hotline
+                family counselling services
+                education support for your child
+                covid-19 support
+        Eng Arguments:
+                police  -  has_any_word
+                medical  -  has_any_word
+                fire  -  has_any_word
+                mental  -  has_any_word
+                violence  -  has_any_word
+                suicide  -  has_any_word
+                family counselling services  -  has_only_phrase
+                education  -  has_any_word
+                covid  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+                7,7
+                8,8
+        -----
+        fil Quick replies:
+                pulis
+                serbisyong medikal
+                bumbero
+                serbisyo para sa mental health
+                hotline para sa pag-iwas sa karahasan
+                hotline para sa pag-iwas sa suicide
+                counseling para sa pamilya
+                suportang pang-edukasyon para sa iyong anak
+                suporta para sa covid-19
+        fil Old Arguments:
+                pulis  -  has_any_word
+                medikal  -  has_any_word
+                sunog  -  has_any_word
+                kaisipan  -  has_any_word
+                karahasan  -  has_any_word
+                pagpapakamatay  -  has_any_word
+                counseling para sa pamilya  -  has_only_phrase
+                edukasyon  -  has_any_word
+                covid  -  has_any_word
+        fil Old Links:
+                0,0
+                1,1
+                2,
+                3,
+                4,4
+                5,
+                6,6
+                7,7
+                8,8
+                 ,2
+                 ,3
+                 ,5
+
+        fil New Arguments:
+                pulis pulis  -  has_any_word
+                medikal serbisyong medikal  -  has_any_word
+                sunog bumbero  -  has_any_word
+                kaisipan serbisyo mental health  -  has_any_word
+                karahasan karahasan  -  has_any_word
+                pagpapakamatay suicide  -  has_any_word
+                counseling para sa pamilya  -  has_only_phrase
+                edukasyon suportang pang edukasyon iyong anak  -  has_any_word
+                covid suporta covid 19  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+                7,7
+                8,8
+
+    Problem flow: 9
+    Flow ID: 063a49f7-fbff-47d6-8533-16030740ebbf
+    Flow name: PLH - Content - Time - CheckIn - One on one time
+
+        QR Node ID: a235c94f-5cf1-4e0c-8ea9-63aa7ef2e269
+        Arg Node ID: 32188b30-5da8-4ea1-8681-7cd87933d4e6
+        Action text: We understand that spending One-on-One Time can sometimes be difficult. Here are some of the main reasons parents struggle. Which one is the closest to you?
+        Eng Quick replies:
+                not enough time
+                my child did not want to spend time with me
+                all my child wanted to do is watch t.v. or play with a gadget
+                my child wanted to do things i felt uncomfortable about
+                my child wanted to do activities that i could not do
+                my child chose a competitive activity. i won and then they got angry
+                my child had a tantrum at the end of one-on-one time
+                my child wanted to do too many things at once
+                all my children wanted one-on-one time at the same time
+                prefer not to say
+        Eng Arguments:
+                not enough time  -  has_only_phrase
+                my child did not want to spend time with me  -  has_only_phrase
+                all my child wanted to do is watch t.v. or play with a gadget  -  has_only_phrase
+                my child wanted to do things i felt uncomfortable about  -  has_only_phrase
+                my child wanted to do activities that i could not do  -  has_only_phrase
+                my child chose a competitive activity. i won and then they got angry  -  has_only_phrase
+                my child had a tantrum at the end of one-on-one time  -  has_only_phrase
+                my child wanted to do too many things at once  -  has_only_phrase
+                all my children wanted one-on-one time at the same time  -  has_only_phrase
+                prefer not to say  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+                7,7
+                8,8
+                9,9
+        -----
+        fil Quick replies:
+                hindi sapat na oras
+                ayaw ng anak kong maglaan ng oras kasama ko.
+                ang gusto lang gawin ng anak ko ay ang manood ng telebisyon o maglaro sa kanyang gadyet
+                gusto ng anak kong gumawa ng mga bagay na hindi ako kumportable
+                gusto ng aking anak ang mga gawaing hindi ko magawa.
+                pinili ng anak ko na magkaroon kami ng kompetisyon. nanalo ako tapos nagalit siya
+                sinumpong ang aking anak sa dulo ng one-on-one time
+                maraming gustong gawin ang aking anak nang sabay-sabay
+                lahat ng aking mga anak ay gusto ang one-on-one time nang sabay-sabay.
+                mas pinipiling hindi sabihin
+        fil Old Arguments:
+                hindi sapat na oras  -  has_only_phrase
+                ayaw ng anak kong maglaan ng oras kasama ako  -  has_only_phrase
+                ang gusto lang gawin ng anak ko ay ang manood ng telebisyon o maglaro sa kanyang gadget  -  has_only_phrase
+                gusto ng anak kong gumawa ng mga bagay na hindi kumportable para sa akin  -  has_only_phrase
+                gusto ng anak kong gumawa ng mga aktibidad na wala akong kakayahang gawin  -  has_only_phrase
+                pinili ng anak ko na magkaroon kami ng kompetisyon. nanalo ako tapos nagalit siya  -  has_only_phrase
+                nag-alboroto ang anak ko sa dulo ng aming one-on-one time  -  has_only_phrase
+                maraming gustong gawin ang aking anak nang sabay-sabay  -  has_only_phrase
+                lahat ng aking mga anak ay gusto mag one-on-one time nang sabay-sabay  -  has_only_phrase
+                pinipiling hindi sabihin  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,
+                2,
+                3,
+                4,
+                5,5
+                6,
+                7,7
+                8,
+                9,
+                 ,1
+                 ,2
+                 ,3
+                 ,4
+                 ,6
+                 ,8
+                 ,9
+
+        fil New Arguments:
+                hindi sapat na oras  -  has_only_phrase
+                ayaw ng anak kong maglaan ng oras kasama ko.  -  has_only_phrase
+                ang gusto lang gawin ng anak ko ay ang manood ng telebisyon o maglaro sa kanyang gadyet  -  has_only_phrase
+                gusto ng anak kong gumawa ng mga bagay na hindi ako kumportable  -  has_only_phrase
+                gusto ng aking anak ang mga gawaing hindi ko magawa.  -  has_only_phrase
+                pinili ng anak ko na magkaroon kami ng kompetisyon. nanalo ako tapos nagalit siya  -  has_only_phrase
+                sinumpong ang aking anak sa dulo ng one-on-one time  -  has_only_phrase
+                maraming gustong gawin ang aking anak nang sabay-sabay  -  has_only_phrase
+                lahat ng aking mga anak ay gusto ang one-on-one time nang sabay-sabay.  -  has_only_phrase
+                mas pinipiling hindi sabihin  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+                7,7
+                8,8
+                9,9
+
+    Problem flow: 10
+    Flow ID: 1f60ca16-5d8e-4aa2-9c58-61b4441e1d1c
+    Flow name: PLH - Content - Positive - CheckIn - IPV 3
+
+        QR Node ID: f055c50a-721b-411a-88e4-6cb6c54a9958
+        Arg Node ID: 7c398eb3-6cf5-4834-a2ea-789cae3d4eef
+        Action text: We are sorry to hear this. What was difficult for you about sharing family responsibilities?
+        Eng Quick replies:
+                i forgot to ask my partner if they needed help
+                i didn’t know how to ask my partner if they needed help
+                i forgot to ask for help
+                i didn’t know how to ask for help
+                i didn’t know how to help
+                my partner didn’t have time to help
+                i felt uncomfortable doing tasks i don’t normally do
+        Eng Arguments:
+                i forgot to ask my partner if they needed help  -  has_only_phrase
+                i didn’t know how to ask my partner if they needed help  -  has_only_phrase
+                i forgot to ask for help  -  has_only_phrase
+                i didn’t know how to ask for help  -  has_only_phrase
+                i didn’t know how to help  -  has_only_phrase
+                my partner didn’t have time to help  -  has_only_phrase
+                i felt uncomfortable doing tasks i don’t normally do  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+        -----
+        fil Quick replies:
+                nakalimutan kong tanungin ang aking partner kung kailangan niya ng tulong
+                hindi ko alam kung paano tanungin ang partner ko kung kailangan niya ng tulong
+                nakalimutan kong humingi ng tulong
+                hindi ko alam kung paano humingi ng tulong
+                hindi ko alam kung paano ako makakatulong
+                walang oras ang aking partner para tumulong
+                hindi ako naging kumportable gawin ang mga bagay na hindi ko kadalasang ginagawa
+        fil Old Arguments:
+                nakalimutan kong tanungin ang aking partner kung kailangan niya ng tulong  -  has_only_phrase
+                hindi ko alam kung paano tanungin ang partner ko kung kailangan niya ng tulong  -  has_only_phrase
+                nakalimutan kong humingi ng tulong  -  has_only_phrase
+                hindi ko alam kung paano humingi ng tulong  -  has_only_phrase
+                hindi ko alam kung paano tumulong  -  has_only_phrase
+                walang oras tumulong ang partner ko  -  has_only_phrase
+                hindi ako naging kumportable dahil hindi ko ito karaniwang ginagawa  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,
+                5,
+                6,
+                 ,4
+                 ,5
+                 ,6
+
+        fil New Arguments:
+                nakalimutan kong tanungin ang aking partner kung kailangan niya ng tulong  -  has_only_phrase
+                hindi ko alam kung paano tanungin ang partner ko kung kailangan niya ng tulong  -  has_only_phrase
+                nakalimutan kong humingi ng tulong  -  has_only_phrase
+                hindi ko alam kung paano humingi ng tulong  -  has_only_phrase
+                hindi ko alam kung paano ako makakatulong  -  has_only_phrase
+                walang oras ang aking partner para tumulong  -  has_only_phrase
+                hindi ako naging kumportable gawin ang mga bagay na hindi ko kadalasang ginagawa  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+
+##### Arguments not fully translated
+    Problem flow: 11
+    Flow ID: b8cfd1d1-5044-4fb0-8f67-ae99960bee02
+    Flow name: PLH - Supportive - Share - Enrollment
+
+        QR Node ID: 17b3f3e1-c247-4d8b-bdcf-28c32276a003
+        Arg Node ID: bed17d21-de07-427f-a4c8-6961ee9eff92
+        Action text: How did you find out about MaPaText?
+        Eng Quick replies:
+                friend
+                family
+                ngo
+        Eng Arguments:
+                friend  -  has_any_word
+                ngo  -  has_any_word
+                family  -  has_any_word
+        Eng Links:
+                0,0
+                1,2
+                2,1
+        -----
+        fil Quick replies:
+                kaibigan
+                kapamilya
+                ngo
+        fil Old Arguments:
+                kaibigan  -  has_any_word
+                ngo  -  has_any_word
+                pamilya  -  has_any_word
+        fil Old Links:
+                0,0
+                1,
+                2,1
+                 ,2
+
+        fil New Arguments:
+                kaibigan kaibigan  -  has_any_word
+                ngo ngo  -  has_any_word
+                pamilya kapamilya  -  has_any_word
+        fil New Links:
+                0,0
+                1,2
+                2,1
+
+    Problem flow: 12
+    Flow ID: 2d088e4d-2c71-4480-9cac-0403ba3c5461
+    Flow name: PLH - Feedback - Feedback for content
+
+        QR Node ID: 3e09e83e-5d6a-4326-b2be-1bc636fa2a7f
+        Arg Node ID: be33d4ad-e1cb-4225-8115-df266eada7a1
+        Action text: How helpful was this tip?
+        Eng Quick replies:
+                not helpful
+                a little helpful
+                helpful
+                very helpful
+                extremely helpful
+                prefer not to answer
+        Eng Arguments:
+                not helpful  -  has_only_phrase
+                a little helpful  -  has_only_phrase
+                helpful  -  has_only_phrase
+                very helpful  -  has_only_phrase
+                extremely helpful  -  has_only_phrase
+                prefer not to answer  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+        -----
+        fil Quick replies:
+                hindi nakakatulong
+                nakakatulong nang kaunti
+                nakakatulong
+                lubos na nakakatulong
+                lubus-lubos na nakakatulong
+                pinipiling hindi sagutin
+        fil Old Arguments:
+                hindi nakakatulong  -  has_only_phrase
+                nakakatulong nang kaunti  -  has_only_phrase
+                matulungin  -  has_only_phrase
+                lubos na nakakatulong  -  has_only_phrase
+                lubus-lubos na nakakatulong  -  has_only_phrase
+                pinipiling hindi sagutin  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,1
+                2,
+                3,3
+                4,4
+                5,5
+                 ,2
+
+        fil New Arguments:
+                hindi nakakatulong  -  has_only_phrase
+                nakakatulong nang kaunti  -  has_only_phrase
+                nakakatulong  -  has_only_phrase
+                lubos na nakakatulong  -  has_only_phrase
+                lubus-lubos na nakakatulong  -  has_only_phrase
+                pinipiling hindi sagutin  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+
+    Problem flow: 13
+    Flow ID: 95b3d752-3c99-40f3-83b6-6e6c551bc395
+    Flow name: PLH - Content - Positive - CheckIn - IPV 4
+
+        QR Node ID: f4bb0e7c-fd98-411b-8ecc-8f638da69073
+        Arg Node ID: c562a8db-7f3d-415a-8aa2-4c6b2af5862b
+        Action text: Sorry to hear this. What was difficult for you about resolving conflicts between you and your partner?
+        Eng Quick replies:
+                i didn’t stay calm during a disagreement
+                i got angry and yelled at my partner
+                my partner got angry and yelled at me
+                i forgot to take a pause when i started feeling angry
+        Eng Arguments:
+                i didn’t stay calm during a disagreement  -  has_only_phrase
+                i got angry and yelled at my partner  -  has_only_phrase
+                my partner got angry and yelled at me  -  has_only_phrase
+                i forgot to take a pause when i started feeling angry  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+        -----
+        fil Quick replies:
+                hindi ako naging kalmado noong kami’y nagtalo
+                nagalit ako at sinigawan ko ang partner ko
+                nagalit ang partner ko at sinigawan niya ako
+                nakalimutan kong tumigil sandali nung nakakaramdam ako ng galit
+        fil Old Arguments:
+                hindi ako nanatiling kalmado nung nagkaroon kami ng pagtatalo  -  has_only_phrase
+                nagalit ako at nasigawan ang aking partner  -  has_only_phrase
+                nagalit ang partner ko at nasigawan niya ako  -  has_only_phrase
+                nakalimutan kong tumigil nang sandali nung nag-uumpisa na akong magalit  -  has_only_phrase
+        fil Old Links:
+                0,
+                1,
+                2,
+                3,
+                 ,0
+                 ,1
+                 ,2
+                 ,3
+
+        fil New Arguments:
+                hindi ako naging kalmado noong kami’y nagtalo  -  has_only_phrase
+                nagalit ako at sinigawan ko ang partner ko  -  has_only_phrase
+                nagalit ang partner ko at sinigawan niya ako  -  has_only_phrase
+                nakalimutan kong tumigil sandali nung nakakaramdam ako ng galit  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+
+    Problem flow: 14
+    Flow ID: 2bb996ba-eaf6-4f3e-b1d1-e9905b6c12cd
+    Flow name: to fix PLH - Supportive - Weekly congratulations
+
+        QR Node ID: 1d12ff59-0eed-4f8d-a0eb-5eae16f0abc0
+        Arg Node ID: b3b7bd58-8c92-4ca8-8f11-844ce3e51b1d
+        Action text: How helpful have these messages been in improving your relationship with your child?
+        Eng Quick replies:
+                not helpful
+                a little helpful
+                helpful
+                very helpful
+                extremely helpful
+                prefer not to answer
+        Eng Arguments:
+                not helpful  -  has_only_phrase
+                a little helpful  -  has_only_phrase
+                helpful  -  has_only_phrase
+                very helpful  -  has_only_phrase
+                extremely helpful  -  has_only_phrase
+                prefer not to answer  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+        -----
+        fil Quick replies:
+                hindi nakakatulong
+                nakakatulong nang kaunti
+                nakakatulong
+                lubos na nakakatulong
+                lubus-lubos na nakakatulong
+                pinipiling hindi sagutin
+        fil Old Arguments:
+                hindi nakakatulong  -  has_only_phrase
+                nakakatulong nang kaunti  -  has_only_phrase
+                matulungin  -  has_only_phrase
+                lubos na nakakatulong  -  has_only_phrase
+                lubus-lubos na nakakatulong  -  has_only_phrase
+                pinipiling hindi sagutin  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,1
+                2,
+                3,3
+                4,4
+                5,5
+                 ,2
+
+        fil New Arguments:
+                hindi nakakatulong  -  has_only_phrase
+                nakakatulong nang kaunti  -  has_only_phrase
+                nakakatulong  -  has_only_phrase
+                lubos na nakakatulong  -  has_only_phrase
+                lubus-lubos na nakakatulong  -  has_only_phrase
+                pinipiling hindi sagutin  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+
+##### Arguments not fully translated
+        QR Node ID: 20860823-6cc2-490d-b19d-593f741ffc11
+        Arg Node ID: d778f367-232b-4eb4-9309-183bf84e96f8
+        Action text: Which parenting tip has been the most useful to you?
+        Eng Quick replies:
+                activities
+                stress reduction
+                child behaviour
+                other
+                none of the parenting tips have been helpful
+        Eng Arguments:
+                activities  -  has_any_word
+                stress  -  has_any_word
+                behaviour  -  has_any_word
+                none  -  has_any_word
+                other  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,4
+                4,3
+        -----
+        fil Quick replies:
+                mga gawain
+                pagkabawas ng stress
+                mga pag-uugali ng bata
+                iba pa
+                wala sa anumang tips ang nakatulong
+        fil Old Arguments:
+                mga gawain  -  has_any_word
+                stress  -  has_any_word
+                pag-uugali  -  has_any_word
+                wala  -  has_any_word
+                iba pa  -  has_any_word
+        fil Old Links:
+                0,0
+                1,1
+                2,0,2
+                3,4
+                4,3
+
+        fil New Arguments:
+                gawain gawain   -  has_any_word
+                stress pagkabawas stress  -  has_any_word
+                pag uugali pag uugali bata  -  has_any_word
+                wala wala sa anumang tips ang nakatulong  -  has_any_word
+                iba pa iba pa  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,4
+                4,3
+
+    Problem flow: 15
+    Flow ID: ef396365-8c0d-429c-a99b-e8a457d878ed
+    Flow name: PLH - Help - COVID info
+
+        QR Node ID: bf091c2b-c339-46b8-b6eb-0f54d4fcdc3b
+        Arg Node ID: 35a5c776-79e8-4949-a21c-866368b68908
+        Action text: Which information about COVID-19 would you like to receive?
+        Eng Quick replies:
+                talking to your child about covid-19
+                covid-19 bereavement support
+                external support
+                go back to the help menu
+        Eng Arguments:
+                talking talk  -  has_any_word
+                bereavement  -  has_any_word
+                external  -  has_any_word
+                back  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+        -----
+        fil Quick replies:
+                pakikipag-usap sa iyong anak tungkol sa covid-19
+                suporta sa pagpanaw ng mahal sa buhay dahil sa covid-19
+                suportang panlabas
+                bumalik sa help menu
+        fil Old Arguments:
+                pakikipag-usap  -  has_any_word
+                pagluluksa  -  has_any_word
+                panlabas  -  has_any_word
+                balik  -  has_any_word
+        fil Old Links:
+                0,0
+                1,
+                2,2
+                3,
+                 ,1
+                 ,3
+
+        fil New Arguments:
+                pakikipag usap pakikipag usap iyong anak tungkol  -  has_any_word
+                pagluluksa suporta pagpanaw ng mahal buhay dahil  -  has_any_word
+                panlabas suportang panlabas  -  has_any_word
+                balik bumalik help menu  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+
+    Problem flow: 16
+    Flow ID: 13f60fa5-40a6-4f54-a498-3b1ef5de58a4
+    Flow name: PLH - Welcome - Tips
+
+        QR Node ID: 13808433-c61b-4c59-bcb1-f17cf289499f
+        Arg Node ID: a61af7ac-7a58-40f0-9c36-4cd372a9a334
+        Action text: Could you please choose the goal that is most important to you as a parent?
+        Eng Quick replies:
+                improve my relationship with my child
+                my child to behave better
+                help my child learn
+                reduce family stress
+                keep my child safe
+                learn about child development
+        Eng Arguments:
+                improve my relationship with my child  -  has_only_phrase
+                my child to behave better  -  has_only_phrase
+                help my child learn  -  has_only_phrase
+                reduce family stress  -  has_only_phrase
+                keep my child safe  -  has_only_phrase
+                learn about child development  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+        -----
+        fil Quick replies:
+                pagbutihin ang aking relasyon sa aking anak
+                ang aking anak na kumilos nang mas mahusay
+                tulungang matuto ang aking anak
+                pagbawas ng stress sa pamilya
+                pagpapanatiling ligtas sa anak
+                impormasyon tungkol sa paglaki ng bata
+        fil Old Arguments:
+                pagbutihin ang aking relasyon sa aking anak  -  has_only_phrase
+                ang aking anak na kumilos nang mas mahusay  -  has_only_phrase
+                tulungang matuto ang aking anak  -  has_only_phrase
+                pagbawas ng stress sa pamilya  -  has_only_phrase
+                pagpapanatiling ligtas sa aking anak  -  has_only_phrase
+                impormasyon tungkol sa paglaki ng bata  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,
+                5,5
+                 ,4
+
+        fil New Arguments:
+                pagbutihin ang aking relasyon sa aking anak  -  has_only_phrase
+                ang aking anak na kumilos nang mas mahusay  -  has_only_phrase
+                tulungang matuto ang aking anak  -  has_only_phrase
+                pagbawas ng stress sa pamilya  -  has_only_phrase
+                pagpapanatiling ligtas sa anak  -  has_only_phrase
+                impormasyon tungkol sa paglaki ng bata  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+
+    Problem flow: 17
+    Flow ID: 6ec3c018-d7e9-4649-91f6-80d95d5ca5ed
+    Flow name: PLH - Content - Extra - Behave
+
+        QR Node ID: 5ddeaf31-69dd-4291-9e81-d2d3cc85357a
+        Arg Node ID: 2f63974f-8a13-4def-80be-76baf210eef8
+        Action text: Which behaviour is most like the one you want support for?
+        Eng Quick replies:
+                refuses to obey
+                temper tantrums
+                disrespectful behaviour
+                whining
+                hyperactivity can’t sit still
+                hitting others
+                breaking things
+                fighting with others
+                teasing or bothering others
+                does not apply
+        Eng Arguments:
+                obey temper tantrums disrespectful whining  -  has_any_word
+                hyperactivity still  -  has_any_word
+                hitting breaking fighting teasing bothering  -  has_any_word
+                apply  -  has_any_word
+        Eng Links:
+                0,0
+                1,0
+                2,0
+                3,0
+                4,1
+                5,2
+                6,2
+                7,2
+                8,2
+                9,3
+        -----
+        fil Quick replies:
+                tumatangging sumunod
+                sumpong
+                kabastusan
+                nag-iinarte
+                napakalikot--hindi mapakali sa isang lugar
+                pananakit ng kapwa
+                paninira ng mga bagay
+                pakikipag-away
+                panunukso o pang-iinis ng iba
+                hindi naaayon
+        fil Old Arguments:
+                sumunod init ng ulo sumpong bastos iinarte  -  has_any_word
+                sobrang malikot walang kibo  -  has_any_word
+                nananakit naninira aaway nanunukso nang iinis  -  has_any_word
+                i-apply  -  has_any_word
+        fil Old Links:
+                0,0
+                1,0
+                2,
+                3,0
+                4,
+                5,0
+                6,0
+                7,
+                8,0,2
+                9,
+                 ,1
+                 ,3
+
+        fil New Arguments:
+                sumunod init ulo sumpong bastos iinarte tumatangging sumunod sumpong kabastusan nag iinarte   -  has_any_word
+                sobrang malikot walang kibo napakalikot mapakali sa isang lugar  -  has_any_word
+                nananakit naninira aaway nanunukso nang iinis pananakit ng kapwa paninira ng mga bagay pakikipag-away panunukso o pang-iinis ng iba  -  has_any_word
+                i apply naaayon  -  has_any_word
+        fil New Links:
+                0,0
+                1,0
+                2,0
+                3,0
+                4,1
+                5,2
+                6,2
+                7,2
+                8,2
+                9,3
+
+        QR Node ID: f1b57a27-70e1-4b65-b641-6f7a6478b4ae
+        Arg Node ID: 27fb5d09-c86c-44e2-ba63-adaa472739e7
+        Action text: Which behaviour is most like the one you want support for?
+        Eng Quick replies:
+                refuses to obey
+                gets angry often
+                rudeness disrespectful behaviour
+                irritable or frequent mood changes
+                does not follow rules
+                stubbornness
+                breaking things
+                fighting with others
+                teasing or bothering others
+                does not apply
+        Eng Arguments:
+                refuses obey angry rudeness disrespectful rules stubbornness breaking fighting teasing bothering  -  has_any_word
+                irritable mood  -  has_any_word
+                apply  -  has_any_word
+        Eng Links:
+                0,0
+                1,0
+                2,0
+                3,1
+                4,0
+                5,0
+                6,0
+                7,0
+                8,0
+                9,2
+        -----
+        fil Quick replies:
+                tumatangging sumunod
+                magagalitin
+                kabastusan kawalang pakundangan
+                iritable o mabilis/pabago-bago ng mood
+                hindi sumusunod sa mga patakaran
+                katigasan ng ulo
+                paninira ng mga bagay
+                pakikipag-away
+                panunukso o pang-iinis ng iba
+                hindi naaayon
+        fil Old Arguments:
+                tumatanggi sumunod kasutilan kabastusan mga patakaran katigasan ng ulo naninira nag-aaway nanunukso nang-iinis  -  has_any_word
+                iritable mood  -  has_any_word
+                i-apply  -  has_any_word
+        fil Old Links:
+                0,0
+                1,
+                2,0
+                3,0,1
+                4,0
+                5,0
+                6,0
+                7,
+                8,0
+                9,
+                 ,2
+
+        fil New Arguments:
+                tumatanggi sumunod kasutilan kabastusan mga patakaran katigasan ulo naninira nag aaway nanunukso nang iinis tumatangging sumunod magagalitin kabastusan kawalang pakundangan sumusunod sa mga patakaran katigasan ulo paninira mga bagay pakikipag away panunukso pang iinis iba  -  has_any_word
+                iritable mood iritable mabilis pabago bago mood  -  has_any_word
+                i apply naaayon  -  has_any_word
+        fil New Links:
+                0,0
+                1,0
+                2,0
+                3,1
+                4,0
+                5,0
+                6,0
+                7,0
+                8,0
+                9,2
+
+##### Arguments not fully translated
+        QR Node ID: 8504366a-325c-4fed-9f89-2d790e0a3e3f
+        Arg Node ID: 81f3793b-137d-4091-9ea1-1224060f9d80
+        Action text: Which behaviour is most like the one you want support for?
+        Eng Quick replies:
+                crying a lot
+                problems sleeping
+                clingy
+                whining
+                bad tempered or moody
+                problems eating
+                stubborn or fussy
+                does not apply
+        Eng Arguments:
+                crying  -  has_any_word
+                sleeping  -  has_any_word
+                clingy  -  has_any_word
+                whining  -  has_any_word
+                bad tempered moody  -  has_any_word
+                eating  -  has_any_word
+                stubborn fussy  -  has_any_word
+                apply  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+                7,7
+        -----
+        fil Quick replies:
+                palaging pag-iyak
+                problema sa pagtulog
+                clingy
+                nag-iinarte
+                sumpungin
+                problema sa pagkain
+                sutil o matigas ang ulo
+                hindi naaayon
+        fil Old Arguments:
+                umiiyak  -  has_any_word
+                natutulog  -  has_any_word
+                clingy  -  has_any_word
+                nag-iinarte  -  has_any_word
+                sumpungin  -  has_any_word
+                kumakain  -  has_any_word
+                matigas ang ulo  -  has_any_word
+                i-apply  -  has_any_word
+        fil Old Links:
+                0,
+                1,
+                2,2
+                3,3
+                4,4
+                5,
+                6,6
+                7,
+                 ,0
+                 ,1
+                 ,5
+                 ,7
+
+        fil New Arguments:
+                umiiyak palaging pag-iyak  -  has_any_word
+                natutulog pagtulog  -  has_any_word
+                clingy clingy  -  has_any_word
+                nag-iinarte nag-iinarte  -  has_any_word
+                sumpungin sumpungin  -  has_any_word
+                kumakain pagkain  -  has_any_word
+                matigas ang ulo sutil o matigas ang ulo  -  has_any_word
+                i-apply hindi naaayon  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+                7,7
+
+##### Arguments not fully translated
+        QR Node ID: 758da909-8717-45f7-b8ec-ecddff7bb051
+        Arg Node ID: 3397e2c9-a313-4d9b-91bd-e65a864417d3
+        Action text: Which behaviour is most like the one you want support for?
+        Eng Quick replies:
+                crying a lot
+                problems sleeping
+                clingy
+                whining
+                bad tempered or moody
+                problems eating
+                stubborn or fussy
+                naughty behaviour
+                temper tantrums
+                does not apply
+        Eng Arguments:
+                crying  -  has_any_word
+                sleeping  -  has_any_word
+                clingy  -  has_any_word
+                whining  -  has_any_word
+                bad tempered moody  -  has_any_word
+                eating  -  has_any_word
+                stubborn fussy  -  has_any_word
+                naughty  -  has_any_word
+                temper tantrums  -  has_any_word
+                apply  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+                7,7
+                8,8
+                9,9
+        -----
+        fil Quick replies:
+                palaging pag-iyak
+                problema sa pagtulog
+                clingy
+                nag-iinarte
+                sumpungin
+                problema sa pagkain
+                sutil o matigas ang ulo
+                pagiging makulit
+                sumpong
+                hindi naaayon
+        fil Old Arguments:
+                umiiyak  -  has_any_word
+                natutulog  -  has_any_word
+                clingy  -  has_any_word
+                nag-iinarte  -  has_any_word
+                sumpungin  -  has_any_word
+                kumakain  -  has_any_word
+                matigas ang  -  has_any_word
+                makulit  -  has_any_word
+                sumpong ng init ng  -  has_any_word
+                i-apply  -  has_any_word
+        fil Old Links:
+                0,
+                1,
+                2,2
+                3,3
+                4,4
+                5,
+                6,6
+                7,7
+                8,8
+                9,
+                 ,0
+                 ,1
+                 ,5
+                 ,9
+
+        fil New Arguments:
+                umiiyak palaging pag-iyak  -  has_any_word
+                natutulog pagtulog  -  has_any_word
+                clingy clingy  -  has_any_word
+                nag-iinarte nag-iinarte  -  has_any_word
+                sumpungin sumpungin  -  has_any_word
+                kumakain pagkain  -  has_any_word
+                matigas ang sutil o matigas ang ulo  -  has_any_word
+                makulit pagiging makulit  -  has_any_word
+                sumpong ng init ng sumpong  -  has_any_word
+                i-apply hindi naaayon  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+                7,7
+                8,8
+                9,9
+
+##### Arguments not fully translated
+        QR Node ID: d35e18ff-cfe8-459e-9810-e17808dd15c0
+        Arg Node ID: 96b96654-c9c3-4974-a3f1-b5b7d06f0421
+        Action text: Which behaviour is most like the one you want support for?
+        Eng Quick replies:
+                crying a lot
+                problems sleeping
+                clingy
+                does not apply
+        Eng Arguments:
+                crying  -  has_any_word
+                sleeping  -  has_any_word
+                clingy  -  has_any_word
+                apply  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+        -----
+        fil Quick replies:
+                palaging pag-iyak
+                problema sa pagtulog
+                clingy
+                hindi naaayon
+        fil Old Arguments:
+                umiiyak  -  has_any_word
+                natutulog  -  has_any_word
+                clingy  -  has_any_word
+                i-apply  -  has_any_word
+        fil Old Links:
+                0,
+                1,
+                2,2
+                3,
+                 ,0
+                 ,1
+                 ,3
+
+        fil New Arguments:
+                umiiyak palaging pag-iyak  -  has_any_word
+                natutulog problema sa pagtulog  -  has_any_word
+                clingy clingy  -  has_any_word
+                i-apply hindi naaayon  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+
+##### Arguments not fully translated
+    Problem flow: 18
+    Flow ID: ddc9840d-140f-494d-bd3e-9617183ba7ee
+    Flow name: PLH - Help - Access toolkit
+
+        QR Node ID: 30e62fc0-b37f-4111-b01f-8476ebdd87e5
+        Arg Node ID: 57548cba-e2aa-474e-b1a6-918d164eb9e8
+        Action text: Which parenting topics would you like to revisit?; ; Type "back" if you want to go back to the Help menu.
+        Eng Quick replies:
+                skills in toolkit
+                incomplete skills
+        Eng Arguments:
+                toolkit  -  has_any_word
+                incomplete  -  has_any_word
+                back  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                 ,2
+        -----
+        fil Quick replies:
+                mga kakayahan sa toolkit
+                hindi kumpletong kakayahan
+        fil Old Arguments:
+                toolkit  -  has_any_word
+                kulang  -  has_any_word
+                balik  -  has_any_word
+        fil Old Links:
+                0,0
+                1,
+                 ,1
+                 ,2
+
+        fil New Arguments:
+                toolkit mga sa toolkit  -  has_any_word
+                kulang hindi kumpletong  -  has_any_word
+                balik  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                 ,2
+
+    Problem flow: 19
+    Flow ID: 6e784a93-6758-4b64-aed1-e8cb65e1d160
+    Flow name: PLH - Help - Children
+
+        QR Node ID: 11b83403-99b1-47bc-93e7-e86909fc6bbb
+        Arg Node ID: 720a9d2b-cc0c-432b-b47f-ba8b924a2516
+        Action text: How can we help you with your children?
+        Eng Quick replies:
+                activities to do with my child
+                managing challenging behaviour
+                supporting my child emotionally
+                keeping my child safe
+                helping with schoolwork
+                talking about covid-19
+                how to respond to a crisis
+                supporting children with disabilities
+                information about child development
+                go back to the help menu
+        Eng Arguments:
+                activities  -  has_any_word
+                behaviour  -  has_any_word
+                emotionally  -  has_any_word
+                safe  -  has_any_word
+                covid covid19 covid-19  -  has_any_word
+                crisis  -  has_any_word
+                disabilities  -  has_any_word
+                development  -  has_any_word
+                back  -  has_any_word
+                schoolwork  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,9
+                5,4
+                6,5
+                7,6
+                8,7
+                9,8
+        -----
+        fil Quick replies:
+                mga aktibidad na gagawin kasama ang aking anak
+                pangangasiwa ng mahirap na pag-uugali
+                emosyonal na pagsuporta sa aking anak
+                pagpapanatiling ligtas sa aking anak
+                pagtulong sa gawaing pang-eskwela
+                pag-uusap tungkol sa covid-19
+                paano tumugon sa krisis
+                pagsuporta sa mga batang may kapansanan
+                impormasyon tungkol sa paglaki ng bata
+                bumalik sa help menu
+        fil Old Arguments:
+                gawain  -  has_any_word
+                uugali  -  has_any_word
+                emosyonal  -  has_any_word
+                ligtas  -  has_any_word
+                covid-19  -  has_any_word
+                krisis  -  has_any_word
+                kapansanan  -  has_any_word
+                unlad  -  has_any_word
+                balik  -  has_any_word
+                gawaing pampaaralan  -  has_any_word
+        fil Old Links:
+                0,
+                1,1
+                2,2
+                3,3
+                4,9
+                5,4
+                6,5
+                7,6
+                8,
+                9,
+                 ,0
+                 ,7
+                 ,8
+
+        fil New Arguments:
+                gawain aktibidad gagawin kasama ang  -  has_any_word
+                uugali pangangasiwa mahirap uugali  -  has_any_word
+                emosyonal emosyonal  -  has_any_word
+                ligtas pagpapanatiling ligtas  -  has_any_word
+                covid 19 uusap covid 19  -  has_any_word
+                krisis paano tumugon krisis  -  has_any_word
+                kapansanan batang may kapansanan  -  has_any_word
+                unlad impormasyon paglaki bata  -  has_any_word
+                balik bumalik help menu  -  has_any_word
+                gawaing pampaaralan pagtulong gawaing pang eskwela  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,9
+                5,4
+                6,5
+                7,6
+                8,7
+                9,8
+
+##### Arguments not fully translated
+        QR Node ID: e4589da2-a9a2-4728-ae24-bd79fc382d3b
+        Arg Node ID: b0de8763-260e-42ea-a550-6b2fad0c7e69
+        Action text: How can we help you keep your children safe?
+        Eng Quick replies:
+                online safety
+                sexual abuse prevention
+                responding to crisis
+                go back to the previous options
+        Eng Arguments:
+                online  -  has_any_word
+                sexual abuse  -  has_any_word
+                crisis  -  has_any_word
+                back  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+        -----
+        fil Quick replies:
+                kaligtasan sa internet
+                pag-iwas sa pang-aabusong sekswal
+                pagresponde sa krisis
+                bumalik sa mga naunang pagpipilian
+        fil Old Arguments:
+                online  -  has_any_word
+                pang-aabusong sekswal  -  has_any_word
+                krisis  -  has_any_word
+                balik  -  has_any_word
+        fil Old Links:
+                0,
+                1,1
+                2,2
+                3,
+                 ,0
+                 ,3
+
+        fil New Arguments:
+                online kaligtasan internet  -  has_any_word
+                pang aabusong sekswal pag iwas pang aabusong sekswal  -  has_any_word
+                krisis pagresponde krisis  -  has_any_word
+                balik bumalik mga naunang pagpipilian  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+
+##### Arguments not fully translated
+    Problem flow: 20
+    Flow ID: aeae100d-bf65-4f7f-a1bf-3b57c2c68497
+    Flow name: PLH - Help - Settings - Entry
+
+        QR Node ID: 65504513-0d37-42b3-b051-0611713951b4
+        Arg Node ID: e85aecc5-5e40-43ba-aef7-192a267ac44e
+        Action text: What would you like to do?
+        Eng Quick replies:
+                change your personal information
+                change the way you experience the messages
+                stop receiving the messages
+                go back to the previous options
+        Eng Arguments:
+                personal  -  has_any_word
+                experience  -  has_any_word
+                stop  -  has_any_word
+                back  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+        -----
+        fil Quick replies:
+                pakipalitan ang iyong personal na impormasyon
+                pakipalitan ang paraan ng pagtanggap ng mga mensahe
+                ihinto ang pagtanggap ng mga mensahe
+                bumalik sa mga naunang pagpipilian
+        fil Old Arguments:
+                personal  -  has_any_word
+                karanasan  -  has_any_word
+                tumigil  -  has_any_word
+                balik  -  has_any_word
+        fil Old Links:
+                0,0
+                1,
+                2,
+                3,
+                 ,1
+                 ,2
+                 ,3
+
+        fil New Arguments:
+                personal iyong personal na impormasyon  -  has_any_word
+                karanasan paraan  -  has_any_word
+                tumigil ihinto  -  has_any_word
+                balik bumalik sa naunang pagpipilian  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+
+##### Arguments not fully translated
+        QR Node ID: 12e32ae9-efa8-4841-8613-4ff300c35569
+        Arg Node ID: 81dc0523-39b8-48e1-bb38-30957bb1ad49
+        Action text: What would you like to change?; Type "EXIT" to stop receiving messages.
+        Eng Quick replies:
+                type of media content
+                age group for tips
+                language
+                go back to the previous options
+        Eng Arguments:
+                media  -  has_any_word
+                language  -  has_any_word
+                age group  -  has_any_word
+                back  -  has_any_word
+                exit  -  has_any_word
+        Eng Links:
+                0,0
+                1,2
+                2,1
+                3,3
+                 ,4
+        -----
+        fil Quick replies:
+                uri ng nilalaman ng media
+                age group para sa mga tips
+                wika
+                bumalik sa mga naunang pagpipilian
+        fil Old Arguments:
+                media  -  has_any_word
+                wika  -  has_any_word
+                grupo ng edad  -  has_any_word
+                balik  -  has_any_word
+                exit  -  has_any_word
+        fil Old Links:
+                0,0,2
+                1,
+                2,1
+                3,
+                 ,3
+                 ,4
+
+        fil New Arguments:
+                media uri ng nilalaman ng media  -  has_any_word
+                wika wika  -  has_any_word
+                grupo edad age group para tips  -  has_any_word
+                balik bumalik naunang pagpipilian  -  has_any_word
+                exit  -  has_any_word
+        fil New Links:
+                0,0
+                1,2
+                2,1
+                3,3
+                 ,4
+
+    Problem flow: 21
+    Flow ID: 60861329-61ab-4836-9afa-fab172759f14
+    Flow name: PLH - Help - Settings - Leave the program
+
+        QR Node ID: 7ee5e97b-0205-455c-8787-fc1d25cdbfb0
+        Arg Node ID: a7e51d0c-177b-494d-9910-34cb426e408c
+        Action text: Could you please tell us why you want to stop receiving these messages?
+        Eng Quick replies:
+                content is not relevant
+                not enough time
+                data load is too high
+                too many messages
+                technical problems
+                other
+        Eng Arguments:
+                content is not relevant  -  has_only_phrase
+                not enough time  -  has_only_phrase
+                data load is too high  -  has_only_phrase
+                too many messages  -  has_only_phrase
+                technical problems  -  has_only_phrase
+                other  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+        -----
+        fil Quick replies:
+                hindi angkop ang nilalaman
+                hindi sapat na oras
+                masyadong malaki ang data load
+                masyadong maraming mensahe
+                isyung teknikal
+                iba pa
+        fil Old Arguments:
+                hindi angkop ang nilalaman  -  has_only_phrase
+                hindi sapat na oras  -  has_only_phrase
+                masyadong malaki ang data load  -  has_only_phrase
+                masyadong maraming mensahe  -  has_only_phrase
+                problemang teknikal  -  has_only_phrase
+                iba pa  -  has_any_word
+        fil Old Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,
+                5,5
+                 ,4
+
+        fil New Arguments:
+                hindi angkop ang nilalaman  -  has_only_phrase
+                hindi sapat na oras  -  has_only_phrase
+                masyadong malaki ang data load  -  has_only_phrase
+                masyadong maraming mensahe  -  has_only_phrase
+                isyung teknikal  -  has_only_phrase
+                iba pa iba pa  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+
+    Problem flow: 22
+    Flow ID: 60715ca3-6ddb-490c-8d01-5073a391bb68
+    Flow name: PLH - Help - Settings - Manage information user
+
+        QR Node ID: 34d36276-645a-4d11-afa1-2b81a6b87ecd
+        Arg Node ID: 6b76ed88-5221-484c-bdf2-d7f01b95a855
+        Action text: What would you like to update?
+        Eng Quick replies:
+                your name
+                your child's nickname
+                age
+                gender
+                relationship status
+                go back to the previous options
+        Eng Arguments:
+                your name  -  has_only_phrase
+                child child's  -  has_any_word
+                age  -  has_any_word
+                gender  -  has_any_word
+                back no n  -  has_any_word
+                relationship  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,5
+                5,4
+        -----
+        fil Quick replies:
+                iyong pangalan
+                palayaw ng iyong anak
+                edad
+                kasarian
+                estado ng relasyon
+                bumalik sa mga naunang pagpipilian
+        fil Old Arguments:
+                iyong pangalan  -  has_only_phrase
+                anak  -  has_any_word
+                edad  -  has_any_word
+                kasarian  -  has_any_word
+                balik hindi n  -  has_any_word
+                relasyon  -  has_any_word
+        fil Old Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,5
+                5,
+                 ,4
+
+        fil New Arguments:
+                iyong pangalan  -  has_only_phrase
+                anak palayaw anak  -  has_any_word
+                edad edad  -  has_any_word
+                kasarian kasarian  -  has_any_word
+                balik hindi n bumalik sa mga naunang pagpipilian  -  has_any_word
+                relasyon estado relasyon  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,5
+                5,4
+
+        QR Node ID: a7de4775-38cd-42f1-9d56-5a56656cd634
+        Arg Node ID: 4c969055-91df-4b82-8765-e1cd7a534ac5
+        Action text: What would you like to update?
+        Eng Quick replies:
+                your name
+                age
+                gender
+                relationship status
+                go back to the previous options
+        Eng Arguments:
+                your name  -  has_only_phrase
+                age  -  has_any_word
+                gender  -  has_any_word
+                relationship  -  has_any_word
+                back no n  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+        -----
+        fil Quick replies:
+                iyong pangalan
+                edad
+                kasarian
+                estado ng relasyon
+                bumalik sa mga naunang pagpipilian
+        fil Old Arguments:
+                iyong pangalan  -  has_only_phrase
+                edad  -  has_any_word
+                kasarian  -  has_any_word
+                relasyon  -  has_any_word
+                balik hindi n  -  has_any_word
+        fil Old Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,
+                 ,4
+
+        fil New Arguments:
+                iyong pangalan  -  has_only_phrase
+                edad edad  -  has_any_word
+                kasarian kasarian  -  has_any_word
+                relasyon estado ng relasyon  -  has_any_word
+                balik hindi n bumalik sa mga naunang pagpipilian  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+
+        QR Node ID: f5dcd24a-ee93-4816-9360-cfbbeb79c05b
+        Arg Node ID: dbeb2b69-2294-48b6-b883-0528f4616c84
+        Action text: What would you like to update?
+        Eng Quick replies:
+                your child's nickname
+                age
+                gender
+                relationship status
+                go back to the previous options
+        Eng Arguments:
+                child child's  -  has_any_word
+                age  -  has_any_word
+                gender  -  has_any_word
+                relationship  -  has_any_word
+                back n no  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+        -----
+        fil Quick replies:
+                palayaw ng iyong anak
+                edad
+                kasarian
+                estado ng relasyon
+                bumalik sa mga naunang pagpipilian
+        fil Old Arguments:
+                anak  -  has_any_word
+                edad  -  has_any_word
+                kasarian  -  has_any_word
+                relasyon  -  has_any_word
+                balik n hindi  -  has_any_word
+        fil Old Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,
+                 ,4
+
+        fil New Arguments:
+                anak palayaw iyong anak  -  has_any_word
+                edad edad  -  has_any_word
+                kasarian kasarian  -  has_any_word
+                relasyon estado relasyon  -  has_any_word
+                balik n hindi bumalik sa mga naunang pagpipilian  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+
+        QR Node ID: 6a2e6a0f-a677-4dc5-9895-44e810849157
+        Arg Node ID: 455abb03-8bf1-44d4-9279-9444755f1d25
+        Action text: What would you like to update?
+        Eng Quick replies:
+                age
+                gender
+                relationship status
+                go back to the previous options
+        Eng Arguments:
+                age  -  has_any_word
+                gender  -  has_any_word
+                relationship  -  has_any_word
+                back no n  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+        -----
+        fil Quick replies:
+                edad
+                kasarian
+                estado ng relasyon
+                bumalik sa mga naunang pagpipilian
+        fil Old Arguments:
+                edad  -  has_any_word
+                kasarian  -  has_any_word
+                relasyon  -  has_any_word
+                balik hindi n  -  has_any_word
+        fil Old Links:
+                0,0
+                1,1
+                2,2
+                3,
+                 ,3
+
+        fil New Arguments:
+                edad edad  -  has_any_word
+                kasarian kasarian  -  has_any_word
+                relasyon estado ng relasyon  -  has_any_word
+                balik hindi n bumalik sa mga naunang pagpipilian  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+
+    Problem flow: 23
+    Flow ID: c86e7956-19f0-441f-8380-79ef754abd68
+    Flow name: PLH - Help - Settings - Type of media content
+
+        QR Node ID: 61231aac-d63c-4181-8674-c9dc507761be
+        Arg Node ID: 16a31637-ae1e-4c67-9480-b87caece6d5e
+        Action text: How would you like your messages?
+        Eng Quick replies:
+                text only (almost no data)
+                text audio image (low data)
+                text audio image video (high data)
+                go back to the previous options
+        Eng Arguments:
+                high video  -  has_any_word
+                low  -  has_any_word
+                only  -  has_any_word
+                back  -  has_any_word
+        Eng Links:
+                0,2
+                1,1
+                2,0
+                3,3
+        -----
+        fil Quick replies:
+                text lang (halos walang data)
+                text audio imahe (mababang data)
+                text audio imahe video (mataas na data)
+                bumalik sa mga naunang pagpipilian
+        fil Old Arguments:
+                mataas na video  -  has_any_word
+                mababa  -  has_any_word
+                lamang  -  has_any_word
+                balik  -  has_any_word
+        fil Old Links:
+                0,
+                1,
+                2,0
+                3,
+                 ,1
+                 ,2
+                 ,3
+
+        fil New Arguments:
+                mataas na video video mataas na  -  has_any_word
+                mababa mababang  -  has_any_word
+                lamang lang halos walang  -  has_any_word
+                balik bumalik sa mga naunang pagpipilian  -  has_any_word
+        fil New Links:
+                0,2
+                1,1
+                2,0
+                3,3
+
+    Problem flow: 24
+    Flow ID: 1dd44c2b-0338-497b-9ce1-8f0068f36d4e
+    Flow name: PLH - Help - Stress
+
+        QR Node ID: 49a2fb5a-6094-4848-b382-0f0643692464
+        Arg Node ID: da41c8cf-6f60-4ed7-9e68-c59aa5ce3d72
+        Action text: How can we help you?
+        Eng Quick replies:
+                relaxation and stress reduction
+                dealing with financial stress
+                family relationships
+                covid bereavement support
+                other services
+                go back to the help menu
+        Eng Arguments:
+                relaxation reduction  -  has_any_word
+                financial  -  has_any_word
+                family relationships  -  has_any_word
+                back  -  has_any_word
+                other services  -  has_any_word
+                covid bereavement  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,5
+                4,4
+                5,3
+        -----
+        fil Quick replies:
+                pagpapahinga at pagbawas ng stress
+                pagharap sa pang-pinansyal na stress
+                mga ugnayan sa pamilya
+                suporta sa pagpanaw ng mahal sa buhay dahil sa covid-19
+                iba pang serbisyo
+                bumalik sa help menu
+        fil Old Arguments:
+                pagbawas pagpapahinga  -  has_any_word
+                pinansyal  -  has_any_word
+                mga ugnayan pamilya  -  has_any_word
+                balik  -  has_any_word
+                iba pang serbisyo  -  has_any_word
+                suporta pagpanaw mahal buhay dahil covid 19  -  has_any_word
+        fil Old Links:
+                0,0
+                1,1,4
+                2,2
+                3,5
+                4,4
+                5,
+                 ,3
+
+        fil New Arguments:
+                pagbawas pagpapahinga pagpapahinga at pagbawas  -  has_any_word
+                pinansyal pagharap pinansyal na  -  has_any_word
+                mga ugnayan pamilya mga ugnayan pamilya  -  has_any_word
+                balik bumalik help menu  -  has_any_word
+                iba serbisyo iba serbisyo  -  has_any_word
+                suporta pagpanaw mahal buhay dahil covid 19 suporta pagpanaw mahal buhay dahil covid 19  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,5
+                4,4
+                5,3
+
+    Problem flow: 25
+    Flow ID: d20e33e2-d29c-4b7d-95ff-e56d0535579c
+    Flow name: PLH - Content - Positive - CheckIn - Rules
+
+        QR Node ID: 391e747a-e86e-4b50-87be-ae75bb40ce6d
+        Arg Node ID: 3acf68cb-1b93-4f72-8deb-8877e1b473f2
+        Action text: What was difficult for you about establishing a rule or routine with @fields.child_nickname?
+        Eng Quick replies:
+                my child or teen could not agree on one specific rule or routine
+                my children felt it was unfair that they have to follow the rule while i don’t have to follow it
+                i felt uncomfortable because i feel i should be the one establishing the rule not my child or teen
+                my partner felt uncomfortable because they feel they should be the one establishing the rule not the child or teen
+        Eng Arguments:
+                my child or teen could not agree on one specific rule or routine  -  has_only_phrase
+                my children felt it was unfair that they have to follow the rule while i don’t have to follow it  -  has_only_phrase
+                i felt uncomfortable because i feel i should be the one establishing the rule not my child or teen  -  has_only_phrase
+                my partner felt uncomfortable because they feel they should be the one establishing the rule not the child or teen  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+        -----
+        fil Quick replies:
+                hindi makasang-ayon ang aking anak sa isang patakaran o gawain
+                naramdaman ng aking anak na hindi patas na kailangan niyang sundin ang patakaran habang hindi ko ito kailangang sundin
+                hindi ako naging kumportable dahil pakiramdam kong ako dapat ang nagtatakda ng patakaran at hindi ang aking anak
+                hindi naging kumportable ang partner ko dahil pakiramdam niyang dapat siya ang nagtatakda ng patakaran at hindi ang anak
+        fil Old Arguments:
+                hindi makasang-ayon ang aking anak sa isang patakaran o gawain  -  has_only_phrase
+                pakiramdam ng mga anak kong hindi patas na kailangan nilang sumunod sa patakaran habang hindi ko kailangang sundin ito  -  has_only_phrase
+                hindi ako naging kumportable dahil pakiramdam ko ako dapat ang nagtatakda ng patakaran at hindi ang aking anak  -  has_only_phrase
+                hindi naging kumportable ang aking partner dahil pakiramdam nya ay siya dapat ang nagtatakda ng patakaran at hindi ang bata  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,
+                2,
+                3,
+                 ,1
+                 ,2
+                 ,3
+
+        fil New Arguments:
+                hindi makasang-ayon ang aking anak sa isang patakaran o gawain  -  has_only_phrase
+                naramdaman ng aking anak na hindi patas na kailangan niyang sundin ang patakaran habang hindi ko ito kailangang sundin  -  has_only_phrase
+                hindi ako naging kumportable dahil pakiramdam kong ako dapat ang nagtatakda ng patakaran at hindi ang aking anak  -  has_only_phrase
+                hindi naging kumportable ang partner ko dahil pakiramdam niyang dapat siya ang nagtatakda ng patakaran at hindi ang anak  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+
+    Problem flow: 26
+    Flow ID: 29f68d68-2ace-4a39-9ffa-bcabb9cd6d0b
+    Flow name: PLH - Survey - COVID19 Experience and bereavement
+
+        QR Node ID: 93b5595f-0cda-41ab-a029-0e0b2f7fa3cb
+        Arg Node ID: f04c0fa5-27fc-4ba5-9956-5c3ac8b645d6
+        Action text: Which is most like your experience?
+        Eng Quick replies:
+                curfews
+                non-essential shops closed
+                non-essential production closed
+                cancellation of recreational venues and closing of public places like parks
+                stay-at-home orders and total movement controls
+                social distancing and movement restrictions
+                no restrictions
+                does not apply
+                prefer not to answer
+        Eng Arguments:
+                curfews  -  has_any_word
+                shops  -  has_any_word
+                production  -  has_any_word
+                recreational venues  -  has_any_word
+                stay-at-home orders  -  has_any_word
+                distancing  -  has_any_word
+                no restrictions  -  has_only_phrase
+                apply  -  has_any_word
+                prefer  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+                7,7
+                8,8
+        -----
+        fil Quick replies:
+                mga curfew
+                ang mga non-essential na tindahan ay sarado
+                ang mga non-essential na produksyon ay nagsara
+                pagpapasara ng mga pook-libangan at pampublikong lugar tulad ng mga parke
+                mga utos na manatili sa bahay at kontrol sa paggalaw
+                social distancing at pagbabawal sa paggalaw
+                walang pagbabawal
+                hindi naaayon
+                pinipiling hindi sagutin
+        fil Old Arguments:
+                curfew  -  has_any_word
+                tindahan  -  has_any_word
+                produksyon  -  has_any_word
+                lugar pang-libangan  -  has_any_word
+                utos na manatili sa bahay  -  has_any_word
+                paglalayo  -  has_any_word
+                walang pagbabawal  -  has_only_phrase
+                i-apply  -  has_any_word
+                mas gusto  -  has_any_word
+        fil Old Links:
+                0,0
+                1,1,4
+                2,2,4
+                3,3
+                4,4
+                5,4
+                6,6
+                7,
+                8,
+                 ,5
+                 ,7
+                 ,8
+
+        fil New Arguments:
+                curfew curfew  -  has_any_word
+                tindahan tindahan sarado  -  has_any_word
+                produksyon produksyon nagsara  -  has_any_word
+                lugar pang libangan pagpapasara ng pook libangan pampublikong lugar tulad ng parke  -  has_any_word
+                utos manatili bahay utos manatili bahay kontrol  -  has_any_word
+                paglalayo social distancing  -  has_any_word
+                walang pagbabawal  -  has_only_phrase
+                i apply naaayon  -  has_any_word
+                mas gusto pinipiling sagutin  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+                7,7
+                8,8
+
+    Problem flow: 27
+    Flow ID: 2c3681c4-281b-4c89-a216-f1c4c47e7a4c
+    Flow name: PLH - Content - Positive - CheckIn - Emotion
+
+        QR Node ID: d9dfc50d-343e-4535-95ed-c27251ba2727
+        Arg Node ID: abf08bb0-c50b-41e6-b61d-de478c5dbf31
+        Action text: How did your child respond?
+        Eng Quick replies:
+                my child or teen felt uncomfortable when i shared my emotions
+                my child or teen asked many questions when i shared my emotions which made me uncomfortable
+        Eng Arguments:
+                my child or teen felt uncomfortable when i shared my emotions  -  has_only_phrase
+                my child or teen asked many questions when i shared my emotions which made me uncomfortable  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+        -----
+        fil Quick replies:
+                hindi naging kumportable ang aking anak noong nagbahagi ako ng mga nararamdaman ko
+                maraming naging tanong ang aking anak noong nagbahagi ako ng nararamdaman ko kaya hindi ako naging kumportable rito
+        fil Old Arguments:
+                hindi naging kumportable ang aking anak nang magbahagi ako ng aking mga emosyon  -  has_only_phrase
+                nagtanong ng maraming katanungan ang aking anak noong nagbahagi ako ng emosyon at hindi ako naging kumportable dahil doon  -  has_only_phrase
+        fil Old Links:
+                0,
+                1,
+                 ,0
+                 ,1
+
+        fil New Arguments:
+                hindi naging kumportable ang aking anak noong nagbahagi ako ng mga nararamdaman ko  -  has_only_phrase
+                maraming naging tanong ang aking anak noong nagbahagi ako ng nararamdaman ko kaya hindi ako naging kumportable rito  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+
+        QR Node ID: a2d17431-0a84-4802-96f4-cd7144bfd108
+        Arg Node ID: bf8cd9a1-8499-4eba-9d1b-8588357b8c9b
+        Action text: What was difficult for you about sharing emotions with @fields.child_nickname?
+        Eng Quick replies:
+                i am afraid my child or teen will think i am weak
+                i felt uncomfortable to name specific difficult emotions
+                my child or teen felt uncomfortable when i shared my emotions
+                my child or teen asked many questions when i shared my emotions which made me uncomfortable
+                i was too stressed or angry to try sharing my emotions – i prefer to be alone when i feel like that
+        Eng Arguments:
+                i am afraid my child or teen will think i am weak  -  has_only_phrase
+                i felt uncomfortable to name specific difficult emotions  -  has_only_phrase
+                my child or teen felt uncomfortable when i shared my emotions  -  has_only_phrase
+                my child or teen asked many questions when i shared my emotions which made me uncomfortable  -  has_only_phrase
+                i was too stressed or angry to try sharing my emotions – i prefer to be alone when i feel like that  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+        -----
+        fil Quick replies:
+                natatakot akong isipin ng aking anak na mahina ako
+                hindi ako kumportable na pangalanan ang ibang mahihirap na emosyon
+                hindi naging kumportable ang aking anak noong nagbahagi ako ng mga nararamdaman ko
+                maraming naging tanong ang aking anak noong nagbahagi ako ng nararamdaman ko kaya hindi ako naging kumportable rito
+                masyado akong stressed o galit para subukang ibahagi ang aking mga emosyon -- mas nais kong mag-isa sa tuwing nararamdaman ko ito
+        fil Old Arguments:
+                natatakot akong isipin ng aking anak na mahina ako  -  has_only_phrase
+                hindi ako kumportableng pangalanan ang mga mahihirap na emosyon  -  has_only_phrase
+                hindi naging kumportable ang aking anak nang magbahagi ako ng aking mga emosyon  -  has_only_phrase
+                nagtanong ng maraming katanungan ang aking anak noong nagbahagi ako ng emosyon at hindi ako naging kumportable dahil doon  -  has_only_phrase
+                masyado akong stressed o galit para subukang magbahagi ng emosyon-- mas nais kong mapag-isa kapag nararamdaman ko iyon  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,
+                2,
+                3,
+                4,
+                 ,1
+                 ,2
+                 ,3
+                 ,4
+
+        fil New Arguments:
+                natatakot akong isipin ng aking anak na mahina ako  -  has_only_phrase
+                hindi ako kumportable na pangalanan ang ibang mahihirap na emosyon  -  has_only_phrase
+                hindi naging kumportable ang aking anak noong nagbahagi ako ng mga nararamdaman ko  -  has_only_phrase
+                maraming naging tanong ang aking anak noong nagbahagi ako ng nararamdaman ko kaya hindi ako naging kumportable rito  -  has_only_phrase
+                masyado akong stressed o galit para subukang ibahagi ang aking mga emosyon -- mas nais kong mag-isa sa tuwing nararamdaman ko ito  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+
+    Problem flow: 28
+    Flow ID: b7a0b0d5-0e3c-4ab4-b703-8248efcad4ad
+    Flow name: PLH - Content - Positive - CheckIn - IPV 5
+
+        QR Node ID: 5b7b8045-f516-45f2-9255-947ca39a33e6
+        Arg Node ID: 3f49fabc-073f-4e18-865a-a5f39c893c63
+        Action text: We are sorry to hear that. What was hard for you when talking about your feelings and challenges you are facing?
+        Eng Quick replies:
+                i am afraid my partner will think i am weak
+                i felt uncomfortable talking about it
+                my partner felt uncomfortable when i talked about it
+                my partner asked many questions which made me uncomfortable
+                i felt too stressed or angry to talk about it
+        Eng Arguments:
+                i am afraid my partner will think i am weak  -  has_only_phrase
+                i felt uncomfortable talking about it  -  has_only_phrase
+                my partner felt uncomfortable when i talked about it  -  has_only_phrase
+                my partner asked many questions which made me uncomfortable  -  has_only_phrase
+                i felt too stressed or angry to talk about it  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+        -----
+        fil Quick replies:
+                natatakot akong isipin ng aking partner na mahina ako
+                hindi ako naging kumportableng pag-usapan ito
+                hindi naging kumportable ang partner ko noong kausapin ko siya tungkol rito
+                madaming naging tanong ang partner ko at hindi ako naging kumportable sa mga ito
+                masyado akong na-stress o nagalit para pag-usapan ito
+        fil Old Arguments:
+                natatakot akong isipin ng partner ko na mahina ako  -  has_only_phrase
+                hindi ako naging kumportableng nung pinag-usapan ito  -  has_only_phrase
+                hindi naging kumportable ang partner ko nung kinausap ko sa siya tungkol dito  -  has_only_phrase
+                madaming naging tanong ang partner ko at hindi ako naging kumportable sa mga ito  -  has_only_phrase
+                masyado akong na-stress o nagalit para pag-usapan ito  -  has_only_phrase
+        fil Old Links:
+                0,
+                1,
+                2,
+                3,3
+                4,4
+                 ,0
+                 ,1
+                 ,2
+
+        fil New Arguments:
+                natatakot akong isipin ng aking partner na mahina ako  -  has_only_phrase
+                hindi ako naging kumportableng pag-usapan ito  -  has_only_phrase
+                hindi naging kumportable ang partner ko noong kausapin ko siya tungkol rito  -  has_only_phrase
+                madaming naging tanong ang partner ko at hindi ako naging kumportable sa mga ito  -  has_only_phrase
+                masyado akong na-stress o nagalit para pag-usapan ito  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+
+    Problem flow: 29
+    Flow ID: 2cd9314e-7d32-4700-bc85-b79d034d80cd
+    Flow name: PLH - Content - Positive - CheckIn - Praise
+
+        QR Node ID: 6b7e0403-aa84-48cc-89f0-e11557cc2d7f
+        Arg Node ID: 1d1072fe-ac97-4761-a499-9ab207d82799
+        Action text: Well done, great job for remembering @fields.user_name. How did your child or teen respond?
+        Eng Quick replies:
+                surprised
+                happy
+                my child did not like it
+                i don't know
+        Eng Arguments:
+                surprised  -  has_any_word
+                happy  -  has_any_word
+                my child did not like it  -  has_only_phrase
+                i don't know  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+        -----
+        fil Quick replies:
+                nagulat
+                masaya
+                hindi nagustuhan ng aking anak
+                hindi ko alam
+        fil Old Arguments:
+                nagulat  -  has_any_word
+                masaya  -  has_any_word
+                hindi nagustuhan ng anak ko  -  has_only_phrase
+                hindi ko alam  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,1
+                2,
+                3,3
+                 ,2
+
+        fil New Arguments:
+                nagulat nagulat  -  has_any_word
+                masaya masaya  -  has_any_word
+                hindi nagustuhan ng aking anak  -  has_only_phrase
+                hindi ko alam  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+
+##### Arguments not fully translated
+    Problem flow: 30
+    Flow ID: 758e1e77-1ce7-45ec-a5a9-4f76b2553747
+    Flow name: PLH - Welcome - Initial registration - Relationship
+
+        QR Node ID: 2f660fc8-7f21-41fe-8828-0c30f2b60047
+        Arg Node ID: 640f85a5-e9aa-4d40-885c-146985bc0470
+        Action text: What is your relationship status?; ; If you don't want to tell us, that's okay. Please type "N".
+        Eng Quick replies:
+                single (not in a relationship)
+                married
+                partnered but not married
+                divorced or separated
+                widowed
+        Eng Arguments:
+                single  -  has_any_word
+                married  -  has_only_phrase
+                partnered but not married  -  has_only_phrase
+                divorced separated  -  has_any_word
+                widowed  -  has_any_word
+                n  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                 ,5
+        -----
+        fil Quick replies:
+                single (walang karelasyon)
+                kasal
+                hindi kasal pero may karelasyon o kinakasama
+                hiwalay
+                biyudo/biyuda
+        fil Old Arguments:
+                single  -  has_any_word
+                kasal  -  has_only_phrase
+                hindi kasal pero may kinakasama  -  has_only_phrase
+                hiwalay  -  has_any_word
+                biyudo/biyuda  -  has_any_word
+                n  -  has_any_word
+        fil Old Links:
+                0,0
+                1,1
+                2,
+                3,3
+                4,4
+                 ,2
+                 ,5
+
+        fil New Arguments:
+                single single walang  -  has_any_word
+                kasal  -  has_only_phrase
+                hindi kasal pero may karelasyon o kinakasama  -  has_only_phrase
+                hiwalay hiwalay  -  has_any_word
+                biyudo/biyuda biyudo/biyuda  -  has_any_word
+                n  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                 ,5
+
+##### Arguments not fully translated
+    Problem flow: 31
+    Flow ID: 8d5d3818-7718-4a82-a12e-07778c6d61bd
+    Flow name: PLH - Welcome - Initial registration - Media
+
+        QR Node ID: 00640ac3-1f5c-4f44-8124-721ff4f8cb0c
+        Arg Node ID: fb967b5a-72c1-476c-9c69-d851bb262a31
+        Action text: How would you like to receive your messages? You can always change this setting at any time by typing "Help" and selecting Technical Support.
+        Eng Quick replies:
+                core (text and images)
+                boosted (text images audio)
+                star (text images audio video)
+        Eng Arguments:
+                star  -  has_any_word
+                boosted  -  has_any_word
+                core  -  has_any_word
+        Eng Links:
+                0,2
+                1,1
+                2,0
+        -----
+        fil Quick replies:
+                core (mga text at larawan)
+                boosted (mga text larawan at audio)
+                star (mga text larawan audio at bidyo)
+        fil Old Arguments:
+                bituin  -  has_any_word
+                boosted  -  has_any_word
+                core  -  has_any_word
+        fil Old Links:
+                0,2
+                1,1
+                2,
+                 ,0
+
+        fil New Arguments:
+                bituin star bidyo  -  has_any_word
+                boosted boosted  -  has_any_word
+                core core  -  has_any_word
+        fil New Links:
+                0,2
+                1,1
+                2,0
+
+    Problem flow: 32
+    Flow ID: 4d93f4b8-829c-4c2e-bbb2-8aa79dcdc7eb
+    Flow name: PLH - Supportive - Budget
+
+        QR Node ID: 8f3a798f-31c4-480c-bd7a-247662b1b831
+        Arg Node ID: c05061e6-bbe1-44a6-9751-eb1941a9aa08
+        Action text: We are really sorry to hear that you are experiencing money challenges. Would these things be useful?
+        Eng Quick replies:
+                learn about family budgeting
+                look for support organisations in your area
+                i am not interested
+        Eng Arguments:
+                look for support organisations in your area  -  has_only_phrase
+                learn about family budgeting  -  has_only_phrase
+                interested  -  has_any_word
+        Eng Links:
+                0,1
+                1,0
+                2,2
+        -----
+        fil Quick replies:
+                matuto tungkol sa pagba-budget ng pamilya
+                maghanap ng suporta mula sa mga organisasyon sa iyong lugar
+                hindi ako interesado
+        fil Old Arguments:
+                maghanap ng suporta mula sa mga organisasyon sa iyong lugar  -  has_only_phrase
+                matuto tungkol pagba-budget ng pamilya  -  has_only_phrase
+                interesado  -  has_any_word
+        fil Old Links:
+                0,
+                1,0
+                2,2
+                 ,1
+
+        fil New Arguments:
+                maghanap ng suporta mula sa mga organisasyon sa iyong lugar  -  has_only_phrase
+                matuto tungkol sa pagba-budget ng pamilya  -  has_only_phrase
+                interesado hindi ako interesado  -  has_any_word
+        fil New Links:
+                0,1
+                1,0
+                2,2
+
+    Problem flow: 33
+    Flow ID: bd7b7fe6-e8ab-4212-97da-5b706c8922d8
+    Flow name: PLH - Help - Settings - Update frequency
+
+        QR Node ID: eec557df-282f-473b-bef8-419d3099d644
+        Arg Node ID: 52ad485d-f3ae-4b57-af16-69ce9452f8ba
+        Action text: Would you like to continue receiving these tips at the same frequency or less often? You can also change the time of day that you receive messages.; ; Change these settings by typing "Help" and then selecting "Technical Support."
+        Eng Quick replies:
+                same frequency
+                a little less often
+        Eng Arguments:
+                same  -  has_any_word
+                less often  -  has_any_word
+        Eng Links:
+                0,0
+                1,1
+        -----
+        fil Quick replies:
+                magkasing-dalas
+                madalang
+        fil Old Arguments:
+                pareho  -  has_any_word
+                madalang  -  has_any_word
+        fil Old Links:
+                0,
+                1,1
+                 ,0
+
+        fil New Arguments:
+                pareho magkasing-dalas  -  has_any_word
+                madalang madalang  -  has_any_word
+        fil New Links:
+                0,0
+                1,1
+
+    Problem flow: 34
+    Flow ID: da62b3a9-b60b-405d-80ff-0f2f7d1b64fd
+    Flow name: PLH - Content - Positive - CheckIn - Redirect
+
+        QR Node ID: de98d9bf-e786-41a3-a2dc-dc5230a06c5e
+        Arg Node ID: 3216c5d9-fd40-4d63-8cbc-930fb8f8b8fa
+        Action text: What did you find difficult when redirecting @fields.child_nickname's behaviour?
+        Eng Quick replies:
+                i can’t seem to distract my child when they are misbehaving.
+                i am too angry to find anything positive to say to my child after they have misbehaved.
+                my child is misbehaving all the time.
+                i did not have the opportunity to redirect my child.
+        Eng Arguments:
+                i can’t seem to distract my child when they are misbehaving.  -  has_only_phrase
+                i am too angry to find anything positive to say to my child after they have misbehaved.  -  has_only_phrase
+                my child is misbehaving all the time.  -  has_only_phrase
+                i did not have the opportunity to redirect my child.  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+        -----
+        fil Quick replies:
+                hindi ko magawang ibaling ang atensyon ng aking anak kapag siya’y nakagagawa ng negatibong asal o kilos.
+                masyado akong galit para makahanap ng kahit anong positibong pwedeng sabihin sa aking anak pagkatapos niyang makagawa ng negatibong asal o kilos.
+                palaging hindi maganda ang kilos o asal ng anak ko.
+                hindi ako nagkaroon ng pagkakataon na ibaling ang atensyon ng aking anak.
+        fil Old Arguments:
+                hindi ko magawang ibaling ang atensyon ng aking anak kapag siya’y nakagagawa ng negatibong asal o kilos.  -  has_only_phrase
+                masyado akong galit para makahanap ng kahit anong positibong pwedeng sabihin sa aking anak pagkatapos niyang makagawa ng negatibong asal o kilos.  -  has_only_phrase
+                palaging hindi maganda ang kilos o asal ng anak ko.  -  has_only_phrase
+                hindi ako nagkaroon ng pagkakataon para ibaling ang atensyon ng anak ko.  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,1
+                2,2
+                3,
+                 ,3
+
+        fil New Arguments:
+                hindi ko magawang ibaling ang atensyon ng aking anak kapag siya’y nakagagawa ng negatibong asal o kilos.  -  has_only_phrase
+                masyado akong galit para makahanap ng kahit anong positibong pwedeng sabihin sa aking anak pagkatapos niyang makagawa ng negatibong asal o kilos.  -  has_only_phrase
+                palaging hindi maganda ang kilos o asal ng anak ko.  -  has_only_phrase
+                hindi ako nagkaroon ng pagkakataon na ibaling ang atensyon ng aking anak.  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+
+    Problem flow: 35
+    Flow ID: 0e07b269-af19-4446-b597-a6ab5614cc00
+    Flow name: PLH - Content - Positive - CheckIn - Book sharing
+
+        QR Node ID: ff65f6d7-e856-4a2c-972d-e39b93b97aab
+        Arg Node ID: 6afa0760-8e2a-4587-bfc1-9ac1e85b49a5
+        Action text: We understand! What did you find difficult about trying to share a book with @fields.child_nickname?
+        Eng Quick replies:
+                i didn’t know how to involve my child
+                my child had no interest in book sharing
+                i didn't have the time
+        Eng Arguments:
+                i didn’t know how to involve my child  -  has_only_phrase
+                my child had no interest in book sharing  -  has_only_phrase
+                i didn't have the time  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+        -----
+        fil Quick replies:
+                hindi ko alam kung paano isasama ang aking anak
+                walang interes ang anak ko na magbasa ng libro nang magkasama
+                nawalan ako ng oras
+        fil Old Arguments:
+                hindi ko alam kung paano isasali ang anak ko  -  has_only_phrase
+                walang interes ang anak ko na magbasa ng libro nang magkasama  -  has_only_phrase
+                nawalan ako ng oras  -  has_only_phrase
+        fil Old Links:
+                0,
+                1,1
+                2,2
+                 ,0
+
+        fil New Arguments:
+                hindi ko alam kung paano isasama ang aking anak  -  has_only_phrase
+                walang interes ang anak ko na magbasa ng libro nang magkasama  -  has_only_phrase
+                nawalan ako ng oras  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+
+    Problem flow: 36
+    Flow ID: 06e38136-5cfa-4d43-80e5-ad5a36f420b1
+    Flow name: PLH - Content - Positive - CheckIn - Online children
+
+        QR Node ID: 78de3fa2-705c-4d4a-b3ef-640ca9a703f1
+        Arg Node ID: 3fee367a-d89f-4543-8595-094fa3a83375
+        Action text: That is okay! What did you find difficult about discussing online safety with @fields.child_nickname?
+        Eng Quick replies:
+                my child is still using digital gagdets
+                i am finding it difficult to get my child to stop using gadgets
+                i forgot how to set up set up technical fixes
+                i do not feel comfortable with what my child is looking at online
+                i do not know how to talk to my child about what's safe and not safe online
+                i don’t know much about technology so i don’t know how to talk about it with my child
+                i did not have the time to have this discussion with my child or teen
+        Eng Arguments:
+                my child is still using digital gagdets  -  has_only_phrase
+                i am finding it difficult to get my child to stop using gadgets  -  has_only_phrase
+                i forgot how to set up set up technical fixes  -  has_only_phrase
+                i do not feel comfortable with what my child is looking at online  -  has_only_phrase
+                i do not know how to talk to my child about what's safe and not safe online  -  has_only_phrase
+                i don’t know much about technology so i don’t know how to talk about it with my child  -  has_only_phrase
+                i did not have the time to have this discussion with my child or teen  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+        -----
+        fil Quick replies:
+                gumagamit pa din ang aking anak ng mga gadget
+                nahihirapan akong patigilin ang aking anak na gumamit ng mga gadget
+                nakalimutan ko kung paano i-set-up ang pag-aayos sa mga isyung teknikal
+                hindi ako kumportable sa mga tinitingnan ng anak ko sa internet
+                hindi ko alam kung paano kausapin ang aking anak sa kung ano ang ligtas at hindi ligtas para sa kanila sa internet
+                wala akong masyadong alam sa teknolohiya kaya’t di ko alam kung paano kausapin ang aking anak tungkol dito
+                nawalan ako ng oras para pag-usapan ito kasama ang aking anak na bata o teenager
+        fil Old Arguments:
+                gumagamit pa din ang aking anak ng mga gadget  -  has_only_phrase
+                nahihirapan akong patigilin ang aking anak na gumamit ng mga gadget  -  has_only_phrase
+                nakalimutan ko kung paano i-set-up ang pag-aayos sa mga isyung teknikal  -  has_only_phrase
+                hindi ako kumportable sa mga tinitingnan ng anak ko sa internet  -  has_only_phrase
+                hindi ko alam kung paano kausapin ang aking anak sa kung ano ang ligtas at hindi ligtas para sa kanila sa internet  -  has_only_phrase
+                wala akong masyadong alam sa teknolohiya kaya’t di ko alam kung paano kausapin ang aking anak tungkol dito  -  has_only_phrase
+                nawalan ako ng oras para pag-usapan ito kasama ang aking anak na bata o teen  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,
+                 ,6
+
+        fil New Arguments:
+                gumagamit pa din ang aking anak ng mga gadget  -  has_only_phrase
+                nahihirapan akong patigilin ang aking anak na gumamit ng mga gadget  -  has_only_phrase
+                nakalimutan ko kung paano i-set-up ang pag-aayos sa mga isyung teknikal  -  has_only_phrase
+                hindi ako kumportable sa mga tinitingnan ng anak ko sa internet  -  has_only_phrase
+                hindi ko alam kung paano kausapin ang aking anak sa kung ano ang ligtas at hindi ligtas para sa kanila sa internet  -  has_only_phrase
+                wala akong masyadong alam sa teknolohiya kaya’t di ko alam kung paano kausapin ang aking anak tungkol dito  -  has_only_phrase
+                nawalan ako ng oras para pag-usapan ito kasama ang aking anak na bata o teenager  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+
+    Problem flow: 37
+    Flow ID: ac114a82-a440-4266-bb5a-67f2c32183f6
+    Flow name: PLH - Content - Positive - CheckIn - Crying
+
+        QR Node ID: efabe7e3-869a-430c-a8b1-a34fa5c66f91
+        Arg Node ID: 758cdbdc-4a90-430c-badb-7b63abc4a9f1
+        Action text: Sorry to hear it has been challenging. What was difficult for you about managing @fields.child_nickname's crying?
+        Eng Quick replies:
+                i didn't stay calm
+                i got angry
+                i felt overwhelmed
+                my baby won't stop crying
+        Eng Arguments:
+                i didn't stay calm  -  has_only_phrase
+                i got angry  -  has_only_phrase
+                i felt overwhelmed  -  has_only_phrase
+                my baby won't stop crying  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+        -----
+        fil Quick replies:
+                hindi ako nanatiling kalmado
+                nagalit ako
+                nalula ako sa bigat o dami ng aking kinakaharap
+                di tumitigil ang pag-iyak ng aking sanggol
+        fil Old Arguments:
+                hindi ako nanatiling kalmado  -  has_only_phrase
+                nagalit ako  -  has_only_phrase
+                nalula ako sa dami o bigat ng aking kinakaharap  -  has_only_phrase
+                hindi tumitigil ang pag-iyak ng aking sanggol  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,1
+                2,
+                3,
+                 ,2
+                 ,3
+
+        fil New Arguments:
+                hindi ako nanatiling kalmado  -  has_only_phrase
+                nagalit ako  -  has_only_phrase
+                nalula ako sa bigat o dami ng aking kinakaharap  -  has_only_phrase
+                di tumitigil ang pag-iyak ng aking sanggol  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+
+    Problem flow: 38
+    Flow ID: 36a9cac1-f1fc-44de-9f9f-f01ae914ed9b
+    Flow name: PLH - Content - Positive - CheckIn - Crisis
+
+        QR Node ID: 43a373b9-121d-4d3f-8d34-0b3f7db6879a
+        Arg Node ID: 96e72c73-a578-4e39-b39d-b4d3733121ba
+        Action text: We understand! What did you find difficult about discussing challenges with @fields.child_nickname?
+        Eng Quick replies:
+                my teen told me that something serious happened to them and i did not know how to handle it
+                the conversation made me very uncomfortable because i was reminded of something serious that happened to me
+                my teen or me or my family did not feel comfortable
+                my teen did not discuss anything sensitive or challenging with me
+        Eng Arguments:
+                my teen told me that something serious happened to them and i did not know how to handle it  -  has_only_phrase
+                the conversation made me very uncomfortable because i was reminded of something serious that happened to me  -  has_only_phrase
+                my teen or me or my family did not feel comfortable  -  has_only_phrase
+                my teen did not discuss anything sensitive or challenging with me  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+        -----
+        fil Quick replies:
+                sinabi sa akin ng anak kong teenager na may malubhang nangyari sa kanya at hindi ko alam kung paano tugunan ito
+                hindi ako naging kumportable sa pag-uusap namin dahil pinaalala nito ang isang malubhang karanasang nangyari sa akin
+                ang aking anak na teenager o ako o ang aking pamilya ay hindi naging kumportable
+                hindi naman nagsabi sa akin ang anak kong teenager ng bagay na sensitibo o mahirap pag-usapan
+        fil Old Arguments:
+                sinabi sa akin ng anak kong teenager na may malubhang nangyari sa kanya at hindi ko alam kung paano tugunan ito  -  has_only_phrase
+                hindi ako naging kumportable sa pag-uusap namin dahil pinaalala nito ang isang malubhang karanasang nangyari sa akin  -  has_only_phrase
+                ang aking anak na teenager o ako o ang aking pamilya ay hindi naging kumportable  -  has_only_phrase
+                hindi naman nagsabi sa akin ang anak kong teen ng bagay na sensitibo o mahirap pag-usapan  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,1
+                2,2
+                3,
+                 ,3
+
+        fil New Arguments:
+                sinabi sa akin ng anak kong teenager na may malubhang nangyari sa kanya at hindi ko alam kung paano tugunan ito  -  has_only_phrase
+                hindi ako naging kumportable sa pag-uusap namin dahil pinaalala nito ang isang malubhang karanasang nangyari sa akin  -  has_only_phrase
+                ang aking anak na teenager o ako o ang aking pamilya ay hindi naging kumportable  -  has_only_phrase
+                hindi naman nagsabi sa akin ang anak kong teenager ng bagay na sensitibo o mahirap pag-usapan  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+
+    Problem flow: 39
+    Flow ID: 3f4c9cc6-e130-488f-84f8-bab22e99e7d4
+    Flow name: PLH - Content - Positive - CheckIn - Budget with children
+
+        QR Node ID: 2c6956db-cd96-43db-ba21-ca7a5f41c7df
+        Arg Node ID: ca44347f-fd02-41de-9a66-46ba85c905af
+        Action text: That is okay @fields.user_name! What did you find challenging about discussing budgeting with your family?
+        Eng Quick replies:
+                i did not want to tell my family how much i earn
+                when budgeting we could not agree on what should fall under needs and what should fall under wants
+                i did not understand what to do
+                my child or teen did not want to do the budgeting with me
+                i did not have the time to talk about family budgeting with my child or teen
+        Eng Arguments:
+                i did not want to tell my family how much i earn  -  has_only_phrase
+                when budgeting we could not agree on what should fall under needs and what should fall under wants  -  has_only_phrase
+                i did not understand what to do  -  has_only_phrase
+                my child or teen did not want to do the budgeting with me  -  has_only_phrase
+                i did not have the time to talk about family budgeting with my child or teen  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+        -----
+        fil Quick replies:
+                ayaw kong sabihin sa aking pamilya kung gaano kalaki ang kinikita ko
+                kapag gumagawa ng budget hindi kami magkasundo sa kung ano ang pangangailangan at ano ang kagustuhan lang
+                hindi ko naintindihan kung anong gagawin
+                ayaw akong samahan ng aking anak na bata o teenager sa pagba-budget
+                nawalan ako ng oras para kausapin ang aking anak na bata o teenager tungkol sa pagba-budget ng pamilya
+        fil Old Arguments:
+                ayaw kong sabihin sa aking pamilya kung gaano kalaki ang aking kinikita  -  has_only_phrase
+                kapag nagba-budget hindi kami magkasundo sa kung ano ang pangangailangan at ano ang kagustuhan lang  -  has_only_phrase
+                hindi ko naintindihan kung ano ang gagawin  -  has_only_phrase
+                ayaw akong samahan ng aking anak na bata o teen sa pagba-budget  -  has_only_phrase
+                nawalan ako ng oras para kausapin ang aking anak na bata o teenager tungkol sa pagba-budget ng pamilya  -  has_only_phrase
+        fil Old Links:
+                0,
+                1,
+                2,
+                3,
+                4,4
+                 ,0
+                 ,1
+                 ,2
+                 ,3
+
+        fil New Arguments:
+                ayaw kong sabihin sa aking pamilya kung gaano kalaki ang kinikita ko  -  has_only_phrase
+                kapag gumagawa ng budget hindi kami magkasundo sa kung ano ang pangangailangan at ano ang kagustuhan lang  -  has_only_phrase
+                hindi ko naintindihan kung anong gagawin  -  has_only_phrase
+                ayaw akong samahan ng aking anak na bata o teenager sa pagba-budget  -  has_only_phrase
+                nawalan ako ng oras para kausapin ang aking anak na bata o teenager tungkol sa pagba-budget ng pamilya  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+
+    Problem flow: 40
+    Flow ID: 3d046a4a-1139-42db-9fe0-3112a7fb4071
+    Flow name: PLH - Content - Positive - CheckIn - Education
+
+        QR Node ID: 360cf584-3caa-4b63-8503-ce439963d744
+        Arg Node ID: 2d9edf08-5d05-489a-bdd8-99eb64e52061
+        Action text: That is okay @fields.user_name! Remember you are a parent, not a teacher. What did you find difficult about remote learning?
+        Eng Quick replies:
+                i don't know what to do with my child
+                my child does not want to learn
+                i am feeling overwhelmed
+                i do not know where to find resources to support my child's learning
+                i did not have the time to involve myself in my child's learning or education
+        Eng Arguments:
+                i don't know what to do with my child  -  has_only_phrase
+                my child does not want to learn  -  has_only_phrase
+                i am feeling overwhelmed  -  has_only_phrase
+                i do not know where to find resources to support my child's learning  -  has_only_phrase
+                i did not have the time to involve myself in my child's learning or education  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+        -----
+        fil Quick replies:
+                hindi ko alam kung anong gagawin ko sa anak ko
+                ayaw matuto ng anak ko
+                nalulula ako sa dami o bigat ng aking kinakaharap
+                hindi ko alam kung saan ako makakakuha ng impormasyon para masuportahan ang pag-aaral ng anak ko
+                nawalan ako ng oras na samahan at tulungan ang anak ko sa kanyang pag-aaral
+        fil Old Arguments:
+                hindi ko alam kung anong gagawin ko sa anak ko  -  has_only_phrase
+                ayaw matuto ng anak ko  -  has_only_phrase
+                nalulula ako sa bigat o dami ng aking kinakaharap  -  has_only_phrase
+                hindi ko alam kung saan ako makakakuha ng impormasyon para masuportahan ang pag-aaral ng anak ko  -  has_only_phrase
+                nawalan ako ng oras para tumulong sa pag-aaral ng anak ko  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,1
+                2,
+                3,3
+                4,
+                 ,2
+                 ,4
+
+        fil New Arguments:
+                hindi ko alam kung anong gagawin ko sa anak ko  -  has_only_phrase
+                ayaw matuto ng anak ko  -  has_only_phrase
+                nalulula ako sa dami o bigat ng aking kinakaharap  -  has_only_phrase
+                hindi ko alam kung saan ako makakakuha ng impormasyon para masuportahan ang pag-aaral ng anak ko  -  has_only_phrase
+                nawalan ako ng oras na samahan at tulungan ang anak ko sa kanyang pag-aaral  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+
+    Problem flow: 41
+    Flow ID: 80e9a7b4-54c7-4b9e-adf6-0b55478f4eec
+    Flow name: PLH - Content - Positive - CheckIn - Community safety
+
+        QR Node ID: f078134d-26ab-4f0d-b6b0-2b19ae6483eb
+        Arg Node ID: 62e9735d-b51a-4e94-ba12-5dda33136d6c
+        Action text: That is okay! What has been difficult for you about discussing safe and unsafe places with @fields.child_nickname?
+        Eng Quick replies:
+                my child or teen and i disagreed on which areas were unsafe
+                my child or teen identified the house of someone i trust as unsafe. i was shocked and did not know what to do
+                my child or teen insisted that a place like a bar is for them to visit. i don’t know how to convince them that it is not a safe area
+                as an adult i feel i am responsible for protecting my child or teen. when i told my child or teen which areas are unsafe they got angry
+                it was hard to identify resources available in my community because i don’t know my community so well
+                i did not have any time to do this activity
+        Eng Arguments:
+                my child or teen and i disagreed on which areas were unsafe  -  has_only_phrase
+                my child or teen identified the house of someone i trust as unsafe. i was shocked and did not know what to do  -  has_only_phrase
+                my child or teen insisted that a place like a bar is for them to visit. i don’t know how to convince them that it is not a safe area  -  has_only_phrase
+                as an adult i feel i am responsible for protecting my child or teen. when i told my child or teen which areas are unsafe they got angry  -  has_only_phrase
+                it was hard to identify resources available in my community because i don’t know my community so well  -  has_only_phrase
+                i did not have any time to do this activity  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+        -----
+        fil Quick replies:
+                hindi kami nagkasundo ng aking anak na bata o teenager sa kung aling mga lugar ang hindi ligtas
+                kinilala ng anak ko ang bahay ng isang taong pinagkakatiwalaan ko bilang hindi ligtas para sa kanya. nagulat ako at hindi ko alam kung ano ang aking gagawin
+                pinagpilitan ng aking anak na bata o teenager na ang isang lugar gaya ng bar ay maaari nilang puntahan. hindi ko alam kung paano kumbinsihin ang anak ko na hindi ito ligtas na lugar
+                bilang nakatatanda nararamdaman kong responsibilidad kong protektahan ang aking anak na bata o teenager. nung sinabi ko sa anak kong bata o teenager kung aling mga lugar ang hindi ligtas nagalit siya sa akin
+                nahirapan akong alamin ang mapagkukunan ng tulong sa aming komunidad dahil hindi masyadong pamilyar sa akin ang aming lugar
+                nawalan ako ng oras para kumpletuhin ang gawaing ito
+        fil Old Arguments:
+                hindi kami nagkasundo ng aking anak na bata o teenager sa kung aling mga lugar ang hindi ligtas  -  has_only_phrase
+                kinilala ng anak ko ang bahay ng isang taong pinagkakatiwalaan ko bilang hindi ligtas para sa kanya. nagulat ako at hindi ko alam kung anong gagawin ko  -  has_only_phrase
+                pinagpilitan ng aking anak na bata o teenager na ang isang lugar gaya ng bar ay maaari nilang puntahan. hindi ko alam kung paano siya kukumbinsihin na hindi ito ligtas na lugar para sa kanya  -  has_only_phrase
+                bilang nakatatanda nararamdaman kong responsibilidad kong protektahan ang aking anak na bata o teenager. nung sinabi ko kung aling mga lugar ang hindi ligtas nagalit siya sa akin  -  has_only_phrase
+                nahirapan akong alamin ang mapagkukunan ng tulong sa aming komunidad dahil hindi masyadong pamilyar sa akin ang aming lugar  -  has_only_phrase
+                nawalan ako ng oras para kumpletuhin ang gawaing ito  -  has_only_phrase
+        fil Old Links:
+                0,0
+                1,
+                2,
+                3,
+                4,4
+                5,5
+                 ,1
+                 ,2
+                 ,3
+
+        fil New Arguments:
+                hindi kami nagkasundo ng aking anak na bata o teenager sa kung aling mga lugar ang hindi ligtas  -  has_only_phrase
+                kinilala ng anak ko ang bahay ng isang taong pinagkakatiwalaan ko bilang hindi ligtas para sa kanya. nagulat ako at hindi ko alam kung ano ang aking gagawin  -  has_only_phrase
+                pinagpilitan ng aking anak na bata o teenager na ang isang lugar gaya ng bar ay maaari nilang puntahan. hindi ko alam kung paano kumbinsihin ang anak ko na hindi ito ligtas na lugar  -  has_only_phrase
+                bilang nakatatanda nararamdaman kong responsibilidad kong protektahan ang aking anak na bata o teenager. nung sinabi ko sa anak kong bata o teenager kung aling mga lugar ang hindi ligtas nagalit siya sa akin  -  has_only_phrase
+                nahirapan akong alamin ang mapagkukunan ng tulong sa aming komunidad dahil hindi masyadong pamilyar sa akin ang aming lugar  -  has_only_phrase
+                nawalan ako ng oras para kumpletuhin ang gawaing ito  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+
+    Problem flow: 42
+    Flow ID: e994e4f6-2cee-4e31-ab79-b785805ce5f3
+    Flow name: PLH - Content - Positive - CheckIn - Consequences
+
+        QR Node ID: 7fb716ad-aeb3-4f87-a19a-96a0d96ecefd
+        Arg Node ID: 2163b6c7-1821-458f-8fdb-77d323a9d3ef
+        Action text: That's okay! @fields.user_name! What was difficult about using consequences?
+        Eng Quick replies:
+                i got very angry with my child or teen and yelled at them
+                i forgot to give my child or teen a choice to comply before giving the consequence
+                my child or teen got very angry with me after i gave the consequence
+                my child or teen complained that the consequence was not fair
+                i forgot to follow through with the consequence
+                i am giving too many consequences all the time
+                my child or teen did not need a consequence because they were behaving well
+        Eng Arguments:
+                i got very angry with my child or teen and yelled at them  -  has_only_phrase
+                i forgot to give my child or teen a choice to comply before giving the consequence  -  has_only_phrase
+                my child or teen got very angry with me after i gave the consequence  -  has_only_phrase
+                my child or teen complained that the consequence was not fair  -  has_only_phrase
+                i forgot to follow through with the consequence  -  has_only_phrase
+                i am giving too many consequences all the time  -  has_only_phrase
+                my child or teen did not need a consequence because they were behaving well  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+        -----
+        fil Quick replies:
+                nagalit ako nang lubos sa aking mga anak at sinigawan sila
+                nakalimutan kong bigyan ng pagkakataong sumunod ang aking anak bago bigyan ng konsekwensya
+                sobrang nagalit sa akin ang anak ko pagkatapos kong bigyan ng konsekwensya
+                nagreklamo ang aking anak na hindi makatarungan ang aking konsekwensya
+                nakalimutan kong sundin ang konsekwensya
+                nagbibigay ako ng masyadong maraming konsekwensya palagi
+                hindi kinailangan ng aking anak na bata o teenager ng konsekwensya dahil maayos naman ang kilos niya
+        fil Old Arguments:
+                nagalit ako nang sobra sa aking anak at sinigawan ko siya  -  has_only_phrase
+                nakalimutan kong bigyan ng pagkakataong sumunod ang aking anak bago bigyan ng konsekwensya  -  has_only_phrase
+                nagalit ang aking anak sa akin pagkatapos kong ibigay ang konsekwensya  -  has_only_phrase
+                nagreklamo ang anak ko na hindi patas ang konsekwensya  -  has_only_phrase
+                nakalimutan kong sundin ang konsekwensya  -  has_only_phrase
+                nagbibigay ako ng masyadong maraming konsekwensya sa lahat ng oras  -  has_only_phrase
+                hindi kinailangan ng aking anak na bata o teen ng konsekwensya dahil maayos naman ang kilos niya  -  has_only_phrase
+        fil Old Links:
+                0,
+                1,1
+                2,
+                3,
+                4,4
+                5,
+                6,
+                 ,0
+                 ,2
+                 ,3
+                 ,5
+                 ,6
+
+        fil New Arguments:
+                nagalit ako nang lubos sa aking mga anak at sinigawan sila  -  has_only_phrase
+                nakalimutan kong bigyan ng pagkakataong sumunod ang aking anak bago bigyan ng konsekwensya  -  has_only_phrase
+                sobrang nagalit sa akin ang anak ko pagkatapos kong bigyan ng konsekwensya  -  has_only_phrase
+                nagreklamo ang aking anak na hindi makatarungan ang aking konsekwensya  -  has_only_phrase
+                nakalimutan kong sundin ang konsekwensya  -  has_only_phrase
+                nagbibigay ako ng masyadong maraming konsekwensya palagi  -  has_only_phrase
+                hindi kinailangan ng aking anak na bata o teenager ng konsekwensya dahil maayos naman ang kilos niya  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+                6,6
+
+    Problem flow: 43
+    Flow ID: ef95c56a-8dad-4476-8caf-44743a5f9d81
+    Flow name: PLH - Content - Positive - CheckIn - Ignore
+
+        QR Node ID: 04d10762-bd1a-4dd3-9c8f-f71849299a18
+        Arg Node ID: 2da04186-631f-4a61-b5ec-56fc9421c053
+        Action text: Sorry it did not go well. Ignoring our children's whining or tantrums is really hard. Please be patient with yourself. What was difficult about using ignore?
+        Eng Quick replies:
+                it was hard to stay calm while ignoring my child's tantrum
+                i struggled to be consistent and gave into their demands
+                i am concerned about my child or someone else getting hurt
+                i am having to ignore my child's behaviour all the time
+                my child did not behave in a negative attention seeking or demanding way
+        Eng Arguments:
+                it was hard to stay calm while ignoring my child's tantrum  -  has_only_phrase
+                i struggled to be consistent and gave into their demands  -  has_only_phrase
+                i am concerned about my child or someone else getting hurt  -  has_only_phrase
+                i am having to ignore my child's behaviour all the time  -  has_only_phrase
+                my child did not behave in a negative attention seeking or demanding way  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+        -----
+        fil Quick replies:
+                mahirap manatiling kalmado habang hindi pinapansin ang sumpong ng aking anak
+                nahirapan akong maging consistent at sumuko rin sa kanilang mga gusto
+                nag-aalala akong masaktan ang aking anak o ang sinuman
+                nahihirapan akong hindi pansinin ang kilos o pag-uugali ng aking anak sa lahat ng oras
+                hindi kumilos ang anak ko sa paraang negatibo naghahanap ng pansin o nagpupumilit
+        fil Old Arguments:
+                mahirap manatiling kalmado habang hindi pinapansin ang pagsusumpong ng aking anak  -  has_only_phrase
+                nahirapan akong magtuluy-tuloy at pinanaig ang kanilang mga gusto  -  has_only_phrase
+                nag-aalala akong masaktan ang aking anak o ang sinuman  -  has_only_phrase
+                nahihirapan akong hindi pansinin ang kilos ng aking anak sa lahat ng oras  -  has_only_phrase
+                hindi kumilos ang anak ko sa paraang negatibo naghahanap ng pansin o nagpupumilit  -  has_only_phrase
+        fil Old Links:
+                0,
+                1,
+                2,2
+                3,
+                4,4
+                 ,0
+                 ,1
+                 ,3
+
+        fil New Arguments:
+                mahirap manatiling kalmado habang hindi pinapansin ang sumpong ng aking anak  -  has_only_phrase
+                nahirapan akong maging consistent at sumuko rin sa kanilang mga gusto  -  has_only_phrase
+                nag-aalala akong masaktan ang aking anak o ang sinuman  -  has_only_phrase
+                nahihirapan akong hindi pansinin ang kilos o pag-uugali ng aking anak sa lahat ng oras  -  has_only_phrase
+                hindi kumilos ang anak ko sa paraang negatibo naghahanap ng pansin o nagpupumilit  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+
+    Problem flow: 44
+    Flow ID: 0b46cc73-63ec-48b2-b681-689b05d2fb0c
+    Flow name: PLH - Content - Extra - CheckIn - COVID
+
+        QR Node ID: 07d22910-be2b-4a1f-80e4-b896a49f9544
+        Arg Node ID: 1a5a30a5-5dae-47db-b7e6-587eeda3c4c9
+        Action text: That is okay @fields.user_name! What has been difficult for you about discussing COVID-19 with your child or teen?
+        Eng Quick replies:
+                it was hard to identify resources available
+                i did not have any time
+                as an adult i feel i am responsible for protecting my child but i don't know a lot about covid-19
+                i felt uncomfortable or confused
+                my child reacted negatively
+                my child asked me questions i did not the answers to
+        Eng Arguments:
+                it was hard to identify resources available  -  has_only_phrase
+                i did not have any time  -  has_only_phrase
+                as an adult i feel i am responsible for protecting my child but i don't know a lot about covid-19  -  has_only_phrase
+                i felt uncomfortable or confused  -  has_only_phrase
+                my child reacted negatively  -  has_only_phrase
+                my child asked me questions i did not the answers to  -  has_only_phrase
+        Eng Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+        -----
+        fil Quick replies:
+                mahirap alamin ang maaari kong mapagkukunan ng impormasyon
+                nawalan ako ng oras para dito
+                bilang nakatatanda nararamdaman kong responsibilidad kong protektahan ang anak ko pero wala akong masyadong alam tungkol sa covid-19
+                hindi ako naging kumportable o nalito ako
+                negatibo ang reaksyon ng aking anak
+                tinanong ako ng anak ko ng mga katanungang hindi ko masagot
+        fil Old Arguments:
+                mahirap alamin ang maaari kong mapagkunan ng impormasyon  -  has_only_phrase
+                nawalan ako ng oras  -  has_only_phrase
+                bilang nakatatanda nararamdaman kong responsibilidad kong protektahan ang anak ko pero wala akong masyadong alam tungkol sa covid-19  -  has_only_phrase
+                hindi ako naging kumportable o nalito ako  -  has_only_phrase
+                negatibo ang reaskyon ng anak ko  -  has_only_phrase
+                tinanong ako ng anak ko ng mga katanungang hindi ko masagot  -  has_only_phrase
+        fil Old Links:
+                0,
+                1,
+                2,2
+                3,3
+                4,
+                5,5
+                 ,0
+                 ,1
+                 ,4
+
+        fil New Arguments:
+                mahirap alamin ang maaari kong mapagkukunan ng impormasyon  -  has_only_phrase
+                nawalan ako ng oras para dito  -  has_only_phrase
+                bilang nakatatanda nararamdaman kong responsibilidad kong protektahan ang anak ko pero wala akong masyadong alam tungkol sa covid-19  -  has_only_phrase
+                hindi ako naging kumportable o nalito ako  -  has_only_phrase
+                negatibo ang reaksyon ng aking anak  -  has_only_phrase
+                tinanong ako ng anak ko ng mga katanungang hindi ko masagot  -  has_only_phrase
+        fil New Links:
+                0,0
+                1,1
+                2,2
+                3,3
+                4,4
+                5,5
+
