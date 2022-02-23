@@ -9,15 +9,18 @@ node .\idems-chatbot-repo\scripts\update_expiration_time.js $input_path_1 60 $ou
 Write-Output "updated expiration"
 
 # step 2: flow edits & A/B testing
-$SPREADSHEET_ID = '1KPakZyyuyHoRO5GCdyde-vOvKq2155pTl-VZKKIKcXI'
+$SPREADSHEET_ID_ab = '1KPakZyyuyHoRO5GCdyde-vOvKq2155pTl-VZKKIKcXI'
+$SPREADSHEET_ID_loc = '1rdEI_HWP7B_Q-J5ib9UYzDbbE4IWPbzA3-DfnGdZ0AM'
 $JSON_FILENAME = $output_path_1
 $source_file_name = $source_file_name + "_ABtesting"
 $CONFIG_ab = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\edits\ab_config.json"
 $output_path_2 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-international-repo\temp\" + $source_file_name + ".json"
 Set-Location "C:\Users\fagio\Documents\rapidpro_abtesting"
-python .\main.py $JSON_FILENAME $output_path_2 $SPREADSHEET_ID --format google_sheets --logfile main_AB.log --config=$CONFIG_ab
+python .\main.py $JSON_FILENAME $output_path_2 $SPREADSHEET_ID_ab $SPREADSHEET_ID_loc --format google_sheets --logfile main_AB.log --config=$CONFIG_ab
 Write-Output "added A/B tests"
 
+$output_path_3 = $output_path_2
+<#
 ## step 3: localisation
 $SPREADSHEET_ID = '1rdEI_HWP7B_Q-J5ib9UYzDbbE4IWPbzA3-DfnGdZ0AM'
 $JSON_FILENAME = $output_path_2
@@ -25,7 +28,7 @@ $source_file_name = $source_file_name + "_localised"
 $output_path_3 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-malaysia-repo\temp\" + $source_file_name + ".json"
 python main.py $JSON_FILENAME $output_path_3 $SPREADSHEET_ID --format google_sheets --logfile main_loc.log
 Write-Output "localised flows"
-
+#>
 
 <#
 # replace set language flow
@@ -75,10 +78,11 @@ $JSON11 = "11_fix_arg_qr_translation"
 $JSON11Path = $OutputDir + '\' + $JSON11 + '.json'
 $LOG12 = "12 - Log of changes after fix_arg_qr_translation"
 $LOG13 = "13 - Log of erros in file found using overall_integrity_check"
+$LOG14 = $OutputDir + "\Excel Acceptance Log.xlsx"
     
 Node C:\Users\fagio\Documents\GitHub\idems_translation\chatbot\index.js has_any_words_check $InputFile $OutputDir $JSON9 $LOG10
 Node C:\Users\fagio\Documents\GitHub\idems_translation\chatbot\index.js fix_arg_qr_translation $JSON9Path $OutputDir $JSON11 $LOG12
-Node C:\Users\fagio\Documents\GitHub\idems_translation\chatbot\index.js overall_integrity_check $JSON11Path $OutputDir $LOG13
+Node C:\Users\fagio\Documents\GitHub\idems_translation\chatbot\index.js overall_integrity_check $JSON11Path $OutputDir $LOG13 $LOG14
 
 Write-Output "Completed integrity check"
 
