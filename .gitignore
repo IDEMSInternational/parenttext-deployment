@@ -1,11 +1,11 @@
 # Intermediary output files
-./idems-chatbot-repo/temp
-./parenttext-international-repo/temp
-./parenttext-malaysia-repo/temp
-./parenttext-philippines-repo/temp
-./parenttext-south-africa-repo/temp
-./parenttext-jamaica-repo/temp
-./plh-digital-translation-repo
+idems-chatbot-repo/temp/
+parenttext-international-repo/temp/
+parenttext-malaysia-repo/temp/
+parenttext-philippines-repo/temp/
+parenttext-south-africa-repo/temp/
+parenttext-jamaica-repo/temp/
+plh-digital-translation-repo/
 
 
 # Logs
