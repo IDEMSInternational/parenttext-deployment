@@ -74,13 +74,16 @@
         {
             "English": {
                 "keywords": [
-                    "poision",
-                    "poisioning",
-                    "poisioned"
+                    "poison",
+                    "poisoning",
+                    "poisoned"
                 ],
                 "mispellings": [
                     "pesian",
-                    "boisoned"
+                    "boisoned",
+					"poision",
+					"poisioning",
+					"poisioned"
                 ]
             },
             "Translation": {
