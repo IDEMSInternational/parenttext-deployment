@@ -3,45 +3,57 @@ var fs = require('fs');
 let input_args = process.argv.slice(2);
 
 let input_path = input_args[0];
-var json_string = fs.readFileSync(input_path).toString();
-var obj_full = JSON.parse(json_string);
+let n_files = input_args[1];
 
-var batch_1 = JSON.parse(json_string);
-var batch_2 = JSON.parse(json_string);
+let json_string = fs.readFileSync(input_path).toString();
+let obj_full = JSON.parse(json_string);
+
+
+
 
 let flow_dict = {};
 obj_full.flows.forEach(flow => {flow_dict[flow.uuid] = flow.name});
 
 let n_tot_flows = obj_full.flows.length;
+console.log(n_tot_flows)
 
-let quot = Math.floor(n_tot_flows/2);
+let quot = Math.floor(n_tot_flows/n_files);
+let batches = [];
+let i = 0;
 
-batch_1.flows = obj_full.flows.slice(0,quot)
-batch_2.flows = obj_full.flows.slice(quot,n_tot_flows);
+for (let start=0; start < n_tot_flows; start+= quot){
+    batches.push(JSON.parse(json_string));
+    if (n_tot_flows-start-quot >= quot){
+        batches[i].flows = batches[i].flows.slice(start, start + quot);
+        console.log(batches[i].flows.length)
+    }
+    else{
+        batches[i].flows = batches[i].flows.slice(start, n_tot_flows);
+        console.log(batches[i].flows.length)
+        break
+    }
+    
+   
+    i++
+    
+}
 
 
-//remove triggers if the corresponding flow is not in the batch
-remove_triggers(batch_1);
-remove_triggers(batch_2);
+console.log(batches.length)
 
-//rename flow in enter flow nodes if the name is not up to date
-rename_flows(flow_dict,batch_1)
-rename_flows(flow_dict,batch_2)
+for (let i=0; i < n_files; i++){
+    //remove triggers if the corresponding flow is not in the batch
+    remove_triggers(batches[i]);
+    //rename flow in enter flow nodes if the name is not up to date
+    rename_flows(flow_dict,batches[i])
+    let output_path = input_path.substring(0, input_path.length - 5) + "_" + (i+1) + ".json";
+    let batch = JSON.stringify(batches[i], null, 2);
+    
+    fs.writeFile(output_path, batch, function (err, result) {
+        if (err) console.log('error', err);
+    });
+}
 
-
-let output_path_1 = input_path.substring(0, input_path.length - 5) + "_1" + ".json";
-let output_path_2 = input_path.substring(0, input_path.length - 5)  + "_2" + ".json";
-
-batch_1 = JSON.stringify(batch_1, null, 2);
-batch_2 = JSON.stringify(batch_2, null, 2);
-
-fs.writeFile(output_path_1, batch_1, function (err, result) {
-    if (err) console.log('error', err);
-});
-
-fs.writeFile(output_path_2, batch_2, function (err, result) {
-    if (err) console.log('error', err);
-});
 
 
 function remove_triggers(rapidpro_obj){
