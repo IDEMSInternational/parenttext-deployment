@@ -15,7 +15,7 @@ $source_file_name = $source_file_name + "_ABtesting"
 $CONFIG_ab = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-" + $deployment + "-repo\edits\ab_config.json"
 $output_path_2 = "C:\Users\fagio\Documents\parenttext-deployment\parenttext-" + $deployment + "-repo\temp\" + $source_file_name + ".json"
 Set-Location "C:\Users\fagio\Documents\rapidpro_abtesting"
-python .\main.py $JSON_FILENAME $output_path_2 $SPREADSHEET_ID_ab $SPREADSHEET_ID_loc --format google_sheets --logfile main_AB.log --config=$CONFIG_ab
+python .\main.py $JSON_FILENAME $output_path_2 $SPREADSHEET_ID_ab $SPREADSHEET_ID_loc --format google_sheets --logfile main_AB_phil.log --config=$CONFIG_ab
 Write-Output "added A/B tests and localisation"
 
 $output_path_3 = $output_path_2
