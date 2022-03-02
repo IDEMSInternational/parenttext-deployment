@@ -1,3 +1,4 @@
+
 # step 1: update flow properties
 $source_file_name = $source_file_name
 $input_path_1 = ".\parenttext-international-repo\flows\" + $source_file_name + ".json"
@@ -7,6 +8,10 @@ $expiration_time = $expiration_time
 node .\idems-chatbot-repo\scripts\update_expiration_time.js $input_path_1 $expiration_time $output_path_1
 Write-Output "updated expiration"
 
+
+
+
+
 # step 2: flow edits & A/B testing
 $deployment = $deployment
 $SPREADSHEET_ID_ab = '1KPakZyyuyHoRO5GCdyde-vOvKq2155pTl-VZKKIKcXI'
@@ -15,11 +20,10 @@ $JSON_FILENAME = "..\parenttext-deployment\" + $output_path_1
 $source_file_name = $source_file_name + "_ABtesting"
 $CONFIG_ab = "..\parenttext-deployment\parenttext-" + $deployment + "-repo\edits\ab_config_demo.json"
 $output_path_2 = "parenttext-" + $deployment + "-repo\temp\" + $source_file_name + ".json"
+$AB_log = "..\parenttext-deployment\parenttext-" + $deployment + "-repo\temp\AB_warnings.log"
 Set-Location "..\rapidpro_abtesting"
-python main.py $JSON_FILENAME ("..\parenttext-deployment\" +$output_path_2) $SPREADSHEET_ID_ab $SPREADSHEET_ID_loc --format google_sheets --logfile main_AB.log --config=$CONFIG_ab
+python main.py $JSON_FILENAME ("..\parenttext-deployment\" +$output_path_2) $SPREADSHEET_ID_ab $SPREADSHEET_ID_loc --format google_sheets --logfile $AB_log --config=$CONFIG_ab
 Write-Output "added A/B tests and localisation"
-
-
 
 Set-Location "..\parenttext-deployment"
 
@@ -103,4 +107,5 @@ Write-Output "added safeguarding"
 $input_path_6 = $output_path_5
 $n_files = $n_files
 node .\idems-chatbot-repo\scripts\split_in_multiple_json_files.js $input_path_6 $n_files
+
 
