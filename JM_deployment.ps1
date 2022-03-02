@@ -2,6 +2,7 @@ $source_file_name = "JM-plh-international-flavour"
 $expiration_time = 60
 $deployment = "jamaica"
 $SPREADSHEET_ID_loc = '1YSHxIPfFJhf-jLzgd8P7-Y2-eIO_dc9jV7dkKBL1oXw'
+$CONFIG_ab_name = "ab_config"
 
 $languages =  @()
 $2languages = @()
