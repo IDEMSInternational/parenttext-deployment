@@ -18,7 +18,7 @@ $SPREADSHEET_ID_ab = '1KPakZyyuyHoRO5GCdyde-vOvKq2155pTl-VZKKIKcXI'
 $SPREADSHEET_ID_loc = $SPREADSHEET_ID_loc
 $JSON_FILENAME = "..\parenttext-deployment\" + $output_path_1
 $source_file_name = $source_file_name + "_ABtesting"
-$CONFIG_ab = "..\parenttext-deployment\parenttext-" + $deployment + "-repo\edits\ab_config_demo.json"
+$CONFIG_ab = "..\parenttext-deployment\parenttext-" + $deployment + "-repo\edits\" + $CONFIG_ab_name +".json"
 $output_path_2 = "parenttext-" + $deployment + "-repo\temp\" + $source_file_name + ".json"
 $AB_log = "..\parenttext-deployment\parenttext-" + $deployment + "-repo\temp\AB_warnings.log"
 Set-Location "..\rapidpro_abtesting"
@@ -33,6 +33,7 @@ Set-Location "..\parenttext-deployment"
 $languages =  $languages
 $2languages = $2languages
 $deployment_ = $deployment_
+$transl_output_folder = ".\parenttext-" + $deployment + "-repo\temp"
 
 $input_path_T = $output_path_2
 for ($i=0; $i -lt $languages.length; $i++) {
@@ -55,18 +56,16 @@ for ($i=0; $i -lt $languages.length; $i++) {
 
 
     $source_file_name = $source_file_name + "_" + $lang
-    $output_name_T = $source_file_name
-    $transl_output_folder = ".\parenttext-" + $deployment + "-repo\temp"
-    node ..\idems_translation\chatbot\index.js localize $input_path_T $json_translation_file_path $lang $output_name_T $transl_output_folder
+    
+    node ..\idems_translation\chatbot\index.js localize $input_path_T $json_translation_file_path $lang $source_file_name $transl_output_folder
    
-
-    $input_path_T = $transl_output_folder + "\" + $output_name_T +".json"
+    $input_path_T = $transl_output_folder + "\" + $source_file_name +".json"
     Write-Output ("created localization for " + $lang)
 }
 
 # step 4QA: integrity check
 
-$InputFile = $transl_output_folder + "\" + $output_name_T +".json"
+$InputFile = $transl_output_folder + "\" +  $source_file_name +".json"
 $OutputDir = ".\parenttext-"+ $deployment +"-repo\temp\temp_transl"
 $JSON9 = "9_has_any_words_check"
 $JSON9Path = $OutputDir + '\' + $JSON9 + '.json'
