@@ -1,5 +1,5 @@
 $source_file_name = "plh-international-flavour"
-$expiration_time = 60
+$default_expiration_time = 60
 $deployment = "international"
 $SPREADSHEET_ID_loc = ''
 $CONFIG_ab_name = "ab_config"
