@@ -2,7 +2,6 @@
 "test-gamification" : { "group_assignment" : "always B"},
 "test-first-person" : { "group_assignment" : "always B"},
 "test-personalisation" : { "group_assignment" : "always A"},
-"test-gender-personalisation" : { "group_assignment" : "always A"},
 "test-exit" : { "group_assignment" : "random"},
 "test-hook" : { "group_assignment" : "always B"},
 "test-n-messages-per-day" : { "group_assignment" : "always B"}

@@ -3,13 +3,14 @@
 $source_file_name = $source_file_name
 $input_path_1 = ".\parenttext-international-repo\flows\" + $source_file_name + ".json"
 $source_file_name = $source_file_name + "_expire"
-$output_path_1 = "parenttext-international-repo\temp\" + $source_file_name + ".json"
-$expiration_time = $expiration_time
-node .\idems-chatbot-repo\scripts\update_expiration_time.js $input_path_1 $expiration_time $output_path_1
+$output_path_1 = ".\parenttext-" + $deployment + "-repo\temp\" + $source_file_name + ".json"
+$default_expiration_time = $default_expiration_time
+$expiration_times =  ".\parenttext-international-repo\edits\expiration_times.json"
+node .\idems-chatbot-repo\scripts\update_expiration_time.js $input_path_1 $expiration_times $default_expiration_time $output_path_1
 Write-Output "updated expiration"
 
 
-
+<#
 
 
 # step 2: flow edits & A/B testing
@@ -108,3 +109,4 @@ $n_files = $n_files
 node .\idems-chatbot-repo\scripts\split_in_multiple_json_files.js $input_path_6 $n_files
 
 
+#>      
