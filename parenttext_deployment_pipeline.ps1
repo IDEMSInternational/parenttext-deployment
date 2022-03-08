@@ -10,8 +10,6 @@ node .\idems-chatbot-repo\scripts\update_expiration_time.js $input_path_1 $expir
 Write-Output "updated expiration"
 
 
-<#
-
 
 # step 2: flow edits & A/B testing
 $deployment = $deployment
@@ -109,4 +107,3 @@ $n_files = $n_files
 node .\idems-chatbot-repo\scripts\split_in_multiple_json_files.js $input_path_6 $n_files
 
 
-#>      
