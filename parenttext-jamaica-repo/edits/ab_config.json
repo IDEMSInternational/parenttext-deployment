@@ -1,16 +1,11 @@
 {
-"test-gamification" : { "group_assignment" : "always B"},
+"test-gamification" : { "group_assignment" : "random"},
 "test-first-person" : { "group_assignment" : "always B"},
-"test-personalisation" : { "group_assignment" : "always A"},
+"test-personalisation" : { "group_assignment" : "random"},
 "test-exit" : { "group_assignment" : "random"},
-"test-hook" : { "group_assignment" : "always B"},
-"test-n-messages-per-day" : { "group_assignment" : "always A"}
+"test-hook" : { "group_assignment" : "random"},
+"test-n-messages-per-day" : { "group_assignment" : "random"}
 }
-
-
-
-
-
 
 
 
