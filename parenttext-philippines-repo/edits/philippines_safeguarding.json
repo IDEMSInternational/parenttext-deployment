@@ -20,8 +20,7 @@
           "keywords": [
             "kidnap",
             "pangingidnap",
-            "kidnapper",
-            "na-kidnap"
+            "kidnapper"
           ],
           "mispellings": [
             "kiddnapp",
@@ -455,8 +454,7 @@
         "fil": {
           "keywords": [
             "maysakit",
-            "sakit",
-            "mga sakit"
+            "sakit"
           ],
           "mispellings": [
             "saket"
@@ -582,7 +580,7 @@
           "keywords": [
             "abortion",
             "ipalaglag",
-            "nagpa-abort",
+            "abort",
             "ipapalaglag"
           ],
           "mispellings": [
@@ -596,8 +594,7 @@
       "English": {
         "keywords": [
           "COVID",
-          "COVID19",
-          "COVID-19"
+          "COVID19"
         ],
         "mispellings": []
       },
@@ -605,8 +602,7 @@
         "fil": {
           "keywords": [
             "COVID",
-            "COVID19",
-            "COVID-19"
+            "COVID19"
           ],
           "mispellings": []
         }
@@ -657,9 +653,7 @@
       "Translation": {
         "fil": {
           "keywords": [
-            "pagka-depress",
-            "nadi-depress",
-            "na-depress"
+            "depress"
           ],
           "mispellings": [
             "dipress",
@@ -683,8 +677,7 @@
       "Translation": {
         "fil": {
           "keywords": [
-            "karamdaman",
-            "mga karamdaman"
+            "karamdaman"
           ],
           "mispellings": [
             "karadaman"
@@ -740,8 +733,7 @@
         "fil": {
           "keywords": [
             "suicide",
-            "gustong magpakamatay",
-            "mga suicide"
+            "magpakamatay"
           ],
           "mispellings": [
             "pagpapatiwakal"
@@ -764,8 +756,7 @@
       "Translation": {
         "fil": {
           "keywords": [
-            "stress",
-            "nakakaramdam ng stress"
+            "stress"
           ],
           "mispellings": [
             "stresss",
@@ -878,7 +869,8 @@
       "Translation": {
         "fil": {
           "keywords": [
-            "nag-aalala"
+            "nagaalala",
+			"alala"
           ],
           "mispellings": []
         }
@@ -1105,7 +1097,6 @@
             "bagyo"
           ],
           "mispellings": [
-            "ipo-ipo",
             "ulan",
             "tubig"
           ]
@@ -1150,7 +1141,7 @@
       "Translation": {
         "fil": {
           "keywords": [
-            "pagputok ng bulkan",
+            "pagputok",
             "bulkan"
           ],
           "mispellings": [
@@ -1260,8 +1251,7 @@
         "fil": {
           "keywords": [
             "abuso",
-            "nang-aabuso",
-            "nang-aabuso",
+            "aabuso",
             "inabuso"
           ],
           "mispellings": []
@@ -1308,7 +1298,6 @@
           "keywords": [
             "sakit",
             "masakit",
-            "mga sakit",
             "sumasakit"
           ],
           "mispellings": []
@@ -1578,7 +1567,8 @@
         "fil": {
           "keywords": [
             "pumatay",
-            "mamamatay-tao",
+			"patay",
+            "mamamatay",
             "pagpatay",
             "pinatay"
           ],
@@ -2052,9 +2042,8 @@
       "Translation": {
         "fil": {
           "keywords": [
-            "gumawa ng mali",
-            "hindi tama",
-            "hindi katanggap-tanggap"
+            "mali",
+			"masama"
           ],
           "mispellings": []
         }
@@ -2117,7 +2106,8 @@
       "Translation": {
         "fil": {
           "keywords": [
-            "tulong"
+            "tulong",
+			"help"
           ],
           "mispellings": []
         }
