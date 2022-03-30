@@ -11,4 +11,4 @@ $deployment_ = "south_africa"
 $n_files = 2
 
 .\parenttext_deployment_set_up_folders.ps1
-.\parenttext_deployment_pipeline.ps1
+.\parenttext_deployment_pipeline.ps1 
