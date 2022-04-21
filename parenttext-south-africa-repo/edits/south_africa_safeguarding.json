@@ -20,8 +20,7 @@
           "keywords": [
             "ontvoer",
             "ontvoering",
-            "ontvoerder",
-            "het ontvoer"
+            "ontvoerder"
           ],
           "mispellings": [
             "ondvoer",
@@ -32,39 +31,20 @@
         },
         "sot": {
           "keywords": [
-            "koetela",
-            "ho koetela",
-            "mokoetli",
-            "koeteloa"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "thopa",
-            "go thopa",
-            "mothopi",
-            "thopilwe"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukuxhwila",
-            "ukuxhwila",
-            "umxhwili",
-            "uxhwiliwe"
+            "koetela"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
             "ukuthumba",
-            "ukuthwala/ukuthumba",
+            "ukuthwala",
             "umthumbi",
-            "i/uthunjiwe"
+            "uthunjiwe"
           ],
-          "mispellings": []
+          "mispellings": [
+            "iuthunjiwe"
+          ]
         }
       }
     },
@@ -100,36 +80,22 @@
         "sot": {
           "keywords": [
             "lefu",
-            "hlokahala",
-            "ho shoa/ ho hlokahala"
+            "mokoetli",
+            "shoa"
           ],
           "mispellings": [
-            "ho shoa"
+            "hlokahala"
           ]
-        },
-        "tsn": {
-          "keywords": [
-            "loso",
-            "sule",
-            "go swa"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukufa",
-            "ufile",
-            "uyafa"
-          ],
-          "mispellings": []
         },
         "zul": {
           "keywords": [
-            "ukufa/ukushona",
-            "ufile/fileyo",
-            "ukufa"
+            "ukufa",
+            "ufile",
+            "fileyo"
           ],
-          "mispellings": []
+          "mispellings": [
+            "ukushona"
+          ]
         }
       }
     },
@@ -161,25 +127,13 @@
         },
         "sot": {
           "keywords": [
-            "e seng molaong"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "tlolomolao"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ayikho mthethweni"
+            "molaong"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "engekho emthethweni"
+            "emthethweni"
           ],
           "mispellings": []
         }
@@ -217,34 +171,20 @@
         },
         "sot": {
           "keywords": [
-            "chefo",
             "chefo"
           ],
           "mispellings": [
             "poisen"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "tjhefu"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ityhefu",
-            "uyatyhefa",
-            "utyehfekile"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "ushevu",
-            "idliso/ubuthi",
-            "ufakelwe ubuthi/ ufakelwe ushevu"
+            "ubuthi"
           ],
-          "mispellings": []
+          "mispellings": [
+            "idliso"
+          ]
         }
       }
     },
@@ -274,33 +214,20 @@
         },
         "sot": {
           "keywords": [
-            "tsietsi",
-            "li tsietsi"
+            "tsietsi"
           ],
           "mispellings": [
             "mathata"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "mathata",
-            "mathata"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ingxaki",
-            "ingxaki"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "Inkinga/isimo esuyingcuphe",
-            "izingqinamba"
+            "inhlekele",
+            "izinhlekele"
           ],
-          "mispellings": []
+          "mispellings": [
+            "ihlekele"
+          ]
         }
       }
     },
@@ -338,32 +265,20 @@
           ],
           "mispellings": []
         },
-        "tsn": {
-          "keywords": [
-            "bothata",
-            "neelana ka bothata",
-            "tshwenya",
-            "go imetswe"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ingxaki",
-            "iyakhathaza",
-            "uyingxaki",
-            "ukhathazekile"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "inkathazo/uchuku/ukuhlupha",
-            "khathaza/cindizela",
-            "nzima/lukhuni/bucayi",
+            "inkathazo",
+            "khathaza",
+            "nzima",
             "ukhathazekile"
           ],
-          "mispellings": []
+          "mispellings": [
+            "uchuku",
+            "ukuhlupha",
+            "cindizela",
+            "lukhuni",
+            "bucayi"
+          ]
         }
       }
     },
@@ -399,26 +314,14 @@
             "victhimi"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "motswasetlhabelo",
-            "salwa morago"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ixhobo",
-            "ukuxhatshazwa"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "umuntu ohlushwayo/ isisulu",
+            "isisulu",
             "ohlukunyezwayo"
           ],
-          "mispellings": []
+          "mispellings": [
+            "izisulu"
+          ]
         }
       }
     },
@@ -438,45 +341,31 @@
         "afr": {
           "keywords": [
             "noodgeval",
-            "911",
+            "112",
             "nood"
           ],
           "mispellings": [
             "nootgeval",
             "noot",
-            "noot geval",
+            "geval",
             "noodgefal",
             "nootgefal",
-            "noot gefal"
+            "gefal"
           ]
         },
         "sot": {
           "keywords": [
             "tshohanyetso",
-            "911"
+            "112"
           ],
           "mispellings": [
             "emegenci"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "tshoganyetso"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ungxamiseko",
-            "Sincedni",
-            "112"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "isimo esiphuthumayo",
-            "911"
+            "okuphuthumayo",
+            "112"
           ],
           "mispellings": []
         }
@@ -512,24 +401,7 @@
         "sot": {
           "keywords": [
             "kotsi",
-            "kotsi",
             "kotsing"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "kotsi",
-            "kotsi",
-            "mo kotsing"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ingozi",
-            "iyingozi",
-            "usengozini"
           ],
           "mispellings": []
         },
@@ -539,7 +411,9 @@
             "kuyingozi",
             "engozini"
           ],
-          "mispellings": []
+          "mispellings": [
+            "egozini"
+          ]
         }
       }
     },
@@ -569,18 +443,6 @@
             "bekryper",
             "avloerder"
           ]
-        },
-        "tsn": {
-          "keywords": [
-            "go tsomana"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukuchwechwela"
-          ],
-          "mispellings": []
         },
         "zul": {
           "keywords": [
@@ -614,8 +476,6 @@
           "mispellings": [
             "folg",
             "agterfolg",
-            "agter volg",
-            "agter folg",
             "jag"
           ]
         },
@@ -628,29 +488,16 @@
             "ntatela"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "latela",
-            "go latela",
-            "latetse"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "landela",
-            "uyalandela",
-            "ulandelwe"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "landela",
             "okulandelayo",
-            "kulandelwa/e"
+            "ukulandelwa"
           ],
-          "mispellings": []
+          "mispellings": [
+            "kulandelwe",
+            "kulandelwa"
+          ]
         }
       }
     },
@@ -668,20 +515,19 @@
           "keywords": [
             "ly",
             "swaarkry",
-            "kry swaar"
+            "swaar"
           ],
           "mispellings": [
             "lei",
             "lui",
             "swarkry",
-            "swaar kry",
-            "swaar krei",
-            "swar krei"
+            "swar",
+            "swaer",
+            "swaerkry"
           ]
         },
         "sot": {
           "keywords": [
-            "sotleha",
             "sotleha",
             "sotlehile"
           ],
@@ -689,27 +535,12 @@
             "sokola"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "sokola",
-            "go sokola",
-            "sokotse"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "intlungu",
-            "ukuba sentlungwini",
-            "ube sentlungwini"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "hlupheka/zwiswa ubuhlungu",
+            "hlupheka",
             "ukuhlupheka",
-            "wahlupheka"
+            "wahlupheka",
+            "ngahlupheka"
           ],
           "mispellings": []
         }
@@ -727,48 +558,37 @@
       "Translation": {
         "afr": {
           "keywords": [
-            "wegkruip",
-            "kruip weg"
+            "wegkruip"
           ],
           "mispellings": [
             "wegkryp",
-            "kryp weg",
-            "weg kryp",
-            "weg kruip"
+            "wegkreip"
           ]
         },
         "sot": {
           "keywords": [
             "pata",
-            "ho ipata",
+            "ipata",
             "patiloe"
           ],
           "mispellings": [
             "fihla"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "fitlha",
-            "go fitlha"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "zimela",
-            "ukuzimela",
-            "uzimela"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "fihla/ ukucasha",
-            "ukucasha/cashile",
-            "kufihliwe"
+            "fihla",
+            "ukufihla",
+            "kufihliwe",
+            "imfihlo"
           ],
-          "mispellings": []
+          "mispellings": [
+            "casha",
+            "cashile",
+            "kucashiwe",
+            "ukucashisa",
+            "cashisa"
+          ]
         }
       }
     }
@@ -791,50 +611,28 @@
         "afr": {
           "keywords": [
             "opgooi",
-            "gooi op",
             "braak",
             "braking"
           ],
           "mispellings": [
             "opgoei",
-            "op gooi",
-            "goei op",
-            "kots",
-            "katte skiet",
-            "skiet katte"
+            "kots"
           ]
         },
         "sot": {
           "keywords": [
             "hlatsa",
-            "hlatsitse",
-            "ho hlatsa"
+            "hlatsitse"
           ],
           "mispellings": [
             "hlalitse"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "tlhatsa",
-            "tlhatsitse",
-            "go tlhatsa"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukugabha",
-            "ugabhile",
-            "uyagabha"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "hlanza/ phalaza",
-            "hlanzile/phalazile",
-            "hlanza/phalaza"
+            "phalaza",
+            "phalazile",
+            "ukuphalaza"
           ],
           "mispellings": []
         }
@@ -853,37 +651,18 @@
         "afr": {
           "keywords": [
             "opbring",
-            "bring op",
             "vomeer",
             "naar"
           ],
           "mispellings": [
-            "op bring",
             "opbreng",
             "obring",
-            "breng op",
             "fomeer"
           ]
         },
         "sot": {
           "keywords": [
             "mahlatsa"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "kgwa",
-            "go kgwa",
-            "kgwile"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukugabha",
-            "uyagabha",
-            "ugabhile"
           ],
           "mispellings": []
         },
@@ -914,6 +693,7 @@
         "afr": {
           "keywords": [
             "siekte",
+            "STD",
             "siektes",
             "siek"
           ],
@@ -930,29 +710,15 @@
             "mafu"
           ],
           "mispellings": [
-            "ho kula"
+            "kula"
           ]
-        },
-        "tsn": {
-          "keywords": [
-            "bolwetse",
-            "malwetse"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "isifo",
-            "isifo esosulelwa ngesondo",
-            "izifo"
-          ],
-          "mispellings": []
         },
         "zul": {
           "keywords": [
             "isifo",
             "iSTD",
-            "izifo"
+            "izifo",
+            "STD"
           ],
           "mispellings": []
         }
@@ -985,36 +751,21 @@
         },
         "sot": {
           "keywords": [
-            "kula",
-            "ho kula"
+            "kula"
           ],
           "mispellings": [
             "sik"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "lwala",
-            "bolwetse",
-            "lwala"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukugula",
-            "isigulo",
-            "isigulana"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "ukugula/-ngaphilile",
-            "/isifo",
+            "ukugula",
+            "isifo",
             "nokugula"
           ],
-          "mispellings": []
+          "mispellings": [
+            "ngaphilile"
+          ]
         }
       }
     },
@@ -1046,28 +797,11 @@
         },
         "sot": {
           "keywords": [
-            "kula",
             "bokuli"
           ],
           "mispellings": [
             "bokudi"
           ]
-        },
-        "tsn": {
-          "keywords": [
-            "lwala",
-            "bolwetse",
-            "malwetse"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukugula",
-            "isigulo",
-            "izigulo"
-          ],
-          "mispellings": []
         },
         "zul": {
           "keywords": [
@@ -1106,32 +840,19 @@
         },
         "sot": {
           "keywords": [
-            "bophelo bo botle"
-          ],
-          "mispellings": [
             "bophelo"
-          ]
-        },
-        "tsn": {
-          "keywords": [
-            "itekanela",
-            "itekanetse"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "impilo",
-            "empilweni"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
             "impilo",
-            "uphilile/guludlayo/philile"
+            "uphilile"
           ],
-          "mispellings": []
+          "mispellings": [
+            "guludlayo",
+            "philile"
+          ]
         }
       }
     },
@@ -1170,20 +891,6 @@
             "tliniki"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "bookelo",
-            "tliniki"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "isibhedlele",
-            "iklinikhi"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "isibhedlela",
@@ -1210,7 +917,6 @@
             "miskraam"
           ],
           "mispellings": [
-            "mis kraam",
             "meskraam",
             "muskraam",
             "misskraam"
@@ -1218,26 +924,16 @@
         },
         "sot": {
           "keywords": [
-            "ho senyeheloa ke mpa"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "go fetelwa"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukuphuma isisu",
-            "ukusweleka esibelekweni"
+            "senyeheloa"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "ukuphuphuma kwesisu"
+            "ukuphuphuma",
+            "phuphunyelwa",
+            "ngiphuphunyelwa",
+            "phuphunyelwe"
           ],
           "mispellings": []
         }
@@ -1274,40 +970,25 @@
         },
         "sot": {
           "keywords": [
-            "ho ima",
+            "ima",
             "boimana"
           ],
           "mispellings": [
-            "o meleng",
+            "meleng",
             "pregnanci"
-          ]
-        },
-        "tsn": {
-          "keywords": [
-            "imilwe",
-            "boimana",
-            "imile"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukhulelwa",
-            "ekukhulelwa",
-            "khulelwe"
-          ],
-          "mispellings": [
-            "mithi",
-            "mitha"
           ]
         },
         "zul": {
           "keywords": [
-            "ukhulelwe/ mithi",
-            "ukukhulelwa/ukumitha",
-            "belindele/lindela"
+            "ukhulelwe",
+            "ukukhulelwa",
+            "lindela",
+            "belindele"
           ],
-          "mispellings": []
+          "mispellings": [
+            "mithi",
+            "ukumitha"
+          ]
         }
       }
     },
@@ -1329,7 +1010,6 @@
           "keywords": [
             "aborsie",
             "aborteer",
-            "kom af",
             "afkom"
           ],
           "mispellings": [
@@ -1337,37 +1017,16 @@
             "abborteer",
             "geabborteer",
             "afgekom",
-            "avkom",
-            "af gekom"
+            "avkom"
           ]
         },
         "sot": {
           "keywords": [
-            "ho ntsha mpa",
-            "ntsa mpa",
-            "ntsa mpa"
+            "mpa"
           ],
           "mispellings": [
             "aboshini"
           ]
-        },
-        "tsn": {
-          "keywords": [
-            "ntsha mpa",
-            "ntsha mpa",
-            "ntshitse mpa",
-            "go ntsha mpa"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "Ukuqhomfa",
-            "qhomfa",
-            "qhomfile",
-            "uyaqhomfa"
-          ],
-          "mispellings": []
         },
         "zul": {
           "keywords": [
@@ -1383,8 +1042,7 @@
       "English": {
         "keywords": [
           "COVID",
-          "COVID19",
-          "COVID-19"
+          "COVID19"
         ],
         "mispellings": []
       },
@@ -1393,11 +1051,9 @@
           "keywords": [
             "COVID",
             "COVID19",
-            "COVID-19",
             "Corona"
           ],
           "mispellings": [
-            "COVID 19",
             "Corrona",
             "Corronna",
             "Coronna"
@@ -1406,26 +1062,16 @@
         "sot": {
           "keywords": [
             "COVID",
-            "COVID19",
-            "COVID-19"
+            "COVID19"
           ],
           "mispellings": [
             "COVIT"
           ]
         },
-        "xho": {
-          "keywords": [
-            "IKhorona",
-            "IKhorona",
-            "IKhorona"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "I-COVID/ ikovethe",
-            "I-COVID -19",
-            "ICOVID - 19"
+            "COVID",
+            "COVID19"
           ],
           "mispellings": []
         }
@@ -1475,25 +1121,11 @@
             "tshohile"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "ketsaetsego",
-            "etsaetsega"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ixhala",
-            "inkxalabo",
-            "ukuba nehala"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "ukukhathazeka",
-            "nokufisa/ khathazekile"
+            "khathazekile",
+            "nokufisa"
           ],
           "mispellings": []
         }
@@ -1530,34 +1162,24 @@
         },
         "sot": {
           "keywords": [
-            "khatello ea maikutlo",
-            "tepelletse maikutlong"
+            "maikutlo",
+            "maikutlong"
           ],
           "mispellings": [
             "depreshini"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "gateletswe ke maikutlo"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "udandatheko",
-            "udandatheko",
-            "udandathekile"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "ukudana/ukudangala",
-            "kuyadanisa/kuyadangalisa/kuyacindezela",
-            "ecindezelekile"
+            "ukudana",
+            "kuyadangalisa",
+            "ecindezelekile",
+            "ukudangala"
           ],
-          "mispellings": []
+          "mispellings": [
+            "kuyadanisa",
+            "kuyacindezela"
+          ]
         }
       }
     },
@@ -1578,14 +1200,11 @@
           "keywords": [
             "ongesteldheid",
             "ongesteld",
-            "kwaal",
-            "voel nie lekker"
+            "kwaal"
           ],
           "mispellings": [
             "ongesteltheid",
-            "ongestelt",
-            "voel nie leker",
-            "voel nie leke"
+            "ongestelt"
           ]
         },
         "sot": {
@@ -1594,23 +1213,11 @@
           ],
           "mispellings": []
         },
-        "tsn": {
-          "keywords": [
-            "bothata"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "isigulo",
-            "izigulo"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "inyakanyaka/ isiphithiphithi",
-            "iziyaluyalu"
+            "isiphithiphithi",
+            "iziyaluyalu",
+            "inyakanyaka"
           ],
           "mispellings": []
         }
@@ -1644,18 +1251,6 @@
             "phekolo"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "teraphi"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "unyango"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "ukwelashwa"
@@ -1685,27 +1280,13 @@
         "sot": {
           "keywords": [
             "saekholojist",
-            "setsebi sa kelello"
-          ],
-          "mispellings": [
-            "ngaka ea kellelo"
-          ]
-        },
-        "tsn": {
-          "keywords": [
-            "mosaekholoji"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ugqirha wengqndo"
+            "kelello"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "isazi sokusebenza kwengqondo"
+            "isayikholojisti"
           ],
           "mispellings": []
         }
@@ -1731,39 +1312,21 @@
             "selfmoorde"
           ],
           "mispellings": [
-            "self dood",
-            "self doot",
-            "selfmoort",
-            "self moord",
-            "self moort"
+            "selfmoort"
           ]
         },
         "sot": {
-          "keywords": [],
-          "mispellings": [
-            "ho ipolaya"
-          ]
-        },
-        "tsn": {
           "keywords": [
-            "go ipolaya",
-            "kakanyo go ipolaya"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukuzibulala",
-            "ufuna ukuzibulala",
-            "ukuzibulala"
+            "ipolaya"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
             "ukuzibulala",
-            "isfiiso sokuzibulala/ inhloso yokuzibulala",
-            "ukuzibulala"
+            "yokuzibulala",
+            "ukuzibulala",
+            "sokuzibulala"
           ],
           "mispellings": []
         }
@@ -1795,30 +1358,19 @@
           ]
         },
         "sot": {
-          "keywords": [],
-          "mispellings": [
+          "keywords": [
             "setresse"
-          ]
-        },
-        "tsn": {
-          "keywords": [
-            "imetswe ke mathata"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "uxinezeleko",
-            "uxinezelelekile"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "ukucindezeleka",
-            "ucindezelekile"
+            "ingcindezi",
+            "nginengcindezi"
           ],
-          "mispellings": []
+          "mispellings": [
+            "cindezi"
+          ]
         }
       }
     },
@@ -1855,17 +1407,10 @@
           ],
           "mispellings": []
         },
-        "xho": {
-          "keywords": [
-            "intlungu",
-            "usentlungwini"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "usizi",
-            "ecindezelekile"
+            "osizini"
           ],
           "mispellings": []
         }
@@ -1891,10 +1436,7 @@
             "treurig"
           ],
           "mispellings": [
-            "hart seer",
             "hardseer",
-            "hard seer",
-            "af",
             "trerig"
           ]
         },
@@ -1905,27 +1447,15 @@
           ],
           "mispellings": [
             "kwatile",
-            "utloa bohloko"
+            "bohloko"
           ]
-        },
-        "tsn": {
-          "keywords": [
-            "hutsafetse",
-            "hutsafaditswe"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukudakumba",
-            "udakumbile"
-          ],
-          "mispellings": []
         },
         "zul": {
           "keywords": [
             "dabukisa",
-            "kudabukile/ukuba nosizi"
+            "ngiyadabuka",
+            "ukudabuka",
+            "dabukela"
           ],
           "mispellings": []
         }
@@ -1946,7 +1476,7 @@
         "afr": {
           "keywords": [
             "bang",
-            "bang maak"
+            "vrees"
           ],
           "mispellings": [
             "bangmaak",
@@ -1961,24 +1491,11 @@
           ],
           "mispellings": []
         },
-        "tsn": {
-          "keywords": [
-            "tshoga",
-            "tshogile"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "koyika",
-            "uyoyika"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "ukwethusa",
-            "wethukile/uthukile"
+            "wethukile",
+            "uthukile"
           ],
           "mispellings": []
         }
@@ -1996,8 +1513,7 @@
       "Translation": {
         "afr": {
           "keywords": [
-            "bang",
-            "bang maak"
+            "bang"
           ],
           "mispellings": [
             "bangmaak",
@@ -2011,21 +1527,10 @@
           ],
           "mispellings": []
         },
-        "tsn": {
-          "keywords": [
-            "tshaba"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "yoyika"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "ukusaba/ukwesaba"
+            "ukusaba",
+            "ukwesaba"
           ],
           "mispellings": []
         }
@@ -2060,18 +1565,6 @@
             "kgathatsehile"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "tshwenyega"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ixhala"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "uvalo"
@@ -2104,21 +1597,7 @@
         },
         "sot": {
           "keywords": [
-            "letshoho",
-            "tshosa"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "tshabo"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "uloyiko",
-            "ukoyikisa"
+            "letshoho"
           ],
           "mispellings": []
         },
@@ -2161,25 +1640,13 @@
         "sot": {
           "keywords": [
             "tshabo",
-            "ho tshoha",
+            "tshoha",
             "tshohile"
-          ],
-          "mispellings": [
-            "tshoha"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "ukuphaphazela",
-            "uyaphaphazela",
-            "uphaphazele"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "ukutatazela",
-            "ukutatazela",
             "ukutatazela"
           ],
           "mispellings": []
@@ -2203,36 +1670,22 @@
           ],
           "mispellings": [
             "mall",
-            "maal",
-            "van sy kop af",
-            "van haar kop af",
-            "van my kop af"
+            "maal"
           ]
         },
         "sot": {
           "keywords": [
-            "ho sa phela",
             "kwata"
           ],
           "mispellings": [
             "hlanya"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "tsenwa"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "uphambene"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "uyahlanya ukutukuthela"
+            "hlanya",
+            "hlanyela",
+            "hlanyisa"
           ],
           "mispellings": []
         }
@@ -2269,21 +1722,10 @@
           ],
           "mispellings": []
         },
-        "tsn": {
-          "keywords": [],
-          "mispellings": [
-            "kutlobotlhoko"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "intlungu yokufelwa"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "usizi/ ubuhlungu"
+            "usizi",
+            "ubuhlungu"
           ],
           "mispellings": []
         }
@@ -2309,45 +1751,25 @@
           "keywords": [
             "brand",
             "vuur",
-            "afbrand",
-            "brand af"
+            "afbrand"
           ],
           "mispellings": [
             "brant",
             "fuur",
             "vier",
             "fier",
-            "afbrant",
-            "brant af"
+            "afbrant"
           ]
         },
         "sot": {
           "keywords": [
-            "mollo",
-            "mollo o hlaha"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "molelo",
-            "molelo wa naga"
-          ],
-          "mispellings": [
-            "shele"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "umlilo",
-            "umlilo wamahlathi"
+            "mollo"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "umlilo",
-            "umlilo wasendle"
+            "umlilo"
           ],
           "mispellings": []
         }
@@ -2382,39 +1804,23 @@
         },
         "sot": {
           "keywords": [
-            "tshisinyeho ea lefatshe",
-            "ho ritsa ha mobu",
-            "putlama"
+            "tshisinyeho",
+            "mobu",
+            "putlama",
+            "lefatshe"
           ],
           "mispellings": [
             "earthquake",
             "mobu",
-            "ho wa"
+            "ritsa"
           ]
-        },
-        "tsn": {
-          "keywords": [
-            "thoromo",
-            "theogelelo",
-            "wa"
-          ],
-          "mispellings": [
-            "roroma"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "inyikima",
-            "ukhukhuliseko umhlaba",
-            "ukuwa"
-          ],
-          "mispellings": []
         },
         "zul": {
           "keywords": [
-            "ukuzamazama komhlaba",
-            "inhlewuko/ukugidlika komhlaba",
-            "ukuwa/ bohlokala"
+            "ukuzamazama",
+            "ukudilika",
+            "ukudilika",
+            "ukugidlika"
           ],
           "mispellings": []
         }
@@ -2439,48 +1845,35 @@
           "keywords": [
             "vloed",
             "oorvloei",
-            "stormwater"
+            "stormwater",
+            "vloedwater"
           ],
           "mispellings": [
             "vloet",
-            "oor vloei",
-            "storm water",
+            "vloetwater",
+            "storm",
             "storemwater"
           ]
         },
         "sot": {
           "keywords": [
-            "moewallo / metsi",
-            "tletse metsi",
+            "morwallo",
+            "metsi",
             "likhohola"
           ],
           "mispellings": [
             "flud"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "morwalela"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "izantyalantyala",
-            "kubekho izantyalantyala",
-            "izantyalantyala",
-            "unogumbe"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "isikhukhula/uzamcolo",
-            "kugcwala amanzi",
+            "isikhukhula",
             "izikhukhula",
-            "imvula enkulu"
+            "uzamcolo"
           ],
-          "mispellings": []
+          "mispellings": [
+            "izikhunkula"
+          ]
         }
       }
     },
@@ -2514,26 +1907,13 @@
             "smoko"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "mosi",
-            "go mosi"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "umsi",
-            "kubekho umsi"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "intuthu",
-            "umusi/intuthu"
+            "intuthu"
           ],
-          "mispellings": []
+          "mispellings": [
+            "umusi"
+          ]
         }
       }
     },
@@ -2571,8 +1951,6 @@
         "sot": {
           "keywords": [
             "sefefo",
-            "leholiotsoana",
-            "leholiotsoana",
             "leholiotsoana"
           ],
           "mispellings": [
@@ -2580,34 +1958,16 @@
             "cyclioni"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "thaefuni",
-            "ditsuatsue",
-            "kgwanyape",
-            "ledimo"
-          ],
-          "mispellings": [
-            "sefefo",
-            "pula",
-            "metsi",
-            "go sefefo"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "isitshingitshane"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
+            "isishingishane",
             "isiphepho",
-            "isiphepho",
-            "isiphepho esinamandla amakhulu",
-            "isiphepho/isivunguvungu"
+            "inkanyamba",
+            "isiphepho"
           ],
-          "mispellings": []
+          "mispellings": [
+            "isivunguvungu"
+          ]
         }
       }
     },
@@ -2642,26 +2002,11 @@
           ],
           "mispellings": []
         },
-        "tsn": {
-          "keywords": [
-            "dikomelelo",
-            "omile"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "imbalela",
-            "ukoma",
-            "inkqantosi"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "isomiso",
-            "yomile -ithe nkwe",
-            "umoya owomile"
+            "yomile",
+            "ukungakhiqizi"
           ],
           "mispellings": []
         }
@@ -2693,26 +2038,17 @@
         },
         "sot": {
           "keywords": [
-            "ho foqoha ha seretse se chesang",
-            "seretse se chesang"
+            "foqoha",
+            "seretse",
+            "volkano",
+            "chesang"
           ],
-          "mispellings": [
-            "volkano"
-          ]
+          "mispellings": []
         },
-        "tsn": {
+        "zul": {
           "keywords": [
-            "thunyo ya lekgwamolelo"
-          ],
-          "mispellings": [
-            "molelo",
-            "bolelo"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "ugqabhulo dubulo",
-            "ivolkano"
+            "kwentabamlilo",
+            "intabamlilo"
           ],
           "mispellings": []
         }
@@ -2746,36 +2082,18 @@
         "sot": {
           "keywords": [
             "moea",
-            "qhoma",
-            "moea e fokang"
+            "qhoma"
           ],
           "mispellings": [
             "moya"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "phefo",
-            "thubego",
-            "go phefo"
-          ],
-          "mispellings": [
-            "mowa"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "umoya",
-            "ukuvuthuzela",
-            "kukho umoya"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "umoya",
             "ukuqhuma",
-            "kunomoya - nomoya"
+            "kunomoya",
+            "nomoya"
           ],
           "mispellings": []
         }
@@ -2815,35 +2133,17 @@
         },
         "sot": {
           "keywords": [
-            "otla",
-            "ho otla",
             "otla"
           ],
           "mispellings": [
             "shapa"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "itaya",
-            "go itaya",
-            "betsa"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "betha",
-            "ukubetha",
-            "uyabetha"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "shaya",
             "ukushaya",
-            "ukushaya"
+            "mshaya"
           ],
           "mispellings": []
         }
@@ -2888,22 +2188,6 @@
             "kotlo"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "betsa",
-            "go betsa",
-            "itaya"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ubethe",
-            "uyabetha",
-            "ubetha"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "bhaxu",
@@ -2944,37 +2228,17 @@
           "keywords": [
             "tlhekefetso",
             "hlekefetsa",
-            "hlekefetsa",
             "hlekefetsoa"
           ],
           "mispellings": [
             "abuzi"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "tshotlakako",
-            "tshotlo",
-            "go sotla",
-            "sotliwa"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "xhaphaza",
-            "umxhaphazi",
-            "ukuxhaphaza",
-            "Uxhaphaze"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "ukuhlukumeza",
+            "hlukumeza",
             "hlukumezayo",
-            "ukuhlukumeza",
-            "Ukuhlukunyezwa"
+            "Ukuhlukumeza"
           ],
           "mispellings": []
         }
@@ -3012,23 +2276,9 @@
             "ntoa"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "dikgoka",
-            "tirisodikgoka"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ubundlobongela",
-            "ubundlobongela"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "enobudlova",
+            "enodlame",
             "udlame"
           ],
           "mispellings": []
@@ -3066,39 +2316,18 @@
         },
         "sot": {
           "keywords": [
-            "bohloko",
             "bohloko"
           ],
           "mispellings": [
             "mahloko"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "botlhoko",
-            "go botlhoko",
-            "ditlhabi",
-            "go nna le ditlhabi"
-          ],
-          "mispellings": [
-            "pene"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "intlungu",
-            "ibuhlungi",
-            "iintlungu",
-            "iyaqaqamba"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "ubuhlungu",
             "kubuhlungu",
             "izinhlungu",
-            "enhlungwini"
+            "ezinhlungwini"
           ],
           "mispellings": []
         }
@@ -3133,26 +2362,8 @@
         "sot": {
           "keywords": [
             "mali",
-            "ho tsoa madi",
-            "dutla madi"
-          ],
-          "mispellings": [
-            "madi"
-          ]
-        },
-        "tsn": {
-          "keywords": [
             "madi",
-            "go tswa madi",
-            "tswile madi"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "igazi",
-            "ukopha",
-            "wophile"
+            "dutla"
           ],
           "mispellings": []
         },
@@ -3160,7 +2371,7 @@
           "keywords": [
             "igazi",
             "ukopha",
-            "wopha"
+            "wophile"
           ],
           "mispellings": []
         }
@@ -3197,32 +2408,16 @@
         },
         "sot": {
           "keywords": [
-            "ho lemala",
+            "lemala",
             "lemetse"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "mengwapo",
-            "go ngapega",
-            "ngapega"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "umgruzuko",
-            "ukugruzuka",
-            "ugruzukile"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "ukulimaza",
-            "ukulinyazwa",
-            "ukulimazeka"
+            "huzuka",
+            "ukuhuzuka",
+            "huzukile"
           ],
           "mispellings": []
         }
@@ -3247,41 +2442,20 @@
             "seermaak",
             "seergemaak"
           ],
-          "mispellings": [
-            "seer maak",
-            "seer gemaak"
-          ]
+          "mispellings": []
         },
         "sot": {
           "keywords": [
             "bohloko",
-            "ho utloisa bohloko"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "kgopisa",
-            "go kgopisa",
-            "utlwisa"
-          ],
-          "mispellings": [
-            "kgopisegile"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "wonzakele",
-            "wonzakalisa",
-            "wonzakalisa"
+            "utloisa"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "ubuhlungu",
+            "limaza",
             "ukulimaza",
-            "enza obuhlungu"
+            "uyangilimaza"
           ],
           "mispellings": []
         }
@@ -3316,26 +2490,11 @@
           ],
           "mispellings": []
         },
-        "tsn": {
-          "keywords": [
-            "botlhoko",
-            "go botlhoko"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "intlungu",
-            "kubuhlungu",
-            "bekubuhlungu"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "qaqamba",
-            "nkenketha",
-            "ubuhlungu"
+            "nhlungu",
+            "kubuhlungu",
+            "kubebuhlungu"
           ],
           "mispellings": []
         }
@@ -3372,28 +2531,12 @@
             "kotsi",
             "lemala"
           ],
-          "mispellings": [
-            "ho lemala"
-          ]
-        },
-        "tsn": {
-          "keywords": [
-            "kgobalo",
-            "gobetse"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "umonzakalo",
-            "ukonzakalisa"
-          ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
             "ukulimala",
-            "ulimele"
+            "limele"
           ],
           "mispellings": []
         }
@@ -3412,13 +2555,9 @@
       "Translation": {
         "afr": {
           "keywords": [
-            "sny",
-            "gesny"
+            "sny"
           ],
-          "mispellings": [
-            "snei",
-            "gesnei"
-          ]
+          "mispellings": []
         },
         "sot": {
           "keywords": [
@@ -3428,26 +2567,14 @@
             "sehile"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "kgaola",
-            "go kgaola"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukusika",
-            "usike"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "ukusika/ ukunquma",
+            "ukusika",
             "ukusika"
           ],
-          "mispellings": []
+          "mispellings": [
+            "ukunquma"
+          ]
         }
       }
     },
@@ -3469,39 +2596,13 @@
       "Translation": {
         "afr": {
           "keywords": [
-            "leed",
-            "leed aandoen",
-            "leed aangedoen",
-            "skadelik"
+            "leed"
           ],
-          "mispellings": [
-            "leet",
-            "skaadelik"
-          ]
+          "mispellings": []
         },
         "sot": {
           "keywords": [
-            "kotsi",
-            "kotsi",
-            "e kotsi"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "kotsi",
-            "go tlhola kotsi",
-            "go kotsi",
-            "mo kotsing"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukonzakalisa",
-            "ukonzakalisa",
-            "yingozi",
-            "wonzakalise"
+            "kotsi"
           ],
           "mispellings": []
         },
@@ -3543,37 +2644,18 @@
         },
         "sot": {
           "keywords": [
-            "otlanya",
-            "ho otlanya"
+            "otlanya"
           ],
           "mispellings": [
             "mpama",
-            "o shapiloe ka mpama"
+            "shapiloe"
           ]
-        },
-        "tsn": {
-          "keywords": [
-            "tlelapa",
-            "tlepapile",
-            "go tlelapa"
-          ],
-          "mispellings": [
-            "thelela"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "ukuqhwaba ngempama",
-            "umqhwabe ngempama",
-            "umqhwaba ngempama"
-          ],
-          "mispellings": []
         },
         "zul": {
           "keywords": [
+            "mpama",
             "ngempama",
-            "ngempama",
-            "ngezi mpama"
+            "bhibiza"
           ],
           "mispellings": []
         }
@@ -3608,37 +2690,20 @@
         },
         "sot": {
           "keywords": [
-            "otla ka setebele",
+            "otla",
+            "setebele",
             "litebele"
           ],
           "mispellings": [
             "feyci"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "lebole",
-            "iteile ka lebole",
-            "go itaya ka mabole",
-            "mabole"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukubetha ngengqindi",
-            "umbethe ngenqindi",
-            "ubetha ngamanqindi",
-            "umbetha ngamanqindi"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "isibhakela/inqindi",
-            "isibhakela/inqindi",
-            "inqindi",
-            "izibhakela"
+            "isibhakela",
+            "ngesibhakela",
+            "ngezibhakela",
+            "mshaya"
           ],
           "mispellings": []
         }
@@ -3662,51 +2727,32 @@
         "afr": {
           "keywords": [
             "doodmaak",
-            "maak dood",
+            "dood",
             "doodgemaak"
           ],
           "mispellings": [
             "dootmaak",
-            "doot maak",
-            "dood maak",
+            "doot",
             "dootgemaak"
           ]
         },
         "sot": {
           "keywords": [
             "bolaea",
-            "ho bolaea",
-            "bolailoe",
-            "bolaea"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "bolaya",
-            "go bolaya",
-            "bolaile",
-            "bolaya"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukubulala",
-            "uyabulala",
-            "ubulele",
-            "ubulele"
+            "bolailoe"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "bulala/ bhubhisa",
+            "bulala",
             "ukubulala",
-            "wabulawa",
+            "bulewe",
             "iyabulala"
           ],
-          "mispellings": []
+          "mispellings": [
+            "bhubhisa"
+          ]
         }
       }
     },
@@ -3749,27 +2795,9 @@
             "mollayi"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "bolaya",
-            "mmolai",
-            "go bolaya",
-            "bolaile"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukubulala",
-            "umbulali",
-            "ukubulala",
-            "ubulele"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "ukubulala umuntu ngenhloso",
+            "ukubulala",
             "umbulali",
             "ukubulala",
             "wabulawa"
@@ -3803,19 +2831,10 @@
             "geweerskood"
           ]
         },
-        "tsn": {
+        "sot": {
           "keywords": [
-            "thubaganya",
-            "go thubaganya",
-            "thubagane"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukumbakraza",
-            "ukumbakraza",
-            "umbakrazile"
+            "bang",
+            "shapantsa"
           ],
           "mispellings": []
         },
@@ -3854,26 +2873,13 @@
           ],
           "mispellings": []
         },
-        "tsn": {
-          "keywords": [
-            "futswela"
-          ],
-          "mispellings": [
-            "fa tlase",
-            "bora"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "ukubetha"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "phephetha/ phephula"
+            "phephetha"
           ],
-          "mispellings": []
+          "mispellings": [
+            "phephula"
+          ]
         }
       }
     },
@@ -3906,26 +2912,13 @@
           ],
           "mispellings": []
         },
-        "tsn": {
-          "keywords": [
-            "kheine"
-          ],
-          "mispellings": [
-            "kota",
-            "kgona"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "ukubetha ngoswazi"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "induku elula/ ugonothi"
+            "uswazi"
           ],
-          "mispellings": []
+          "mispellings": [
+            "ugonothi"
+          ]
         }
       }
     },
@@ -3958,18 +2951,6 @@
             "lepanta"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "lebanta"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ibhanti"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "ibhande"
@@ -4000,31 +2981,13 @@
           ],
           "mispellings": [
             "stiek",
-            "gestiek",
-            "mes steek"
+            "gestiek"
           ]
         },
         "sot": {
           "keywords": [
             "hlaba",
-            "ho hlaba",
             "hlabiloe"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "tlhaba",
-            "go tlhaba",
-            "tlhabile"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukuhlaba",
-            "uyamhlaba",
-            "umhlabile"
           ],
           "mispellings": []
         },
@@ -4066,25 +3029,7 @@
         },
         "sot": {
           "keywords": [
-            "hoeletsa",
-            "ho hoeletsa",
             "hoeletsa"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "goa",
-            "go goa",
-            "goile"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukutswina",
-            "uyatswina",
-            "utswinile"
           ],
           "mispellings": []
         },
@@ -4124,38 +3069,21 @@
         "sot": {
           "keywords": [
             "sututsa",
-            "ho sututsa",
             "sutusetsa"
           ],
           "mispellings": [
             "phusha"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "kgorometsa",
-            "go kgorometsa",
-            "kgoromeditse"
-          ],
-          "mispellings": [
-            "boladu"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "ukutyhiliza",
-            "uyamtyhiliza",
-            "umtyhilizile"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "ukufudula/pusha",
+            "ukufudula",
             "ukuphusha",
             "fudula"
           ],
-          "mispellings": []
+          "mispellings": [
+            "pusha"
+          ]
         }
       }
     },
@@ -4185,24 +3113,7 @@
         },
         "sot": {
           "keywords": [
-            "sututsa",
-            "ho sututsa"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "kgorometsa",
-            "go kgorometsa",
-            "kgoromeditse"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukutyhiliza",
-            "ukutshova",
-            "umtshovile"
+            "sututsa"
           ],
           "mispellings": []
         },
@@ -4241,30 +3152,12 @@
         "sot": {
           "keywords": [
             "raha",
-            "ho raha",
             "rahile"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "raga",
-            "go raga",
-            "ragile"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukukhaba",
-            "uyamkhaba",
-            "umkhabile"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "ukukhahlela",
             "ukukhahlela",
             "umkhahlele"
           ],
@@ -4305,21 +3198,6 @@
           "mispellings": [
             "shapa"
           ]
-        },
-        "tsn": {
-          "keywords": [
-            "itaya",
-            "go itaya"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukubetha",
-            "uyambetha",
-            "umbethile"
-          ],
-          "mispellings": []
         },
         "zul": {
           "keywords": [
@@ -4364,28 +3242,14 @@
           ],
           "mispellings": []
         },
-        "tsn": {
-          "keywords": [
-            "tlhokofaditswe",
-            "tlhokofaditswe"
-          ],
-          "mispellings": [
-            "tlhokofatsa"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "ukungcungcuthekisa",
-            "umngcungcuthekisile"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "ubuhlungu obukhulu",
-            "wahlukunyezwa kabuhlungu"
+            "isihluku",
+            "ngesihluku"
           ],
-          "mispellings": []
+          "mispellings": [
+            "kabuhlungu"
+          ]
         }
       }
     },
@@ -4412,48 +3276,33 @@
           "mispellings": [
             "goei",
             "gegoei",
-            "neergegoei",
-            "neer gegoei"
+            "neergegoei"
           ]
         },
         "sot": {
           "keywords": [
             "lahlela",
-            "ho lahlela",
             "lahla"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "konopa",
-            "go konopa",
-            "konopa"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukujwila",
-            "uyajwila",
-            "ujwilile"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "jikijela/phonsa",
-            "ukuphonsa",
-            "jikijela"
+            "jikijela",
+            "ukujikijela",
+            "jikijela",
+            "jikijele"
           ],
-          "mispellings": []
+          "mispellings": [
+            "phonsa"
+          ]
         }
       }
     },
     {
       "English": {
         "keywords": [
-          "Rape",
+          "rape",
           "raping",
           "rapist"
         ],
@@ -4481,30 +3330,14 @@
         "sot": {
           "keywords": [
             "peto",
-            "ho beta",
-            "motho ea betileng"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "petelelo",
-            "go betelela",
-            "mmeteledi"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "Dlwengula",
-            "uyadlwengula",
-            "isidlwengu"
+            "beta",
+            "betileng"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "Ukudlwengula",
+            "dlwengula",
             "ukudlwengula",
             "umdlwenguli"
           ],
@@ -4543,29 +3376,16 @@
           ],
           "mispellings": []
         },
-        "tsn": {
-          "keywords": [
-            "nyatsa",
-            "lenyatso",
-            "go nyatsa"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukudlwengula",
-            "udlwengulo",
-            "umdlwengule"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "ona",
-            "ubudlova/ukona",
-            "kwephuliwe/phatha ngendluzula"
+            "ubudlova",
+            "ngendluzula"
           ],
-          "mispellings": []
+          "mispellings": [
+            "ukona",
+            "kwephuliwe"
+          ]
         }
       }
     },
@@ -4601,32 +3421,16 @@
           ],
           "mispellings": []
         },
-        "tsn": {
-          "keywords": [
-            "thobalano",
-            "bong"
-          ],
-          "mispellings": [
-            "mokwalo wa thobalano"
-          ]
-        },
-        "xho": {
-          "keywords": [
-            "isondo",
-            "yesondo",
-            "ngokwesondo",
-            "umyalezo wesondo"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "ucansi/ ubulili",
-            "ezocansi/ phathelene nobulili",
-            "ngokocansi",
-            "imiyalezo yocansi"
+            "ucansi",
+            "yocansi",
+            "ngokocansi"
           ],
-          "mispellings": []
+          "mispellings": [
+            "ezocansi",
+            "ubulili"
+          ]
         }
       }
     },
@@ -4666,22 +3470,6 @@
             "hapeletsa"
           ]
         },
-        "tsn": {
-          "keywords": [
-            "gatelale",
-            "gateletse",
-            "go gatelela"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukunyanzela",
-            "unyanzele",
-            "uyanyanzela"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
             "amandla",
@@ -4709,8 +3497,6 @@
         "afr": {
           "keywords": [
             "druk",
-            "druk uitoefen",
-            "druk uitgeoefen",
             "gedruk"
           ],
           "mispellings": [
@@ -4723,22 +3509,6 @@
             "khatello",
             "petelitsoe",
             "hatellang"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "gatelela",
-            "gateletswe",
-            "go gatelela"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "uxinezelelo",
-            "uxinezele",
-            "uyaxinezela"
           ],
           "mispellings": []
         },
@@ -4782,31 +3552,15 @@
         "sot": {
           "keywords": [
             "qobella",
-            "qobella",
             "qobelletsoe"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "kgokgoetsa",
-            "kgokgoediwa"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "onyanzelisayo",
-            "ukunyanzela",
-            "unyanzelwe"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "ukuphoqa",
-            "enzisa",
-            "ku/phoqiwe"
+            "phoqayo",
+            "phoqa",
+            "phoqiwe"
           ],
           "mispellings": []
         }
@@ -4840,31 +3594,15 @@
         },
         "sot": {
           "keywords": [
-            "boitsoaro bo bobe",
-            "e sa lokelang",
-            "e sa amohelehang"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "maitsholomabe",
-            "ga go maleba",
-            "ga go amogelege"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukungaziphathi kakuhle",
-            "engafanelekanga",
-            "engamkelekanga"
+            "boitsoaro",
+            "lokelang",
+            "amohelehang"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "ukuziphatha kabi",
+            "kabi",
             "engafanele",
             "akwamukeleki"
           ],
@@ -4905,29 +3643,15 @@
           ],
           "mispellings": []
         },
-        "tsn": {
-          "keywords": [
-            "tshosetso",
-            "go latelela",
-            "motlatlapi"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukuhlukumeza",
-            "ukuchwechwela",
-            "ukwenza into ephosakeleyo"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "ukuhlukunyezwa/ukukhathaza",
+            "ukuhlukunyezwa",
             "ukucupha",
-            "isenzo/ukukhiqiza"
+            "ukwenza"
           ],
-          "mispellings": []
+          "mispellings": [
+            "ukukhathaza"
+          ]
         }
       }
     },
@@ -4953,31 +3677,20 @@
         },
         "sot": {
           "keywords": [
-            "molato",
-            "ho beha molato"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "bona phoso",
-            "go bona phoso"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "ukutyhola",
-            "uyatyhola"
+            "molato"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "ukusola/ ukubeka icala",
-            "esola"
+            "ngiyamsola",
+            "ukusola",
+            "uyangisola",
+            "ngiyamsola"
           ],
-          "mispellings": []
+          "mispellings": [
+            "ukubekaicala"
+          ]
         }
       }
     }
@@ -4993,35 +3706,20 @@
       "Translation": {
         "afr": {
           "keywords": [
-            "help",
+            "Help",
             "hulp"
           ],
           "mispellings": []
         },
         "sot": {
           "keywords": [
-            "Thuso"
-          ],
-          "mispellings": []
-        },
-        "tsn": {
-          "keywords": [
-            "thuso",
-            "thusa"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "Uncedo",
-            "help"
+            "thuso"
           ],
           "mispellings": []
         },
         "zul": {
           "keywords": [
-            "usizo",
-            "help"
+            "Usizo"
           ],
           "mispellings": []
         }
@@ -5049,24 +3747,9 @@
           ],
           "mispellings": []
         },
-        "tsn": {
-          "keywords": [
-            "SOS"
-          ],
-          "mispellings": []
-        },
-        "xho": {
-          "keywords": [
-            "SOS",
-            "isos"
-          ],
-          "mispellings": []
-        },
         "zul": {
           "keywords": [
-            "SOS",
-            "I-SOS",
-            "isos"
+            "SOS"
           ],
           "mispellings": []
         }
