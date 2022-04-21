@@ -62,6 +62,19 @@ for ($i=0; $i -lt $languages.length; $i++) {
     Write-Output ("created localization for " + $lang)
 }
 
+# step 4TE: translation edits
+if ($SPREADSHEET_ID_transl){
+    
+    $JSON_FILENAME = "..\parenttext-deployment\parenttext-" + $deployment + "-repo\temp\" + $source_file_name +".json"
+    $source_file_name = $source_file_name + "_edited"
+    $output_path_t_edit = "..\parenttext-deployment\parenttext-" + $deployment + "-repo\temp\" + $source_file_name + ".json"
+    $transl_log = "..\parenttext-deployment\parenttext-" + $deployment + "-repo\temp\transl_warnings.log"
+    Set-Location "..\rapidpro_abtesting"
+    python main.py $JSON_FILENAME $output_path_t_edit $SPREADSHEET_ID_transl --format google_sheets --logfile $transl_log
+    Write-Output "Edited translations"
+    Set-Location "..\parenttext-deployment"
+}
+
 # step 4QA: integrity check
 
 $InputFile = $transl_output_folder + "\" +  $source_file_name +".json"
