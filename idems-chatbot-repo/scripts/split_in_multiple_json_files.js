@@ -15,7 +15,7 @@ let flow_dict = {};
 obj_full.flows.forEach(flow => {flow_dict[flow.uuid] = flow.name});
 
 let n_tot_flows = obj_full.flows.length;
-console.log(n_tot_flows)
+//console.log(n_tot_flows)
 
 let quot = Math.floor(n_tot_flows/n_files);
 let batches = [];
@@ -25,11 +25,11 @@ for (let start=0; start < n_tot_flows; start+= quot){
     batches.push(JSON.parse(json_string));
     if (n_tot_flows-start-quot >= quot){
         batches[i].flows = batches[i].flows.slice(start, start + quot);
-        console.log(batches[i].flows.length)
+        //console.log(batches[i].flows.length)
     }
     else{
         batches[i].flows = batches[i].flows.slice(start, n_tot_flows);
-        console.log(batches[i].flows.length)
+        //console.log(batches[i].flows.length)
         break
     }
     
@@ -39,7 +39,7 @@ for (let start=0; start < n_tot_flows; start+= quot){
 }
 
 
-console.log(batches.length)
+//console.log(batches.length)
 
 for (let i=0; i < n_files; i++){
     //remove triggers if the corresponding flow is not in the batch
