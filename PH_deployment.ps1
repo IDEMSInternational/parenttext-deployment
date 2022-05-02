@@ -1,4 +1,4 @@
-$source_file_name = "PH-plh-international-flavour"
+$depl_prefix = "PH"
 $default_expiration_time = 60
 $deployment = "philippines"
 $SPREADSHEET_ID_loc = '1oEdmUA5W_knyji8Ps-5Tw2SkRTWLNMHNuLpgLSuWgXA'

@@ -1,4 +1,4 @@
-$source_file_name = "plh-international-flavour"
+$depl_prefix = ""
 $default_expiration_time = 60
 $deployment = "international"
 $SPREADSHEET_ID_loc = ''
