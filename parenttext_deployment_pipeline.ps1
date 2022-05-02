@@ -1,7 +1,22 @@
+# step 0: filter flows
+$source_file_name = "plh-international-flavour"
+$input_path_0 = ".\parenttext-international-repo\flows\plh-international-flavour.json"
+
+if ($depl_prefix){
+    $source_file_name = $depl_prefix  + "-" + $source_file_name 
+}
+
+$output_path_0 = ".\parenttext-" + $deployment + "-repo\temp\" + $source_file_name + ".json"
+node .\idems-chatbot-repo\scripts\filter_flows.js $input_path_0 $output_path_0 $depl_prefix
+Write-Output "filtered flows"
+
+#remove triggers
+if ($remove_triggers){
+node .\idems-chatbot-repo\scripts\remove_triggers.js $output_path_0 $output_path_0
+}
 
 # step 1: update flow properties
-$source_file_name = $source_file_name
-$input_path_1 = ".\parenttext-international-repo\flows\" + $source_file_name + ".json"
+$input_path_1 = ".\parenttext-" + $deployment + "-repo\temp\" + $source_file_name + ".json"
 $source_file_name = $source_file_name + "_expire"
 $output_path_1 = ".\parenttext-" + $deployment + "-repo\temp\" + $source_file_name + ".json"
 $default_expiration_time = $default_expiration_time
