@@ -41,6 +41,9 @@ Write-Output "added A/B tests and localisation"
 
 Set-Location "..\parenttext-deployment"
 
+# fix issues with _ui
+node .\idems-chatbot-repo\scripts\fix_ui.js $output_path_2 $output_path_2
+Write-Output "fixed _ui"
 
 #step 4T: add translation and add quick replies to message text
 
