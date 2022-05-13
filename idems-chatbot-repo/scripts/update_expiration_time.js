@@ -16,8 +16,14 @@ let obj_exp = JSON.parse(json_string_exp);
 for (let fl = 0; fl < obj.flows.length; fl++) {
     if (obj.flows[fl].name in obj_exp){
         obj.flows[fl].expire_after_minutes = parseInt(obj_exp[obj.flows[fl].name]);
+        if (obj.flows[fl].hasOwnProperty("metadata") && obj.flows[fl].metadata.hasOwnProperty("expires")){
+            obj.flows[fl].metadata.expires = parseInt(obj_exp[obj.flows[fl].name]);
+        }
     } else {
         obj.flows[fl].expire_after_minutes = parseInt(default_expiration);
+        if (obj.flows[fl].hasOwnProperty("metadata") && obj.flows[fl].metadata.hasOwnProperty("expires")){
+            obj.flows[fl].metadata.expires =  parseInt(default_expiration);
+        }
     }
     
 };
