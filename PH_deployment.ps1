@@ -4,6 +4,8 @@ $deployment = "philippines"
 $expiration_times =  ".\parenttext-international-repo\edits\expiration_times.json"
 $SPREADSHEET_ID_loc = '1oEdmUA5W_knyji8Ps-5Tw2SkRTWLNMHNuLpgLSuWgXA'
 $CONFIG_ab_name = "ab_config"
+$replace_last_interaction = $true #replace in the campaigns with last_seen_on
+$campaigns_to_remove = @() 
 
 $languages =  @("fil")
 $2languages = @("fil")
