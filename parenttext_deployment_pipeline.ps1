@@ -20,7 +20,6 @@ $input_path_1 = ".\parenttext-" + $deployment + "-repo\temp\" + $source_file_nam
 $source_file_name = $source_file_name + "_expire"
 $output_path_1 = ".\parenttext-" + $deployment + "-repo\temp\" + $source_file_name + ".json"
 $default_expiration_time = $default_expiration_time
-$expiration_times =  ".\parenttext-international-repo\edits\expiration_times.json"
 node .\idems-chatbot-repo\scripts\update_expiration_time.js $input_path_1 $expiration_times $default_expiration_time $output_path_1
 Write-Output "updated expiration"
 
@@ -125,11 +124,17 @@ node ..\idems_translation\chatbot\index.js move_quick_replies $input_path_4 $sel
 Write-Output "removed quick replies"
 
 
+# step 5: safeguarding
+if (!$redefine_safeguarding){
+    $sg_flow_uuid = "3aa013de-3b69-482c-bbc9-acd8d23bae55"
+    $sg_flow_name = "PLH - Safeguarding - WFR interaction"
+}
+
 $input_path_5 = $output_path_4 + $output_name_4 +".json"
 $source_file_name = $source_file_name + "_safeguarding"
 $output_path_5 = ".\parenttext-" + $deployment + "-repo\temp\"+ $source_file_name +".json"
 $safeguarding_path = ".\parenttext-" + $deployment + "-repo\edits\" + $deployment_ + "_safeguarding.json"
-node ..\safeguarding-rapidpro\add_safeguarding_to_flows_mult_lang.js $input_path_5 $safeguarding_path $output_path_5
+node ..\safeguarding-rapidpro\add_safeguarding_to_flows_mult_lang.js $input_path_5 $safeguarding_path $output_path_5 $sg_flow_uuid $sg_flow_name
 Write-Output "added safeguarding"
 
 # step final: split in 2 json files because it's too heavy to load (need to replace wrong flow names)
