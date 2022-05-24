@@ -4,6 +4,8 @@ $expiration_times =  ".\parenttext-international-repo\edits\expiration_times.jso
 $deployment = "malaysia"
 $SPREADSHEET_ID_loc = '1rdEI_HWP7B_Q-J5ib9UYzDbbE4IWPbzA3-DfnGdZ0AM'
 $CONFIG_ab_name = "ab_config"
+$replace_last_interaction = $true #replace in the campaigns with last_seen_on
+$campaigns_to_remove = @() 
 
 $languages =  @("msa")
 $2languages = @("ms")
