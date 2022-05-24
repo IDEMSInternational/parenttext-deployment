@@ -8,11 +8,25 @@ if ($depl_prefix){
 
 $output_path_0 = ".\parenttext-" + $deployment + "-repo\temp\" + $source_file_name + ".json"
 node .\idems-chatbot-repo\scripts\filter_flows.js $input_path_0 $output_path_0 $depl_prefix
-Write-Output "filtered flows"
+Write-Output "Filtered flows"
 
 #remove triggers
 if ($remove_triggers){
 node .\idems-chatbot-repo\scripts\remove_triggers.js $output_path_0 $output_path_0
+Write-Output "Removed triggers"
+}
+
+#replace campaign variable 
+if ($replace_last_interaction){
+    node .\idems-chatbot-repo\scripts\replace_last_interaction.js $output_path_0 $output_path_0
+    Write-Output "Replaced campaign variable"
+}
+
+#remove campaigns
+for ($ca=0; $ca -lt $campaigns_to_remove.length; $ca++) {
+    $campaign_name = $campaigns_to_remove[$ca]
+    node .\idems-chatbot-repo\scripts\remove_campaign.js $output_path_0 $campaign_name $output_path_0
+    Write-Output ("Removed campaign " + $campaign_name)
 }
 
 # step 1: update flow properties
@@ -21,7 +35,7 @@ $source_file_name = $source_file_name + "_expire"
 $output_path_1 = ".\parenttext-" + $deployment + "-repo\temp\" + $source_file_name + ".json"
 $default_expiration_time = $default_expiration_time
 node .\idems-chatbot-repo\scripts\update_expiration_time.js $input_path_1 $expiration_times $default_expiration_time $output_path_1
-Write-Output "updated expiration"
+Write-Output "Updated expiration"
 
 
 
@@ -42,7 +56,7 @@ Set-Location "..\parenttext-deployment"
 
 # fix issues with _ui
 node .\idems-chatbot-repo\scripts\fix_ui.js $output_path_2 $output_path_2
-Write-Output "fixed _ui"
+Write-Output "Fixed _ui"
 
 #step 4T: add translation and add quick replies to message text
 
@@ -76,7 +90,7 @@ for ($i=0; $i -lt $languages.length; $i++) {
     node ..\idems_translation\chatbot\index.js localize $input_path_T $json_translation_file_path $lang $source_file_name $transl_output_folder
    
     $input_path_T = $transl_output_folder + "\" + $source_file_name +".json"
-    Write-Output ("created localization for " + $lang)
+    Write-Output ("Created localization for " + $lang)
 }
 
 # step 4TE: translation edits
@@ -121,7 +135,7 @@ $select_phrases_file = ".\parenttext-" + $deployment + "-repo\edits\select_phras
 $output_path_4 = ".\parenttext-" + $deployment + "-repo\temp\"
 $output_name_4 = $source_file_name 
 node ..\idems_translation\chatbot\index.js move_quick_replies $input_path_4 $select_phrases_file $output_name_4 $output_path_4
-Write-Output "removed quick replies"
+Write-Output "Removed quick replies"
 
 
 # step 5: safeguarding
@@ -135,11 +149,10 @@ $source_file_name = $source_file_name + "_safeguarding"
 $output_path_5 = ".\parenttext-" + $deployment + "-repo\temp\"+ $source_file_name +".json"
 $safeguarding_path = ".\parenttext-" + $deployment + "-repo\edits\" + $deployment_ + "_safeguarding.json"
 node ..\safeguarding-rapidpro\add_safeguarding_to_flows_mult_lang.js $input_path_5 $safeguarding_path $output_path_5 $sg_flow_uuid $sg_flow_name
-Write-Output "added safeguarding"
+Write-Output "Added safeguarding"
 
 # step final: split in 2 json files because it's too heavy to load (need to replace wrong flow names)
 $input_path_6 = $output_path_5
-$n_files = $n_files
 node .\idems-chatbot-repo\scripts\split_in_multiple_json_files.js $input_path_6 $n_files
-
+Write-Output ("Split file in " + $n_files + " parts")
 
