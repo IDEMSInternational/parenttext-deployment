@@ -4,10 +4,15 @@ $expiration_times =  ".\parenttext-jamaica-repo\edits\expiration_times_u_report.
 $deployment = "jamaica"
 $SPREADSHEET_ID_loc = '1YSHxIPfFJhf-jLzgd8P7-Y2-eIO_dc9jV7dkKBL1oXw'
 $CONFIG_ab_name = "ab_config_demo"
-$remove_triggers = "yes"
-$redefine_safeguarding = "yes"
+
+$remove_triggers = $true
+
+$redefine_safeguarding = $true
 $sg_flow_uuid = "b83315a6-b25c-413a-9aa0-953bf60f223c"
 $sg_flow_name = "JM - PLH - Safeguarding - WFR interaction"
+
+$replace_last_interaction = $true #replace in the campaigns with last_seen_on
+$campaigns_to_remove = @("IPV follow up")
 
 $languages =  @()
 $2languages = @()
@@ -26,12 +31,10 @@ $local_flows = ".\parenttext-jamaica-repo\flows\jamaica-development.json"
 $edited_local_flows = ".\parenttext-jamaica-repo\temp\jamaica-development_edited.json"
 
 
-
 node .\idems-chatbot-repo\scripts\update_expiration_time.js $local_flows $expiration_times $default_expiration_time $edited_local_flows
-Write-Output "updated expiration u-report"
-
+Write-Output "Updated expiration u-report"
 
 $triggers =  ".\parenttext-jamaica-repo\edits\triggers.json" 
 node ..\safeguarding-rapidpro\add_triggers_to_flows.js  $edited_local_flows $triggers $edited_local_flows
-Write-Output "added triggers u-report"
+Write-Output "Added triggers u-report"
 
