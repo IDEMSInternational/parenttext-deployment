@@ -11,6 +11,8 @@ $languages =  @("msa")
 $2languages = @("ms")
 $deployment_ = "malaysia"
 
+$add_selectors = $false
+
 $n_files = 2
 
 .\parenttext_deployment_set_up_folders.ps1

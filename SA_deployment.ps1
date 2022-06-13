@@ -13,6 +13,8 @@ $languages =  @("afr","sot","tsn","xho","zul")
 $2languages = @("af","st","tn","xh","zu")
 $deployment_ = "south_africa"
 
+$add_selectors = $false
+
 $n_files = 2
 
 .\parenttext_deployment_set_up_folders.ps1
