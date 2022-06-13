@@ -78,5 +78,10 @@
     "SourceText": "##Local Covid-19 Hotline##",
     "text": "##Local Covid-19 Hotline##",
     "type": "text"
+  },
+  {
+    "SourceText": "#drug referrals#",
+    "text": "#drug referrals#",
+    "type": "text"
   }
 ]
