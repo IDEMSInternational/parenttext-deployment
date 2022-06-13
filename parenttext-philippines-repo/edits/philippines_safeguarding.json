@@ -2095,6 +2095,333 @@
       }
     }
   ],
+  "Drug": [
+    {
+      "English": {
+        "keywords": [
+          "drugs",
+          "drug"
+        ],
+        "mispellings": [
+          "drog",
+          "drogs"
+        ]
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "addict",
+          "addiction",
+          "dependence"
+        ],
+        "mispellings": []
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "cocaine",
+          "coke",
+          "blow",
+          "charlie"
+        ],
+        "mispellings": [
+          "crack",
+          "white",
+          "koke"
+        ]
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "heroine",
+          "brown",
+          "smack",
+          "skag"
+        ],
+        "mispellings": [
+          "hose",
+          "hero"
+        ]
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "high",
+          "tipsy"
+        ],
+        "mispellings": []
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "overdose",
+          "overdosed"
+        ],
+        "mispellings": []
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "LSD",
+          "acid",
+          "cheer",
+          "drop"
+        ],
+        "mispellings": []
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "magic mushrooms",
+          "alice"
+        ],
+        "mispellings": [
+          "shrooms"
+        ]
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "alcohol",
+          "booze",
+          "drinks",
+          "alcoholic"
+        ],
+        "mispellings": [
+          "hooch",
+          "alcol"
+        ]
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "speed",
+          "billy",
+          "paste",
+          "base"
+        ],
+        "mispellings": [
+          "whizz"
+        ]
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "poppers",
+          "liquid gold",
+          "jungle juice",
+          "rush"
+        ],
+        "mispellings": [
+          "buzz"
+        ]
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "weed",
+          "cannabis",
+          "Marijuana",
+          "dope"
+        ],
+        "mispellings": [
+          "grass",
+          "pot",
+          "CBD",
+          "THC",
+          "bud",
+          "mariguana"
+        ]
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "ectasy",
+          "brownies",
+          "crystal",
+          "mandy"
+        ],
+        "mispellings": [
+          "md",
+          "mdma",
+          "molly",
+          "pills"
+        ]
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "crystal meth",
+          "ice",
+          "meth",
+          "speed"
+        ],
+        "mispellings": [
+          "crank"
+        ]
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "ketamine"
+        ],
+        "mispellings": [
+          "ket"
+        ]
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "Morphine"
+        ],
+        "mispellings": []
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "Oxycodone",
+          "Oxy",
+          "Oxycotton"
+        ],
+        "mispellings": []
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    },
+    {
+      "English": {
+        "keywords": [
+          "rehabilitation",
+          "detoxification"
+        ],
+        "mispellings": [
+          "rehab"
+        ]
+      },
+      "Translation": {
+        "fil": {
+          "keywords": [],
+          "mispellings": []
+        }
+      }
+    }
+  ],
   "Help": [
     {
       "English": {
