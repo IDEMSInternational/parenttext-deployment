@@ -58,7 +58,7 @@ Set-Location "..\parenttext-deployment"
 node .\idems-chatbot-repo\scripts\fix_ui.js $output_path_2 $output_path_2
 Write-Output "Fixed _ui"
 
-#step 4T: add translation and add quick replies to message text
+#step 4T: add translation 
 
 $languages =  $languages
 $2languages = $2languages
@@ -134,7 +134,7 @@ $source_file_name = $source_file_name + "_no_QR"
 $select_phrases_file = ".\parenttext-" + $deployment + "-repo\edits\select_phrases.json"
 $output_path_4 = ".\parenttext-" + $deployment + "-repo\temp\"
 $output_name_4 = $source_file_name 
-node ..\idems_translation\chatbot\index.js move_quick_replies $input_path_4 $select_phrases_file $output_name_4 $output_path_4
+node ..\idems_translation\chatbot\index.js move_quick_replies $input_path_4 $select_phrases_file $output_name_4 $output_path_4 $add_selectors
 Write-Output "Removed quick replies"
 
 
