@@ -1,10 +1,9 @@
 {
-"Menu U-Report":["Menu","Poll"],
+"Menu U-Report":["Menu"],
+"Vaccine Poll": ["poll", "vax"],
 "Quit U-Report":["Leave","Quit"],
 "Join U-Report":["join", "register", "signup"],
-"Mental Health":["Chatbot","Tips","onmymind"],
 "Dengue":["dengue","mosquito"],
-"Nutrition":["healthy","healthylife","healthylifestyle","healthyliving","healthylives"],
 "Human Trafficking":["traffic","trafficking","slavery"],
 "U-Matter chatline":["Support","chatline","helpline","Help","Depressed","Depression","Abuse","Mental","Suicidal","Suicide","Bipolar","Counselling","Counsellor","Mad","Matter","umatter","youmatter","rape"],
 "U-Matter Satisfaction":["Satisfaction"],
