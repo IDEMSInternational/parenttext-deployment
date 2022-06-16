@@ -8930,14 +8930,6 @@
             },
             "config": {}
           },
-          "ecc3ada0-f082-4fc9-856a-c8d4d5302b71": {
-            "type": "split_by_subflow",
-            "position": {
-              "left": 880,
-              "top": 600
-            },
-            "config": {}
-          },
           "bee329e4-4b21-4015-9e02-b98df35009ae": {
             "type": "split_by_subflow",
             "position": {
@@ -8946,18 +8938,11 @@
             },
             "config": {}
           },
-          "70aef606-01a4-41bb-bb40-b8bd8043ad06": {
-            "position": {
-              "left": 1280,
-              "top": 760
-            },
-            "type": "execute_actions"
-          },
-          "0789a12e-63e3-4017-9fcf-be84810f75aa": {
+          "077b48a0-77b1-4bab-a44d-0c382c0f6dcd": {
             "type": "split_by_subflow",
             "position": {
-              "left": 1280,
-              "top": 860
+              "left": 940,
+              "top": 740
             },
             "config": {}
           }
@@ -8967,7 +8952,7 @@
       "language": "base",
       "localization": {},
       "metadata": {
-        "revision": 75
+        "revision": 77
       },
       "name": "JM - PLH*UR - Redirect to trigger",
       "nodes": [
@@ -9004,19 +8989,9 @@
                 "uuid": "1450dd96-9f9d-4c42-85ac-5f4731cd01c8"
               },
               {
-                "uuid": "68414ff9-355f-48db-ba11-3c20bf234e09",
-                "name": "Mental Health",
-                "exit_uuid": "25e2e973-6f7e-43c4-a486-e1a3b0715b6b"
-              },
-              {
                 "uuid": "bcdabb62-e0ee-4651-8dd7-c2e8f556764b",
                 "name": "Dengue",
                 "exit_uuid": "8a16a9a6-62cf-4b44-ad82-51eebec519eb"
-              },
-              {
-                "uuid": "f3a1f38e-8093-40a7-b214-efd3b00e2957",
-                "name": "Nutrition",
-                "exit_uuid": "9247ec15-eca0-4e5f-9d57-07c57b9ded24"
               },
               {
                 "uuid": "8b958490-6a0b-49a4-8913-5d3f70fd8d52",
@@ -9037,6 +9012,11 @@
                 "uuid": "fdb51252-3c52-4ad9-b56e-bbd322b42906",
                 "name": "Womenscentre",
                 "exit_uuid": "dd4d8d07-e1b7-49aa-9193-e6ad36bf492b"
+              },
+              {
+                "uuid": "02b0c43c-0e30-4512-93d7-e8a489c0b59f",
+                "name": "Vaccine Poll",
+                "exit_uuid": "fa02bb04-4db8-46b8-bd5e-17a09dc3dfba"
               },
               {
                 "exit_uuid": "56859c0e-093c-46f7-a483-9d5447d9a77a",
@@ -9087,27 +9067,11 @@
               },
               {
                 "arguments": [
-                  "tips"
-                ],
-                "type": "has_any_word",
-                "uuid": "3f542569-6b9c-4f13-8c17-87929d2d219b",
-                "category_uuid": "68414ff9-355f-48db-ba11-3c20bf234e09"
-              },
-              {
-                "arguments": [
                   "dengue"
                 ],
                 "type": "has_any_word",
                 "uuid": "be962a15-2ff1-4196-95db-53d7219a0fb1",
                 "category_uuid": "bcdabb62-e0ee-4651-8dd7-c2e8f556764b"
-              },
-              {
-                "arguments": [
-                  "healthy"
-                ],
-                "type": "has_any_word",
-                "uuid": "2488d684-6723-421a-a561-6ad1f2b6a8ca",
-                "category_uuid": "f3a1f38e-8093-40a7-b214-efd3b00e2957"
               },
               {
                 "arguments": [
@@ -9140,6 +9104,14 @@
                 "type": "has_any_word",
                 "uuid": "707c3f5d-feea-42ee-893c-7eba8411f8bb",
                 "category_uuid": "fdb51252-3c52-4ad9-b56e-bbd322b42906"
+              },
+              {
+                "arguments": [
+                  "poll"
+                ],
+                "type": "has_any_word",
+                "uuid": "cc231a98-7f14-4791-9b47-f5379306a1e6",
+                "category_uuid": "02b0c43c-0e30-4512-93d7-e8a489c0b59f"
               }
             ],
             "operand": "@input.text",
@@ -9167,16 +9139,8 @@
               "uuid": "bfe0cf08-259c-4681-a72c-6418b4db38d8"
             },
             {
-              "uuid": "25e2e973-6f7e-43c4-a486-e1a3b0715b6b",
-              "destination_uuid": "ecc3ada0-f082-4fc9-856a-c8d4d5302b71"
-            },
-            {
               "uuid": "8a16a9a6-62cf-4b44-ad82-51eebec519eb",
               "destination_uuid": "9518e632-a645-4ca8-9c30-94f9c71bf40b"
-            },
-            {
-              "uuid": "9247ec15-eca0-4e5f-9d57-07c57b9ded24",
-              "destination_uuid": "70aef606-01a4-41bb-bb40-b8bd8043ad06"
             },
             {
               "uuid": "6918d6da-189b-4c8b-98c0-4f17efca4a3e",
@@ -9193,6 +9157,10 @@
             {
               "uuid": "dd4d8d07-e1b7-49aa-9193-e6ad36bf492b",
               "destination_uuid": "42faf224-9044-4e73-8dd5-e984c7dbf919"
+            },
+            {
+              "uuid": "fa02bb04-4db8-46b8-bd5e-17a09dc3dfba",
+              "destination_uuid": "077b48a0-77b1-4bab-a44d-0c382c0f6dcd"
             },
             {
               "destination_uuid": "46da56ca-bd33-44a6-a9ba-a0beb80376c3",
@@ -9643,64 +9611,6 @@
           ]
         },
         {
-          "uuid": "ecc3ada0-f082-4fc9-856a-c8d4d5302b71",
-          "actions": [
-            {
-              "uuid": "b5244c07-e6bc-4b00-8035-13d62fddafd7",
-              "type": "enter_flow",
-              "flow": {
-                "uuid": "d353fedd-d61d-428a-93e1-57a8f4abf30b",
-                "name": "JM - Wrapper - Mental health chatbot"
-              }
-            }
-          ],
-          "router": {
-            "type": "switch",
-            "operand": "@child.run.status",
-            "cases": [
-              {
-                "uuid": "6ff5c0cb-b745-41d7-a59d-37803b202429",
-                "type": "has_only_text",
-                "arguments": [
-                  "completed"
-                ],
-                "category_uuid": "3bc971fe-e0f5-44a5-a91a-156bd8c48570"
-              },
-              {
-                "uuid": "76a76c69-7873-44ae-bca1-ead37930c7be",
-                "arguments": [
-                  "expired"
-                ],
-                "type": "has_only_text",
-                "category_uuid": "c32deead-e2f4-4252-82f3-7f715b7f29bf"
-              }
-            ],
-            "categories": [
-              {
-                "uuid": "3bc971fe-e0f5-44a5-a91a-156bd8c48570",
-                "name": "Complete",
-                "exit_uuid": "de82d4ca-e17e-4dbb-8307-319cb6d7af13"
-              },
-              {
-                "uuid": "c32deead-e2f4-4252-82f3-7f715b7f29bf",
-                "name": "Expired",
-                "exit_uuid": "b53630c9-06f7-4be4-afa6-bf713fa03721"
-              }
-            ],
-            "default_category_uuid": "c32deead-e2f4-4252-82f3-7f715b7f29bf"
-          },
-          "exits": [
-            {
-              "uuid": "de82d4ca-e17e-4dbb-8307-319cb6d7af13",
-              "destination_uuid": null
-            },
-            {
-              "uuid": "b53630c9-06f7-4be4-afa6-bf713fa03721",
-              "destination_uuid": null
-            }
-          ]
-        },
-        {
           "uuid": "bee329e4-4b21-4015-9e02-b98df35009ae",
           "actions": [
             {
@@ -9759,32 +9669,14 @@
           ]
         },
         {
-          "uuid": "70aef606-01a4-41bb-bb40-b8bd8043ad06",
+          "uuid": "077b48a0-77b1-4bab-a44d-0c382c0f6dcd",
           "actions": [
             {
-              "type": "set_run_result",
-              "name": "from menu",
-              "value": "yes",
-              "category": "",
-              "uuid": "498f4353-3d8d-4d18-8411-ebc82284f268"
-            }
-          ],
-          "exits": [
-            {
-              "uuid": "ebfbd7e1-4bcb-49e9-bcdf-89a9c0bffb4f",
-              "destination_uuid": "0789a12e-63e3-4017-9fcf-be84810f75aa"
-            }
-          ]
-        },
-        {
-          "uuid": "0789a12e-63e3-4017-9fcf-be84810f75aa",
-          "actions": [
-            {
-              "uuid": "d4226e63-98c6-4ee3-ba91-8240698e2a9c",
+              "uuid": "6dc9d126-4eb6-433c-a794-ae359c8afe7e",
               "type": "enter_flow",
               "flow": {
-                "uuid": "cdd59989-c692-4de5-9240-97693a40d6d3",
-                "name": "JM - Nutrition - Wrapper - Main"
+                "uuid": "720c0fee-fc32-4ff3-9228-764f8e7d4bd8",
+                "name": "JM - UR - Wrapper - Vaccine hesitancy poll"
               }
             }
           ],
@@ -9793,43 +9685,43 @@
             "operand": "@child.run.status",
             "cases": [
               {
-                "uuid": "e96751af-cbe9-4abe-af4e-67fe77ae1b32",
+                "uuid": "d586e245-91b0-4e7d-bd22-dfea92fc8f82",
                 "type": "has_only_text",
                 "arguments": [
                   "completed"
                 ],
-                "category_uuid": "84a933c5-6724-44b8-abce-cca309d9b492"
+                "category_uuid": "ccb5791b-4c14-4138-a011-bca5621e7597"
               },
               {
-                "uuid": "1fe6c216-bf84-4daf-8273-dbf209d2699e",
+                "uuid": "9239ae97-7cf3-461b-b2dc-fc95008fe28e",
                 "arguments": [
                   "expired"
                 ],
                 "type": "has_only_text",
-                "category_uuid": "3054a1b8-3556-419b-bba9-7882b09efb5a"
+                "category_uuid": "b5b7d44e-11fd-4e83-84da-e46c3752fac5"
               }
             ],
             "categories": [
               {
-                "uuid": "84a933c5-6724-44b8-abce-cca309d9b492",
+                "uuid": "ccb5791b-4c14-4138-a011-bca5621e7597",
                 "name": "Complete",
-                "exit_uuid": "a2fc4525-355f-415a-b4bc-47b86a391ca5"
+                "exit_uuid": "d4cf1c9f-7eb8-47fe-877e-195761206dab"
               },
               {
-                "uuid": "3054a1b8-3556-419b-bba9-7882b09efb5a",
+                "uuid": "b5b7d44e-11fd-4e83-84da-e46c3752fac5",
                 "name": "Expired",
-                "exit_uuid": "4e6502bc-799e-449e-82f5-3fe21f59cc40"
+                "exit_uuid": "b24158ce-40ab-40b7-8fe3-7b16aa4b6086"
               }
             ],
-            "default_category_uuid": "3054a1b8-3556-419b-bba9-7882b09efb5a"
+            "default_category_uuid": "b5b7d44e-11fd-4e83-84da-e46c3752fac5"
           },
           "exits": [
             {
-              "uuid": "a2fc4525-355f-415a-b4bc-47b86a391ca5",
+              "uuid": "d4cf1c9f-7eb8-47fe-877e-195761206dab",
               "destination_uuid": null
             },
             {
-              "uuid": "4e6502bc-799e-449e-82f5-3fe21f59cc40",
+              "uuid": "b24158ce-40ab-40b7-8fe3-7b16aa4b6086",
               "destination_uuid": null
             }
           ]
@@ -9838,7 +9730,7 @@
       "spec_version": "13.1.0",
       "type": "messaging",
       "uuid": "572ec380-d38c-406d-b5fc-62c8b087023f",
-      "revision": 76
+      "revision": 81
     },
     {
       "_ui": {
@@ -10390,8 +10282,8 @@
           },
           "4bb40e03-8f9e-419e-ac74-8c5a71e8aecd": {
             "position": {
-              "left": 1060,
-              "top": 1380
+              "left": 1040,
+              "top": 1600
             },
             "type": "execute_actions"
           },
@@ -10408,7 +10300,7 @@
           "f10316db-2e90-46c8-b307-0fcb9544adc3": {
             "position": {
               "left": 1080,
-              "top": 1840
+              "top": 1860
             },
             "type": "execute_actions"
           },
@@ -10430,6 +10322,13 @@
             },
             "config": {}
           },
+          "6cc9c96d-7055-4ec7-a5ff-f12e7982331c": {
+            "position": {
+              "left": 720,
+              "top": 2140
+            },
+            "type": "execute_actions"
+          },
           "12b68896-39e4-4332-afde-7f51f33f1cd8": {
             "type": "split_by_subflow",
             "position": {
@@ -10438,12 +10337,13 @@
             },
             "config": {}
           },
-          "6cc9c96d-7055-4ec7-a5ff-f12e7982331c": {
+          "9c1b5696-a33c-4bfe-ac90-142312427aed": {
+            "type": "split_by_subflow",
             "position": {
-              "left": 720,
-              "top": 2140
+              "left": 1480,
+              "top": 1400
             },
-            "type": "execute_actions"
+            "config": {}
           }
         },
         "stickies": {}
@@ -10453,7 +10353,7 @@
       "localization": {},
       "metadata": {
         "expires": 10080,
-        "revision": 228
+        "revision": 231
       },
       "name": "JM - UR - Menu",
       "nodes": [
@@ -10591,7 +10491,7 @@
           "actions": [
             {
               "attachments": [],
-              "text": "Hi, how can U-Report help you today? Reply\nA to chat with a U-Matter counsellor\nB to try our newest activity\nC to get parenting tips\nD to visit our website\nE to partner with us",
+              "text": "Hi, how can U-Report help you today? Reply\nA to chat with a U-Matter counsellor\nB to do our COVID-19 vaccine poll\nC to get parenting tips\nD to visit our website\nE to partner with us",
               "type": "send_msg",
               "quick_replies": [
                 "A",
@@ -10614,7 +10514,7 @@
           "actions": [
             {
               "attachments": [],
-              "text": "Hi, how can U-Report help you today? Reply\nA to chat with a U-Matter counsellor\nB to try our newest activity\nC to join ParentText\nD to visit our website\nE to partner with us",
+              "text": "Hi, how can U-Report help you today? Reply\nA to chat with a U-Matter counsellor\nB to do our COVID-19 vaccine poll\nC to join ParentText\nD to visit our website\nE to partner with us",
               "type": "send_msg",
               "quick_replies": [
                 "A",
@@ -10639,7 +10539,7 @@
           "actions": [
             {
               "attachments": [],
-              "text": "Hi, how can U-Report help you today? Reply\nA to chat with U-Matter counsellor\nB to join U-Report\nC to receive parenting tips\nD to try our newest activity\nE to visit our website\nF to partner with us",
+              "text": "Hi, how can U-Report help you today? Reply\nA to chat with U-Matter counsellor\nB to join U-Report\nC to receive parenting tips\nD to do our COVID-19 vaccine poll\nE to visit our website\nF to partner with us",
               "type": "send_msg",
               "quick_replies": [
                 "A",
@@ -10663,7 +10563,7 @@
           "actions": [
             {
               "attachments": [],
-              "text": "Hi, how can U-Report help you today? Reply\nA to chat with U-Matter counsellor\nB to join U-Report\nC to join ParentText\nD to try our newest activity\nE to visit our website\nF to partner with us",
+              "text": "Hi, how can U-Report help you today? Reply\nA to chat with U-Matter counsellor\nB to join U-Report\nC to join ParentText\nD to do our COVID-19 vaccine poll\nE to visit our website\nF to partner with us",
               "type": "send_msg",
               "quick_replies": [
                 "A",
@@ -10807,7 +10707,7 @@
               },
               {
                 "exit_uuid": "01d85486-45cc-4137-a318-fe77de1b0df0",
-                "name": "New activity",
+                "name": "Vaccine Poll",
                 "uuid": "75c93ccc-136f-4d83-9dfe-1e90590d7efa"
               },
               {
@@ -10846,7 +10746,7 @@
               "destination_uuid": "4a8ed71f-0f6a-47ab-b585-8837aadbe93c"
             },
             {
-              "destination_uuid": "4bb40e03-8f9e-419e-ac74-8c5a71e8aecd",
+              "destination_uuid": "9c1b5696-a33c-4bfe-ac90-142312427aed",
               "uuid": "01d85486-45cc-4137-a318-fe77de1b0df0"
             },
             {
@@ -10919,7 +10819,7 @@
               },
               {
                 "exit_uuid": "c52fb540-09fb-43eb-88d5-7888c157849a",
-                "name": "New activity",
+                "name": "Vaccine Poll",
                 "uuid": "14e2abde-ae12-4370-aaeb-fac346ba77fb"
               },
               {
@@ -10955,7 +10855,7 @@
               "uuid": "eaa0a521-92cc-4ad8-ac04-8db506194872"
             },
             {
-              "destination_uuid": "4bb40e03-8f9e-419e-ac74-8c5a71e8aecd",
+              "destination_uuid": "9c1b5696-a33c-4bfe-ac90-142312427aed",
               "uuid": "c52fb540-09fb-43eb-88d5-7888c157849a"
             },
             {
@@ -11281,27 +11181,62 @@
           ]
         },
         {
+          "uuid": "9c1b5696-a33c-4bfe-ac90-142312427aed",
           "actions": [
             {
-              "attachments": [],
-              "text": "Reply\nA for tips on speaking about mental health\nB for tips on eating and exercising right \nC to chat with a U-Matter counsellor\nD to return to main menu",
-              "type": "send_msg",
-              "quick_replies": [
-                "A",
-                "B",
-                "C",
-                "D"
-              ],
-              "uuid": "d0d31c10-877d-4c86-91f3-b330cf856a69"
+              "uuid": "617a0090-c1ef-44b8-a0ca-15f2c03b71a3",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "720c0fee-fc32-4ff3-9228-764f8e7d4bd8",
+                "name": "JM - UR - Wrapper - Vaccine hesitancy poll"
+              }
             }
           ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "dd1c8d41-fc12-4fdb-a14b-a3296dc90816",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "0f5d088a-e6a2-4333-9fda-341be99638f5"
+              },
+              {
+                "uuid": "e936d107-4cef-4cca-a691-06ce53fcee75",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "9d845146-2ada-44da-ad2c-f5dcfab51450"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "0f5d088a-e6a2-4333-9fda-341be99638f5",
+                "name": "Complete",
+                "exit_uuid": "a9adb002-30f8-40e5-8ee7-d889d1a8846f"
+              },
+              {
+                "uuid": "9d845146-2ada-44da-ad2c-f5dcfab51450",
+                "name": "Expired",
+                "exit_uuid": "c56a06c6-80d5-4f4a-8489-1236418f582e"
+              }
+            ],
+            "default_category_uuid": "9d845146-2ada-44da-ad2c-f5dcfab51450"
+          },
           "exits": [
             {
-              "destination_uuid": "ed2d6e45-87cd-4f2d-a864-1e9071200971",
-              "uuid": "e43abf22-ee34-4d42-b606-3e642868d786"
+              "uuid": "a9adb002-30f8-40e5-8ee7-d889d1a8846f",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "c56a06c6-80d5-4f4a-8489-1236418f582e",
+              "destination_uuid": null
             }
-          ],
-          "uuid": "4bb40e03-8f9e-419e-ac74-8c5a71e8aecd"
+          ]
         },
         {
           "uuid": "d88621b4-0d27-4c09-81c7-c916bff93e82",
@@ -11364,6 +11299,29 @@
               "destination_uuid": "e572e307-3de6-48ea-bbc3-ad48df28924d"
             }
           ]
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Reply\nA for tips on speaking about mental health\nB for tips on eating and exercising right \nC to chat with a U-Matter counsellor\nD to return to main menu",
+              "type": "send_msg",
+              "quick_replies": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "uuid": "d0d31c10-877d-4c86-91f3-b330cf856a69"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "ed2d6e45-87cd-4f2d-a864-1e9071200971",
+              "uuid": "e43abf22-ee34-4d42-b606-3e642868d786"
+            }
+          ],
+          "uuid": "4bb40e03-8f9e-419e-ac74-8c5a71e8aecd"
         },
         {
           "actions": [
@@ -11622,22 +11580,22 @@
       "spec_version": "13.1.0",
       "type": "messaging",
       "uuid": "dcd0af26-d2e4-49f2-927c-e60ced67c00e",
-      "revision": 231
+      "revision": 240
     },
     {
       "_ui": {
         "nodes": {
           "e6d20711-ff74-4825-ae53-27d770c96214": {
             "position": {
-              "left": 580,
-              "top": 0
+              "left": 1120,
+              "top": 320
             },
             "type": "execute_actions"
           },
           "0df731ea-358b-4900-a8d9-41c38bef06e9": {
             "position": {
-              "left": 940,
-              "top": 420
+              "left": 1220,
+              "top": 620
             },
             "type": "execute_actions"
           },
@@ -11646,15 +11604,15 @@
               "cases": {}
             },
             "position": {
-              "left": 480,
-              "top": 460
+              "left": 760,
+              "top": 680
             },
             "type": "wait_for_response"
           },
           "afa24a47-24fa-4699-853f-ab7058793f0f": {
             "position": {
-              "left": 840,
-              "top": 600
+              "left": 1200,
+              "top": 780
             },
             "type": "execute_actions"
           },
@@ -11668,22 +11626,22 @@
               }
             },
             "position": {
-              "left": 300,
-              "top": 640
+              "left": 520,
+              "top": 760
             },
             "type": "split_by_contact_field"
           },
           "5b676ca4-4809-487a-92fe-347c8d66bec3": {
             "position": {
-              "left": 400,
-              "top": 780
+              "left": 780,
+              "top": 900
             },
             "type": "execute_actions"
           },
           "62104c90-84bd-4e0c-8b60-7c31bc5e9515": {
             "position": {
-              "left": 480,
-              "top": 1000
+              "left": 760,
+              "top": 1080
             },
             "type": "execute_actions"
           },
@@ -11706,8 +11664,8 @@
           },
           "3ade095c-7444-4f2f-8182-66c9fe716385": {
             "position": {
-              "left": 480,
-              "top": 1420
+              "left": 540,
+              "top": 1460
             },
             "type": "execute_actions"
           },
@@ -11816,108 +11774,287 @@
               "top": 3120
             },
             "type": "execute_actions"
-          }
-        },
-        "stickies": {
-          "8783ae2c-0579-4f87-bbaa-ac1029c73f5c": {
-            "body": "Update label",
-            "color": "yellow",
-            "position": {
-              "bottom": null,
-              "left": 420,
-              "right": null,
-              "top": 3480
-            },
-            "title": "New Note"
           },
-          "acc2231e-b0e3-4518-8350-2b2c49c6bf3b": {
-            "body": "Need to update label",
-            "color": "purple",
+          "95fe4652-a227-47a6-871c-f04e83b46c62": {
             "position": {
-              "bottom": null,
-              "left": 820,
-              "right": null,
-              "top": 300
+              "left": 640,
+              "top": 0
             },
-            "title": "New Note"
+            "type": "execute_actions"
           },
-          "b2254ccb-cb0e-41ff-9218-84de9dadb844": {
-            "body": "Should privacy policy go here, or in subsequent message?",
-            "color": "yellow",
+          "ca11b3df-74ab-47f8-8161-f8d4aad1ad5b": {
+            "type": "split_by_scheme",
             "position": {
-              "left": 380,
+              "left": 640,
+              "top": 180
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "793a54fe-9496-4346-98ad-368f48aac298": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 1140,
               "top": 220
             },
-            "title": "New Note"
+            "config": {
+              "cases": {}
+            }
           },
-          "c58a2e20-a53d-41d6-b513-5378262deb0e": {
-            "body": "Need to update opening hours",
-            "color": "yellow",
+          "521d77fd-e70c-4841-9b23-72cf43bcd9ad": {
             "position": {
-              "bottom": 20,
-              "left": 140,
-              "right": 0,
-              "top": 740
+              "left": 220,
+              "top": 280
             },
-            "title": "New Note"
+            "type": "execute_actions"
           },
-          "f2e99247-7bcf-4a14-9a41-8eacdb3651c7": {
-            "body": "Need to update keyword",
-            "color": "yellow",
+          "ed5350cd-37a8-42b0-a4e8-06e6d8026651": {
             "position": {
-              "bottom": 0,
-              "left": 820,
-              "right": 0,
-              "top": 860
+              "left": 500,
+              "top": 280
             },
-            "title": "New Note"
+            "type": "execute_actions"
+          },
+          "a17a3a89-202a-41d7-9333-f47089586cea": {
+            "position": {
+              "left": 780,
+              "top": 300
+            },
+            "type": "execute_actions"
           }
-        }
+        },
+        "stickies": {}
       },
       "expire_after_minutes": 10080,
       "language": "eng",
       "localization": {},
       "metadata": {
         "expires": 10080,
-        "revision": 64
+        "revision": 66
       },
       "name": "JM - UMatter - Welcome",
       "nodes": [
         {
+          "uuid": "95fe4652-a227-47a6-871c-f04e83b46c62",
+          "actions": [
+            {
+              "type": "add_contact_groups",
+              "groups": [
+                {
+                  "uuid": "e5031073-124c-4788-a57d-39a34e4f1b10",
+                  "name": "Chatline user"
+                }
+              ],
+              "uuid": "ecde7bb9-766f-4b66-9abe-e99134470b4c"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "32acf65f-7f8d-4c85-b7b9-c6b179376537",
+              "destination_uuid": "ca11b3df-74ab-47f8-8161-f8d4aad1ad5b"
+            }
+          ]
+        },
+        {
+          "uuid": "ca11b3df-74ab-47f8-8161-f8d4aad1ad5b",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "cases": [
+              {
+                "uuid": "b9428cb2-188e-4ccd-905c-1685304c2225",
+                "type": "has_only_phrase",
+                "arguments": [
+                  "tel"
+                ],
+                "category_uuid": "e772923d-5cf0-4ee2-9210-8dc041c52e34"
+              },
+              {
+                "uuid": "6b91ab6e-6009-45c6-9b8c-c6183998d6dd",
+                "type": "has_only_phrase",
+                "arguments": [
+                  "whatsapp"
+                ],
+                "category_uuid": "53f01a62-8db2-472b-8e7d-be375671dab3"
+              },
+              {
+                "uuid": "c2179083-a5a3-4fee-b725-dfc36f27eaa3",
+                "type": "has_only_phrase",
+                "arguments": [
+                  "facebook"
+                ],
+                "category_uuid": "c81e7aa5-3835-47c1-a6a8-9f4305bde7af"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "e772923d-5cf0-4ee2-9210-8dc041c52e34",
+                "name": "SMS",
+                "exit_uuid": "117deefb-bb7c-4c31-b523-339b6486a754"
+              },
+              {
+                "uuid": "53f01a62-8db2-472b-8e7d-be375671dab3",
+                "name": "WhatsApp",
+                "exit_uuid": "a1388302-5c55-4751-87fa-764bf9de2f8a"
+              },
+              {
+                "uuid": "c81e7aa5-3835-47c1-a6a8-9f4305bde7af",
+                "name": "Facebook",
+                "exit_uuid": "535b62e2-0319-4287-881e-30f460a6232b"
+              },
+              {
+                "uuid": "61fd2d81-e4cd-4089-8c1a-e8b98fa78b40",
+                "name": "Other",
+                "exit_uuid": "5c865e78-3e6d-46e5-afc9-9a01be47b030"
+              }
+            ],
+            "default_category_uuid": "61fd2d81-e4cd-4089-8c1a-e8b98fa78b40",
+            "operand": "@(urn_parts(contact.urn).scheme)",
+            "result_name": ""
+          },
+          "exits": [
+            {
+              "uuid": "117deefb-bb7c-4c31-b523-339b6486a754",
+              "destination_uuid": "521d77fd-e70c-4841-9b23-72cf43bcd9ad"
+            },
+            {
+              "uuid": "a1388302-5c55-4751-87fa-764bf9de2f8a",
+              "destination_uuid": "ed5350cd-37a8-42b0-a4e8-06e6d8026651"
+            },
+            {
+              "uuid": "535b62e2-0319-4287-881e-30f460a6232b",
+              "destination_uuid": "a17a3a89-202a-41d7-9333-f47089586cea"
+            },
+            {
+              "uuid": "5c865e78-3e6d-46e5-afc9-9a01be47b030",
+              "destination_uuid": "793a54fe-9496-4346-98ad-368f48aac298"
+            }
+          ]
+        },
+        {
+          "uuid": "793a54fe-9496-4346-98ad-368f48aac298",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "d2e296ff-78de-4144-9a00-4fccea58e20f",
+            "categories": [
+              {
+                "uuid": "4011ee30-65ec-424f-ab91-b8564688e2c6",
+                "name": "Instagram",
+                "exit_uuid": "5fbfd0fb-bb91-4e32-9d8e-4c3a09262310"
+              },
+              {
+                "uuid": "d2e296ff-78de-4144-9a00-4fccea58e20f",
+                "name": "Other",
+                "exit_uuid": "8a27b08a-cf4e-48d0-9531-ec72bb15dc18"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "Instagram"
+                ],
+                "type": "has_any_word",
+                "uuid": "a237bb0a-530b-44fc-a8a6-689fc7d12f88",
+                "category_uuid": "4011ee30-65ec-424f-ab91-b8564688e2c6"
+              }
+            ],
+            "operand": "@contact.urns"
+          },
+          "exits": [
+            {
+              "uuid": "5fbfd0fb-bb91-4e32-9d8e-4c3a09262310",
+              "destination_uuid": "e6d20711-ff74-4825-ae53-27d770c96214"
+            },
+            {
+              "uuid": "8a27b08a-cf4e-48d0-9531-ec72bb15dc18",
+              "destination_uuid": "e6d20711-ff74-4825-ae53-27d770c96214"
+            }
+          ]
+        },
+        {
+          "uuid": "521d77fd-e70c-4841-9b23-72cf43bcd9ad",
           "actions": [
             {
               "attachments": [],
+              "text": "Hi. You're chatting with U-Matter, a confidential service to support young Jamaicans, by the Ministry of Health and Wellness and UNICEF's U-Report.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "9631cac4-924e-4f0b-9809-f12acd9a20a4"
+            },
+            {
+              "attachments": [],
+              "text": "Privacy policy: https://bit.ly/umatterprivacypolicy",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "25780f54-67f4-4947-9df2-3d948d174613"
+            },
+            {
+              "attachments": [],
+              "text": "To chat with a counsellor, reply YES or NO",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "a4b00f6e-12b1-49a4-9f8f-0b79983de6b8"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "024514d1-004c-4aa1-b1e4-457d81740728",
+              "destination_uuid": "f03262d3-2212-4d16-a5de-a8814591aa22"
+            }
+          ]
+        },
+        {
+          "uuid": "ed5350cd-37a8-42b0-a4e8-06e6d8026651",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Hi. You're chatting with U-Matter, a confidential service to support young Jamaicans, by the Ministry of Health and Wellness and UNICEF's U-Report. \n\nPrivacy policy: https://bit.ly/umatterprivacypolicy\n\nTo chat with a counsellor, reply YES or NO",
+              "type": "send_msg",
               "quick_replies": [
                 "YES",
                 "NO"
               ],
-              "text": "Hi. You're chatting with U-Matter, a confidential service to support young Jamaicans, by the Ministry of Health and Wellness and UNICEF's U-Report.\n\nTo chat with a counsellor, reply YES or NO",
+              "uuid": "1985dd25-7fe9-4435-8d78-eb39ff7e1839"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "3b18a017-6df5-4f1d-ae60-ed06db8aa317",
+              "destination_uuid": "f03262d3-2212-4d16-a5de-a8814591aa22"
+            }
+          ]
+        },
+        {
+          "uuid": "a17a3a89-202a-41d7-9333-f47089586cea",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Hi. You're chatting with U-Matter, a confidential service to support young Jamaicans, by the Ministry of Health and Wellness and UNICEF's U-Report.\n\nPrivacy policy: https://bit.ly/umatterprivacypolicy\n\nTo chat with a counsellor, reply YES or NO",
               "type": "send_msg",
+              "quick_replies": [
+                "YES",
+                "NO"
+              ],
+              "uuid": "262a70a5-243c-4ae0-990c-3517e6f4378b"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "c5232f64-7b68-425c-9db8-c5edaae5de50",
+              "destination_uuid": "f03262d3-2212-4d16-a5de-a8814591aa22"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Hi. You're chatting with U-Matter, a confidential service to support young Jamaicans, by the Ministry of Health and Wellness and UNICEF's U-Report.\n\nPrivacy policy: https://bit.ly/umatterprivacypolicy\n\nTo chat with a counsellor, reply YES or NO",
+              "type": "send_msg",
+              "quick_replies": [],
               "uuid": "3f9983d5-616f-4855-a4e5-c28ac059ab60"
-            },
-            {
-              "labels": [
-                {
-                  "count": 0,
-                  "name": "MentalHealthChatlineTraining",
-                  "uuid": "b81596ee-3eb4-409d-9a2a-5a9dc203253b"
-                }
-              ],
-              "type": "add_input_labels",
-              "uuid": "fa591c9f-5c40-4309-b21d-3ccc48b59d98"
-            },
-            {
-              "groups": [
-                {
-                  "count": 0,
-                  "name": "chatline testers",
-                  "query": null,
-                  "status": "ready",
-                  "uuid": "527874c3-ea3b-4b4d-8b47-364088c0e5b1"
-                }
-              ],
-              "type": "add_contact_groups",
-              "uuid": "893087f3-52ce-496b-8629-6ec56923ef26"
             }
           ],
           "exits": [
@@ -12012,26 +12149,6 @@
           "uuid": "f03262d3-2212-4d16-a5de-a8814591aa22"
         },
         {
-          "actions": [
-            {
-              "attachments": [],
-              "quick_replies": [
-                "SUPPORT"
-              ],
-              "text": "That's OK. You can come back anytime by sending us the word SUPPORT",
-              "type": "send_msg",
-              "uuid": "382123ff-e357-467f-a3bd-2b0ce0ae8a79"
-            }
-          ],
-          "exits": [
-            {
-              "destination_uuid": null,
-              "uuid": "fedd9a12-7645-43dd-b96d-27e1eadf00cb"
-            }
-          ],
-          "uuid": "afa24a47-24fa-4699-853f-ab7058793f0f"
-        },
-        {
           "actions": [],
           "exits": [
             {
@@ -12069,6 +12186,26 @@
             "type": "switch"
           },
           "uuid": "0d65cf54-fa66-475f-834c-3dbb7fae5496"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "SUPPORT"
+              ],
+              "text": "That's OK. You can come back anytime by sending us the word SUPPORT",
+              "type": "send_msg",
+              "uuid": "382123ff-e357-467f-a3bd-2b0ce0ae8a79"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "fedd9a12-7645-43dd-b96d-27e1eadf00cb"
+            }
+          ],
+          "uuid": "afa24a47-24fa-4699-853f-ab7058793f0f"
         },
         {
           "actions": [
@@ -12596,7 +12733,7 @@
       "spec_version": "13.1.0",
       "type": "messaging",
       "uuid": "eeede50d-f054-4b30-99a2-cd2801ef306c",
-      "revision": 66
+      "revision": 104
     },
     {
       "_ui": {
@@ -12623,8 +12760,22 @@
           },
           "a13a8c91-fd0e-49e2-882d-f2badaecaa95": {
             "position": {
-              "left": 400,
-              "top": 380
+              "left": 80,
+              "top": 360
+            },
+            "type": "execute_actions"
+          },
+          "b660a5e9-00db-435a-bf81-5fd498876bfd": {
+            "position": {
+              "left": 340,
+              "top": 400
+            },
+            "type": "execute_actions"
+          },
+          "c21cc469-dbaa-4c09-8a3e-4f22dbdbd0db": {
+            "position": {
+              "left": 560,
+              "top": 440
             },
             "type": "execute_actions"
           },
@@ -12864,13 +13015,13 @@
           }
         },
         "stickies": {
-          "4ab138ca-6ce4-497a-90ae-fc3d5a4b5e86": {
+          "8faac30e-4b00-4adb-97dc-3eb34f0886f2": {
             "position": {
-              "left": 280,
-              "top": 260
+              "left": 700,
+              "top": 300
             },
             "title": "New Note",
-            "body": "template",
+            "body": "...",
             "color": "green"
           }
         }
@@ -12880,7 +13031,7 @@
       "localization": {},
       "metadata": {
         "expires": 10080,
-        "revision": 95
+        "revision": 109
       },
       "name": "JM - UMatter - Chatline user satisfaction survey",
       "nodes": [
@@ -12937,15 +13088,15 @@
               "uuid": "517f66e0-7fea-4a46-8301-15f9fb4c03eb"
             },
             {
-              "destination_uuid": "a13a8c91-fd0e-49e2-882d-f2badaecaa95",
+              "destination_uuid": "b660a5e9-00db-435a-bf81-5fd498876bfd",
               "uuid": "0b3211ce-c60b-4edb-b425-54958090f7a7"
             },
             {
-              "destination_uuid": "a13a8c91-fd0e-49e2-882d-f2badaecaa95",
+              "destination_uuid": "b660a5e9-00db-435a-bf81-5fd498876bfd",
               "uuid": "b55ace05-30b5-4e14-8247-bd342268a6e9"
             },
             {
-              "destination_uuid": "a13a8c91-fd0e-49e2-882d-f2badaecaa95",
+              "destination_uuid": "c21cc469-dbaa-4c09-8a3e-4f22dbdbd0db",
               "uuid": "0f3c0c60-49c8-4072-bf75-bb27367137d2"
             },
             {
@@ -13060,6 +13211,48 @@
             }
           ],
           "uuid": "a13a8c91-fd0e-49e2-882d-f2badaecaa95"
+        },
+        {
+          "uuid": "b660a5e9-00db-435a-bf81-5fd498876bfd",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "We welcome your feedback Thanks for using U-Matter. We hope we improved your day. Can you answer a few quick Qs to help improve our service? Please reply YES or NO",
+              "type": "send_msg",
+              "quick_replies": [
+                "YES",
+                "NO"
+              ],
+              "uuid": "40a54dee-a5b0-4e9f-85a2-977deb69feb5"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "42259271-4d6e-4188-9614-1fa156b232fb",
+              "destination_uuid": "8993e8a4-f0b9-4311-8935-ab925fc908d3"
+            }
+          ]
+        },
+        {
+          "uuid": "c21cc469-dbaa-4c09-8a3e-4f22dbdbd0db",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Thanks for using U-Matter. We hope we improved your day. Can you answer a few quick Qs to help improve our service? Reply YES or NO",
+              "type": "send_msg",
+              "quick_replies": [
+                "YES",
+                "NO"
+              ],
+              "uuid": "6ef3e80d-ca17-40a9-94de-da7e7188b5a2"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "8b2cdbe1-f074-4997-8b57-6519056792db",
+              "destination_uuid": "8993e8a4-f0b9-4311-8935-ab925fc908d3"
+            }
+          ]
         },
         {
           "uuid": "27183203-6a96-499e-9d26-4c269d0f52f1",
@@ -14311,7 +14504,7 @@
       "spec_version": "13.1.0",
       "type": "messaging",
       "uuid": "4883c924-2ef7-49d8-be7e-3028c7a24b6f",
-      "revision": 96
+      "revision": 110
     },
     {
       "name": "JM - PLH*UMatter - Wrapper - Welcome",
@@ -14525,7 +14718,7 @@
           "actions": [
             {
               "attachments": [],
-              "text": "We're about to connect you with one of our volunteer counsellors who will respond as soon as possible. Please be patient...",
+              "text": "Thank you. A counsellor will reply as soon as possible. For urgent assistance you can also call the Ministry of Health and Wellness helpline 888-NEW-LIFE",
               "type": "send_msg",
               "quick_replies": [],
               "uuid": "5bf33f3a-28ce-43ac-9918-e04c5b278333"
@@ -14543,7 +14736,7 @@
           "actions": [
             {
               "attachments": [],
-              "text": "We didn't get all your info. Don't worry, we can still connect you with one of our volunteer counsellors who will respond as soon as possible. Please be patient...",
+              "text": "We didn't get all your info. Don't worry, a counsellor will reply as soon as possible. For urgent assistance you can also call the Ministry of Health and Wellness helpline 888-NEW-LIFE",
               "type": "send_msg",
               "quick_replies": [],
               "uuid": "6796d53d-0461-4b58-ae93-523cccadc8f8"
@@ -14583,8 +14776,8 @@
               "type": "add_input_labels",
               "labels": [
                 {
-                  "uuid": "725eb22e-bdf6-418d-a710-45dce737d147",
-                  "name": "MentalHealthChatlineTrainingInfo"
+                  "uuid": "15fac760-594c-4906-91f3-eb98ee834afc",
+                  "name": "chatline user messages"
                 }
               ],
               "uuid": "acf21007-b27f-4c7b-83d5-f353c2043df5"
@@ -14592,10 +14785,6 @@
             {
               "type": "add_contact_groups",
               "groups": [
-                {
-                  "uuid": "e5031073-124c-4788-a57d-39a34e4f1b10",
-                  "name": "Chatline user"
-                },
                 {
                   "uuid": "8dc64ca6-e8ca-434b-b195-75ad3224decf",
                   "name": "Chatline Users - open cases"
@@ -14780,10 +14969,10 @@
           }
         }
       },
-      "revision": 68,
+      "revision": 72,
       "expire_after_minutes": 10080,
       "metadata": {
-        "revision": 67
+        "revision": 68
       },
       "localization": {}
     },
@@ -15547,6 +15736,3113 @@
       "type": "messaging",
       "uuid": "1696bdb5-ae73-4bc3-88c4-969f71895309",
       "revision": 44
+    },
+    {
+      "_ui": {
+        "nodes": {
+          "00f7181e-c717-4ba4-a06d-c5e44e1ca98d": {
+            "position": {
+              "left": 220,
+              "top": 6000
+            },
+            "type": "execute_actions"
+          },
+          "01ff4ff4-3522-4ac1-b6f5-05f7c48490c5": {
+            "position": {
+              "left": 200,
+              "top": 4880
+            },
+            "type": "execute_actions"
+          },
+          "078df8ce-2bb8-4306-8454-209b0b2803d7": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 720,
+              "top": 1260
+            },
+            "type": "wait_for_response"
+          },
+          "084970a8-f1f5-4b97-8457-ac955b5ef7dd": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 220,
+              "top": 4120
+            },
+            "type": "wait_for_response"
+          },
+          "09feff04-85df-4ce1-a658-cdd0d48bc744": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 460,
+              "top": 220
+            },
+            "type": "split_by_scheme"
+          },
+          "0a6dc65e-52c4-4b02-a103-42831070323c": {
+            "position": {
+              "left": 80,
+              "top": 620
+            },
+            "type": "execute_actions"
+          },
+          "166a07ab-d5b6-4fad-91ea-f9e4e1f36145": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 220,
+              "top": 6880
+            },
+            "type": "wait_for_response"
+          },
+          "1973d055-10c0-4c7e-9cc2-10b054d7b833": {
+            "position": {
+              "left": 1080,
+              "top": 620
+            },
+            "type": "execute_actions"
+          },
+          "1d1716c5-acbe-4b26-81d4-76afa34675c7": {
+            "position": {
+              "left": 680,
+              "top": 6940
+            },
+            "type": "execute_actions"
+          },
+          "23ac989e-3ca3-451f-a6a7-d5546cabdb41": {
+            "position": {
+              "left": 280,
+              "top": 3820
+            },
+            "type": "execute_actions"
+          },
+          "2941fc76-e7e6-42c8-be19-419f4d1e82f8": {
+            "position": {
+              "left": 620,
+              "top": 2000
+            },
+            "type": "execute_actions"
+          },
+          "2a8686e9-e675-431b-b85b-f29fec2348c4": {
+            "position": {
+              "left": 240,
+              "top": 1660
+            },
+            "type": "execute_actions"
+          },
+          "2ce0227d-7079-4475-9079-b8376101d5fb": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 140,
+              "top": 7120
+            },
+            "type": "split_by_scheme"
+          },
+          "32757339-3d0d-4053-ac60-5d6be4125e25": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 200,
+              "top": 6320
+            },
+            "type": "wait_for_response"
+          },
+          "34f4cf6a-7465-49e6-b51a-2ce73c7b8be5": {
+            "position": {
+              "left": 580,
+              "top": 5840
+            },
+            "type": "execute_actions"
+          },
+          "357bdd1f-4f4e-4fdd-988b-fad4044d5b14": {
+            "position": {
+              "left": 680,
+              "top": 400
+            },
+            "type": "execute_actions"
+          },
+          "35cdf363-ae8b-4c75-890f-7dd7b8317f2a": {
+            "config": {
+              "cases": {},
+              "operand": {
+                "id": "region",
+                "name": "Region",
+                "type": "field"
+              }
+            },
+            "position": {
+              "left": 60,
+              "top": 2100
+            },
+            "type": "split_by_contact_field"
+          },
+          "36186ec0-2823-43e7-aa66-78bfde9a3c32": {
+            "config": {
+              "cases": {},
+              "operand": {
+                "id": "born",
+                "name": "Born",
+                "type": "field"
+              }
+            },
+            "position": {
+              "left": 640,
+              "top": 1080
+            },
+            "type": "split_by_contact_field"
+          },
+          "41fdd1a2-c915-48aa-82b7-d09265998867": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 380,
+              "top": 0
+            },
+            "type": "split_by_expression"
+          },
+          "47912dae-8c42-4437-b22f-6a0fd0c3fe92": {
+            "position": {
+              "left": 900,
+              "top": 1700
+            },
+            "type": "execute_actions"
+          },
+          "48858d06-76f9-48b1-9048-4eb49228f51a": {
+            "position": {
+              "left": 420,
+              "top": 2100
+            },
+            "type": "execute_actions"
+          },
+          "4daf8415-16f9-455d-9501-65f44a447fc4": {
+            "position": {
+              "left": 900,
+              "top": 4140
+            },
+            "type": "execute_actions"
+          },
+          "4e4b6227-9f44-44f9-96de-49553de5acf1": {
+            "position": {
+              "left": 780,
+              "top": 4700
+            },
+            "type": "execute_actions"
+          },
+          "4ef7dffc-af7a-4092-b1c9-2627bacc0844": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 320,
+              "top": 960
+            },
+            "type": "split_by_groups"
+          },
+          "4f03a29a-9af1-4d63-b649-04b3d17f285f": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 260,
+              "top": 3580
+            },
+            "type": "wait_for_response"
+          },
+          "4f0b2503-17ac-4ac6-adf8-2409793a1e1e": {
+            "position": {
+              "left": 60,
+              "top": 7300
+            },
+            "type": "execute_actions"
+          },
+          "59cdc656-ec30-46b1-b991-cf0247411494": {
+            "position": {
+              "left": 780,
+              "top": 3620
+            },
+            "type": "execute_actions"
+          },
+          "5ecef3e6-265a-4290-97ad-7f47c569f2c4": {
+            "position": {
+              "left": 300,
+              "top": 3280
+            },
+            "type": "execute_actions"
+          },
+          "607f62be-f72a-4d01-8413-b5f0b1264ec1": {
+            "position": {
+              "left": 360,
+              "top": 4380
+            },
+            "type": "execute_actions"
+          },
+          "673e59ca-d628-4df6-b994-a4b7b1dda2f6": {
+            "position": {
+              "left": 780,
+              "top": 3300
+            },
+            "type": "execute_actions"
+          },
+          "68d7c3b9-f282-4348-ba49-fc3db7386924": {
+            "position": {
+              "left": 720,
+              "top": 1500
+            },
+            "type": "execute_actions"
+          },
+          "6bfc5d54-a8d4-431b-8b5f-31f6569fa303": {
+            "position": {
+              "left": 340,
+              "top": 2740
+            },
+            "type": "execute_actions"
+          },
+          "7b0e1fdc-3eb0-464f-96af-f30b30bdc024": {
+            "position": {
+              "left": 60,
+              "top": 960
+            },
+            "type": "execute_actions"
+          },
+          "7e47eaeb-ad15-45f1-89d7-395b4ebd0da9": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 340,
+              "top": 1860
+            },
+            "type": "wait_for_response"
+          },
+          "7f77a2a5-1e34-4249-9649-65773a6c28bb": {
+            "position": {
+              "left": 460,
+              "top": 7220
+            },
+            "type": "execute_actions"
+          },
+          "81b8733e-3756-4d3f-9294-47fb497d3922": {
+            "position": {
+              "left": 180,
+              "top": 2520
+            },
+            "type": "execute_actions"
+          },
+          "8501fcfd-390a-4385-afe9-0a10d70961da": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 180,
+              "top": 5180
+            },
+            "type": "wait_for_response"
+          },
+          "8a8c1cc2-18e2-4ad3-bc39-301c4519660c": {
+            "position": {
+              "left": 200,
+              "top": 2200
+            },
+            "type": "execute_actions"
+          },
+          "8b5da1ef-0807-4ab5-a471-8cdd573ee025": {
+            "position": {
+              "left": 180,
+              "top": 5420
+            },
+            "type": "execute_actions"
+          },
+          "8eb37738-803d-401c-ac5b-a38507e37abc": {
+            "config": {
+              "cases": {},
+              "operand": {
+                "id": "gender",
+                "name": "Gender",
+                "type": "field"
+              }
+            },
+            "position": {
+              "left": 40,
+              "top": 1500
+            },
+            "type": "split_by_contact_field"
+          },
+          "974f5479-563d-4167-b159-caf6d41f8da7": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 40,
+              "top": 3080
+            },
+            "type": "wait_for_response"
+          },
+          "9e398898-16ad-462c-9d0a-3abe115d8c5e": {
+            "position": {
+              "left": 460,
+              "top": 380
+            },
+            "type": "execute_actions"
+          },
+          "9e7962ba-3da5-4fdc-a127-9578342dad87": {
+            "position": {
+              "left": 700,
+              "top": 6360
+            },
+            "type": "execute_actions"
+          },
+          "a41f234a-6f75-43fd-b3de-a1292d2129b5": {
+            "position": {
+              "left": 200,
+              "top": 6580
+            },
+            "type": "execute_actions"
+          },
+          "a9ed4af4-ae49-4cf0-8eb4-d64e36cfb5c7": {
+            "position": {
+              "left": 1060,
+              "top": 1120
+            },
+            "type": "execute_actions"
+          },
+          "aba043c6-30ee-4f0c-9168-7d9687f91d68": {
+            "position": {
+              "left": 460,
+              "top": 5360
+            },
+            "type": "execute_actions"
+          },
+          "ad6edbfe-b483-433f-8512-9968811567c1": {
+            "position": {
+              "left": 1020,
+              "top": 1320
+            },
+            "type": "execute_actions"
+          },
+          "ad75a9dd-4538-4f8d-a703-2306f3aa45c1": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 200,
+              "top": 2380
+            },
+            "type": "wait_for_response"
+          },
+          "ae90722c-4e33-46d9-b254-0ffcaec02a55": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 160,
+              "top": 5800
+            },
+            "type": "wait_for_response"
+          },
+          "b214fd3b-9edb-4919-9691-a8f5a86b4849": {
+            "position": {
+              "left": 560,
+              "top": 2360
+            },
+            "type": "execute_actions"
+          },
+          "bf2c2a51-f91c-44a1-ae60-04f7242cea47": {
+            "position": {
+              "left": 720,
+              "top": 680
+            },
+            "type": "execute_actions"
+          },
+          "cb1d3c2e-255d-4a47-bdc7-733eda3f31c7": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 360,
+              "top": 620
+            },
+            "type": "wait_for_response"
+          },
+          "d1623b29-b136-4928-81c6-fa31a78fce6a": {
+            "position": {
+              "left": 280,
+              "top": 2000
+            },
+            "type": "execute_actions"
+          },
+          "d5f21994-5739-49b4-9fde-2affd68d2a38": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 220,
+              "top": 4700
+            },
+            "type": "wait_for_response"
+          },
+          "d9d70ad5-5112-4c7b-a1d8-ebadb88b121c": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 260,
+              "top": 4280
+            },
+            "type": "split_by_scheme"
+          },
+          "daacc9ef-4265-4b4b-9cb0-8dcb330200f2": {
+            "position": {
+              "left": 880,
+              "top": 2000
+            },
+            "type": "execute_actions"
+          },
+          "dafa220d-3f00-4d58-9b96-ff1364130541": {
+            "position": {
+              "left": 40,
+              "top": 2780
+            },
+            "type": "execute_actions"
+          },
+          "e7ac9a4e-6396-44b3-93ec-707df4d88de3": {
+            "position": {
+              "left": 140,
+              "top": 4400
+            },
+            "type": "execute_actions"
+          },
+          "f179060e-872b-43c9-b313-07bd853d4cc6": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 20,
+              "top": 2680
+            },
+            "type": "split_by_scheme"
+          },
+          "f3a9c049-9fc0-4d7f-96c8-1876a2805786": {
+            "position": {
+              "left": 180,
+              "top": 380
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {},
+      "metadata": {
+        "expires": 10080,
+        "revision": 15
+      },
+      "name": "JM - UR - Vaccine hesitancy poll",
+      "nodes": [
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "09feff04-85df-4ce1-a658-cdd0d48bc744",
+              "uuid": "66429613-b153-4e90-9efc-90bb93c8e2a6"
+            },
+            {
+              "destination_uuid": "09feff04-85df-4ce1-a658-cdd0d48bc744",
+              "uuid": "cdff70c4-7ba7-4b6d-91f8-687d66b4746e"
+            },
+            {
+              "destination_uuid": "09feff04-85df-4ce1-a658-cdd0d48bc744",
+              "uuid": "65f829b2-808e-45a4-b95e-dc40bb7a41f6"
+            },
+            {
+              "destination_uuid": "09feff04-85df-4ce1-a658-cdd0d48bc744",
+              "uuid": "c0f477ab-9a57-48af-9a9f-a7002203cee1"
+            },
+            {
+              "destination_uuid": "09feff04-85df-4ce1-a658-cdd0d48bc744",
+              "uuid": "06e4d163-d856-4c09-bce1-4d7287f006fd"
+            },
+            {
+              "destination_uuid": "09feff04-85df-4ce1-a658-cdd0d48bc744",
+              "uuid": "88b30951-9036-4304-a2cf-62929cc3bf23"
+            },
+            {
+              "destination_uuid": "09feff04-85df-4ce1-a658-cdd0d48bc744",
+              "uuid": "aceff5ce-6984-4c85-9b20-da29975aecf6"
+            },
+            {
+              "destination_uuid": "09feff04-85df-4ce1-a658-cdd0d48bc744",
+              "uuid": "ae5f51c7-3efb-4881-879e-76ad96152177"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "poll"
+                ],
+                "category_uuid": "ee99b880-2389-420d-b3d8-12478329de7d",
+                "type": "has_any_word",
+                "uuid": "26fbb9b7-728b-47cc-9255-9a7b8de8daf8"
+              },
+              {
+                "arguments": [
+                  "vax"
+                ],
+                "category_uuid": "6c12084e-11ca-4ac5-b26d-2a5ec9f661c8",
+                "type": "has_any_word",
+                "uuid": "74857891-ee0b-4f89-a3d4-ecd5413a4643"
+              },
+              {
+                "arguments": [
+                  "vaccine"
+                ],
+                "category_uuid": "acd9d7ba-d056-47e5-a226-0ce1e204a928",
+                "type": "has_any_word",
+                "uuid": "e2c14605-14fa-4d40-a454-75efee1da4f7"
+              },
+              {
+                "arguments": [
+                  "covid"
+                ],
+                "category_uuid": "28e6963c-33cd-4568-8ee8-2ff924ed2727",
+                "type": "has_any_word",
+                "uuid": "52ba6979-34e7-4d47-b12e-5028ee293f9e"
+              },
+              {
+                "arguments": [
+                  "covid-19"
+                ],
+                "category_uuid": "28e6963c-33cd-4568-8ee8-2ff924ed2727",
+                "type": "has_any_word",
+                "uuid": "ea84072d-2d27-47e8-ba9e-fca3469d40e4"
+              },
+              {
+                "arguments": [
+                  "coronavirus"
+                ],
+                "category_uuid": "133fc004-e690-4557-b583-706fafa9273d",
+                "type": "has_any_word",
+                "uuid": "d43fca64-de45-4f77-877e-4f9f6a4c81c2"
+              },
+              {
+                "arguments": [
+                  "poll"
+                ],
+                "category_uuid": "ee99b880-2389-420d-b3d8-12478329de7d",
+                "type": "has_any_word",
+                "uuid": "ccb90fc9-112c-464c-8b7a-0d5dc3e34afd"
+              },
+              {
+                "arguments": [
+                  "corona"
+                ],
+                "category_uuid": "4a490652-d280-460b-839e-c00a1aca54c4",
+                "type": "has_any_word",
+                "uuid": "ddf44a26-8fc5-45e5-8058-0a703f54bae6"
+              },
+              {
+                "arguments": [
+                  "survey"
+                ],
+                "category_uuid": "73fb52b4-da03-449c-9500-07d3bcebbf33",
+                "type": "has_any_word",
+                "uuid": "236ab432-d4eb-4bac-9923-d5a5e9cb3ef2"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "66429613-b153-4e90-9efc-90bb93c8e2a6",
+                "name": "Poll",
+                "uuid": "ee99b880-2389-420d-b3d8-12478329de7d"
+              },
+              {
+                "exit_uuid": "cdff70c4-7ba7-4b6d-91f8-687d66b4746e",
+                "name": "Vax",
+                "uuid": "6c12084e-11ca-4ac5-b26d-2a5ec9f661c8"
+              },
+              {
+                "exit_uuid": "65f829b2-808e-45a4-b95e-dc40bb7a41f6",
+                "name": "Vaccine",
+                "uuid": "acd9d7ba-d056-47e5-a226-0ce1e204a928"
+              },
+              {
+                "exit_uuid": "c0f477ab-9a57-48af-9a9f-a7002203cee1",
+                "name": "Covid",
+                "uuid": "28e6963c-33cd-4568-8ee8-2ff924ed2727"
+              },
+              {
+                "exit_uuid": "06e4d163-d856-4c09-bce1-4d7287f006fd",
+                "name": "Coronavirus",
+                "uuid": "133fc004-e690-4557-b583-706fafa9273d"
+              },
+              {
+                "exit_uuid": "88b30951-9036-4304-a2cf-62929cc3bf23",
+                "name": "Corona",
+                "uuid": "4a490652-d280-460b-839e-c00a1aca54c4"
+              },
+              {
+                "exit_uuid": "aceff5ce-6984-4c85-9b20-da29975aecf6",
+                "name": "Survey",
+                "uuid": "73fb52b4-da03-449c-9500-07d3bcebbf33"
+              },
+              {
+                "exit_uuid": "ae5f51c7-3efb-4881-879e-76ad96152177",
+                "name": "Other",
+                "uuid": "70b2694c-57ed-43f4-850d-7bf38d3fe2b7"
+              }
+            ],
+            "default_category_uuid": "70b2694c-57ed-43f4-850d-7bf38d3fe2b7",
+            "operand": "@input.text",
+            "type": "switch"
+          },
+          "uuid": "41fdd1a2-c915-48aa-82b7-d09265998867"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "f3a9c049-9fc0-4d7f-96c8-1876a2805786",
+              "uuid": "1df59812-a05d-487e-b4c8-a5d64ce2e35a"
+            },
+            {
+              "destination_uuid": "9e398898-16ad-462c-9d0a-3abe115d8c5e",
+              "uuid": "2356a439-8deb-404c-8049-3866e033c4aa"
+            },
+            {
+              "destination_uuid": "357bdd1f-4f4e-4fdd-988b-fad4044d5b14",
+              "uuid": "dfc04b21-6038-4c6a-ade3-4c8e3a518df5"
+            },
+            {
+              "destination_uuid": "f3a9c049-9fc0-4d7f-96c8-1876a2805786",
+              "uuid": "db09080d-e24f-4a8b-ab15-8d412ddc8f1a"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "tel"
+                ],
+                "category_uuid": "d391bf0b-6b13-4ab4-a01b-a55d221ec2f1",
+                "type": "has_only_phrase",
+                "uuid": "4981be44-547e-4660-b20f-00dd7297893f"
+              },
+              {
+                "arguments": [
+                  "facebook"
+                ],
+                "category_uuid": "a81746e2-2f2b-44de-8c18-b54cdf076fef",
+                "type": "has_only_phrase",
+                "uuid": "d61fcb2e-4460-4773-a1bf-54796884ba6b"
+              },
+              {
+                "arguments": [
+                  "whatsapp"
+                ],
+                "category_uuid": "23d977d8-5663-4a0d-a5d8-cf70254c00df",
+                "type": "has_only_phrase",
+                "uuid": "3dc6fe57-0327-4fad-95a5-7fa1f8d2c27d"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "1df59812-a05d-487e-b4c8-a5d64ce2e35a",
+                "name": "SMS",
+                "uuid": "d391bf0b-6b13-4ab4-a01b-a55d221ec2f1"
+              },
+              {
+                "exit_uuid": "2356a439-8deb-404c-8049-3866e033c4aa",
+                "name": "Facebook",
+                "uuid": "a81746e2-2f2b-44de-8c18-b54cdf076fef"
+              },
+              {
+                "exit_uuid": "dfc04b21-6038-4c6a-ade3-4c8e3a518df5",
+                "name": "WhatsApp",
+                "uuid": "23d977d8-5663-4a0d-a5d8-cf70254c00df"
+              },
+              {
+                "exit_uuid": "db09080d-e24f-4a8b-ab15-8d412ddc8f1a",
+                "name": "Other",
+                "uuid": "2c592e64-1062-4ff7-a5bf-47a6f88a6295"
+              }
+            ],
+            "default_category_uuid": "2c592e64-1062-4ff7-a5bf-47a6f88a6295",
+            "operand": "@(urn_parts(contact.urn).scheme)",
+            "result_name": "",
+            "type": "switch"
+          },
+          "uuid": "09feff04-85df-4ce1-a658-cdd0d48bc744"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Hi U-Reporter, UNICEF wants to know your views on Covid vaccines to help improve information provided to all Jamaicans. To take this poll, reply YES or NO",
+              "type": "send_msg",
+              "uuid": "6e46986c-57ba-45c0-881c-67f543a74bac"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "cb1d3c2e-255d-4a47-bdc7-733eda3f31c7",
+              "uuid": "b7d98cfb-fda5-4b6c-95da-0ac1e74de4ea"
+            }
+          ],
+          "uuid": "f3a9c049-9fc0-4d7f-96c8-1876a2805786"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "YES",
+                "NO"
+              ],
+              "text": "Hi U-Reporter, UNICEF wants to know your views on COVID-19 vaccines to help improve information provided to all Jamaicans. To participate, reply YES or NO",
+              "topic": "event",
+              "type": "send_msg",
+              "uuid": "f931bc14-8828-4bd4-b9e9-104eaf9cd962"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "cb1d3c2e-255d-4a47-bdc7-733eda3f31c7",
+              "uuid": "01360c1b-95f2-4d2e-ae02-6a5bd0e34c7e"
+            }
+          ],
+          "uuid": "9e398898-16ad-462c-9d0a-3abe115d8c5e"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "YES",
+                "NO"
+              ],
+              "templating": {
+                "template": {
+                  "name": "2022_new_activity_v3",
+                  "uuid": "52c959b9-ff9a-47b4-957b-9d0d75cb5103"
+                },
+                "uuid": "8a3e1028-f92f-44c3-ac6e-eecf7eba5b80",
+                "variables": [
+                  "COVID-19 vaccines (on behalf of UNICEF) to help improve information provided to all Jamaicans",
+                  "YES",
+                  "NO"
+                ]
+              },
+              "text": "Hi. To participate in our new activity about COVID-19 vaccines (on behalf of UNICEF) to help improve information provided to all Jamaicans, reply YES or NO",
+              "type": "send_msg",
+              "uuid": "b9713395-e303-4d7c-9e59-4d36ce520fab"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "cb1d3c2e-255d-4a47-bdc7-733eda3f31c7",
+              "uuid": "0e67b9a5-f762-4361-a773-4596ae9bc594"
+            }
+          ],
+          "uuid": "357bdd1f-4f4e-4fdd-988b-fad4044d5b14"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Thanks for replying, but the poll has now closed. You can see the results here on the U-Report website https://jamaica.ureport.in/opinion/2926/",
+              "type": "send_msg",
+              "uuid": "5cce720b-6b4f-4bbd-96df-c729dfa39e54"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [
+                "MENU"
+              ],
+              "text": "Or to return to the U-Report menu, type MENU",
+              "type": "send_msg",
+              "uuid": "892139aa-dd63-4248-bcdf-daac08bf12ad"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "e067017f-ea38-4c9e-b93a-e8e5dd716f88"
+            }
+          ],
+          "uuid": "0a6dc65e-52c4-4b02-a103-42831070323c"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "0a6dc65e-52c4-4b02-a103-42831070323c",
+              "uuid": "37fb953c-8b53-409d-9de0-54eaecf91f21"
+            },
+            {
+              "destination_uuid": "0a6dc65e-52c4-4b02-a103-42831070323c",
+              "uuid": "0d1e64a9-f1f1-4746-b3f9-23004387e8a5"
+            },
+            {
+              "destination_uuid": "0a6dc65e-52c4-4b02-a103-42831070323c",
+              "uuid": "978c545a-3f04-4e46-ae4f-aaf646bebd51"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "Yes Ye Y yeah yep yo yes yeh"
+                ],
+                "category_uuid": "345cd8e6-9b49-41bd-b8eb-194fe1e02944",
+                "type": "has_any_word",
+                "uuid": "41de6ecb-d1b4-41e5-b27b-84845d89f896"
+              },
+              {
+                "arguments": [
+                  "No "
+                ],
+                "category_uuid": "2f1ece84-ab1d-4dce-97e6-c3cb4fcf31dc",
+                "type": "has_any_word",
+                "uuid": "4764cbb0-5e15-4447-b665-7fff8cbbbc2c"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "37fb953c-8b53-409d-9de0-54eaecf91f21",
+                "name": "Yes",
+                "uuid": "345cd8e6-9b49-41bd-b8eb-194fe1e02944"
+              },
+              {
+                "exit_uuid": "0d1e64a9-f1f1-4746-b3f9-23004387e8a5",
+                "name": "No",
+                "uuid": "2f1ece84-ab1d-4dce-97e6-c3cb4fcf31dc"
+              },
+              {
+                "exit_uuid": "978c545a-3f04-4e46-ae4f-aaf646bebd51",
+                "name": "Other",
+                "uuid": "da167a8a-5692-4b03-b129-194fa860bb28"
+              }
+            ],
+            "default_category_uuid": "da167a8a-5692-4b03-b129-194fa860bb28",
+            "operand": "@input.text",
+            "result_name": "Want to participate",
+            "type": "switch",
+            "wait": {
+              "type": "msg"
+            }
+          },
+          "uuid": "cb1d3c2e-255d-4a47-bdc7-733eda3f31c7"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "No problem, but if you change your mind and DO want to participate in this poll, please message us the word POLL",
+              "type": "send_msg",
+              "uuid": "bd759fdb-ac13-4205-a3a8-636853082b82"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "41fdd1a2-c915-48aa-82b7-d09265998867",
+              "uuid": "461d979e-57c0-44cf-a97e-279ecbcb422e"
+            }
+          ],
+          "uuid": "1973d055-10c0-4c7e-9cc2-10b054d7b833"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "YES",
+                "NO"
+              ],
+              "text": "Sorry, please reply one of the two options provided only. Please reply YES or NO",
+              "type": "send_msg",
+              "uuid": "94f5090d-b6bc-42b9-810b-606c36828701"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "cb1d3c2e-255d-4a47-bdc7-733eda3f31c7",
+              "uuid": "04dc5940-e74c-4b4c-833b-4bf7dabbbb04"
+            }
+          ],
+          "uuid": "bf2c2a51-f91c-44a1-ae60-04f7242cea47"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "MENU"
+              ],
+              "text": "Oh! We're seeing where you already completed this poll. To return to the U-Report menu and check out what else we have to offer, reply MENU",
+              "type": "send_msg",
+              "uuid": "99ca2eb7-3652-477a-85ab-a5a674826d61"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "ba16f718-1ac9-4e41-a920-b5dc52e10136"
+            }
+          ],
+          "uuid": "7b0e1fdc-3eb0-464f-96af-f30b30bdc024"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "7b0e1fdc-3eb0-464f-96af-f30b30bdc024",
+              "uuid": "437cd9f2-3347-4079-a11f-3403f0c94793"
+            },
+            {
+              "destination_uuid": "36186ec0-2823-43e7-aa66-78bfde9a3c32",
+              "uuid": "104197cf-a812-454c-b30d-7bbe5513da6a"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "46e62478-e1c5-48ef-ac75-ff62506701da",
+                  "CompletedVaxHestitancyPoll"
+                ],
+                "category_uuid": "ceb96456-3101-43c3-815e-50dfcbced5e7",
+                "type": "has_group",
+                "uuid": "cb34f7be-10ce-4396-a9a9-9764fdc7dac0"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "437cd9f2-3347-4079-a11f-3403f0c94793",
+                "name": "CompletedVaxHestitancyPoll",
+                "uuid": "ceb96456-3101-43c3-815e-50dfcbced5e7"
+              },
+              {
+                "exit_uuid": "104197cf-a812-454c-b30d-7bbe5513da6a",
+                "name": "Other",
+                "uuid": "d7a13aa9-d2c5-4dbe-824e-b829bfa32dd0"
+              }
+            ],
+            "default_category_uuid": "d7a13aa9-d2c5-4dbe-824e-b829bfa32dd0",
+            "operand": "@contact.groups",
+            "result_name": "",
+            "type": "switch"
+          },
+          "uuid": "4ef7dffc-af7a-4092-b1c9-2627bacc0844"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "8eb37738-803d-401c-ac5b-a38507e37abc",
+              "uuid": "b880dab9-1c8e-4b73-bb3a-315b383e15e7"
+            },
+            {
+              "destination_uuid": "a9ed4af4-ae49-4cf0-8eb4-d64e36cfb5c7",
+              "uuid": "04589d20-8473-441a-9959-7de2e7a92647"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [],
+                "category_uuid": "f5b4611e-9dde-455d-82a2-48d65cf61d34",
+                "type": "has_number",
+                "uuid": "59eeafee-004a-4142-9e83-aa3e54580a35"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "b880dab9-1c8e-4b73-bb3a-315b383e15e7",
+                "name": "Has Number",
+                "uuid": "f5b4611e-9dde-455d-82a2-48d65cf61d34"
+              },
+              {
+                "exit_uuid": "04589d20-8473-441a-9959-7de2e7a92647",
+                "name": "Other",
+                "uuid": "31eef342-58a7-4fad-a52f-b32ce6abfdc7"
+              }
+            ],
+            "default_category_uuid": "31eef342-58a7-4fad-a52f-b32ce6abfdc7",
+            "operand": "@fields.born",
+            "type": "switch"
+          },
+          "uuid": "36186ec0-2823-43e7-aa66-78bfde9a3c32"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Great. Before we get started, please confirm your age in reply to this message by typing it as a number.",
+              "type": "send_msg",
+              "uuid": "98a92696-f4ce-41d1-bbed-d71330158d24"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "078df8ce-2bb8-4306-8454-209b0b2803d7",
+              "uuid": "385a3d65-cccf-40d1-94e3-6326005839ab"
+            }
+          ],
+          "uuid": "a9ed4af4-ae49-4cf0-8eb4-d64e36cfb5c7"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "68d7c3b9-f282-4348-ba49-fc3db7386924",
+              "uuid": "af337eab-4043-4802-b946-b93bd077986e"
+            },
+            {
+              "destination_uuid": "ad6edbfe-b483-433f-8512-9968811567c1",
+              "uuid": "99513c95-6223-4e52-9abf-8bdb8d5493e7"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "13",
+                  "99"
+                ],
+                "category_uuid": "59967571-2e89-4af4-bc8b-7882bdc7db70",
+                "type": "has_number_between",
+                "uuid": "5eac1f43-52e2-41c7-999f-cfc951d8428b"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "af337eab-4043-4802-b946-b93bd077986e",
+                "name": "13 - 99",
+                "uuid": "59967571-2e89-4af4-bc8b-7882bdc7db70"
+              },
+              {
+                "exit_uuid": "99513c95-6223-4e52-9abf-8bdb8d5493e7",
+                "name": "Other",
+                "uuid": "9da0ff05-5ca0-44f4-be86-1a00d1fdeb72"
+              }
+            ],
+            "default_category_uuid": "9da0ff05-5ca0-44f4-be86-1a00d1fdeb72",
+            "operand": "@input.text",
+            "result_name": "Age",
+            "type": "switch",
+            "wait": {
+              "type": "msg"
+            }
+          },
+          "uuid": "078df8ce-2bb8-4306-8454-209b0b2803d7"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Sorry, please answer by typing your age as a number only e.g. if you are aged seventeen years old, reply, 17",
+              "type": "send_msg",
+              "uuid": "d09af0ad-8f79-47a8-b18d-c2b29e1b7221"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "078df8ce-2bb8-4306-8454-209b0b2803d7",
+              "uuid": "7cf0ee4a-257f-458e-8ead-e386c5923092"
+            }
+          ],
+          "uuid": "ad6edbfe-b483-433f-8512-9968811567c1"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "35cdf363-ae8b-4c75-890f-7dd7b8317f2a",
+              "uuid": "b07ca984-f351-4107-ba9b-da3da8a1108a"
+            },
+            {
+              "destination_uuid": "2a8686e9-e675-431b-b85b-f29fec2348c4",
+              "uuid": "31591444-88bb-492c-ba7f-ebfa61644662"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [],
+                "category_uuid": "b54b8d26-2ad4-4364-b3b4-31fb8df64192",
+                "type": "has_text",
+                "uuid": "6819beda-04a7-4151-ac1d-80284a81626d"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "b07ca984-f351-4107-ba9b-da3da8a1108a",
+                "name": "Has Text",
+                "uuid": "b54b8d26-2ad4-4364-b3b4-31fb8df64192"
+              },
+              {
+                "exit_uuid": "31591444-88bb-492c-ba7f-ebfa61644662",
+                "name": "Other",
+                "uuid": "de223667-5047-47d4-86fa-3b0e2809edd6"
+              }
+            ],
+            "default_category_uuid": "de223667-5047-47d4-86fa-3b0e2809edd6",
+            "operand": "@fields.gender",
+            "type": "switch"
+          },
+          "uuid": "8eb37738-803d-401c-ac5b-a38507e37abc"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "born",
+                "name": "Born"
+              },
+              "type": "set_contact_field",
+              "uuid": "0a11b321-8ba2-467f-bd03-3f780d3c1c0c",
+              "value": "@(format_date(now(), \"YYYY\") - results.age)"
+            },
+            {
+              "field": {
+                "key": "age",
+                "name": "Age"
+              },
+              "type": "set_contact_field",
+              "uuid": "14163227-53c2-4a85-84a0-9f1acde76662",
+              "value": "@results.age"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "8eb37738-803d-401c-ac5b-a38507e37abc",
+              "uuid": "b8177094-0d41-47a3-a1b3-35a07be8746f"
+            }
+          ],
+          "uuid": "68d7c3b9-f282-4348-ba49-fc3db7386924"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "How do you identify yourself? \nA Male\nB Female \nC Non-binary",
+              "type": "send_msg",
+              "uuid": "16630cee-112c-4e17-b077-2b33fda75bd1"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "7e47eaeb-ad15-45f1-89d7-395b4ebd0da9",
+              "uuid": "83e5fb65-9f5b-4287-ba25-b3060cdbc9f6"
+            }
+          ],
+          "uuid": "2a8686e9-e675-431b-b85b-f29fec2348c4"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "Sorry, please reply with one of the two options provided only. Please reply A, B or C",
+              "type": "send_msg",
+              "uuid": "397105d6-9e59-4f84-bb5d-3bb4837dd7bf"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "7e47eaeb-ad15-45f1-89d7-395b4ebd0da9",
+              "uuid": "31def851-9f49-469d-b760-1999fe649191"
+            }
+          ],
+          "uuid": "47912dae-8c42-4437-b22f-6a0fd0c3fe92"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "d1623b29-b136-4928-81c6-fa31a78fce6a",
+              "uuid": "92ae61b6-6116-464d-be1c-f17441881028"
+            },
+            {
+              "destination_uuid": "daacc9ef-4265-4b4b-9cb0-8dcb330200f2",
+              "uuid": "62a975ea-3e7e-4bb4-bfd0-c569c06d7745"
+            },
+            {
+              "destination_uuid": "2941fc76-e7e6-42c8-be19-419f4d1e82f8",
+              "uuid": "97da5fe3-f350-49d4-ba68-94129a602c43"
+            },
+            {
+              "destination_uuid": "47912dae-8c42-4437-b22f-6a0fd0c3fe92",
+              "uuid": "95f7a63e-f52e-4908-8796-a9b0cdc119e6"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "A Hombre Man Male Masculino"
+                ],
+                "category_uuid": "4da94695-5398-499f-abfe-8746fa57d343",
+                "type": "has_any_word",
+                "uuid": "5a6fcabc-a99f-4717-bec7-5f5cb6c776cb"
+              },
+              {
+                "arguments": [
+                  "B Femenino Female Mujer Woman"
+                ],
+                "category_uuid": "fbdadf45-8418-43e3-ac83-0deb7b41187a",
+                "type": "has_any_word",
+                "uuid": "4de47df0-5d95-43a6-b97b-1eedff8bbf81"
+              },
+              {
+                "arguments": [
+                  "C Otro Otra Other non-binary non-conforming"
+                ],
+                "category_uuid": "194d198f-f1c0-4e2b-b143-62dd992c9862",
+                "type": "has_any_word",
+                "uuid": "bbc737bb-5ee9-4c80-b121-b395d9337041"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "92ae61b6-6116-464d-be1c-f17441881028",
+                "name": "Male",
+                "uuid": "4da94695-5398-499f-abfe-8746fa57d343"
+              },
+              {
+                "exit_uuid": "62a975ea-3e7e-4bb4-bfd0-c569c06d7745",
+                "name": "Female",
+                "uuid": "fbdadf45-8418-43e3-ac83-0deb7b41187a"
+              },
+              {
+                "exit_uuid": "97da5fe3-f350-49d4-ba68-94129a602c43",
+                "name": "Non-binary",
+                "uuid": "194d198f-f1c0-4e2b-b143-62dd992c9862"
+              },
+              {
+                "exit_uuid": "95f7a63e-f52e-4908-8796-a9b0cdc119e6",
+                "name": "Other",
+                "uuid": "1ea78fb1-7a48-4541-94be-f9f1d444a33a"
+              }
+            ],
+            "default_category_uuid": "1ea78fb1-7a48-4541-94be-f9f1d444a33a",
+            "operand": "@input.text",
+            "result_name": "Gender",
+            "type": "switch",
+            "wait": {
+              "type": "msg"
+            }
+          },
+          "uuid": "7e47eaeb-ad15-45f1-89d7-395b4ebd0da9"
+        },
+        {
+          "actions": [
+            {
+              "groups": [
+                {
+                  "count": 1,
+                  "name": "U-Reporters Male",
+                  "query": null,
+                  "status": "ready",
+                  "uuid": "552be4d1-c1ee-4a79-840f-58fdaae633d1"
+                }
+              ],
+              "type": "add_contact_groups",
+              "uuid": "2a545e2d-07a8-485d-a852-c3ec3e7f9af9"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "48858d06-76f9-48b1-9048-4eb49228f51a",
+              "uuid": "3ecfd89f-d084-404c-b3c7-d7aec91f03dd"
+            }
+          ],
+          "uuid": "d1623b29-b136-4928-81c6-fa31a78fce6a"
+        },
+        {
+          "actions": [
+            {
+              "groups": [
+                {
+                  "count": 0,
+                  "name": "U-Reporters Non-binary",
+                  "query": null,
+                  "status": "ready",
+                  "uuid": "5306e4a0-30a0-4fc1-8601-b5938e4be525"
+                }
+              ],
+              "type": "add_contact_groups",
+              "uuid": "fbc2e78e-e5a4-4df8-9786-94effaaac57b"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "48858d06-76f9-48b1-9048-4eb49228f51a",
+              "uuid": "3850185d-4bbb-4ef2-bf3c-8f1349619a2e"
+            }
+          ],
+          "uuid": "2941fc76-e7e6-42c8-be19-419f4d1e82f8"
+        },
+        {
+          "actions": [
+            {
+              "groups": [
+                {
+                  "count": 6629,
+                  "name": "U-Reporters Female",
+                  "query": null,
+                  "status": "ready",
+                  "uuid": "3c13101e-b25b-4089-91d3-3c75b5391b16"
+                }
+              ],
+              "type": "add_contact_groups",
+              "uuid": "95571987-c33a-423e-bf1a-7ffc85874f86"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "48858d06-76f9-48b1-9048-4eb49228f51a",
+              "uuid": "fc07d4fe-5edf-4503-ae41-d22241daedf7"
+            }
+          ],
+          "uuid": "daacc9ef-4265-4b4b-9cb0-8dcb330200f2"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "f179060e-872b-43c9-b313-07bd853d4cc6",
+              "uuid": "633134f0-e8e0-45f4-84a9-6eb9cdd8effa"
+            },
+            {
+              "destination_uuid": "8a8c1cc2-18e2-4ad3-bc39-301c4519660c",
+              "uuid": "dbbc1066-af64-4273-a19c-750632c7763a"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [],
+                "category_uuid": "3a80018a-fc3a-474a-8ff9-0af3b614726c",
+                "type": "has_text",
+                "uuid": "503bcd3c-3c6d-41b7-aab8-e684bbaa69c8"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "633134f0-e8e0-45f4-84a9-6eb9cdd8effa",
+                "name": "Has Text",
+                "uuid": "3a80018a-fc3a-474a-8ff9-0af3b614726c"
+              },
+              {
+                "exit_uuid": "dbbc1066-af64-4273-a19c-750632c7763a",
+                "name": "Other",
+                "uuid": "4eff75ee-f523-4a4d-a68b-c3464a123c63"
+              }
+            ],
+            "default_category_uuid": "4eff75ee-f523-4a4d-a68b-c3464a123c63",
+            "operand": "@fields.region",
+            "type": "switch"
+          },
+          "uuid": "35cdf363-ae8b-4c75-890f-7dd7b8317f2a"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "gender",
+                "name": "Gender"
+              },
+              "type": "set_contact_field",
+              "uuid": "6b302a64-a072-4251-ada1-8d24c605f5a7",
+              "value": "@results.gender.category"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "35cdf363-ae8b-4c75-890f-7dd7b8317f2a",
+              "uuid": "b7d46ac5-dad6-45da-9765-44440e7a0898"
+            }
+          ],
+          "uuid": "48858d06-76f9-48b1-9048-4eb49228f51a"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "One last thing before we begin. Please confirm the parish in which you live. Reply with your parish name only, like ST ANDREW or HANOVER.",
+              "type": "send_msg",
+              "uuid": "68bd6515-7c90-4146-a880-cdf75fed6106"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "ad75a9dd-4538-4f8d-a703-2306f3aa45c1",
+              "uuid": "2bdec383-642c-4fc8-8b3b-2e9b9f5b6643"
+            }
+          ],
+          "uuid": "8a8c1cc2-18e2-4ad3-bc39-301c4519660c"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Sorry, we did not understand your answer. Reply with your PARISH name only e.g. ST ANDREW or HANOVER.",
+              "type": "send_msg",
+              "uuid": "e08657f1-e2c2-41f5-9940-f5f4b89a27f2"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "ad75a9dd-4538-4f8d-a703-2306f3aa45c1",
+              "uuid": "80c21493-550f-40eb-81c4-ee402d6f1bb9"
+            }
+          ],
+          "uuid": "b214fd3b-9edb-4919-9691-a8f5a86b4849"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "81b8733e-3756-4d3f-9294-47fb497d3922",
+              "uuid": "e559a83e-6360-4b55-9e1c-c785d72cef63"
+            },
+            {
+              "destination_uuid": "b214fd3b-9edb-4919-9691-a8f5a86b4849",
+              "uuid": "2fff3d00-3ac2-4363-b3c2-4fb6c24be20a"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [],
+                "category_uuid": "54c6408a-446e-43d6-bb52-a4e29a0977b4",
+                "type": "has_state",
+                "uuid": "b17b4ac6-ac49-4d34-a839-a300ad54f00c"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "e559a83e-6360-4b55-9e1c-c785d72cef63",
+                "name": "Region",
+                "uuid": "54c6408a-446e-43d6-bb52-a4e29a0977b4"
+              },
+              {
+                "exit_uuid": "2fff3d00-3ac2-4363-b3c2-4fb6c24be20a",
+                "name": "Other",
+                "uuid": "08334fbc-145e-47a9-8ae2-9c608a333eee"
+              }
+            ],
+            "default_category_uuid": "08334fbc-145e-47a9-8ae2-9c608a333eee",
+            "operand": "@input.text",
+            "result_name": "Region",
+            "type": "switch",
+            "wait": {
+              "type": "msg"
+            }
+          },
+          "uuid": "ad75a9dd-4538-4f8d-a703-2306f3aa45c1"
+        },
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "region",
+                "name": "Region"
+              },
+              "type": "set_contact_field",
+              "uuid": "e9ac84f8-c76c-4337-a8d4-3d83a76f08b3",
+              "value": ""
+            },
+            {
+              "groups": [
+                {
+                  "name_match": "@results.region"
+                }
+              ],
+              "type": "add_contact_groups",
+              "uuid": "960266b0-5d5f-4735-8ec8-c7103ee2b3d7"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "f179060e-872b-43c9-b313-07bd853d4cc6",
+              "uuid": "6d354162-a40e-40f3-bd82-2fca4ff396cb"
+            }
+          ],
+          "uuid": "81b8733e-3756-4d3f-9294-47fb497d3922"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "dafa220d-3f00-4d58-9b96-ff1364130541",
+              "uuid": "cebe649a-f635-429d-9e6d-2eb35c3b886e"
+            },
+            {
+              "destination_uuid": "6bfc5d54-a8d4-431b-8b5f-31f6569fa303",
+              "uuid": "f73254c7-300b-45ce-92ec-a245a707adb6"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "tel"
+                ],
+                "category_uuid": "a021d640-e9e7-4bdf-8c2b-cc7514a81f42",
+                "type": "has_only_phrase",
+                "uuid": "8eeb1acc-d110-4094-981a-04560f1213b4"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "cebe649a-f635-429d-9e6d-2eb35c3b886e",
+                "name": "SMS",
+                "uuid": "a021d640-e9e7-4bdf-8c2b-cc7514a81f42"
+              },
+              {
+                "exit_uuid": "f73254c7-300b-45ce-92ec-a245a707adb6",
+                "name": "Other",
+                "uuid": "03108192-4707-44af-8b1b-01af858e746a"
+              }
+            ],
+            "default_category_uuid": "03108192-4707-44af-8b1b-01af858e746a",
+            "operand": "@(urn_parts(contact.urn).scheme)",
+            "result_name": "",
+            "type": "switch"
+          },
+          "uuid": "f179060e-872b-43c9-b313-07bd853d4cc6"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "text": "Our first question is...\n\nWhat is your main source of COVID-19 info? Reply\nA for Friends and family\nB for Ministry of Health and Wellness\nC for Social media and messaging apps\nD for People in my community\nE for Radio, TV and newspapers",
+              "type": "send_msg",
+              "uuid": "d091d95c-499e-4686-9218-9b2cb9b413b5"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "974f5479-563d-4167-b159-caf6d41f8da7",
+              "uuid": "e72f4a85-86d1-44cc-8920-f79f0be3410f"
+            }
+          ],
+          "uuid": "6bfc5d54-a8d4-431b-8b5f-31f6569fa303"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "What is your main source of COVID-19 info\nA Friends, family\nB Ministry of Health\nC Social media, messaging apps\nD People in my community\nE Radio, TV, newspapers",
+              "type": "send_msg",
+              "uuid": "42b02282-65c8-486c-9506-077972455d08"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "974f5479-563d-4167-b159-caf6d41f8da7",
+              "uuid": "16f17567-a9cb-4039-b930-7a87f4c2cfa4"
+            }
+          ],
+          "uuid": "dafa220d-3f00-4d58-9b96-ff1364130541"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "5ecef3e6-265a-4290-97ad-7f47c569f2c4",
+              "uuid": "0ddee82d-a5d6-42a3-a250-5b05dbfd94b8"
+            },
+            {
+              "destination_uuid": "5ecef3e6-265a-4290-97ad-7f47c569f2c4",
+              "uuid": "d6f9ee6c-474e-4c98-b114-18c6635504b1"
+            },
+            {
+              "destination_uuid": "5ecef3e6-265a-4290-97ad-7f47c569f2c4",
+              "uuid": "c644f092-7cea-4738-9685-b47719eced9b"
+            },
+            {
+              "destination_uuid": "5ecef3e6-265a-4290-97ad-7f47c569f2c4",
+              "uuid": "92ebd7d3-088e-48d9-951d-f79ac77f12a9"
+            },
+            {
+              "destination_uuid": "5ecef3e6-265a-4290-97ad-7f47c569f2c4",
+              "uuid": "db456e6e-418f-4bba-9b1d-2460aac353d4"
+            },
+            {
+              "destination_uuid": "673e59ca-d628-4df6-b994-a4b7b1dda2f6",
+              "uuid": "805b49fb-78e4-4f41-b263-df9e8c3b97ca"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "A friend friends family"
+                ],
+                "category_uuid": "218128c2-0dea-4357-b8fd-e71cd5322bfe",
+                "type": "has_any_word",
+                "uuid": "ddc685b5-8ad6-4d07-8eff-8f4ecdbdcbd7"
+              },
+              {
+                "arguments": [
+                  "B Ministry of Health Wellness"
+                ],
+                "category_uuid": "a4c77f23-3bfd-4717-befa-fa5e3ed7d80a",
+                "type": "has_any_word",
+                "uuid": "d1f6c317-9cfa-47e9-954f-03e59729717a"
+              },
+              {
+                "arguments": [
+                  "C Social Media Messaging Apps"
+                ],
+                "category_uuid": "2d2c09ef-b83b-43d6-aef7-4ec04fdc596d",
+                "type": "has_any_word",
+                "uuid": "2ac1f880-54d4-4c25-898f-c62c842b649a"
+              },
+              {
+                "arguments": [
+                  "D People Community Neighbours"
+                ],
+                "category_uuid": "3312bf5e-6868-471a-873b-50d28e808ad7",
+                "type": "has_any_word",
+                "uuid": "91a94daa-d0b2-42df-b980-b177596e56f7"
+              },
+              {
+                "arguments": [
+                  "E Radio TV Television News Newspapers"
+                ],
+                "category_uuid": "75087ad6-699a-41e2-82ed-b18406c307dc",
+                "type": "has_any_word",
+                "uuid": "9250a327-eabb-4add-88fc-bbb807bd251f"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "0ddee82d-a5d6-42a3-a250-5b05dbfd94b8",
+                "name": "Friends and family",
+                "uuid": "218128c2-0dea-4357-b8fd-e71cd5322bfe"
+              },
+              {
+                "exit_uuid": "d6f9ee6c-474e-4c98-b114-18c6635504b1",
+                "name": "Ministry of Health and Wellness",
+                "uuid": "a4c77f23-3bfd-4717-befa-fa5e3ed7d80a"
+              },
+              {
+                "exit_uuid": "c644f092-7cea-4738-9685-b47719eced9b",
+                "name": "Social Media and Messaging Apps",
+                "uuid": "2d2c09ef-b83b-43d6-aef7-4ec04fdc596d"
+              },
+              {
+                "exit_uuid": "92ebd7d3-088e-48d9-951d-f79ac77f12a9",
+                "name": "People in my community",
+                "uuid": "3312bf5e-6868-471a-873b-50d28e808ad7"
+              },
+              {
+                "exit_uuid": "db456e6e-418f-4bba-9b1d-2460aac353d4",
+                "name": "Radio, TV and Newspapers",
+                "uuid": "75087ad6-699a-41e2-82ed-b18406c307dc"
+              },
+              {
+                "exit_uuid": "805b49fb-78e4-4f41-b263-df9e8c3b97ca",
+                "name": "Other",
+                "uuid": "b59ca37d-931a-45f7-9c69-7469a2d7b841"
+              }
+            ],
+            "default_category_uuid": "b59ca37d-931a-45f7-9c69-7469a2d7b841",
+            "operand": "@input.text",
+            "result_name": "Main Source of COVID info",
+            "type": "switch",
+            "wait": {
+              "type": "msg"
+            }
+          },
+          "uuid": "974f5479-563d-4167-b159-caf6d41f8da7"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "Do you think COVID-19 vaccines save lives? \n\nReply \n\nA for Yes\nB for No\nC for I am not sure",
+              "type": "send_msg",
+              "uuid": "3a2fd7b4-537f-46f8-bf6b-867371955f9f"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "4f03a29a-9af1-4d63-b649-04b3d17f285f",
+              "uuid": "6fa9457b-183b-498d-bdc3-25034b5ff302"
+            }
+          ],
+          "uuid": "5ecef3e6-265a-4290-97ad-7f47c569f2c4"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "Sorry, please reply with one of the three options provided only. Please reply A, B or C",
+              "type": "send_msg",
+              "uuid": "9df0df0e-e58b-40c3-8779-b63e6949e34d"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "974f5479-563d-4167-b159-caf6d41f8da7",
+              "uuid": "12eec731-0fb6-41df-a119-2e75b980f2e0"
+            }
+          ],
+          "uuid": "673e59ca-d628-4df6-b994-a4b7b1dda2f6"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "23ac989e-3ca3-451f-a6a7-d5546cabdb41",
+              "uuid": "d9313ece-c5d7-4cf5-a001-31d0cfd57277"
+            },
+            {
+              "destination_uuid": "23ac989e-3ca3-451f-a6a7-d5546cabdb41",
+              "uuid": "450d4746-9793-4564-8965-6171b464712e"
+            },
+            {
+              "destination_uuid": "23ac989e-3ca3-451f-a6a7-d5546cabdb41",
+              "uuid": "8289b202-41cf-4189-9165-ec35611b1041"
+            },
+            {
+              "destination_uuid": "59cdc656-ec30-46b1-b991-cf0247411494",
+              "uuid": "805b3862-7186-4fad-8473-7a1c87203e4b"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "A Yes yeh yep yo yas"
+                ],
+                "category_uuid": "8600e4e0-8137-4e87-b0bb-d0d684861eed",
+                "type": "has_any_word",
+                "uuid": "5e01cb19-4c75-4722-88e2-294e005db420"
+              },
+              {
+                "arguments": [
+                  "B No"
+                ],
+                "category_uuid": "69a44cab-4205-44d0-b43c-3c95122bae3e",
+                "type": "has_any_word",
+                "uuid": "110faad3-e88e-4f7c-bd8b-50ae3be0c1a1"
+              },
+              {
+                "arguments": [
+                  "C Not sure Unsure"
+                ],
+                "category_uuid": "6b151a79-5a53-429f-a6e1-a2d4e0556d03",
+                "type": "has_any_word",
+                "uuid": "8fee66ef-14d4-44cb-bf0f-58a09e727054"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "d9313ece-c5d7-4cf5-a001-31d0cfd57277",
+                "name": "Yes",
+                "uuid": "8600e4e0-8137-4e87-b0bb-d0d684861eed"
+              },
+              {
+                "exit_uuid": "450d4746-9793-4564-8965-6171b464712e",
+                "name": "No",
+                "uuid": "69a44cab-4205-44d0-b43c-3c95122bae3e"
+              },
+              {
+                "exit_uuid": "8289b202-41cf-4189-9165-ec35611b1041",
+                "name": "I am not sure",
+                "uuid": "6b151a79-5a53-429f-a6e1-a2d4e0556d03"
+              },
+              {
+                "exit_uuid": "805b3862-7186-4fad-8473-7a1c87203e4b",
+                "name": "Other",
+                "uuid": "2a9318b7-a1e2-4170-b7f9-670df13f5102"
+              }
+            ],
+            "default_category_uuid": "2a9318b7-a1e2-4170-b7f9-670df13f5102",
+            "operand": "@input.text",
+            "result_name": "Do Covid vaccines save lives",
+            "type": "switch",
+            "wait": {
+              "type": "msg"
+            }
+          },
+          "uuid": "4f03a29a-9af1-4d63-b649-04b3d17f285f"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "Sorry, please reply with one of the three options provided only. Please reply A, B or C",
+              "type": "send_msg",
+              "uuid": "305749e4-b845-4b1c-ab31-16f3f78f39ff"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "4f03a29a-9af1-4d63-b649-04b3d17f285f",
+              "uuid": "150bffb4-ee80-45e6-8667-a1b1ab8095e6"
+            }
+          ],
+          "uuid": "59cdc656-ec30-46b1-b991-cf0247411494"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "Do you believe there are serious side effects from COVID-19 vaccines?\n\nReply \n\nA for Yes\nB for No\nC for I am not sure\n",
+              "type": "send_msg",
+              "uuid": "85b1fa7f-6ebb-4c62-8d2b-f3b4b5f6d01b"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "084970a8-f1f5-4b97-8457-ac955b5ef7dd",
+              "uuid": "82ef0747-7c1e-4cc6-aa46-df7a807d0d61"
+            }
+          ],
+          "uuid": "23ac989e-3ca3-451f-a6a7-d5546cabdb41"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "d9d70ad5-5112-4c7b-a1d8-ebadb88b121c",
+              "uuid": "58e5c294-8fbb-4269-9dbe-0fcaf4a86e84"
+            },
+            {
+              "destination_uuid": "d9d70ad5-5112-4c7b-a1d8-ebadb88b121c",
+              "uuid": "7ac11303-4685-4820-86d0-60b38087a7c1"
+            },
+            {
+              "destination_uuid": "d9d70ad5-5112-4c7b-a1d8-ebadb88b121c",
+              "uuid": "253576bc-fa64-411e-9b0f-85fada777cbf"
+            },
+            {
+              "destination_uuid": "4daf8415-16f9-455d-9501-65f44a447fc4",
+              "uuid": "3b54d07c-e27b-46a1-8c38-a6213539e246"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "A yes"
+                ],
+                "category_uuid": "dbefbdd6-e994-48be-bfc1-2e5eb10925e2",
+                "type": "has_any_word",
+                "uuid": "807e839f-446d-4e52-9d77-99f6ced6c071"
+              },
+              {
+                "arguments": [
+                  "B no"
+                ],
+                "category_uuid": "01399c75-1466-4c19-922c-b1ad5a980c9b",
+                "type": "has_any_word",
+                "uuid": "3a69aef8-879d-4d28-b2eb-0217c92638d2"
+              },
+              {
+                "arguments": [
+                  "C Not sure unsure"
+                ],
+                "category_uuid": "6995572a-800c-42c3-90e3-ec1ffa601f3e",
+                "type": "has_any_word",
+                "uuid": "b9ce916f-02bf-425f-8916-21c67c3cc6ba"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "58e5c294-8fbb-4269-9dbe-0fcaf4a86e84",
+                "name": "Yes",
+                "uuid": "dbefbdd6-e994-48be-bfc1-2e5eb10925e2"
+              },
+              {
+                "exit_uuid": "7ac11303-4685-4820-86d0-60b38087a7c1",
+                "name": "No",
+                "uuid": "01399c75-1466-4c19-922c-b1ad5a980c9b"
+              },
+              {
+                "exit_uuid": "253576bc-fa64-411e-9b0f-85fada777cbf",
+                "name": "I am not sure",
+                "uuid": "6995572a-800c-42c3-90e3-ec1ffa601f3e"
+              },
+              {
+                "exit_uuid": "3b54d07c-e27b-46a1-8c38-a6213539e246",
+                "name": "Other",
+                "uuid": "22bd452f-8d28-41c7-a09e-234cf523ec34"
+              }
+            ],
+            "default_category_uuid": "22bd452f-8d28-41c7-a09e-234cf523ec34",
+            "operand": "@input.text",
+            "result_name": "Vaccine side effects",
+            "type": "switch",
+            "wait": {
+              "type": "msg"
+            }
+          },
+          "uuid": "084970a8-f1f5-4b97-8457-ac955b5ef7dd"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "Sorry, please reply with one of the three options provided only. Please reply A, B or C",
+              "type": "send_msg",
+              "uuid": "57b2fd5a-7fdc-487c-89b2-6853dbb9eb79"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "084970a8-f1f5-4b97-8457-ac955b5ef7dd",
+              "uuid": "1c9c0bf5-0d6c-477e-86bf-ab767b56dcf1"
+            }
+          ],
+          "uuid": "4daf8415-16f9-455d-9501-65f44a447fc4"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "e7ac9a4e-6396-44b3-93ec-707df4d88de3",
+              "uuid": "00e2d60a-fea7-44b3-9aa4-c307ece780e6"
+            },
+            {
+              "destination_uuid": "607f62be-f72a-4d01-8413-b5f0b1264ec1",
+              "uuid": "16b11c25-4340-4039-a6a6-0d6fdbc817ab"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "tel"
+                ],
+                "category_uuid": "eeac03eb-a673-4f3a-9c34-dbd797e841f2",
+                "type": "has_only_phrase",
+                "uuid": "38d5d354-88e6-48b2-bdf9-2046840fa845"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "00e2d60a-fea7-44b3-9aa4-c307ece780e6",
+                "name": "SMS",
+                "uuid": "eeac03eb-a673-4f3a-9c34-dbd797e841f2"
+              },
+              {
+                "exit_uuid": "16b11c25-4340-4039-a6a6-0d6fdbc817ab",
+                "name": "Other",
+                "uuid": "42eace98-d80f-4dea-b80f-5e63dc3d2173"
+              }
+            ],
+            "default_category_uuid": "42eace98-d80f-4dea-b80f-5e63dc3d2173",
+            "operand": "@(urn_parts(contact.urn).scheme)",
+            "result_name": "",
+            "type": "switch"
+          },
+          "uuid": "d9d70ad5-5112-4c7b-a1d8-ebadb88b121c"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "text": "Have you ever taken a Covid vaccine?\n\nReply \n\nA for I am partly vaccinated\nB for I am fully vaccinated\nC for I received a booster\nD for I have not taken the vaccine",
+              "type": "send_msg",
+              "uuid": "b5b1008f-cff5-455d-8789-e9032b2d3a94"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "d5f21994-5739-49b4-9fde-2affd68d2a38",
+              "uuid": "b36d31bd-324a-4cc6-97ab-796bcf5f862d"
+            }
+          ],
+          "uuid": "607f62be-f72a-4d01-8413-b5f0b1264ec1"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Have you ever taken a Covid vaccine\nReply\nA for I am partly vaccinated\nB for I am fully vaccinated\nC for I received a booster\nD for I have not taken the vaccine",
+              "type": "send_msg",
+              "uuid": "c860db9c-cfab-49c0-9adb-582066dbb9fb"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "d5f21994-5739-49b4-9fde-2affd68d2a38",
+              "uuid": "40a848b5-4a81-4484-a45b-89a293b60925"
+            }
+          ],
+          "uuid": "e7ac9a4e-6396-44b3-93ec-707df4d88de3"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "01ff4ff4-3522-4ac1-b6f5-05f7c48490c5",
+              "uuid": "1d8021c1-b64d-4166-8adc-578c5b4129a5"
+            },
+            {
+              "destination_uuid": "01ff4ff4-3522-4ac1-b6f5-05f7c48490c5",
+              "uuid": "8024a856-dcdd-4aad-8a4a-d0a8af4fda56"
+            },
+            {
+              "destination_uuid": "01ff4ff4-3522-4ac1-b6f5-05f7c48490c5",
+              "uuid": "7535edd0-5e60-4bbc-ac99-12dace3587e6"
+            },
+            {
+              "destination_uuid": "01ff4ff4-3522-4ac1-b6f5-05f7c48490c5",
+              "uuid": "07c0d6cf-d71f-45bf-9311-17f981a91703"
+            },
+            {
+              "destination_uuid": "4e4b6227-9f44-44f9-96de-49553de5acf1",
+              "uuid": "008aa1e2-3c4f-477a-bd6e-4ed3be14bc95"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "A Partly"
+                ],
+                "category_uuid": "b4400bdf-773c-46c9-a021-66260f08956a",
+                "type": "has_any_word",
+                "uuid": "1ba6d7aa-7d2a-45c1-9c05-6993b5bf2939"
+              },
+              {
+                "arguments": [
+                  "B Fully"
+                ],
+                "category_uuid": "2fb83bbd-dd97-4f4c-8552-7b06a00dd1a2",
+                "type": "has_any_word",
+                "uuid": "92006ea9-7e9e-4337-974f-a722973bbdec"
+              },
+              {
+                "arguments": [
+                  "C Booster"
+                ],
+                "category_uuid": "45002d27-3592-4127-9c0e-22794cc23fa7",
+                "type": "has_any_word",
+                "uuid": "7a7d770f-be43-44b2-b917-16b26bf2e68c"
+              },
+              {
+                "arguments": [
+                  "D No none never unvaccinated"
+                ],
+                "category_uuid": "b5f0c2f6-c278-4960-a3ba-542643ba5124",
+                "type": "has_any_word",
+                "uuid": "56008c12-b112-40e7-b461-eccbaf91a66f"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "1d8021c1-b64d-4166-8adc-578c5b4129a5",
+                "name": "Partly vaccinated",
+                "uuid": "b4400bdf-773c-46c9-a021-66260f08956a"
+              },
+              {
+                "exit_uuid": "8024a856-dcdd-4aad-8a4a-d0a8af4fda56",
+                "name": "Fully vaccinated",
+                "uuid": "2fb83bbd-dd97-4f4c-8552-7b06a00dd1a2"
+              },
+              {
+                "exit_uuid": "7535edd0-5e60-4bbc-ac99-12dace3587e6",
+                "name": "Received booster",
+                "uuid": "45002d27-3592-4127-9c0e-22794cc23fa7"
+              },
+              {
+                "exit_uuid": "07c0d6cf-d71f-45bf-9311-17f981a91703",
+                "name": "Unvaccinated",
+                "uuid": "b5f0c2f6-c278-4960-a3ba-542643ba5124"
+              },
+              {
+                "exit_uuid": "008aa1e2-3c4f-477a-bd6e-4ed3be14bc95",
+                "name": "Other",
+                "uuid": "ec3e84ac-206d-4ec5-a0d9-c719bee0dc98"
+              }
+            ],
+            "default_category_uuid": "ec3e84ac-206d-4ec5-a0d9-c719bee0dc98",
+            "operand": "@input.text",
+            "result_name": "Vaccination status",
+            "type": "switch",
+            "wait": {
+              "type": "msg"
+            }
+          },
+          "uuid": "d5f21994-5739-49b4-9fde-2affd68d2a38"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "text": "Sorry, please reply with one of the three options provided only. Please reply A, B, C or D",
+              "type": "send_msg",
+              "uuid": "62911891-aadf-4683-ac4a-663428dbd1ed"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "d5f21994-5739-49b4-9fde-2affd68d2a38",
+              "uuid": "7f8b30fe-3969-4395-9ab9-682c58e0c2c9"
+            }
+          ],
+          "uuid": "4e4b6227-9f44-44f9-96de-49553de5acf1"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "Would you encourage your family to take the Covid vaccine?\n\nReply \n\nA for Yes\nB for No\nC for I am not sure",
+              "type": "send_msg",
+              "uuid": "2ad58f52-4090-41d3-ab99-9eafe20ba1d6"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "8501fcfd-390a-4385-afe9-0a10d70961da",
+              "uuid": "8febdb71-3608-40c7-aa11-c4b72f38a117"
+            }
+          ],
+          "uuid": "01ff4ff4-3522-4ac1-b6f5-05f7c48490c5"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "8b5da1ef-0807-4ab5-a471-8cdd573ee025",
+              "uuid": "3705c97a-804f-42a1-bb03-82d26b9a4c7f"
+            },
+            {
+              "destination_uuid": "8b5da1ef-0807-4ab5-a471-8cdd573ee025",
+              "uuid": "3d2d2dc4-8394-48bd-b11a-3ef115a90533"
+            },
+            {
+              "destination_uuid": "8b5da1ef-0807-4ab5-a471-8cdd573ee025",
+              "uuid": "0950dee4-a7e3-497f-b25b-eee06fccdfba"
+            },
+            {
+              "destination_uuid": "aba043c6-30ee-4f0c-9168-7d9687f91d68",
+              "uuid": "586a84b7-b165-4040-9f1f-bdd28c2521d3"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "A Yes"
+                ],
+                "category_uuid": "953498b6-5ad6-4252-a4d6-8ec0eccbccab",
+                "type": "has_any_word",
+                "uuid": "b1b0d806-c801-49c0-9f99-cddb0f9dd811"
+              },
+              {
+                "arguments": [
+                  "B No"
+                ],
+                "category_uuid": "dfaeaac8-bc15-4fbf-ad5b-bde39ef50c92",
+                "type": "has_any_word",
+                "uuid": "c71fe1dd-07f2-4b46-b957-ce06dfa0ac60"
+              },
+              {
+                "arguments": [
+                  "C Not sure unsure"
+                ],
+                "category_uuid": "f3a5465a-a795-432d-97e5-f35e6b7493d4",
+                "type": "has_any_word",
+                "uuid": "67aa1010-5707-48e8-bf72-3c6378cf6227"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "3705c97a-804f-42a1-bb03-82d26b9a4c7f",
+                "name": "Yes",
+                "uuid": "953498b6-5ad6-4252-a4d6-8ec0eccbccab"
+              },
+              {
+                "exit_uuid": "3d2d2dc4-8394-48bd-b11a-3ef115a90533",
+                "name": "No",
+                "uuid": "dfaeaac8-bc15-4fbf-ad5b-bde39ef50c92"
+              },
+              {
+                "exit_uuid": "0950dee4-a7e3-497f-b25b-eee06fccdfba",
+                "name": "I am not sure",
+                "uuid": "f3a5465a-a795-432d-97e5-f35e6b7493d4"
+              },
+              {
+                "exit_uuid": "586a84b7-b165-4040-9f1f-bdd28c2521d3",
+                "name": "Other",
+                "uuid": "38b43e7c-2573-40ac-82f7-6266104a556d"
+              }
+            ],
+            "default_category_uuid": "38b43e7c-2573-40ac-82f7-6266104a556d",
+            "operand": "@input.text",
+            "result_name": "Encourage family to get vaccinated",
+            "type": "switch",
+            "wait": {
+              "type": "msg"
+            }
+          },
+          "uuid": "8501fcfd-390a-4385-afe9-0a10d70961da"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "Sorry, please reply with one of the three options provided only. Please reply A, B or C",
+              "type": "send_msg",
+              "uuid": "39d5db36-93f5-4a43-8461-7e1959c07bc6"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "8501fcfd-390a-4385-afe9-0a10d70961da",
+              "uuid": "8ca467d4-e68f-4967-8851-9622594cf9d1"
+            }
+          ],
+          "uuid": "aba043c6-30ee-4f0c-9168-7d9687f91d68"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "Do you trust information from the Ministry of Health and Wellness about Covid vaccines?\n\nReply \n\nA for Yes\nB for No\nC for I am not sure\n",
+              "type": "send_msg",
+              "uuid": "e45dbed1-8d66-489c-8e9d-dbf80f273080"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "ae90722c-4e33-46d9-b254-0ffcaec02a55",
+              "uuid": "de845f25-68d9-4545-87ea-039f61f96f4b"
+            }
+          ],
+          "uuid": "8b5da1ef-0807-4ab5-a471-8cdd573ee025"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "00f7181e-c717-4ba4-a06d-c5e44e1ca98d",
+              "uuid": "80291afa-9b6b-46fb-9789-ef79945b7a6e"
+            },
+            {
+              "destination_uuid": "00f7181e-c717-4ba4-a06d-c5e44e1ca98d",
+              "uuid": "7d770d94-3489-4975-bf47-c8a9193d7f4c"
+            },
+            {
+              "destination_uuid": "00f7181e-c717-4ba4-a06d-c5e44e1ca98d",
+              "uuid": "58f64468-4b4a-428a-b938-c2bdc1d27e92"
+            },
+            {
+              "destination_uuid": "34f4cf6a-7465-49e6-b51a-2ce73c7b8be5",
+              "uuid": "970a2af3-80eb-44a5-9c0c-0161562c5a2a"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "A Yes"
+                ],
+                "category_uuid": "d95ac0cb-8cea-4c76-bdaa-f8db328f28cd",
+                "type": "has_any_word",
+                "uuid": "76493ca8-18fb-4957-86ef-b9a3e869a893"
+              },
+              {
+                "arguments": [
+                  "B No"
+                ],
+                "category_uuid": "c0a350b0-debd-4683-baf4-f04da68fb159",
+                "type": "has_any_word",
+                "uuid": "df1658b0-80d8-48fd-8758-751397c6d64a"
+              },
+              {
+                "arguments": [
+                  "C Not sure unsure"
+                ],
+                "category_uuid": "67d7761b-26a2-43e6-aaa7-026c6ec0077e",
+                "type": "has_any_word",
+                "uuid": "6a83d62d-3f72-43ce-93e5-1265292fbaeb"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "80291afa-9b6b-46fb-9789-ef79945b7a6e",
+                "name": "Yes",
+                "uuid": "d95ac0cb-8cea-4c76-bdaa-f8db328f28cd"
+              },
+              {
+                "exit_uuid": "7d770d94-3489-4975-bf47-c8a9193d7f4c",
+                "name": "No",
+                "uuid": "c0a350b0-debd-4683-baf4-f04da68fb159"
+              },
+              {
+                "exit_uuid": "58f64468-4b4a-428a-b938-c2bdc1d27e92",
+                "name": "I am not sure",
+                "uuid": "67d7761b-26a2-43e6-aaa7-026c6ec0077e"
+              },
+              {
+                "exit_uuid": "970a2af3-80eb-44a5-9c0c-0161562c5a2a",
+                "name": "Other",
+                "uuid": "147e8f35-2cb4-4489-9f9d-a99c214b4dc4"
+              }
+            ],
+            "default_category_uuid": "147e8f35-2cb4-4489-9f9d-a99c214b4dc4",
+            "operand": "@input.text",
+            "result_name": "Do you trust MOHW info",
+            "type": "switch",
+            "wait": {
+              "type": "msg"
+            }
+          },
+          "uuid": "ae90722c-4e33-46d9-b254-0ffcaec02a55"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "Sorry, please reply with one of the three options provided only. Please reply A, B or C",
+              "type": "send_msg",
+              "uuid": "824f43ea-f29a-447a-a4dc-36688a13c58f"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "ae90722c-4e33-46d9-b254-0ffcaec02a55",
+              "uuid": "6e2d33bd-0745-42fd-bad0-33413df6b323"
+            }
+          ],
+          "uuid": "34f4cf6a-7465-49e6-b51a-2ce73c7b8be5"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "Do you trust the science behind the vaccine?\n\nReply \n\nA for Yes\nB for No\nC for I am not sure\n",
+              "type": "send_msg",
+              "uuid": "3ae01e2a-1271-44dd-9298-3288fec0ee85"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "32757339-3d0d-4053-ac60-5d6be4125e25",
+              "uuid": "4fb84766-f4c9-4822-b048-71766bf5c05c"
+            }
+          ],
+          "uuid": "00f7181e-c717-4ba4-a06d-c5e44e1ca98d"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "a41f234a-6f75-43fd-b3de-a1292d2129b5",
+              "uuid": "5e32ea15-17eb-4d3b-86cf-ca3d46ed7655"
+            },
+            {
+              "destination_uuid": "a41f234a-6f75-43fd-b3de-a1292d2129b5",
+              "uuid": "647f1f24-6582-4642-9175-43921e731222"
+            },
+            {
+              "destination_uuid": "a41f234a-6f75-43fd-b3de-a1292d2129b5",
+              "uuid": "b16f660f-c480-49fd-bda1-9c24ba14d5fe"
+            },
+            {
+              "destination_uuid": "9e7962ba-3da5-4fdc-a127-9578342dad87",
+              "uuid": "52360c7d-824d-4abe-a4c1-b15e880fd26f"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "A Yes"
+                ],
+                "category_uuid": "fd5d0e39-6c42-4189-9574-0b90ef90170a",
+                "type": "has_any_word",
+                "uuid": "881eff1a-2efd-4d3e-8791-ef10dfe72b3f"
+              },
+              {
+                "arguments": [
+                  "B No"
+                ],
+                "category_uuid": "4392ee24-1b32-42b2-8d45-407f40b59d60",
+                "type": "has_any_word",
+                "uuid": "697b08ea-cebf-4ae2-9f39-af55b8431458"
+              },
+              {
+                "arguments": [
+                  "C Not sure unsure"
+                ],
+                "category_uuid": "433965ad-9b88-45b4-88bb-0faf628b232e",
+                "type": "has_any_word",
+                "uuid": "0cdeb348-cc4e-4272-a166-78804d877025"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "5e32ea15-17eb-4d3b-86cf-ca3d46ed7655",
+                "name": "Yes",
+                "uuid": "fd5d0e39-6c42-4189-9574-0b90ef90170a"
+              },
+              {
+                "exit_uuid": "647f1f24-6582-4642-9175-43921e731222",
+                "name": "No",
+                "uuid": "4392ee24-1b32-42b2-8d45-407f40b59d60"
+              },
+              {
+                "exit_uuid": "b16f660f-c480-49fd-bda1-9c24ba14d5fe",
+                "name": "I am not sure",
+                "uuid": "433965ad-9b88-45b4-88bb-0faf628b232e"
+              },
+              {
+                "exit_uuid": "52360c7d-824d-4abe-a4c1-b15e880fd26f",
+                "name": "Other",
+                "uuid": "c64f96a8-dfb9-43a8-a91c-16069878b46a"
+              }
+            ],
+            "default_category_uuid": "c64f96a8-dfb9-43a8-a91c-16069878b46a",
+            "operand": "@input.text",
+            "result_name": "Trust in science",
+            "type": "switch",
+            "wait": {
+              "type": "msg"
+            }
+          },
+          "uuid": "32757339-3d0d-4053-ac60-5d6be4125e25"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "Sorry, please reply with one of the three options provided only. Please reply A, B or C",
+              "type": "send_msg",
+              "uuid": "8d76a808-9ba8-450c-8363-abc650c156ff"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "32757339-3d0d-4053-ac60-5d6be4125e25",
+              "uuid": "2b0673de-fc8d-467e-9672-3adfa88f8c87"
+            }
+          ],
+          "uuid": "9e7962ba-3da5-4fdc-a127-9578342dad87"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "Do you think it is easy to get vaccinated in Jamaica?\n\nReply \n\nA for Yes\nB for No\nC for I am not sure",
+              "type": "send_msg",
+              "uuid": "ef1688f5-088b-4e58-be29-7c950f5ef9cc"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "166a07ab-d5b6-4fad-91ea-f9e4e1f36145",
+              "uuid": "a6fa7ada-4f08-41b3-9255-55d6d1878c18"
+            }
+          ],
+          "uuid": "a41f234a-6f75-43fd-b3de-a1292d2129b5"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "2ce0227d-7079-4475-9079-b8376101d5fb",
+              "uuid": "53bf094b-387a-46f8-aa8f-acb17e209e82"
+            },
+            {
+              "destination_uuid": "2ce0227d-7079-4475-9079-b8376101d5fb",
+              "uuid": "619d19fa-4f5d-4ed0-950c-e3fb8a6e5058"
+            },
+            {
+              "destination_uuid": "2ce0227d-7079-4475-9079-b8376101d5fb",
+              "uuid": "f697d4de-57f9-45e6-bb0c-206d9b48de49"
+            },
+            {
+              "destination_uuid": "1d1716c5-acbe-4b26-81d4-76afa34675c7",
+              "uuid": "1203e71a-e726-4c5d-a660-0d8d62e60221"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "A Yes"
+                ],
+                "category_uuid": "0d15ea7f-ddf6-41bb-a5fd-ea174061cb66",
+                "type": "has_any_word",
+                "uuid": "10a396c1-34f3-48b0-8a6b-e0181540c2f7"
+              },
+              {
+                "arguments": [
+                  "B No"
+                ],
+                "category_uuid": "545f95c1-5214-45a2-97e6-c0390edc568e",
+                "type": "has_any_word",
+                "uuid": "d2e28591-0e26-472c-9458-b2d129b7e7d8"
+              },
+              {
+                "arguments": [
+                  "C Not sure unsure"
+                ],
+                "category_uuid": "31eb1858-88a9-4eea-abf1-541e1c10fe53",
+                "type": "has_any_word",
+                "uuid": "2b3bb51c-6bd9-469f-9ed3-a2d79637f8da"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "53bf094b-387a-46f8-aa8f-acb17e209e82",
+                "name": "Yes",
+                "uuid": "0d15ea7f-ddf6-41bb-a5fd-ea174061cb66"
+              },
+              {
+                "exit_uuid": "619d19fa-4f5d-4ed0-950c-e3fb8a6e5058",
+                "name": "No",
+                "uuid": "545f95c1-5214-45a2-97e6-c0390edc568e"
+              },
+              {
+                "exit_uuid": "f697d4de-57f9-45e6-bb0c-206d9b48de49",
+                "name": "I am not sure",
+                "uuid": "31eb1858-88a9-4eea-abf1-541e1c10fe53"
+              },
+              {
+                "exit_uuid": "1203e71a-e726-4c5d-a660-0d8d62e60221",
+                "name": "Other",
+                "uuid": "613e2499-24dd-4603-a42e-dce220665f53"
+              }
+            ],
+            "default_category_uuid": "613e2499-24dd-4603-a42e-dce220665f53",
+            "operand": "@input.text",
+            "result_name": "Easy or not to get vaccinated in Jamaica",
+            "type": "switch",
+            "wait": {
+              "type": "msg"
+            }
+          },
+          "uuid": "166a07ab-d5b6-4fad-91ea-f9e4e1f36145"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [
+                "A",
+                "B",
+                "C"
+              ],
+              "text": "Sorry, please reply with one of the three options provided only. Please reply A, B or C",
+              "type": "send_msg",
+              "uuid": "34d6aab5-c59f-4110-8fe3-492f6712ea46"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "166a07ab-d5b6-4fad-91ea-f9e4e1f36145",
+              "uuid": "82fc0bf5-107b-43ec-b239-b2cfd43b073b"
+            }
+          ],
+          "uuid": "1d1716c5-acbe-4b26-81d4-76afa34675c7"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "4f0b2503-17ac-4ac6-adf8-2409793a1e1e",
+              "uuid": "150a6827-042e-4f2f-94c8-e93a5d4c3379"
+            },
+            {
+              "destination_uuid": "7f77a2a5-1e34-4249-9649-65773a6c28bb",
+              "uuid": "db17a638-8a12-4e4a-ba17-12b9a154ab93"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "tel"
+                ],
+                "category_uuid": "9e2a2d03-34fa-48e7-8d6b-aa1a22f49c18",
+                "type": "has_only_phrase",
+                "uuid": "70ad35d8-c39a-4a8b-9013-86b6272de21f"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "150a6827-042e-4f2f-94c8-e93a5d4c3379",
+                "name": "SMS",
+                "uuid": "9e2a2d03-34fa-48e7-8d6b-aa1a22f49c18"
+              },
+              {
+                "exit_uuid": "db17a638-8a12-4e4a-ba17-12b9a154ab93",
+                "name": "Other",
+                "uuid": "6c35fec4-d3ac-4652-9430-525938b6acab"
+              }
+            ],
+            "default_category_uuid": "6c35fec4-d3ac-4652-9430-525938b6acab",
+            "operand": "@(urn_parts(contact.urn).scheme)",
+            "result_name": "",
+            "type": "switch"
+          },
+          "uuid": "2ce0227d-7079-4475-9079-b8376101d5fb"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Thanks for taking this poll, which will help better understand how Jamaicans feel about COVID-19 vaccination. Poll results are anonymous and confidential. UNICEF will also share poll results with the Ministry of Health and Wellness to help their work to protect Jamaicans against the pandemic. \ud83d\udce3",
+              "type": "send_msg",
+              "uuid": "57f6f2d6-f2d8-4b82-927b-2b8aa86ddb21"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [
+                "MENU"
+              ],
+              "text": "Meantime, if you would like to access other services from U-Report, like our U-Matter Mental Health Chatline with the Ministry of Health and Wellness, reply MENU to access our main menu.",
+              "type": "send_msg",
+              "uuid": "a4faefb0-7167-4b0e-bd47-8117cb54102c"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "98fa9436-e547-4876-9166-f9d6aa7e3220"
+            }
+          ],
+          "uuid": "7f77a2a5-1e34-4249-9649-65773a6c28bb"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Thanks for taking this poll, which will help better understand how Jamaicans feel about COVID-19 vaccination. Poll results are anonymous and confidential. ",
+              "type": "send_msg",
+              "uuid": "ede39772-f1c5-4821-abab-86ef2b1efd52"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "UNICEF will also share poll results with the Ministry of Health and Wellness. Meantime, to access other U-Report services like our U-Matter chatline, reply MENU",
+              "type": "send_msg",
+              "uuid": "fe37ae57-a413-4daf-9333-1c930b811ae4"
+            },
+            {
+              "groups": [
+                {
+                  "count": 0,
+                  "name": "CompletedVaxHestitancyPoll",
+                  "query": null,
+                  "status": "ready",
+                  "uuid": "46e62478-e1c5-48ef-ac75-ff62506701da"
+                }
+              ],
+              "type": "add_contact_groups",
+              "uuid": "6faf017c-b4bd-4ad2-9685-c39829edb7d9"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "84ed805c-d2e2-4399-b1fc-3b3196b153a4"
+            }
+          ],
+          "uuid": "4f0b2503-17ac-4ac6-adf8-2409793a1e1e"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "1f753be0-1f1f-48f3-99bd-ca032fb99abd",
+      "revision": 18
+    },
+    {
+      "_ui": {
+        "nodes": {
+          "6e43de19-8f52-48d6-b9a3-882707bbc2a6": {
+            "config": {},
+            "position": {
+              "left": 460,
+              "top": 80
+            },
+            "type": "split_by_subflow"
+          },
+          "b8cab3a7-f1f3-4d97-9e94-f84f4ff420aa": {
+            "position": {
+              "left": 700,
+              "top": 260
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "base",
+      "localization": {},
+      "metadata": {
+        "expires": 10080,
+        "revision": 1
+      },
+      "name": "JM - UR - Wrapper - Vaccine hesitancy poll",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "JM - UR - Vaccine hesitancy poll",
+                "uuid": "1f753be0-1f1f-48f3-99bd-ca032fb99abd"
+              },
+              "type": "enter_flow",
+              "uuid": "152639d8-b329-48bb-96da-fae5047a7696"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "3b86cb66-ec6b-45d2-a231-f3af8ca59af4"
+            },
+            {
+              "destination_uuid": "b8cab3a7-f1f3-4d97-9e94-f84f4ff420aa",
+              "uuid": "57a8eab8-5899-465a-b11b-f5832294cd9a"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "ff40bb09-f4e9-4a13-b7ab-d2122046db40",
+                "type": "has_only_text",
+                "uuid": "989412d4-aae7-4ee0-a6a9-b3761aa7b377"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "5d6d36b5-8cc9-4450-adaa-ef2f89b157ab",
+                "type": "has_only_text",
+                "uuid": "1219f9ec-6b70-428c-b7c4-3bfbcbc8dc01"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "3b86cb66-ec6b-45d2-a231-f3af8ca59af4",
+                "name": "Complete",
+                "uuid": "ff40bb09-f4e9-4a13-b7ab-d2122046db40"
+              },
+              {
+                "exit_uuid": "57a8eab8-5899-465a-b11b-f5832294cd9a",
+                "name": "Expired",
+                "uuid": "5d6d36b5-8cc9-4450-adaa-ef2f89b157ab"
+              }
+            ],
+            "default_category_uuid": "5d6d36b5-8cc9-4450-adaa-ef2f89b157ab",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "6e43de19-8f52-48d6-b9a3-882707bbc2a6"
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "The poll has now closed. You can see the results here on the U-Report website https://jamaica.ureport.in/opinion/2926/",
+              "type": "send_msg",
+              "uuid": "63fbbf72-f57b-4370-892e-1292c1b0da9c"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "85a39ddc-3fa6-452e-bb1c-4da5679864f9"
+            }
+          ],
+          "uuid": "b8cab3a7-f1f3-4d97-9e94-f84f4ff420aa"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "720c0fee-fc32-4ff3-9228-764f8e7d4bd8",
+      "revision": 2
+    },
+    {
+      "_ui": {
+        "nodes": {
+          "6e8d6db0-0d9d-4a48-a071-a72b4801f1e3": {
+            "position": {
+              "left": 500,
+              "top": 0
+            },
+            "type": "split_by_groups"
+          },
+          "dd1581bb-691f-4023-8668-4ef90a611ddf": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 751,
+              "top": 117
+            },
+            "config": {}
+          },
+          "c15f437d-c0ce-4337-892a-94e88ed2d4e4": {
+            "position": {
+              "left": 284,
+              "top": 125
+            },
+            "type": "execute_actions"
+          }
+        },
+        "stickies": {}
+      },
+      "expire_after_minutes": 10080,
+      "language": "base",
+      "localization": {},
+      "name": "JM - UPartners message",
+      "nodes": [
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "c15f437d-c0ce-4337-892a-94e88ed2d4e4",
+              "uuid": "15d43806-9a88-4b70-a18c-8a7ddc65eab7"
+            },
+            {
+              "destination_uuid": "dd1581bb-691f-4023-8668-4ef90a611ddf",
+              "uuid": "e82658ee-ca6f-4229-993c-f67ef1d7e9e1"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "1257d4c0-5bc1-459c-be06-6351fc172e62",
+                  "U-Reporters"
+                ],
+                "category_uuid": "dea59467-a030-4f9b-b232-be6c3bed1279",
+                "type": "has_group",
+                "uuid": "7e9c32c9-b625-4feb-b9ca-179bd0ae10a9"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "15d43806-9a88-4b70-a18c-8a7ddc65eab7",
+                "name": "U-Reporters",
+                "uuid": "dea59467-a030-4f9b-b232-be6c3bed1279"
+              },
+              {
+                "exit_uuid": "e82658ee-ca6f-4229-993c-f67ef1d7e9e1",
+                "name": "Other",
+                "uuid": "474fb442-c6cf-4c03-8750-2e3e28169094"
+              }
+            ],
+            "default_category_uuid": "474fb442-c6cf-4c03-8750-2e3e28169094",
+            "operand": "@contact.groups",
+            "result_name": "Check if U-Reporter",
+            "type": "switch"
+          },
+          "uuid": "6e8d6db0-0d9d-4a48-a071-a72b4801f1e3"
+        },
+        {
+          "uuid": "dd1581bb-691f-4023-8668-4ef90a611ddf",
+          "actions": [
+            {
+              "uuid": "ae757376-d117-4da7-9e13-fc4dad2b05f7",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "615f7f4c-1bb9-4503-9204-8206b5bcc3dc",
+                "name": "JM - UR - Wrapper - Opt In"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "5d5a2b89-ca52-4efc-bcd9-149e161514e4",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "fecaa4a3-f5e6-4d22-af7d-2dcf7bb8371a"
+              },
+              {
+                "uuid": "aaa1a86c-ae4f-42be-a184-8be8a4bea26f",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "d13b05a7-0671-43dd-a7c9-4815ac11cc1a"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "fecaa4a3-f5e6-4d22-af7d-2dcf7bb8371a",
+                "name": "Complete",
+                "exit_uuid": "c1cb762b-2f0c-4781-b29f-77d7428bc20d"
+              },
+              {
+                "uuid": "d13b05a7-0671-43dd-a7c9-4815ac11cc1a",
+                "name": "Expired",
+                "exit_uuid": "a16ee580-9dba-43a9-b7fc-fbffeb92703b"
+              }
+            ],
+            "default_category_uuid": "d13b05a7-0671-43dd-a7c9-4815ac11cc1a"
+          },
+          "exits": [
+            {
+              "uuid": "c1cb762b-2f0c-4781-b29f-77d7428bc20d"
+            },
+            {
+              "uuid": "a16ee580-9dba-43a9-b7fc-fbffeb92703b",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "labels": [
+                {
+                  "name": "u-reporters",
+                  "uuid": "4e17263c-f1f2-4142-9b0b-0b5f42899444"
+                }
+              ],
+              "type": "add_input_labels",
+              "uuid": "42ff583e-6113-45a2-8ae1-fab332098af0"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "9d3c0b6e-e75e-4ce7-946f-2183c5f2a4b9"
+            }
+          ],
+          "uuid": "c15f437d-c0ce-4337-892a-94e88ed2d4e4"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "c2dedbde-19e2-4ce3-8f4a-95348f3b9aa9",
+      "revision": 3,
+      "metadata": {
+        "revision": 2
+      }
     },
     {
       "_ui": {
@@ -21686,7 +24982,7 @@
   "fields": [
     {
       "key": "age",
-      "name": "age",
+      "name": "Age",
       "type": "text"
     },
     {
@@ -21749,6 +25045,11 @@
     {
       "uuid": "e5031073-124c-4788-a57d-39a34e4f1b10",
       "name": "Chatline user",
+      "query": null
+    },
+    {
+      "uuid": "46e62478-e1c5-48ef-ac75-ff62506701da",
+      "name": "CompletedVaxHestitancyPoll",
       "query": null
     },
     {
@@ -21839,11 +25140,6 @@
     {
       "uuid": "f42b5399-0515-4898-a838-f7af971c1199",
       "name": "case in survey",
-      "query": null
-    },
-    {
-      "uuid": "527874c3-ea3b-4b4d-8b47-364088c0e5b1",
-      "name": "chatline testers",
       "query": null
     },
     {
