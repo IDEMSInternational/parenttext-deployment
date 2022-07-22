@@ -22,11 +22,17 @@ if ($replace_last_interaction){
     Write-Output "Replaced campaign variable"
 }
 
+#replace uncaught message flow 
+if ($replace_uncaught_trigger){
+    node .\idems-chatbot-repo\scripts\update_uncaught_trigger.js $output_path_0 $uncaught_flow_uuid $uncaught_flow_name $output_path_0
+    Write-Output "Replaced uncaught message flow"
+}
+
 #remove campaigns
 for ($ca=0; $ca -lt $campaigns_to_remove.length; $ca++) {
     $campaign_name = $campaigns_to_remove[$ca]
     node .\idems-chatbot-repo\scripts\remove_campaign.js $output_path_0 $campaign_name $output_path_0
-    Write-Output ("Removed campaign " + $campaign_name)
+    Write-Output ("Removed campaign: " + $campaign_name)
 }
 
 # step 1: update flow properties
