@@ -8,6 +8,10 @@ $CONFIG_ab_name = "ab_config"
 $replace_last_interaction = $false #replace in the campaigns with last_seen_on
 $campaigns_to_remove = @("Remove inactive users from program") 
 
+$replace_uncaught_trigger = $true
+$uncaught_flow_uuid = "d657f33f-c512-4546-82e2-5cf1370586ce"
+$uncaught_flow_name = "PH - PLH - Internal - Wrapper - Handle uncaught messages"
+
 $languages =  @("fil")
 $2languages = @("fil")
 $deployment_ = "philippines"
