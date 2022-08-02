@@ -1,7 +1,7 @@
 $depl_prefix = "PH"
 $default_expiration_time = 60
 $deployment = "philippines"
-$expiration_times =  ".\parenttext-international-repo\edits\expiration_times.json"
+$expiration_times =  ".\parenttext-philippines-repo\edits\expiration_times.json"
 $SPREADSHEET_ID_loc = '1oEdmUA5W_knyji8Ps-5Tw2SkRTWLNMHNuLpgLSuWgXA'
 $CONFIG_ab_name = "ab_config"
 
