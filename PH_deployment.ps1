@@ -1,5 +1,5 @@
 $depl_prefix = "PH"
-$default_expiration_time = 60
+$default_expiration_time = 120
 $deployment = "philippines"
 $expiration_times =  ".\parenttext-philippines-repo\edits\expiration_times.json"
 $SPREADSHEET_ID_loc = '1oEdmUA5W_knyji8Ps-5Tw2SkRTWLNMHNuLpgLSuWgXA'
