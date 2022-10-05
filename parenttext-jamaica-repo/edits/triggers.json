@@ -1,13 +1,19 @@
 {
 "Menu U-Report":["Menu"],
-"Mental health Poll": ["poll"],
+"Nutrition Policy poll": ["poll"],
 "Quit U-Report":["Leave","Quit"],
 "Join U-Report":["join", "register", "signup"],
 "Dengue":["dengue","mosquito"],
 "Human Trafficking":["traffic","trafficking","slavery"],
 "U-Matter chatline":["Support","chatline","helpline","Help","Depressed","Depression","Abuse","Mental","Suicidal","Suicide","Bipolar","Counselling","Counsellor","Mad","Matter","umatter","youmatter","rape"],
 "U-Matter Satisfaction":["Satisfaction"],
+"Chatlinetraining": ["chatlinetraining"],
+"Trainingsatisfaction": ["trainingsatisfaction"],
 "Parenttext":["parenttext","parent","parentext","parents","parsent"],
 "Womenscentre_rejoin":["womencentrerejoin","womencenterrejoin","womancentrerejoin","womancenterrejoin","womenscentrerejoin","womenscenterrejoin","womanscentrerejoin","womanscenterrejoin"],
-"Womenscentre":["womencentre","womencenter","womancentre","womancenter","womenscentre","womenscenter","womanscentre","womanscenter"]
+"Womenscentre":["womencentre","womencenter","womancentre","womancenter","womenscentre","womenscenter","womanscentre","womanscenter"],
+"ParentText_IPV_school_1":["family_school_1"],
+"ParentText_IPV_school_2":["family_school_2"],
+"ParentText_IPV_WC_rural":["family_WC_rural"],
+"ParentText_IPV_WC_urban":["family_WC_urban"]
 }
