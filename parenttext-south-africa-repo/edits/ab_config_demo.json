@@ -4,7 +4,7 @@
 "test-personalisation" : { "group_assignment" : "always A"},
 "test-exit" : { "group_assignment" : "random"},
 "test-hook" : { "group_assignment" : "always B"},
-"test-n-messages-per-day" : { "group_assignment" : "random"}
+"test-n-messages-per-day" : { "group_assignment" : "always A"}
 }
 
 
