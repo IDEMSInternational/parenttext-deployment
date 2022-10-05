@@ -135,7 +135,7 @@ Write-Output "Completed integrity check"
 
 # step 4: add quick replies to message text and translation
 
-$input_path_4 = $JSON11Path
+$input_path_4 =  $JSON11Path
 $source_file_name = $source_file_name + "_no_QR"
 $select_phrases_file = ".\parenttext-" + $deployment + "-repo\edits\select_phrases.json"
 $output_path_4 = ".\parenttext-" + $deployment + "-repo\temp\"
