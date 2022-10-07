@@ -1,4 +1,5 @@
 $depl_prefix = "JM"
+$prefix_list = "PLH;JM"
 $default_expiration_time = 60
 $expiration_times =  ".\parenttext-jamaica-repo\edits\expiration_times_u_report.json"
 $deployment = "jamaica"
@@ -32,6 +33,8 @@ $n_files = 2
 $local_flows = ".\parenttext-jamaica-repo\flows\jamaica-development.json"
 $edited_local_flows = ".\parenttext-jamaica-repo\temp\jamaica-development_edited.json"
 
+# filter flows
+node .\idems-chatbot-repo\scripts\filter_flows.js $local_flows $local_flows ".\parenttext-jamaica-repo\edits\jamaica_development_names.json" "name"
 
 node .\idems-chatbot-repo\scripts\update_expiration_time.js $local_flows $expiration_times $default_expiration_time $edited_local_flows
 Write-Output "Updated expiration u-report"
