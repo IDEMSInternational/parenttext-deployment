@@ -1,4 +1,5 @@
 $depl_prefix = "SA"
+$prefix_list = "PLH;SA"
 $default_expiration_time = 120 
 $expiration_times =  ".\parenttext-international-repo\edits\expiration_times.json"
 $deployment = "south-africa"
