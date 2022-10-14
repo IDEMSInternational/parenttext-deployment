@@ -3,7 +3,8 @@ var fs = require('fs');
 let input_args = process.argv.slice(2);
 
 let input_path = input_args[0];
-let prefix = input_args[2];
+
+let filter_type = input_args[3]
 
 
 let json_string = fs.readFileSync(input_path).toString();
@@ -16,16 +17,24 @@ let flow_dict = {};
 obj_full.flows.forEach(flow => {flow_dict[flow.uuid] = flow.name});
 
 let filtered_flows
-if (prefix){
-    filtered_flows = obj_full.flows.filter(fl => (fl.name.startsWith(prefix) || fl.name.startsWith("PLH")));
+
+if (filter_type == "-name"){
+    let condition_list = fs.readFileSync(input_args[2]).toString();
+    filtered_flows = obj_full.flows.filter(fl => condition_list.includes(fl.name));
+} else if (filter_type == "-prefix"){
+    // string with ; separated values that needs to be translaformed into a list
+    let condition_list = input_args[2].split(";");
+    console.log(typeof condition_list)
+    filtered_flows = obj_full.flows.filter(fl => (startsWithList(fl.name,condition_list)));
 } else {
-    filtered_flows = obj_full.flows.filter(fl => (fl.name.startsWith("PLH")));
+    error("filter type not recognised")
 }
+
 
 
 let obj_filtered = JSON.parse(JSON.stringify(obj_full))
 obj_filtered.flows = filtered_flows;
-//console.log(obj_filtered.flows.length)
+console.log(obj_filtered.flows.length)
 
 //remove triggers if the corresponding flow is not in the batch
 remove_triggers(obj_filtered);
@@ -42,6 +51,17 @@ fs.writeFile(output_path, batch, function (err, result) {
 });
 
 
+
+////////////////////////////////////////////////////////////
+
+function startsWithList(name, list_starts){
+    for (let pr = 0; pr< list_starts.length; pr++){
+        if (name.startsWith(list_starts[pr])){
+            return true
+        }
+    }    
+    return false
+}
 
 function remove_triggers(rapidpro_obj){
     let new_triggers = [];

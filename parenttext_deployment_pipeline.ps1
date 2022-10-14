@@ -7,7 +7,7 @@ if ($depl_prefix){
 }
 
 $output_path_0 = ".\parenttext-" + $deployment + "-repo\temp\" + $source_file_name + ".json"
-node .\idems-chatbot-repo\scripts\filter_flows.js $input_path_0 $output_path_0 $depl_prefix
+node .\idems-chatbot-repo\scripts\filter_flows.js $input_path_0 $output_path_0 $prefix_list "-prefix"
 Write-Output "Filtered flows"
 
 #remove triggers
