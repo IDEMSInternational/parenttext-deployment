@@ -34,7 +34,7 @@ if (filter_type == "-name"){
 
 let obj_filtered = JSON.parse(JSON.stringify(obj_full))
 obj_filtered.flows = filtered_flows;
-//console.log(obj_filtered.flows.length)
+console.log(obj_filtered.flows.length)
 
 //remove triggers if the corresponding flow is not in the batch
 remove_triggers(obj_filtered);
@@ -57,7 +57,6 @@ fs.writeFile(output_path, batch, function (err, result) {
 function startsWithList(name, list_starts){
     for (let pr = 0; pr< list_starts.length; pr++){
         if (name.startsWith(list_starts[pr])){
-            console.log( list_starts[pr])
             return true
         }
     }    
