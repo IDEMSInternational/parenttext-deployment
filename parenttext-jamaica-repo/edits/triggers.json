@@ -1,6 +1,6 @@
 {
-"Menu U-Report":["Menu"],
-"Nutrition Policy poll": ["poll"],
+"Menu U-Report":["Home","Menu"],
+"Current poll": ["poll"],
 "Quit U-Report":["Leave","Quit"],
 "Join U-Report":["join", "register", "signup"],
 "Dengue":["dengue","mosquito"],
@@ -16,5 +16,8 @@
 "ParentText_IPV_school_PB":["PaulBogle"],
 "ParentText_IPV_WC_rural":["RuralWC"],
 "ParentText_IPV_WC_urban":["UrbanWC"],
+"ParentText_IPV_school_JM":["JohnMills"],
+"ParentText_IPV_school_Ce":["Cedar"],
+"ParentText_IPV_FB_ad":["signupforparenttext", "signmeupforparenttext"],
 "Testkeyword":["testkeyword"]
 }
