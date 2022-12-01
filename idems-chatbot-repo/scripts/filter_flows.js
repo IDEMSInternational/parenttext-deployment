@@ -20,6 +20,7 @@ let filtered_flows
 
 if (filter_type == "-name"){
     let condition_list = fs.readFileSync(input_args[2]).toString();
+    condition_list = JSON.parse(condition_list);
     filtered_flows = obj_full.flows.filter(fl => condition_list.includes(fl.name));
 } else if (filter_type == "-prefix"){
     // string with ; separated values that needs to be translaformed into a list
