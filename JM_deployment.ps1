@@ -1,6 +1,6 @@
 $depl_prefix = "JM"
 $prefix_list = "PLH;JM"
-$default_expiration_time = 60
+$default_expiration_time = 120
 $expiration_times =  ".\parenttext-jamaica-repo\edits\expiration_times_u_report.json"
 $deployment = "jamaica"
 $SPREADSHEET_ID_loc = '1YSHxIPfFJhf-jLzgd8P7-Y2-eIO_dc9jV7dkKBL1oXw'
